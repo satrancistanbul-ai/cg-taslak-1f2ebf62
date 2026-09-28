@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chessigo — Ünite 1 taslağı</title>
+<style>
+:root{--si:#182B53;--si2:#294B9C;--si3:#5D85C3;--or:#F16524;--yel:#FFC93C;--cream:#FFF4D6;--br:#5b3a1e;--g:#769656;--w:#eeeed2}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;font-family:"Poppins","Segoe UI",system-ui,sans-serif;background:#1c1206;color:var(--br)}
+#frame{position:relative;width:100vw;height:100vh;max-width:1100px;max-height:620px;margin:auto;top:50%;transform:translateY(-50%);overflow:hidden;background:linear-gradient(#9fd6ff,#d7f0ff 55%,#9bd07a 55%,#7ab35e);border-radius:14px}
+@media (max-height:640px){#frame{max-height:100vh;border-radius:0}}
+.scr{position:absolute;inset:0;display:flex;flex-direction:column;padding:12px 16px 64px;overflow:auto}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.pill{background:var(--cream);border:3px solid var(--br);border-radius:22px;padding:4px 12px;font-weight:700;font-size:14px;cursor:pointer;color:var(--br)}
+.pill.gold{background:var(--yel)}
+.btn{background:var(--or);color:#fff;border:3px solid var(--br);border-radius:14px;padding:10px 22px;font-size:16px;font-weight:800;cursor:pointer;box-shadow:0 4px 0 var(--br);font-family:inherit}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--br)}
+.btn.blue{background:var(--si2)}.btn.ghost{background:var(--cream);color:var(--br)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.card{background:var(--cream);border:4px solid var(--br);border-radius:16px;padding:14px}
+h1{font-size:28px}h2{font-size:20px;margin-bottom:6px}h3{font-size:15px}
+small,.muted{opacity:.75;font-size:12px}
+.center{margin:auto;text-align:center}
+.nav{position:absolute;left:0;right:0;bottom:0;height:52px;background:var(--si);display:flex;justify-content:center;gap:6px;padding:6px;z-index:5}
+.nav button{flex:1;max-width:190px;border:0;border-radius:10px;background:var(--si2);color:#fff;font-weight:700;font-family:inherit;cursor:pointer}
+.nav button.on{background:var(--or)}
+.nav button.book{background:var(--si3)}
+.board{display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);border:6px solid #8b6a3e;border-radius:6px;width:min(100%,390px);aspect-ratio:1;position:relative;user-select:none;background:#8b6a3e}
+.sq{position:relative;min-width:0;min-height:0;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:clamp(20px,4.6vw,34px);line-height:1;cursor:pointer}
+.sq.l{background:var(--w)}.sq.d{background:var(--g)}
+.sq .p{font-family:"Segoe UI Symbol","Apple Symbols",serif}
+.sq .p.w{color:#fff;-webkit-text-stroke:1.2px #222;paint-order:stroke fill}.sq .p.b{color:#1d1d1d}
+.sq.sel{outline:4px solid var(--or);outline-offset:-4px;background:#f6d365}
+.sq.src{outline:4px solid var(--si2);outline-offset:-4px}
+.sq.vur::after{content:"";position:absolute;inset:8%;border:4px solid var(--or);border-radius:50%}
+.sq.ok{background:#7fd77f}.sq.bad{background:#f28b82}.sq.show{background:#ffe08a}
+.co{position:absolute;font-size:10px;font-weight:800;color:#ffd84a;-webkit-text-stroke:.6px #5b3a1e;paint-order:stroke fill;pointer-events:none}
+.co.f{bottom:1px;right:3px}.co.r{top:1px;left:3px}
+.qwrap{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;justify-content:center}
+.opt{display:block;width:100%;margin:6px 0;text-align:left}
+.opt.wrong{background:#c0392b;opacity:.6}.opt.right{background:#2e9e4f}
+.bub{background:#fff;border:3px solid var(--br);border-radius:16px;padding:10px 14px;font-size:15px;position:relative;flex:1}
+.av{width:56px;height:56px;border-radius:50%;border:3px solid var(--br);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:22px;flex:none;overflow:hidden;background:var(--si2)}
+.row{display:flex;gap:10px;align-items:center}
+.grid{display:grid;gap:10px}
+.island{width:150px;height:110px;border-radius:50% 50% 45% 45%;background:radial-gradient(#ffe08a,#e2b84f);border:4px solid var(--br);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:13px;cursor:pointer;flex:none;padding:6px}
+.island.lock{background:#b9b9b9;color:#666;cursor:not-allowed}
+.list .it{display:flex;align-items:center;gap:10px;padding:8px 10px;border:3px solid var(--br);border-radius:12px;margin-bottom:6px;background:#fff;cursor:pointer}
+.it.lock{opacity:.5;cursor:not-allowed}.it.done{background:#e3f7e3}
+.num{width:30px;height:30px;border-radius:50%;background:var(--or);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;flex:none}
+.vid{aspect-ratio:16/8;background:linear-gradient(135deg,#2b1d10,#0f0a05);border:6px solid #8b6a3e;border-radius:10px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:10px;max-width:520px;width:100%}
+.tabs{display:flex;gap:6px;margin-bottom:8px}.tabs .pill.on{background:var(--or);color:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:6px 8px;border-bottom:2px solid #d9c9a0;text-align:left}
+tr.me{background:#ffe08a;font-weight:800}
+input[type=text]{border:3px solid var(--br);border-radius:12px;padding:8px 12px;font-size:16px;font-family:inherit;width:100%;max-width:280px}
+.tool{position:absolute;left:50%;transform:translateX(-50%);top:4px;z-index:9;white-space:nowrap}
+.tool button{font-size:10px;opacity:.5;border:1px solid #999;border-radius:6px;background:#fff;cursor:pointer;margin-left:2px}
+.tool button:hover{opacity:1}
+.tag{display:inline-block;background:var(--si2);color:#fff;border-radius:8px;padding:1px 8px;font-size:11px;font-weight:700}
+.tag.or{background:var(--or)}
+.fb{margin-top:8px;padding:8px 10px;border-radius:10px;font-weight:700;font-size:14px}
+.fb.ok{background:#d9f7d9}.fb.no{background:#fde0dc}
+.hint{background:#fff3c4}
+</style>
+</head>
+<body>
+<div id="frame"><div class="tool"><button onclick="T.gold()">+100 altın</button><button onclick="T.finish()">Ünite 1'i bitir</button><button onclick="T.hour()">Saati ilerlet</button><button onclick="T.reset()">Sıfırla</button></div><div id="app"></div></div>
+<script>
+const DATA = {"unite": 1, "baslik": "Satranç'ı Tanıyalım", "kitap": 1, "altin": {"ilk_deneme": 10, "sonraki": 5, "unite_testi_bonus": 50}, "bolumler": [{"no": 1, "kisa": "tahta", "baslik": "Satranç Oyununun Tanıtımı ve Satranç Tahtası", "kazanim": "Satrancın ne olduğunu, tahtanın 64 kareden oluştuğunu ve doğru yerleştirmeyi (sağ alt köşe açık) bilir.", "diyalog": [{"k": "antrenor", "m": "Merhaba {ad}! Bugün satranç dünyasına ilk adımını atıyorsun. Hazır mısın?"}, {"k": "damla", "m": "Antrenör, satranç çok eski bir oyun mu?"}, {"k": "antrenor", "m": "Çok eski, Damla. Yaklaşık 1500 yıl önce Hindistan'da ortaya çıktığı kabul edilir. Şimdi tahtamıza bakalım."}], "video": {"baslik": "Satranç nedir? Tahtamızı tanıyalım", "sure": "yaklaşık 3 dk", "akis": ["Satrancın kısa tarihi: yaklaşık 1500 yıl önce, Hindistan (çaturanga)", "Satranç iki kişiyle oynanır: beyaz ve siyah taşlar", "Tahta 8x8 = 64 kare; açık ve koyu kareler sırayla dizilir", "Yatay sıra, dikey sütun, çapraz kavramları (tahtada oklarla)", "Tahta doğru oturtulur: sağ elinin yanındaki köşe kare açık renk olmalı"]}, "sorular": [{"tip": "mc", "soru": "Satranç oyunu yaklaşık kaç yıl önce ortaya çıkmıştır?", "secenekler": ["Yaklaşık 150 yıl", "Yaklaşık 500 yıl", "Yaklaşık 1500 yıl", "Yaklaşık 5000 yıl"], "dogru": 2, "aciklama": "Satrancın yaklaşık 1500 yıl önce Hindistan'da ortaya çıktığı kabul edilir. (Antrenör onayı: kaynak teyidi)"}, {"tip": "mc", "soru": "Satranç tahtasında kaç kare vardır?", "secenekler": ["32", "48", "64", "100"], "dogru": 2, "aciklama": "Tahta 8 sıra ve 8 sütundan oluşur: 8 x 8 = 64 kare."}, {"tip": "isaretle", "soru": "Tahta doğru yerleştirildiğinde beyaz oyuncunun sağ alt köşesindeki kare açık renklidir. O karenin üstüne dokun.", "tahta": {"taslar": {}, "vurgu": []}, "dogru": ["h1"], "aciklama": "Doğru! Sağ alt köşe (h1) hep açık renkli olmalı: \"sağ el beyaz\".", "ipucu": "Alt sıranın en sağındaki köşeye bak."}], "yedek_sorular": ["Satranç tahtasındaki kareler hangi renklere göre ayrılır? (açık-koyu) — Mert'in sorusu"]}, {"no": 2, "kisa": "kareler", "baslik": "Karelerin İsimleri", "kazanim": "Sütunları a-h, sıraları 1-8 ile bilir; verilen karenin adını söyler ve tahtada gösterir.", "diyalog": [{"k": "antrenor", "m": "Her karenin bir adı var, {ad}. Tıpkı senin adın gibi!"}, {"k": "pars", "m": "64 karenin adını ezberlemek zor olmaz mı?"}, {"k": "antrenor", "m": "Hiç zor değil. Bir harf ve bir rakam, bu kadar. Şimdi nasıl olduğunu göstereyim."}], "video": {"baslik": "Karelerin adları: harf + rakam", "sure": "yaklaşık 4 dk", "akis": ["Sütunlar soldan sağa a, b, c, d, e, f, g, h (8 harf)", "Sıralar beyazın tarafından yukarı doğru 1, 2, 3 ... 8", "Kare adı = sütun harfi + sıra rakamı (örnek: e4)", "Köşe kareler: a1, h1, a8, h8", "Damla ve Pars sırayla kare adı sorar; oyuncu tahtada bulur"]}, "sorular": [{"tip": "mc", "soru": "Satranç tahtasındaki karelerin adlandırılmasında alfabemizden kaç harf kullanılır?", "secenekler": ["6", "8", "10", "29"], "dogru": 1, "aciklama": "Sütunlar a'dan h'ye kadar 8 harfle adlandırılır: a b c d e f g h."}, {"tip": "mc", "soru": "Şekilde işaretli karenin adı nedir?", "secenekler": ["e5", "f4", "e4", "d4"], "dogru": 2, "aciklama": "Sütun e, sıra 4: karenin adı e4.", "tahta": {"taslar": {}, "vurgu": ["e4"]}}, {"tip": "isaretle", "soru": "c6 karesini tahtada işaretle.", "tahta": {"taslar": {}, "vurgu": []}, "dogru": ["c6"], "aciklama": "Doğru! c sütunu, 6. sıra: c6.", "ipucu": "Önce c sütununu bul, sonra 6. sıraya çık."}], "yedek_sorular": ["Mert'in \"hangi harf kullanılmaz? ç\" sorusu belirsiz olduğu için sütun/sıra sorusuna çevrildi."]}, {"no": 3, "kisa": "taslar", "baslik": "Satranç Taşlarının Tanıtımı ve Başlangıç Konumu", "kazanim": "6 taşı adıyla tanır, her oyuncunun 16 taşı olduğunu ve başlangıç dizilişini bilir.", "diyalog": [{"k": "antrenor", "m": "Şimdi ordumuzla tanışma vakti, {ad}. Her oyuncunun 16 taşı var."}, {"k": "damla", "m": "Hepsi birbirinden farklı görünüyor!"}, {"k": "antrenor", "m": "Öyle. Şah, vezir, kale, fil, at ve piyon. Tahtaya nasıl dizildiklerini beraber görelim."}], "video": {"baslik": "Taşlarımız ve başlangıç dizilişi", "sure": "yaklaşık 4 dk", "akis": ["6 çeşit taş: şah, vezir, kale, fil, at, piyon", "Her oyuncuda: 1 şah, 1 vezir, 2 kale, 2 fil, 2 at, 8 piyon = 16 taş", "Diziliş: köşelerde kaleler, yanlarında atlar, sonra filler", "Vezir kendi rengindeki karede: beyaz vezir d1 (açık kare), siyah vezir d8 (koyu kare)", "Piyonlar ikinci sırada (beyaz), yedinci sırada (siyah)"]}, "sorular": [{"tip": "mc", "soru": "Aşağıdaki hayvan resimlerinden hangisine ait bir satranç taşı yoktur?", "secenekler": ["At", "Fil", "Aslan"], "dogru": 2, "aciklama": "Satrançta at ve fil taşları vardır. Aslan taşı yoktur. (Gerçek üründe şıklar hayvan resmi olacak.)"}, {"tip": "mc", "soru": "Beyaz taşlarla oynayan kişi oyuna kaç taşla başlar?", "secenekler": ["8", "12", "16", "32"], "dogru": 2, "aciklama": "Her oyuncu 16 taşla başlar: 8 piyon ve 8 diğer taş."}, {"tip": "isaretle", "soru": "Beyaz vezir tahtadan çıkarıldı. Beyaz vezirin başlangıç karesini işaretle.", "tahta": {"taslar": {"h8": "r", "g8": "n", "f8": "b", "e8": "k", "d8": "q", "c8": "b", "b8": "n", "a8": "r", "h7": "p", "g7": "p", "f7": "p", "e7": "p", "d7": "p", "c7": "p", "b7": "p", "a7": "p", "h2": "P", "g2": "P", "f2": "P", "e2": "P", "d2": "P", "c2": "P", "b2": "P", "a2": "P", "h1": "R", "g1": "N", "f1": "B", "e1": "K", "c1": "B", "b1": "N", "a1": "R"}, "vurgu": []}, "dogru": ["d1"], "aciklama": "Doğru! Beyaz vezir d1'de başlar; vezir kendi rengindeki karede durur.", "ipucu": "Şahın yanındaki boş kareye bak. Vezir kendi rengini sever."}], "yedek_sorular": ["Siyah taşlarla oynayan kişi oyuna kaç piyonla başlar? (8) — Mert'in sorusu"]}, {"no": 4, "kisa": "kale", "baslik": "Kalenin Hareketi", "kazanim": "Kalenin yatay ve dikey, istediği kadar kare gittiğini; kendi taşının üzerinden geçemediğini bilir.", "diyalog": [{"k": "antrenor", "m": "İlk taşımız kale. Kale, satrançta bir kule gibi düz ilerler."}, {"k": "pars", "m": "Çapraz gidebilir mi?"}, {"k": "antrenor", "m": "Hayır Pars, kale hiç çapraz gitmez. Videoda görelim."}], "video": {"baslik": "Kale nasıl hareket eder?", "sure": "yaklaşık 3 dk", "akis": ["Kale yatay ve dikey gider, çapraz gitmez", "İstediği kadar kare ilerleyebilir", "Önünde rakip taş varsa onu alır ve orada durur", "Kendi taşının üzerinden geçemez", "Kale merdiveni: iki kale tahtayı sıra sıra tarar (ileri seviye, kısaca)"]}, "sorular": [{"tip": "mc", "soru": "Kale hangi yönlerde hareket edebilir?", "secenekler": ["Yalnızca yatay", "Yalnızca dikey", "Yatay ve dikey", "Yatay, dikey ve çapraz"], "dogru": 2, "aciklama": "Kale yatay ve dikey gider; çapraz gidemez. (Mert'in \"çapraz gider mi?\" ve \"en fazla kaç kare?\" soruları yedekte)"}, {"tip": "isaretle", "soru": "Beyaz kalenin gidebileceği tüm kareleri işaretle. (Rakip taşı alabileceği kareler de dahil.)", "tahta": {"taslar": {"d4": "R", "d6": "P", "g4": "p"}, "vurgu": []}, "dogru": ["a4", "b4", "c4", "d1", "d2", "d3", "d5", "e4", "f4", "g4"], "aciklama": "Doğru! Kale kendi piyonunun (d6) üzerinden geçemez ve rakip piyonu (g4) alınca orada durur.", "ipucu": "Her yöne düz çizgi çiz. Kendi taşına gelince dur, rakip taşı alıp dur."}, {"tip": "hamle", "soru": "Beyaz kaleyle siyahın alabileceği taşı al.", "tahta": {"taslar": {"d4": "R", "d7": "p", "f6": "p", "b2": "n"}, "vurgu": []}, "kaynak": "d4", "hedefler": ["d7"], "aciklama": "Doğru! Kale d sütununda düz giderek d7'deki piyonu alır. f6 ve b2 kalenin hattında değil.", "ipucu": "Kale düz gider. Hangi taş kalenin hattında?"}], "yedek_sorular": ["Kale çapraz hareket edebilir mi? — Mert'in sorusu", "Kale en fazla kaç kare ilerleyebilir? — Mert'in sorusu"]}, {"no": 5, "kisa": "fil", "baslik": "Filin Hareketi", "kazanim": "Filin çapraz gittiğini ve hep aynı renkli karelerde kaldığını bilir.", "diyalog": [{"k": "antrenor", "m": "Sıra filde. Fil kaledden farklı olarak yalnızca çapraz gider."}, {"k": "damla", "m": "Peki neden iki fil var?"}, {"k": "antrenor", "m": "Güzel soru! Biri açık, biri koyu karelerde yürür. Videoda göreceksin."}], "video": {"baslik": "Fil: çaprazların ustası", "sure": "yaklaşık 3 dk", "akis": ["Fil yalnızca çapraz gider, istediği kadar ilerler", "Hep başladığı rengin karelerinde kalır", "Her oyuncunun iki fili var: biri açık, biri koyu kareli", "Rakip taşı alır; kendi taşının üzerinden geçemez", "Filin ulaşamadığı kareler vardır (başka renk)"]}, "sorular": [{"tip": "mc", "soru": "Fil, oyun boyunca hangi karelerde kalır?", "secenekler": ["Sürekli renk değiştirir", "Başladığı rengin karelerinde", "Yalnızca koyu karelerde", "Yalnızca açık karelerde"], "dogru": 1, "aciklama": "Fil çapraz gittiği için hep başladığı rengin karelerinde kalır. Bu yüzden her oyuncunun bir açık, bir koyu kareli fili var."}, {"tip": "isaretle", "soru": "Beyaz filin gidebileceği tüm kareleri işaretle.", "tahta": {"taslar": {"e4": "B"}, "vurgu": []}, "dogru": ["a8", "b1", "b7", "c2", "c6", "d3", "d5", "f3", "f5", "g2", "g6", "h1", "h7"], "aciklama": "Doğru! Boş tahtada e4'teki fil 13 kareye gider.", "ipucu": "Dört çapraz yönde de sona kadar git."}, {"tip": "hamle", "soru": "Beyaz fille alabileceğin siyah taşı al.", "tahta": {"taslar": {"c3": "B", "f6": "p", "c6": "p", "h3": "n"}, "vurgu": []}, "kaynak": "c3", "hedefler": ["f6"], "aciklama": "Doğru! Fil çapraz giderek f6'daki piyonu alır. c6 aynı sütunda, h3 ise başka renkte.", "ipucu": "Filin çaprazında hangi taş var?"}], "yedek_sorular": []}, {"no": 6, "kisa": "vezir", "baslik": "Vezirin Hareketi", "kazanim": "Vezirin kale ve filin hareketlerini birleştirdiğini bilir.", "diyalog": [{"k": "antrenor", "m": "Şimdi en güçlü taşla tanışıyoruz: vezir!"}, {"k": "pars", "m": "Kale gibi de fil gibi de gidebilir mi?"}, {"k": "antrenor", "m": "Aynen öyle Pars. Kale ile filin birleşimi. Ama gücünü ihtiyatla kullan!"}], "video": {"baslik": "Vezir: kale + fil", "sure": "yaklaşık 3 dk", "akis": ["Vezir kale gibi düz, fil gibi çapraz gider", "Tahtanın ortasında 27 kareye ulaşabilir", "En güçlü taştır; ama yine de korunmalıdır", "Rakip taşı alır; kendi taşının üzerinden geçemez"]}, "sorular": [{"tip": "mc", "soru": "Vezir hangi iki taşın hareketini birleştirir?", "secenekler": ["At ve piyon", "Kale ve fil", "Şah ve at", "Kale ve at"], "dogru": 1, "aciklama": "Vezir hem düz (kale gibi) hem çapraz (fil gibi) gider."}, {"tip": "isaretle", "soru": "Beyaz vezirin gidebileceği tüm kareleri işaretle.", "tahta": {"taslar": {"d4": "Q"}, "vurgu": []}, "dogru": ["a1", "a4", "a7", "b2", "b4", "b6", "c3", "c4", "c5", "d1", "d2", "d3", "d5", "d6", "d7", "d8", "e3", "e4", "e5", "f2", "f4", "f6", "g1", "g4", "g7", "h4", "h8"], "aciklama": "Doğru! Ortadaki vezir 27 kareye gider.", "ipucu": "Sekiz yöne de sona kadar git."}, {"tip": "hamle", "soru": "Beyaz vezirle alabileceğin siyah taşı al.", "tahta": {"taslar": {"d4": "Q", "d8": "r", "d6": "P", "g7": "p", "e6": "n"}, "vurgu": []}, "kaynak": "d4", "hedefler": ["g7"], "aciklama": "Doğru! Vezir çapraz giderek g7'deki piyonu alır. d8'deki kale kendi piyonumuzun (d6) arkasında; at ise hattımızda değil.", "ipucu": "Vezirin düz ve çapraz hatlarına bak. Önünde kendi taşın varsa geçemez."}], "yedek_sorular": []}, {"no": 7, "kisa": "at", "baslik": "Atın Hareketi", "kazanim": "Atın L şeklinde gittiğini ve diğer taşların üzerinden atlayabildiğini bilir.", "diyalog": [{"k": "antrenor", "m": "At, tahtanın en çevik taşı, {ad}. Diğerlerinden çok farklı gider."}, {"k": "damla", "m": "Nasıl gider?"}, {"k": "antrenor", "m": "L harfi çizer: iki kare düz, bir kare yana. Ve en güzeli, taşların üzerinden atlar!"}], "video": {"baslik": "At: L çizen taş", "sure": "yaklaşık 4 dk", "akis": ["At L şeklinde gider: iki kare düz + bir kare yana (ya da tersi)", "Diğer taşların üzerinden atlayabilir (kendi ve rakip)", "Ortadaki at 8 kareye gidebilir, köşedeki 2 kareye", "Her hamlede kare rengi değiştirir", "Rakip taşın olduğu kareye inerse onu alır"]}, "sorular": [{"tip": "mc", "soru": "At hangi taşların üzerinden atlayabilir?", "secenekler": ["Yalnızca kendi taşlarının", "Yalnızca rakip taşların", "Hem kendi hem rakip taşların", "Hiçbirinin"], "dogru": 2, "aciklama": "At L şeklinde giderek her taşın üzerinden atlayabilir."}, {"tip": "isaretle", "soru": "Beyaz atın gidebileceği tüm kareleri işaretle.", "tahta": {"taslar": {"e4": "N"}, "vurgu": []}, "dogru": ["c3", "c5", "d2", "d6", "f2", "f6", "g3", "g5"], "aciklama": "Doğru! Ortadaki at 8 kareye gider.", "ipucu": "İki kare düz, bir kare yana. Sekiz farklı L var."}, {"tip": "hamle", "soru": "Beyaz atla alabileceğin siyah taşı al.", "tahta": {"taslar": {"e4": "N", "f6": "p", "e6": "p", "g4": "p", "e8": "r"}, "vurgu": []}, "kaynak": "e4", "hedefler": ["f6"], "aciklama": "Doğru! At L çizerek f6'daki piyonu alır. e6 ve g4 atın L'sinde değil, e8 çok uzak.", "ipucu": "L: iki kare düz, bir kare yana."}], "yedek_sorular": []}, {"no": 8, "kisa": "piyon", "baslik": "Piyonun Hareketi", "kazanim": "Piyonun ileri gittiğini, ilk hamlede 1 veya 2 kare gidebildiğini ve çapraz aldığını bilir.", "diyalog": [{"k": "antrenor", "m": "Piyonlar küçük ama çok önemli, {ad}. Ordunun asker çocukları."}, {"k": "pars", "m": "Piyon neden hep ileri gidiyor?"}, {"k": "antrenor", "m": "Çünkü geri dönemez. Ama çok farklı bir özelliği var: düz gider, çapraz alır."}], "video": {"baslik": "Piyon: küçük asker", "sure": "yaklaşık 4 dk", "akis": ["Piyon yalnızca ileri gider, geri gidemez", "İlk hamlesinde 1 veya 2 kare, sonra hep 1 kare", "Önü doluysa (kendi ya da rakip taş) ilerleyemez", "Düz gider ama çapraz alır", "Sona ulaşırsa başka bir taşa dönüşür (terfi; detay Ünite 4'te)"]}, "sorular": [{"tip": "mc", "soru": "Piyon ilk hamlesinde kaç kare gidebilir?", "secenekler": ["Yalnızca 1", "Yalnızca 2", "1 veya 2", "İstediği kadar"], "dogru": 2, "aciklama": "Piyon ilk hamlesinde 1 veya 2 kare gidebilir. Sonraki hamlelerinde hep 1 kare."}, {"tip": "isaretle", "soru": "Beyaz piyon ilk hamlesini yapacak. Gidebileceği kareleri işaretle.", "tahta": {"taslar": {"e2": "P"}, "vurgu": []}, "dogru": ["e3", "e4"], "aciklama": "Doğru! e2'deki piyon e3 veya e4'e gidebilir.", "ipucu": "İleri doğru, en fazla 2 kare."}, {"tip": "hamle", "soru": "Beyaz piyonla alabileceğin siyah taşı al.", "tahta": {"taslar": {"d4": "P", "d5": "p", "e5": "p", "b6": "p"}, "vurgu": []}, "kaynak": "d4", "hedefler": ["e5"], "aciklama": "Doğru! Piyon düz gider ama çapraz alır. d5'teki piyon önünü kapatıyor, e5'i çapraz alabilir.", "ipucu": "Piyon çapraz alır. Önündeki taşı alamaz."}], "yedek_sorular": []}, {"no": 9, "kisa": "sah", "baslik": "Şahın Hareketi", "kazanim": "Şahın her yöne yalnızca bir kare gittiğini bilir.", "diyalog": [{"k": "antrenor", "m": "Son taşımız şah. Oyunun en önemli taşı, {ad}."}, {"k": "damla", "m": "Vezirden bile mi önemli?"}, {"k": "antrenor", "m": "Evet. Şah düşerse oyun biter. Onun için çok dikkatli gitmeli. Her yöne, ama yalnızca bir kare."}], "video": {"baslik": "Şah: kral taşı", "sure": "yaklaşık 3 dk", "akis": ["Şah her yöne (düz ve çapraz) yalnızca bir kare gider", "Ortadaki şah 8 kareye gidebilir", "Oyunun en önemli taşıdır; şah kaybedilirse oyun biter", "Tehlikeli karelere gidemez (şah çekme konusu Ünite 3'te)"]}, "sorular": [{"tip": "mc", "soru": "Şah her hamlesinde kaç kare gidebilir?", "secenekler": ["1", "2", "3", "İstediği kadar"], "dogru": 0, "aciklama": "Şah her yöne yalnızca bir kare gider."}, {"tip": "isaretle", "soru": "Beyaz şahın gidebileceği tüm kareleri işaretle.", "tahta": {"taslar": {"e4": "K"}, "vurgu": []}, "dogru": ["d3", "d4", "d5", "e3", "e5", "f3", "f4", "f5"], "aciklama": "Doğru! Şah çevresindeki 8 kareye gidebilir.", "ipucu": "Şahın etrafındaki bütün kareler."}, {"tip": "hamle", "soru": "Şahı bir kare yukarı (8. sıraya doğru) götür.", "tahta": {"taslar": {"e4": "K"}, "vurgu": []}, "kaynak": "e4", "hedefler": ["e5"], "aciklama": "Doğru! Şah e4'ten e5'e bir kare ileri gitti.", "ipucu": "Şahın hemen üstündeki kare."}], "yedek_sorular": [], "not": "Ünite 1'de şahı tehlikeye sokan (şah çekme) soru yoktur; Ünite 3'e kadar şahlı pozisyon sorulmaz."}, {"no": 10, "kisa": "birlikte", "baslik": "Taşlar Birlikte: Mini Oyun ve Tekrar", "kazanim": "Öğrendiği taşları başlangıç dizilişinde bir arada görür, hepsini karışık tekrar eder.", "diyalog": [{"k": "antrenor", "m": "Artık bütün taşları tanıyorsun, {ad}. Şimdi hepsini bir arada görelim."}, {"k": "pars", "m": "Hangisi hangisiydi karıştırdım!"}, {"k": "antrenor", "m": "Sorun değil. Birlikte tekrar edeceğiz."}], "video": {"baslik": "Taşlar birlikte: tekrar", "sure": "yaklaşık 4 dk", "akis": ["Bütün taşların hareketi 1 dakikada hatırlatma", "\"Bu taş nereye gider?\" mini oyunu (Damla ve Pars ile)", "İlk hamle örnekleri: e4, Af3", "Ünite testine hazırlık"]}, "sorular": [{"tip": "mc", "soru": "Hangi taş L şeklinde hareket eder?", "secenekler": ["Kale", "Fil", "At", "Piyon"], "dogru": 2, "aciklama": "L şeklinde hareket eden taş attır."}, {"tip": "isaretle", "soru": "Beyaz atların başlangıç karelerini işaretle. (İki kare)", "tahta": {"taslar": {"h8": "r", "g8": "n", "f8": "b", "e8": "k", "d8": "q", "c8": "b", "b8": "n", "a8": "r", "h7": "p", "g7": "p", "f7": "p", "e7": "p", "d7": "p", "c7": "p", "b7": "p", "a7": "p", "h2": "P", "g2": "P", "f2": "P", "e2": "P", "d2": "P", "c2": "P", "b2": "P", "a2": "P", "h1": "R", "f1": "B", "e1": "K", "d1": "Q", "c1": "B", "a1": "R"}, "vurgu": []}, "dogru": ["b1", "g1"], "aciklama": "Doğru! Beyaz atlar b1 ve g1'de başlar.", "ipucu": "Kalelerin hemen yanına bak."}, {"tip": "hamle", "soru": "Beyaz atı g1'den f3'e götür.", "tahta": {"taslar": {"h8": "r", "g8": "n", "f8": "b", "e8": "k", "d8": "q", "c8": "b", "b8": "n", "a8": "r", "h7": "p", "g7": "p", "f7": "p", "e7": "p", "d7": "p", "c7": "p", "b7": "p", "a7": "p", "h2": "P", "g2": "P", "f2": "P", "e2": "P", "d2": "P", "c2": "P", "b2": "P", "a2": "P", "h1": "R", "g1": "N", "f1": "B", "e1": "K", "d1": "Q", "c1": "B", "b1": "N", "a1": "R"}, "vurgu": []}, "kaynak": "g1", "hedefler": ["f3"], "aciklama": "Doğru! At piyonların üzerinden atlayarak f3'e çıktı. Bu çok kullanılan bir ilk hamledir.", "ipucu": "Atın L şeklini hatırla: iki kare ileri, bir kare yana."}], "yedek_sorular": []}], "unite_testi": {"baslik": "Satranç'ı Tanıyalım Testi", "sorular": [[1, 0], [2, 2], [3, 2], [4, 1], [5, 2], [6, 2], [7, 1], [8, 2], [9, 1], [10, 2]], "bonus_altin": 50}};
+const ITEMS = [
+ {id:"si_bileklik",ad:"SI bileklik",slot:"bilek",kol:"si",fiyat:150,renk:"#5D85C3"},
+ {id:"si_bardak",ad:"SI bardak",slot:"el",kol:"si",fiyat:250,renk:"#ffffff"},
+ {id:"si_sapka",ad:"SI şapka",slot:"kafa",kol:"si",fiyat:400,renk:"#182B53"},
+ {id:"si_tisort",ad:"SI tişört",slot:"ust",kol:"si",fiyat:600,renk:"#294B9C"},
+ {id:"si_esofman",ad:"SI eşofman altı",slot:"alt",kol:"si",fiyat:700,renk:"#182B53"},
+ {id:"si_kapusonlu",ad:"SI kapüşonlu",slot:"ust",kol:"si",fiyat:900,renk:"#1f3a78"},
+ {id:"cg_sapka",ad:"Chessigo şapka",slot:"kafa",kol:"cg",fiyat:500,renk:"#F16524"},
+ {id:"cg_tisort",ad:"Chessigo tişört",slot:"ust",kol:"cg",fiyat:800,renk:"#FFB627"},
+ {id:"cg_pelerin",ad:"Kahraman pelerini",slot:"sirt",kol:"cg",fiyat:1200,renk:"#F16524"},
+ {id:"cg_saat",ad:"Satranç saati (kol saati)",slot:"bilek",kol:"cg",fiyat:1500,renk:"#FFB627"},
+];
+const IT = Object.fromEntries(ITEMS.map(i=>[i.id,i]));
+const ADALAR = ["Piyon Adası","At Adası","Fil Adası","Kale Adası","Vezir Adası","Şah Adası"];
+const SONRAKI_UNITE = ["Saldırı ve Savunma","Değiş-Tokuş Ustası","Özel Hamleler","Mat-1","Taktik Temalar-1"];
+const MOCK = [["eken22",3,14],["defne_08",2,9],["kaplan34",4,3],["mira_s",1,10],["bulut7",2,2],["yigit_k",5,6],["ada_ist",1,7],["zeynep2015",3,11],["tarik99",1,4],["pars_1",2,8]];
+const SAVE="chessigo_u1_taslak_v1";
+const D = DATA.bolumler;
+let S = JSON.parse(localStorage.getItem(SAVE)||"null") || {ekran:"acilis",ad:"",cins:"erkek",altin:0,sahip:{},giyili:{},biten:{},testBitti:false,snap:null,snapSaat:0,giris:false};
+const save=()=>localStorage.setItem(SAVE,JSON.stringify(S));
+const $=s=>document.querySelector(s), app=$("#app");
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const say=t=>t.replace(/\{ad\}/g,esc(S.ad||"oyuncu"));
+const biten=()=>Object.keys(S.biten).length;
+const dogruSay=()=>Object.values(S.biten).reduce((a,b)=>a+b.ilk,0);
+const puan=()=>biten()*100+dogruSay()*10;
+const acikBolum=()=>{for(const b of D)if(!S.biten[b.no])return b.no;return null};
+function go(e,p){S.ekran=e;S.p=p||null;save();render()}
+const T={gold(){S.altin+=100;save();render()},
+ finish(){D.forEach(b=>{if(!S.biten[b.no])S.biten[b.no]={altin:30,ilk:3}});S.altin+=300;save();render()},
+ hour(){S.snapH=null;save();render()},
+ reset(){if(confirm("Tüm taslak ilerleme silinsin mi?")){localStorage.removeItem(SAVE);location.reload()}}};
+if(S.snap===null)S.snap=puan();
+
+/* ---------- karakter (yer tutucu çizim) ---------- */
+function karakter(cins,g,sc){
+ const c=id=>g[id]?IT[g[id]].renk:null, ust=g.ust?IT[g.ust]:null;
+ const skin="#f2c7a0",hair=cins==="kiz"?"#8b5a2b":"#4a3020",ustR=ust?ust.renk:"#9aa5b1";
+ const hood=g.ust==="si_kapusonlu",alt=g.alt?"#182B53":"#4b6584",sl=hood?ustR:skin;
+ return `<svg viewBox="0 0 120 200" width="${120*sc}" height="${200*sc}">
+ ${g.sirt?`<path d="M32 78 Q60 165 88 78 L100 178 L20 178Z" fill="${IT[g.sirt].renk}" stroke="#5b3a1e" stroke-width="2"/>`:""}
+ <rect x="38" y="120" width="18" height="60" rx="6" fill="${alt}"/><rect x="64" y="120" width="18" height="60" rx="6" fill="${alt}"/>
+ ${g.alt?`<rect x="45" y="122" width="3" height="56" fill="#fff"/><rect x="71" y="122" width="3" height="56" fill="#fff"/>`:""}
+ <ellipse cx="47" cy="184" rx="14" ry="7" fill="#f4f4f4" stroke="#5b3a1e" stroke-width="2"/><ellipse cx="73" cy="184" rx="14" ry="7" fill="#f4f4f4" stroke="#5b3a1e" stroke-width="2"/>
+ <rect x="30" y="76" width="16" height="44" rx="8" fill="${sl}"/><rect x="74" y="76" width="16" height="44" rx="8" fill="${sl}"/>
+ <rect x="34" y="70" width="52" height="58" rx="12" fill="${ustR}" stroke="#5b3a1e" stroke-width="2"/>
+ ${hood?`<path d="M42 70 Q60 92 78 70" fill="none" stroke="#fff" stroke-width="2"/>`:""}
+ ${ust&&!hood?`<circle cx="60" cy="98" r="9" fill="#fff" opacity=".9"/><text x="60" y="102" font-size="9" font-weight="800" text-anchor="middle" fill="${g.ust==='cg_tisort'?'#F16524':'#182B53'}">${g.ust==='cg_tisort'?'CG':'SI'}</text>`:""}
+ ${g.bilek==="si_bileklik"?`<rect x="27" y="112" width="20" height="7" rx="3" fill="#5D85C3" stroke="#182B53"/>`:""}
+ ${g.bilek==="cg_saat"?`<rect x="27" y="112" width="20" height="8" rx="3" fill="#FFB627" stroke="#5b3a1e"/><circle cx="37" cy="116" r="3" fill="#fff"/>`:""}
+ ${g.el?`<rect x="78" y="106" width="16" height="20" rx="3" fill="#fff" stroke="#182B53" stroke-width="2"/><rect x="78" y="112" width="16" height="5" fill="#294B9C"/>`:""}
+ <circle cx="60" cy="46" r="26" fill="${skin}" stroke="#5b3a1e" stroke-width="2"/>
+ ${cins==="kiz"?`<path d="M34 46 Q34 16 60 16 Q86 16 86 46 Q76 30 60 30 Q44 30 34 46Z" fill="${hair}"/><path d="M84 40 Q98 70 88 96" stroke="${hair}" stroke-width="9" fill="none" stroke-linecap="round"/>`:`<path d="M34 44 Q36 16 60 16 Q84 16 86 44 Q74 28 60 30 Q46 28 34 44Z" fill="${hair}"/>`}
+ ${g.kafa?`<path d="M32 36 Q60 4 88 36Z" fill="${IT[g.kafa].renk}" stroke="#5b3a1e" stroke-width="2"/><rect x="60" y="32" width="36" height="7" rx="3" fill="${IT[g.kafa].renk}" stroke="#5b3a1e" stroke-width="2"/>`:""}
+ <circle cx="50" cy="48" r="3" fill="#222"/><circle cx="70" cy="48" r="3" fill="#222"/><path d="M50 58 Q60 66 70 58" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>`}
+function antrenor(sc){return `<svg viewBox="0 0 120 200" width="${120*sc}" height="${200*sc}"><rect x="34" y="70" width="52" height="66" rx="16" fill="#294B9C" stroke="#5b3a1e" stroke-width="2"/><rect x="58" y="70" width="4" height="66" fill="#fff"/><rect x="38" y="130" width="18" height="52" rx="6" fill="#182B53"/><rect x="64" y="130" width="18" height="52" rx="6" fill="#182B53"/><circle cx="60" cy="46" r="27" fill="#f0c39a" stroke="#5b3a1e" stroke-width="2"/><path d="M33 44 Q36 18 60 18 Q84 18 87 44 Q80 34 60 34 Q40 34 33 44Z" fill="#c9c9c9"/><g fill="none" stroke="#222" stroke-width="3"><circle cx="49" cy="48" r="8"/><circle cx="71" cy="48" r="8"/><path d="M57 48h6"/></g><circle cx="49" cy="48" r="2.5" fill="#222"/><circle cx="71" cy="48" r="2.5" fill="#222"/><path d="M50 62 Q60 70 70 62" stroke="#222" stroke-width="2.5" fill="none"/></svg>`}
+const AV={antrenor:()=>antrenor(.42),damla:()=>`<span style="background:#c2185b;width:100%;height:100%;display:flex;align-items:center;justify-content:center">D</span>`,pars:()=>`<span style="background:#2e7d32;width:100%;height:100%;display:flex;align-items:center;justify-content:center">P</span>`,oyuncu:()=>karakter(S.cins,S.giyili,.35)};
+const AD={antrenor:"Satranç İstanbul Antrenörü",damla:"Damla",pars:"Pars",oyuncu:()=>S.ad};
+
+/* ---------- tahta ---------- */
+const GL={K:"♚",Q:"♛",R:"♜",B:"♝",N:"♞",P:"♟"};
+function boardHTML(spec,st){
+ st=st||{};let h='<div class="board" id="bd">';
+ for(let r=8;r>=1;r--)for(let f=0;f<8;f++){
+  const sq="abcdefgh"[f]+r,pc=spec.taslar[sq],dark=(f+r)%2===0;
+  let cl="sq "+(dark?"d":"l");
+  if((spec.vurgu||[]).includes(sq))cl+=" vur";
+  if(st.sel&&st.sel.includes(sq))cl+=" sel";
+  if(st.src===sq)cl+=" src";
+  if(st.ok&&st.ok.includes(sq))cl+=" ok";if(st.bad&&st.bad.includes(sq))cl+=" bad";if(st.show&&st.show.includes(sq))cl+=" show";
+  h+=`<div class="${cl}" data-sq="${sq}">${pc?`<span class="p ${pc===pc.toUpperCase()?'w':'b'}">${GL[pc.toUpperCase()]}︎</span>`:""}${r===1?`<span class="co f">${"abcdefgh"[f]}</span>`:""}${f===0?`<span class="co r">${r}</span>`:""}</div>`}
+ return h+"</div>"}
+
+/* ---------- soru motoru ---------- */
+function runQ(list,i,ctx){
+ const q=list[i],box=$("#qbox");let att=0,done=false,sel=[],src=null;
+ const head=`<div class="row" style="justify-content:space-between"><h3>${ctx.title} — Soru ${i+1}/${list.length}</h3>${ctx.gold?`<span class="pill gold">Altın: ${ctx.kazan}</span>`:'<span class="tag">altın yok</span>'}</div>`;
+ const fb=(t,ok)=>`<div class="fb ${ok?'ok':'no'}">${t}</div>`;
+ const finish=()=>{done=true;const g=att===0?DATA.altin.ilk_deneme:DATA.altin.sonraki;
+  if(att===0)ctx.ilk++;if(ctx.gold&&ctx.gorevGold){ctx.kazan+=g;}
+  const info=ctx.gold?(ctx.gorevGold?`+${g} altın`:"Tekrar: altın yok"):"";
+  draw(fb(`Doğru! ${esc(q.aciklama)} ${info}`,true),true)};
+ const wrong=()=>{att++;draw(fb(att===1?"Olmadı, tekrar dene. Küçük ipucu: "+esc(q.ipucu||"Videoyu hatırla."):"Bir daha dene. İlk denemede 10, sonraki denemelerde 5 altın kazanılır.",false))};
+ function draw(msg,ok){
+  let body="";
+  if(q.tip==="mc"){
+   body=`<div class="qwrap">${q.tahta?boardHTML(q.tahta,{}):""}<div style="flex:1;min-width:240px"><h2>${esc(q.soru)}</h2>${q.secenekler.map((o,k)=>`<button class="btn blue opt ${q._x&&q._x[k]?'wrong':''} ${done&&k===q.dogru?'right':''}" data-k="${k}" ${done?'disabled':''}>${esc(o)}</button>`).join("")}</div></div>`}
+  else{const st={sel:q.tip==="isaretle"?sel:[],src:src,ok:done?(q.tip==="isaretle"?q.dogru:q.hedefler):[]};
+   body=`<div class="qwrap">${boardHTML(q.tahta,st)}<div style="flex:1;min-width:240px"><h2>${esc(q.soru)}</h2>${q.tip==="isaretle"?`<p class="muted">Kareleri seçmek için dokun, tekrar dokunarak kaldır.</p><button class="btn" id="chk" ${done?'disabled':''}>Kontrol et</button>`:`<p class="muted">Önce taşa, sonra gideceği kareye dokun.</p>`}</div></div>`}
+  box.innerHTML=head+body+(msg||"")+(done?`<div style="margin-top:10px"><button class="btn" id="nx">${i+1<list.length?"Sonraki soru":"Bitir"}</button></div>`:"");
+  bind()}
+ function bind(){
+  box.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{if(done)return;const k=+b.dataset.k;if(k===q.dogru)finish();else{q._x=q._x||{};q._x[k]=1;wrong()}});
+  box.querySelectorAll(".sq").forEach(s=>s.onclick=()=>{if(done)return;const sq=s.dataset.sq;
+   if(q.tip==="isaretle"){sel=sel.includes(sq)?sel.filter(x=>x!==sq):[...sel,sq];draw()}
+   else if(q.tip==="hamle"){if(!src){if(sq===q.kaynak){src=sq;draw()}else{draw(fb("Önce hamle yapacağın taşa dokun.",false))}}
+    else if(sq===src){src=null;draw()}
+    else if(q.hedefler.includes(sq))finish();else{src=null;wrong()}}});
+  const c=$("#chk");if(c)c.onclick=()=>{const ok=sel.length===q.dogru.length&&q.dogru.every(x=>sel.includes(x));if(ok)finish();else{att++;
+    const yanlis=sel.filter(x=>!q.dogru.includes(x)).length,eksik=q.dogru.filter(x=>!sel.includes(x)).length;
+    draw(fb(`Henüz değil: ${eksik} kare eksik, ${yanlis} kare fazla. ${att===1?esc(q.ipucu):"Bir daha dene."}`,false))}};
+  const n=$("#nx");if(n)n.onclick=()=>{if(i+1<list.length)runQ(list,i+1,ctx);else ctx.bitti(ctx)}}
+ draw()}
+const deep=o=>JSON.parse(JSON.stringify(o));
+
+/* ---------- ekranlar ---------- */
+function bar(){return `<div class="top"><span class="pill" onclick="go('harita')">Harita</span><span class="pill" onclick="go('dukkan')">Dükkân</span><span class="pill" onclick="go('dukkan',{tab:'dolap'})">Dolabım</span><span style="flex:1"></span><span class="pill gold">Altın: ${S.altin}</span></div>`}
+function nav(a){return `<div class="nav"><button class="${a==='oyun'?'on':''}" onclick="go('ana')">Oyun</button><button class="${a==='lider'?'on':''}" onclick="go('lider')">Liderlik</button><button class="${a==='ara'?'on':''}" onclick="go('ara')">Oyuncu ara</button><button class="book ${a==='kitap'?'on':''}" onclick="go('kitap')">Kitap (oyundan bağımsız)</button></div>`}
+function dlg(lines,end,ctxt){
+ let i=0;const show=()=>{const l=lines[i],who=l.k==="oyuncu"?S.ad:(AD[l.k]);
+  app.innerHTML=`<div class="scr" style="background:linear-gradient(#f3d9a4,#e9c47c);padding-bottom:16px"><div class="card" style="background:#2f6a4a;color:#fff;text-align:center;font-weight:800;margin-bottom:8px">${ctxt||"Sınıf"}</div>
+  <div class="row" style="flex:1;align-items:flex-end;justify-content:space-around"><div>${antrenor(1)}</div><div>${karakter(S.cins,S.giyili,1)}</div></div>
+  <div class="row" style="margin-top:8px"><div class="av">${AV[l.k]()}</div><div class="bub"><b>${who}</b><br>${say(l.m)}</div></div>
+  <div style="text-align:right;margin-top:8px"><button class="btn" id="dn">${i+1<lines.length?"Devam":"Tamam"}</button></div></div>`;
+  $("#dn").onclick=()=>{i++;if(i<lines.length)show();else end()}};show()}
+
+const R={
+acilis(){app.innerHTML=`<div class="scr center" style="justify-content:center"><div style="font-size:88px;color:#FFB627;-webkit-text-stroke:3px #5b3a1e">♟︎</div><h1 style="font-size:54px;color:#FFB627;-webkit-text-stroke:2px #5b3a1e;paint-order:stroke fill">Chessigo</h1><p style="font-weight:700;margin:6px 0 18px">Satranç İstanbul ile satranç öğren</p><div><button class="btn" onclick="go('${S.giris?'ana':'kayit'}')">${S.giris?"Devam":"Başla"}</button></div><p class="muted" style="margin-top:14px">Taslak: çizimler yer tutucudur</p></div>`},
+kayit(){app.innerHTML=`<div class="scr center" style="justify-content:center"><div class="card" style="max-width:560px"><h2>Karakterini seç</h2>
+ <div class="row" style="justify-content:center"><label style="cursor:pointer"><input type="radio" name="c" value="erkek" ${S.cins==='erkek'?'checked':''}> Erkek<br>${karakter("erkek",{},.8)}</label><label style="cursor:pointer"><input type="radio" name="c" value="kiz" ${S.cins==='kiz'?'checked':''}> Kız<br>${karakter("kiz",{},.8)}</label></div>
+ <h3 style="margin-top:8px">Oyuncu adın (takma ad, 3-14 harf/rakam/_ )</h3><input type="text" id="ad" maxlength="14" value="${esc(S.ad)}" placeholder="ör. satranc_ustasi">
+ <p class="muted">Gerçek adını, soyadını ya da fotoğrafını kullanma.</p>
+ <label style="display:block;margin:8px 0"><input type="checkbox" id="vo"> Velim uygulamayı kullanmama izin verdi (KVKK onayı, taslak)</label>
+ <div id="er" style="color:#c0392b;font-weight:700"></div><button class="btn" id="go">Köye git</button></div></div>`;
+ $("#go").onclick=()=>{let a=$("#ad").value.toLowerCase().replace(/ç/g,"c").replace(/ğ/g,"g").replace(/ı/g,"i").replace(/ö/g,"o").replace(/ş/g,"s").replace(/ü/g,"u");
+  const er=t=>$("#er").textContent=t;
+  if(!/^[a-z0-9_]{3,14}$/.test(a))return er("Ad 3-14 karakter olmalı; yalnızca harf, rakam ve _ kullan.");
+  if(MOCK.some(m=>m[0]===a))return er("Bu ad alınmış, başka bir ad dene.");
+  if(!$("#vo").checked)return er("Devam etmek için veli onayı gerekir.");
+  S.ad=a;S.cins=document.querySelector("input[name=c]:checked").value;S.giris=true;save();
+  dlg([{k:"antrenor",m:"Merhaba {ad}! Ben Satranç İstanbul Antrenörü. Chessigo köyüne hoş geldin."},
+  {k:"antrenor",m:"Her bölümde önce kısa bir video izleyeceksin, sonra 3 soru çözeceksin."},
+  {k:"damla",m:"Soruları doğru bilirsen altın kazanıyoruz, değil mi?"},
+  {k:"antrenor",m:"Aynen öyle Damla! İlk denemede doğru yaparsan 10, sonraki denemelerde 5 altın. Altınlarla dükkândan Satranç İstanbul eşyaları alacaksın."},
+  {k:"pars",m:"Bardak, şapka, tişört... hepsini giyebilecek miyiz?"},
+  {k:"antrenor",m:"Bütün bölümleri bitirince dükkândaki eşyaların hepsine ulaşabileceksin. Haydi başlayalım!"}],()=>go('ana'),"Chessigo Sınıfı")}},
+ana(){const n=acikBolum();app.innerHTML=`<div class="scr">${bar()}<div class="row" style="flex:1;justify-content:center;gap:40px"><div style="text-align:center">${karakter(S.cins,S.giyili,1.2)}<div class="pill" style="display:inline-block;margin-top:4px">${esc(S.ad)}</div></div>
+ <div class="card" style="max-width:300px"><small>Ada 1 · ${ADALAR[0]} (taslak ad)</small><h2>${DATA.baslik}</h2><p class="muted">Bölüm ${biten()}/10 bitti · Puan ${puan()}</p><div style="margin-top:8px"><button class="btn" onclick="${n?`go('bolum',{no:${n}})`:`go('unite')`}">${n?`Devam et: Bölüm ${n}`:"Ünite testine git"}</button></div><p class="muted" style="margin-top:8px">Rütbe: Piyon (Kitap 1)</p></div></div></div>${nav("oyun")}`},
+harita(){app.innerHTML=`<div class="scr">${bar()}<h2>Harita <small>(ada adları taslak)</small></h2><div class="row" style="overflow-x:auto;flex:1;align-items:center;gap:26px;padding:10px">${ADALAR.map((a,i)=>i===0?`<div class="island" onclick="go('unite')">${a}<small>Ünite 1</small><small>${DATA.baslik}</small><small>${biten()}/10</small></div>`:`<div class="island lock">${a}<small>Ünite ${i+1}</small><small>${SONRAKI_UNITE[i-1]||""}</small><small>kilitli</small></div>`).join("")}</div></div>${nav("oyun")}`},
+unite(){const n=acikBolum(),tamam=n===null;app.innerHTML=`<div class="scr">${bar()}<div class="row" style="align-items:flex-start;gap:14px;flex:1">
+ <div class="card" style="width:270px;flex:none"><small>Ada 1 · ${ADALAR[0]}</small><h2>${DATA.baslik}</h2><p class="muted">${biten()}/10 bölüm</p>
+ <button class="btn blue" ${tamam?"":"disabled"} onclick="go('utest')">${DATA.unite_testi.baslik}</button><p class="muted" style="margin-top:6px">${S.testBitti?"Test geçildi.":`10 bölümü bitirince açılır. En az 8/10 ilk denemede doğru: +${DATA.altin.unite_testi_bonus} altın.`}</p></div>
+ <div class="list" style="flex:1">${D.map(b=>{const d=S.biten[b.no],lk=!d&&b.no!==n;return `<div class="it ${d?'done':''} ${lk?'lock':''}" ${lk?"":`onclick="go('bolum',{no:${b.no}})"`}><span class="num">${b.no}</span><div style="flex:1"><b>${esc(b.baslik)}</b><br><small>${esc(b.kazanim)}</small></div>${d?`<span class="tag">+${d.altin}</span>`:lk?"<small>kilitli</small>":'<span class="tag or">sıradaki</span>'}</div>`}).join("")}</div></div></div>${nav("oyun")}`},
+bolum(){const b=D.find(x=>x.no===S.p.no);dlg(b.diyalog,()=>R.video(b),b.baslik)},
+video(b){app.innerHTML=`<div class="scr center" style="padding-bottom:16px"><div class="vid"><div style="font-size:42px">▶</div><b>Video ${b.no}: ${esc(b.video.baslik)}</b><small>${b.video.sure} · Satranç İstanbul Antrenörü anlatır, Damla ve Pars soru sorar</small></div>
+ <div class="card" style="margin:10px auto;max-width:520px;text-align:left"><h3>Video akışı (senaryo taslağı)</h3><ul style="padding-left:18px;font-size:13px">${b.video.akis.map(a=>`<li>${esc(a)}</li>`).join("")}</ul></div>
+ <div><button class="btn" id="vt">Videoyu izledim, teste geç</button></div></div>`;$("#vt").onclick=()=>{
+  dlg([{k:"antrenor",m:"Şimdi öğrendiklerimizi test etme zamanı, {ad}!"}],()=>R.test(b),b.baslik)}},
+test(b){const first=!S.biten[b.no],list=deep(b.sorular);
+ app.innerHTML=`<div class="scr"><div id="qbox" class="card"></div></div>`;
+ runQ(list,0,{title:b.baslik,gold:true,gorevGold:first,kazan:0,ilk:0,bitti:c=>{
+  if(first){S.altin+=c.kazan;S.biten[b.no]={altin:c.kazan,ilk:c.ilk}}save();
+  app.innerHTML=`<div class="scr center" style="justify-content:center"><div class="card"><h1>Bölüm bitti!</h1><h2>${first?`+${c.kazan} altın kazandın`:"Bu bölümü daha önce bitirmiştin, tekrarda altın verilmez"}</h2><p>İlk denemede doğru: ${c.ilk}/3 · Toplam altın: ${S.altin}</p><div style="margin-top:10px" class="row"><button class="btn ghost" onclick="go('unite')">Ünite listesi</button>${acikBolum()?`<button class="btn" onclick="go('bolum',{no:${acikBolum()}})">Sonraki bölüm</button>`:`<button class="btn" onclick="go('unite')">Ünite testine git</button>`}</div></div></div>`}})},
+utest(){const list=DATA.unite_testi.sorular.map(([bn,qi])=>deep(D.find(x=>x.no===bn).sorular[qi]));
+ app.innerHTML=`<div class="scr"><div id="qbox" class="card"></div></div>`;
+ runQ(list,0,{title:DATA.unite_testi.baslik,gold:false,kazan:0,ilk:0,bitti:c=>{const ok=c.ilk>=8&&!S.testBitti;if(ok){S.altin+=DATA.altin.unite_testi_bonus;S.testBitti=true;save()}
+  app.innerHTML=`<div class="scr center" style="justify-content:center"><div class="card"><h1>${c.ilk}/10 ilk denemede doğru</h1><h2>${c.ilk>=8?(ok?`Tebrikler! +${DATA.altin.unite_testi_bonus} altın. Sonraki ada açıldı (taslakta kilitli).`:"Testi geçtin."):"Geçmek için en az 8 doğru gerekir. Bölümleri tekrar izleyip yeniden dene."}</h2><div class="row" style="justify-content:center;margin-top:10px"><button class="btn" onclick="go('unite')">Tamam</button></div></div></div>`}})},
+dukkan(){const tab=(S.p&&S.p.tab)||"si",dolap=tab==="dolap";
+ const list=dolap?ITEMS.filter(i=>S.sahip[i.id]):ITEMS.filter(i=>i.kol===tab);
+ app.innerHTML=`<div class="scr">${bar()}<div class="tabs"><span class="pill ${tab==='si'?'on':''}" onclick="go('dukkan',{tab:'si'})">Satranç İstanbul koleksiyonu</span><span class="pill ${tab==='cg'?'on':''}" onclick="go('dukkan',{tab:'cg'})">Chessigo koleksiyonu</span><span class="pill ${dolap?'on':''}" onclick="go('dukkan',{tab:'dolap'})">Dolabım</span></div>
+ <div class="row" style="align-items:flex-start;flex:1"><div style="flex:none">${karakter(S.cins,S.giyili,1)}</div><div class="grid" style="flex:1;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))">${list.map(i=>{const has=S.sahip[i.id],on=S.giyili[i.slot]===i.id;
+  return `<div class="card"><b>${i.ad}</b><br><small>yer: ${({kafa:"kafa",ust:"üst",alt:"alt",bilek:"bilek",el:"el",sirt:"sırt"})[i.slot]}</small><div style="margin-top:6px">${has?`<button class="btn ${on?'ghost':''}" onclick="wear('${i.id}')">${on?"Çıkar":"Giy"}</button>`:`<button class="btn blue" ${S.altin>=i.fiyat?"":"disabled"} onclick="buy('${i.id}')">${i.fiyat} altın</button>`}</div></div>`}).join("")||"<p>Dolabın boş. Dükkândan eşya al!</p>"}</div></div></div>`},
+lider(){const h=Math.floor(Date.now()/36e5);if(S.snapH!==h){S.snap=puan();S.snapH=h;save()}const snap=S.snap,rows=MOCK.map(m=>({ad:m[0],puan:(m[1]-1)*1000+m[2]*100+m[2]*30,ada:m[1]})).concat([{ad:S.ad||"sen",puan:snap,ada:1,me:1}]).sort((a,b)=>b.puan-a.puan);
+ const nx=(new Date().getHours()+1)%24;
+ app.innerHTML=`<div class="scr">${bar()}<h2>Liderlik tablosu</h2><p class="muted">Saatlik güncellenir. Son güncelleme: ${String(new Date().getHours()).padStart(2,"0")}:00 · Sonraki: ${String(nx).padStart(2,"0")}:00 · Puan = (ada-1)x1000 + bölüm x100 + doğru x10. Adlar örnektir.</p>
+ <div class="card"><table><tr><th>#</th><th>Oyuncu</th><th>Ada</th><th>Puan</th></tr>${rows.map((r,i)=>`<tr class="${r.me?'me':''}"><td>${i+1}${i<3?" "+["altın","gümüş","bronz"][i]:""}</td><td>${esc(r.ad)}</td><td>${r.ada}</td><td>${r.puan}</td></tr>`).join("")}</table></div></div>${nav("lider")}`},
+ara(){const q=(S.p&&S.p.q)||"";const all=MOCK.map(m=>({ad:m[0],ada:m[1],b:m[2],giy:[]})).concat([{ad:S.ad,ada:1,b:biten(),giy:Object.values(S.giyili).map(x=>IT[x].ad)}]);
+ const hit=q?all.find(x=>x.ad===q.toLowerCase()):null,sug=q&&!hit?all.filter(x=>x.ad.startsWith(q.toLowerCase())):[];
+ app.innerHTML=`<div class="scr">${bar()}<h2>Oyuncu ara</h2><div class="row"><input type="text" id="q" value="${esc(q)}" placeholder="arkadaşının oyuncu adı (ör. eken22)"><button class="btn" id="sb">Ara</button></div>
+ ${hit?`<div class="card" style="margin-top:10px;max-width:420px"><h2>${esc(hit.ad)}</h2><p>Ada ${hit.ada} · ${ADALAR[hit.ada-1]} · Seviye ${hit.b} · Rütbe: Piyon</p><p class="muted">Giydikleri: ${hit.giy.length?hit.giy.join(", "):"örnek profil"}</p><p style="font-weight:700">${hit.ad===S.ad?"Bu sensin.":(hit.ada>1||hit.b>biten()?`${esc(hit.ad)} senden önde, geçmek için çalış!`:"Sen önündesin, devam et!")}</p></div>`:q?`<p style="margin-top:10px">${sug.length?"Bunu mu demek istedin: "+sug.map(s=>`<a href="#" onclick="go('ara',{q:'${s.ad}'});return false">${esc(s.ad)}</a>`).join(", "):"Böyle bir oyuncu bulunamadı."}</p>`:""}
+ <p class="muted" style="margin-top:10px">Haritada herkes görünmez; oyuncular yalnızca arama ile bulunur. Profilde gerçek ad, fotoğraf, şube yok.</p></div>${nav("ara")}`;
+ $("#sb").onclick=()=>go("ara",{q:$("#q").value.trim()})},
+kitap(){const p=S.p||{};
+ if(!S.kitapKod){app.innerHTML=`<div class="scr center" style="justify-content:center;background:#dbe7fb"><div class="card" style="max-width:520px"><span class="tag">Oyundan bağımsız bölüm</span><h2 style="margin-top:6px">Kitap Çözümleri</h2><p>Kitabındaki QR kodu okuttun ya da kitap kodunu gir. Burada altın, seviye ve liderlik yoktur; kitapta o sayfada ne anlatıldıysa onun videosu ve alıştırma çözümleri vardır.</p><input type="text" id="kk" placeholder="Kitap kodu (taslakta herhangi bir kod)" style="margin:8px 0"><br><button class="btn blue" id="kb">Kitabı aç</button></div></div>${nav("kitap")}`;$("#kb").onclick=()=>{if($("#kk").value.trim()){S.kitapKod=1;save();render()}};return}
+ if(p.no){const b=D.find(x=>x.no===p.no),qs=b.sorular.filter(q=>q.tip!=="mc"),q=deep(qs[0]||b.sorular[0]);
+  app.innerHTML=`<div class="scr" style="background:#dbe7fb"><div class="row" style="margin-bottom:6px"><button class="btn ghost" onclick="go('kitap')">Geri</button><span class="tag">Kitap Çözümleri</span><span class="tag or">altın yok</span></div>
+  <div class="vid" style="margin-bottom:8px;max-width:300px;aspect-ratio:16/6"><div style="font-size:24px">▶</div><b>Konu ${b.no} videosu: ${esc(b.video.baslik)}</b><small>QR ile buraya gelinir</small></div>
+  <div class="card" id="qbox"></div></div>${nav("kitap")}`;
+  runQ([q],0,{title:"Alıştırma (kitap sayfası)",gold:false,ilk:0,kazan:0,bitti:()=>go("kitap")});return}
+ app.innerHTML=`<div class="scr" style="background:#dbe7fb"><div class="row"><span class="tag">Oyundan bağımsız</span><h2 style="margin-left:6px">Kitap 1 · ${DATA.baslik}</h2></div><p class="muted">Sayfayı seç: video ve alıştırma çözümü. İlerleme kaydedilir, oyuna karışmaz.</p><div class="list">${D.map(b=>`<div class="it" onclick="go('kitap',{no:${b.no}})"><span class="num" style="background:var(--si2)">${b.no}</span><div style="flex:1"><b>${esc(b.baslik)}</b><br><small>Video + alıştırma çözümleri</small></div></div>`).join("")}</div></div>${nav("kitap")}`}
+};
+function buy(id){const i=IT[id];if(S.altin<i.fiyat)return;S.altin-=i.fiyat;S.sahip[id]=1;S.giyili[i.slot]=id;save();render()}
+function wear(id){const i=IT[id];if(S.giyili[i.slot]===id)delete S.giyili[i.slot];else S.giyili[i.slot]=id;save();render()}
+function render(){if(S.ekran==='test'||S.ekran==='video')S.ekran='unite';if(S.ekran==='bolum'&&!(S.p&&S.p.no))S.ekran='unite';(R[S.ekran]||R.acilis)()}
+render();
+</script>
+</body>
+</html>
