@@ -279,11 +279,10 @@ function makeBoard(el,pos,{coords=true,onTap}={}){const F='abcdefgh';
 /* ===== SCREENS ===== */
 function scSplash(d){
   d.innerHTML=vbg()+birds()+`<div class="bg" style="background:linear-gradient(90deg,rgba(40,22,10,.55),rgba(40,22,10,0) 55%)"></div>
-   <img src="${IMG.logo}" alt="Chessigo" class="pop" style="position:absolute;left:44px;top:36px;width:300px">
+   <img src="${IMG.logo}" alt="Chessigo" class="pop" style="position:absolute;left:44px;top:30px;width:262px">
    <div style="position:absolute;left:48px;top:330px;color:#fff;font-weight:800;font-size:24px;line-height:1.2;text-shadow:0 2px 0 var(--ink)">Satranç İstanbul ile sıfırdan zirveye,<br>geleceğe doğru hamle yap</div>
    <div class="parch" style="position:absolute;left:48px;top:406px;padding:6px 12px">${rankHTML().replace('class="rank"','class="rank" style="gap:10px"')}</div>
-   <button class="btn" style="position:absolute;right:40px;bottom:36px;font-size:34px;padding:8px 52px" onclick="go(S.logged?(S.av?scHome:scPick):scLogin)">Başla</button>`;
-  sozKutusu(d)}
+   <button class="btn" style="position:absolute;right:40px;bottom:36px;font-size:34px;padding:8px 52px" onclick="go(S.logged?(S.av?scHome:scPick):scLogin)">Başla</button>`}
 function scLogin(d){
   d.innerHTML=vbg(.25)+`
   <img src="${IMG.logo}" alt="Chessigo" style="position:absolute;left:70px;top:70px;width:300px" class="float">
@@ -1242,15 +1241,6 @@ function mzCal(key){
   dongu()}
 function mzDur(){clearTimeout(MZ.timer);MZ.gen++;MZ.calan=null;MZ.bekle=null;const c=MZ.ctx;
   if(c&&MZ.tg){const o=MZ.tg;MZ.tg=null;o.gain.setTargetAtTime(0,c.currentTime,.15);setTimeout(()=>o.disconnect(),900)}}
-const MZ_SOZ=["Tahtada kareler, siyah beyaz yol,","Bir macera başlıyor, hadi gel, hadi ol!","Kale düz gider, fil çapraz kayar,","At zıplar, yol açar, hepsi seninle oynar!","Chessigo, Chessigo, hamle hamle ilerle!","Chessigo, Chessigo, düşün, oyna, öğren!","Bir adım, iki adım, şah bile gülümser,","Chessigo, Chessigo, şampiyon sen olursun!"];
-function sozKutusu(d){
-  d.insertAdjacentHTML('beforeend',`<div class="soz" style="position:absolute;right:40px;top:40px;width:460px;box-sizing:border-box;padding:14px 18px;border-radius:20px;background:rgba(40,22,10,.62);text-align:center;color:#fff;text-shadow:0 2px 0 var(--ink);pointer-events:none;z-index:3"><div class="sz1" style="font-weight:800;font-size:30px;line-height:1.15;min-height:70px"></div><div class="sz2" style="font-weight:700;font-size:20px;opacity:.75;margin-top:4px;min-height:26px"></div><div class="sz3" style="margin-top:8px;font-size:16px;font-weight:700;color:#FCC73C"></div></div>`);
-  const a=d.querySelector('.sz1'),b=d.querySelector('.sz2'),h=d.querySelector('.sz3');let son=-1;
-  const t=setInterval(()=>{if(!a.isConnected){clearInterval(t);return}
-    const cal=S.muzik&&MZ.calan==='jen'&&MZ.ctx&&MZ.ctx.state==='running'&&MZ.t0!=null;
-    const ld=MZ.ld||64*60/124,poz=cal?((MZ.ctx.currentTime-MZ.t0)%ld+ld)%ld:(performance.now()/1000)%ld,i=Math.floor(poz/(ld/8))%8;
-    h.textContent=cal?'':'♪ Şarkıyı duymak için sol alttaki hoparlöre dokun';
-    if(i!==son){son=i;a.textContent=MZ_SOZ[i];b.textContent=MZ_SOZ[(i+1)%8];a.animate([{transform:'scale(.92)',opacity:.3},{transform:'scale(1)',opacity:1}],{duration:260,easing:'ease-out'})}},120)}
 const MZ_UNITE=[scUnit,scVideo,scTestIntro,scQuiz,scWin],MZ_JEN=[scSplash,scLogin,scPick];
 function muzikEkran(fn,d){
   if(fn!==scDialog){MZ.key=MZ_UNITE.includes(fn)?'u'+CU:MZ_JEN.includes(fn)?'jen':'ana';MZ.vol=fn===scQuiz?.5:1;
