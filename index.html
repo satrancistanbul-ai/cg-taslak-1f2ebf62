@@ -137,9 +137,14 @@ label.l{font-weight:700;font-size:17px}
 .sq{position:relative;display:flex;align-items:center;justify-content:center;font-size:38px;line-height:1;cursor:pointer;font-family:"Segoe UI Symbol","Noto Sans Symbols 2","DejaVu Sans",serif}
 .sq.l{background:var(--sq-l)}.sq.d{background:var(--sq-d)}
 .board .r0{border-top-left-radius:10px}.board .r1{border-top-right-radius:10px}.board .r2{border-bottom-left-radius:10px}.board .r3{border-bottom-right-radius:10px}
-.pc{position:relative;z-index:2}
-.pc.w{color:#fff;-webkit-text-stroke:4px #1d0f05;paint-order:stroke fill;filter:drop-shadow(0 1.5px 0 rgba(29,15,5,.55))}
-.pc.b{color:#120a04;-webkit-text-stroke:3px #fff7dc;paint-order:stroke fill;filter:drop-shadow(0 0 1.5px rgba(255,247,220,.9)) drop-shadow(0 1.5px 0 rgba(0,0,0,.45))}
+.pc{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;width:100%;height:100%;pointer-events:none}
+.pc svg{width:37px;height:37px;display:block;overflow:visible;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;filter:drop-shadow(0 1.5px 0 rgba(20,11,4,.35))}
+.pc.w svg *{fill:#fffdf4;stroke:#2a1608}
+.pc.b svg *{fill:#3a281a;stroke:#120a04}
+.pc.w svg .d{fill:none;stroke:#2a1608;stroke-width:1.6}
+.pc.b svg .d{fill:none;stroke:#f3e6c8;stroke-width:1.6}
+.pc.w svg .e{fill:#2a1608;stroke:none}
+.pc.b svg .e{fill:#f3e6c8;stroke:none}
 .sq.sel{box-shadow:inset 0 0 0 4px var(--orange)}
 .sq.mark::after{content:"";position:absolute;inset:7px;border-radius:50%;background:rgba(252,199,60,.9);border:3px solid var(--orange-d);z-index:1}
 .sq.good{box-shadow:inset 0 0 0 4px #2f7d1a;background:#bfe3a8}
@@ -217,6 +222,7 @@ addEventListener('resize',fit);fit();
 
 /* ===== ART ===== */
 const G='\uFE0E',INK='#3B2314',SKIN='#F6C9A4';
+const PCSVG={P:'<circle cx="22.5" cy="12.5" r="5.5"/><path d="M15.5 31c0-8 2.5-11 7-14 4.500 3 7 6 7 14z"/><path d="M12 40v-3q0-3 3-3h15q3 0 3 3v3z"/>',R:'<path d="M12 19V8h5v4h3.500V8h5v4H28V8h5v11z"/><path d="M14.500 34L16 19h13l1.500 15z"/><path d="M11 40v-3.5q0-2.5 3-2.5h17q3 0 3 2.5V40z"/><path class="d" d="M17 25h11"/>',B:'<circle cx="22.5" cy="6.500" r="2.800"/><path d="M22.500 9c5 3 10 7 10 14 0 4-1.500 7-3 11h-14c-1.500-4-3-7-3-11 0-7 5-11 10-14z"/><path d="M11 40v-3.5q0-2.5 3-2.5h17q3 0 3 2.5V40z"/><path class="d" d="M26 14.500l-6.500 7"/>',N:'<path d="M11 40c0-6 3-10 6-13 2-2 2.500-4 0-5l-8 4c-1-2 0-4 1-6l7-9 1-5 4 3c2-.5 3-.5 4-.5 7 3 9 10 8 18l-1 14z"/><circle class="e" cx="19.500" cy="15" r="1.600"/><path class="d" d="M25 13c3 2 5 5 5.500 10"/>',Q:'<path d="M12 34L8 14l4.500 12 3-17 3.500 16 3.500-18 3.500 18 3.500-16 3 17 4.500-12-4 20z"/><circle cx="8" cy="13" r="2.500"/><circle cx="15.500" cy="8" r="2.500"/><circle cx="22.500" cy="6" r="2.500"/><circle cx="29.500" cy="8" r="2.500"/><circle cx="37" cy="13" r="2.500"/><path d="M11 40v-3.5q0-2.5 3-2.5h17q3 0 3 2.5V40z"/>',K:'<path d="M20.500 2.500h4V6h3.500v4h-3.500v3.500h-4V10H17V6h3.500z"/><path d="M22.500 15C14 15 9.500 21 12 29l-1 5h23l-1-5c2.500-8-2-14-10.500-14z"/><path d="M11 40v-3.5q0-2.5 3-2.5h17q3 0 3 2.5V40z"/><path class="d" d="M14 29.500h17"/>'};const pcSvg=t=>`<svg viewBox="0 0 45 45" aria-hidden="true">${PCSVG[t.toUpperCase()]}</svg>`;
 const GLY={K:'♚',Q:'♛',R:'♜',B:'♝',N:'♞',P:'♟'};
 const RANKS=[['♟','Piyon'],['♞','At'],['♝','Fil'],['♜','Kale'],['♛','Vezir'],['♚','Şah']];
 const SIB='#294B9C',SIN='#182B53';
@@ -264,7 +270,7 @@ function makeBoard(el,pos,{coords=true,onTap}={}){const F='abcdefgh';
       for(let f=0;f<8;f++){const s=F[f]+r,p=api.pos[s];const q=document.createElement('div');
         q.className='sq '+((f+r)%2?'d':'l')+(api.marks.has(s)?' mark':'')+(api.sel===s?' sel':'')+(api.flags[s]?' '+api.flags[s]:'')+(s==='a8'?' r0':s==='h8'?' r1':s==='a1'?' r2':s==='h1'?' r3':'');
         q.dataset.s=s;q.tabIndex=0;q.setAttribute('role','button');q.setAttribute('aria-label',s+(p?' taş var':''));
-        if(p)q.innerHTML=`<span class="pc ${p===p.toUpperCase()?'w':'b'}">${GLY[p.toUpperCase()]}${G}</span>`;
+        if(p)q.innerHTML=`<span class="pc ${p===p.toUpperCase()?'w':'b'}">${pcSvg(p)}</span>`;
         q.onclick=()=>onTap&&onTap(s,q);q.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();onTap&&onTap(s,q)}};el.appendChild(q)}}
     el.insertAdjacentHTML('beforeend','<div></div>'+F.split('').map(f=>`<div class="coord">${f}</div>`).join(''))},
     sq:s=>el.querySelector(`[data-s="${s}"]`)};
