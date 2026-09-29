@@ -1169,8 +1169,15 @@ function mzAna(){
     N([0,10,4],[4,9,2],[6,7,2]),N([0,9,4],[4,7,2],[6,4,2]),N([0,8,4],[4,6,2],[6,8,2]),N([0,8,2],[2,6,2],[4,4,4])];
   const ton=60,gam=MZ_MAJ;
   return{bpm:100,lead:'flt',ac:'arp',kit:1,swing:0,ch,mel,mid:d=>ton+12*Math.floor(d/7)+gam[((d%7)+7)%7],ains:'mar',bas:'sine'}}
+function mzJen(){
+  const ch=[0,4,5,3,0,4,3,4,5,3,0,4,5,3,4,0];
+  const m=["7/2 9/2 11/4","9/2 8/2 6/4","7/2 9/2 12/4","12/2 11/2 10/2 9/2","7/2 9/2 11/2 14/2","13/2 12/2 11/2 9/2","10/2 12/2 10/2 9/2","6/2 8/2 11/4",
+    "12/3 12/1 14/4","14/3 12/1 10/4","11/2 9/2 7/2 9/2","11/4 13/2 11/2","12/3 12/1 14/4","14/3 15/1 16/4","15/2 13/2 11/2 8/2","7/4 9/2 11/2"].map(mzPar);
+  const ton=60,gam=MZ_MAJ;
+  return{bpm:124,lead:'kor',ac:'pulse',kit:3,swing:0,ch,mel:m,mid:d=>ton+12*Math.floor(d/7)+gam[((d%7)+7)%7],ains:'tel',bas:'triangle'}}
 function mzSpec(key){
   if(key==='ana')return mzAna();
+  if(key==='jen')return mzJen();
   const n=+key.slice(1),k=bookOf(n-1)%4,j=(n-1)%9,K=MZ_KIT[k],T=MZ_TUN[MZ_TB[k][j]];
   const gam=K.gam[j%3],ton=K.ton[j],bpm=K.bpm+[0,6,-4,10,2,8,-2,12,4][j];
   return{bpm,lead:K.ld[j%2],ac:K.ac[j%3],kit:K.kit,swing:(k>=2&&j%3===1)?1:0,ch:T.ch,mel:T.m.map(mzPar),
@@ -1235,9 +1242,9 @@ function mzCal(key){
   dongu()}
 function mzDur(){clearTimeout(MZ.timer);MZ.gen++;MZ.calan=null;MZ.bekle=null;const c=MZ.ctx;
   if(c&&MZ.tg){const o=MZ.tg;MZ.tg=null;o.gain.setTargetAtTime(0,c.currentTime,.15);setTimeout(()=>o.disconnect(),900)}}
-const MZ_UNITE=[scUnit,scVideo,scTestIntro,scQuiz,scWin];
+const MZ_UNITE=[scUnit,scVideo,scTestIntro,scQuiz,scWin],MZ_JEN=[scSplash,scLogin,scPick];
 function muzikEkran(fn,d){
-  if(fn!==scDialog){MZ.key=MZ_UNITE.includes(fn)?'u'+CU:'ana';MZ.vol=fn===scQuiz?.5:1;
+  if(fn!==scDialog){MZ.key=MZ_UNITE.includes(fn)?'u'+CU:MZ_JEN.includes(fn)?'jen':'ana';MZ.vol=fn===scQuiz?.5:1;
     if(S.muzik){if(MZ.tg&&MZ.ctx)MZ.tg.gain.setTargetAtTime(MZ.vol,MZ.ctx.currentTime,.2);mzCal(MZ.key)}}
   d.insertAdjacentHTML('beforeend',`<button class="mzbtn" onclick="muzikDugme()" aria-label="Müzik ${S.muzik?'kapat':'aç'}" title="Müzik">${muzikIkon()}</button>`)}
 const muzikIkon=()=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#3B2314" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z" fill="#3B2314"/>${S.muzik?'<path d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12"/>':'<path d="M17 9l5 6M22 9l-5 6"/>'}</svg>`;
