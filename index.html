@@ -279,7 +279,7 @@ function makeBoard(el,pos,{coords=true,onTap}={}){const F='abcdefgh';
 /* ===== SCREENS ===== */
 function scSplash(d){
   d.innerHTML=vbg()+birds()+`<div class="bg" style="background:linear-gradient(90deg,rgba(40,22,10,.55),rgba(40,22,10,0) 55%)"></div>
-   <img src="${IMG.logo}" alt="Chessigo" class="pop" style="position:absolute;left:44px;top:30px;width:262px">
+   <img src="${IMG.logo}" alt="Chessigo" class="pop" style="position:absolute;left:48px;top:30px;width:236px">
    <div style="position:absolute;left:48px;top:330px;color:#fff;font-weight:800;font-size:24px;line-height:1.2;text-shadow:0 2px 0 var(--ink)">Satranç İstanbul ile sıfırdan zirveye,<br>geleceğe doğru hamle yap</div>
    <div class="parch" style="position:absolute;left:48px;top:406px;padding:6px 12px">${rankHTML().replace('class="rank"','class="rank" style="gap:10px"')}</div>
    <button class="btn" style="position:absolute;right:40px;bottom:36px;font-size:34px;padding:8px 52px" onclick="go(S.logged?(S.av?scHome:scPick):scLogin)">Başla</button>`}
