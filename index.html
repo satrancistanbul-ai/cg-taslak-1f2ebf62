@@ -388,7 +388,7 @@ function scHome(d){
   d.innerHTML=vbg()+birds()+`
   <button class="iconbtn" style="position:absolute;left:16px;top:14px;width:52px;font-size:26px" aria-label="Menü" onclick="openPanel()">☰</button>
   <div style="position:absolute;left:0;right:16px;top:14px;display:flex;justify-content:flex-end;gap:10px;align-items:center">
-    <div class="iconbtn" style="background:var(--orange)">${S.villages}. Köy</div>
+    <div class="iconbtn" style="background:var(--orange)">${S.villages}. Ünite</div>
     <button class="iconbtn" onclick="go(scShop)">Dükkân</button>${goldbox()}<button class="iconbtn" onclick="go(scShop)">Dolabım</button></div>
   ${S.nick?`<div class="parch" style="position:absolute;left:84px;top:14px;padding:2px 14px;font-weight:800;font-size:20px;border-radius:12px">${esc(S.nick)}</div>`:''}
   <div class="platform"><div class="disc"></div><div class="disc2"></div><button class="btn go" onclick="continueGame()">${doneCount()?'Devam et':'Oyuna başla'}</button></div>
@@ -405,7 +405,7 @@ function scHome(d){
   <div class="scrim" onclick="closePanel()"></div>
   <nav class="panel" aria-label="Menü"><img src="${IMG.logo}" alt="Chessigo" style="width:110px;margin-bottom:4px">
     <button class="item" onclick="go(scPlayer,myDoc(),true)">Profilim</button>
-    <button class="item" onclick="go(scMap)">Köyüm</button>
+    <button class="item" onclick="go(scMap)">Ünitelerim</button>
     <button class="item" onclick="go(scBoard)">Liderlik tablosu</button>
     <button class="item" onclick="go(scSearch)">Oyuncu ara</button>
     <button class="item" onclick="go(scHunt)">Kare avı</button>
@@ -440,8 +440,8 @@ function scMap(d){
   pts.forEach((p,i)=>{const open=i<S.villages,done=i===0&&S.unitDone;
     if(open)flags+=`<rect x="${p.x+24}" y="${p.y-74}" width="4" height="56" fill="#4E2E14"/><path d="M${p.x+28} ${p.y-74} L${p.x+60} ${p.y-64} L${p.x+28} ${p.y-54}Z" fill="${done?'#74A64A':'#F6A12B'}" stroke="${INK}" stroke-width="2"/>`});
   const nodes=pts.map((p,i)=>{const open=i<S.villages,done=i===0&&S.unitDone;
-    return `<button class="node ${open?'':'locked'} ${done?'done':''} ${i===cur&&!done?'cur':''}" style="left:${p.x}px;top:${p.y}px" aria-label="${i+1}. köy${open?'':' kilitli'}" onclick="tapVillage(${i})">${open?(done?'✓':i+1):'🔒'}</button>
-    <div class="nodelabel" style="left:${p.x}px;top:${p.y+38}px;background:var(--wood);color:var(--yellow)">${i+1}. Köy</div>`}).join('');
+    return `<button class="node ${open?'':'locked'} ${done?'done':''} ${i===cur&&!done?'cur':''}" style="left:${p.x}px;top:${p.y}px" aria-label="${i+1}. ünite${open?'':' kilitli'}" onclick="tapVillage(${i})">${open?(done?'✓':i+1):'🔒'}</button>
+    <div class="nodelabel" style="left:${p.x}px;top:${p.y+38}px;background:var(--wood);color:var(--yellow)">${i+1}. Ünite</div>`}).join('');
   const tiles=[...Array(T)].map((_,t)=>`<div style="position:absolute;left:${t*960}px;top:0;width:960px;height:540px;background:url(${IMG.village}) center/cover;${t%2?'transform:scaleX(-1)':''}"></div>`).join('');
   d.innerHTML=`<div class="mapscroll" id="ms"><div style="position:relative;width:${W}px;height:540px;overflow:hidden">${tiles}
     <div style="position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,0) 50%,rgba(255,244,220,.25))"></div>
@@ -455,13 +455,13 @@ function scMap(d){
   ${birds()}<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button><div style="position:absolute;right:16px;top:12px">${goldbox()}</div>`;
   d.querySelector('#ms').scrollLeft=Math.max(0,pts[cur].x-300);
 }
-function tapVillage(i){if(i>=S.villages)return toast(`${i+1}. köy henüz kilitli`);if(i>0)return toast(`${i+1}. ünite yakında`);
+function tapVillage(i){if(i>=S.villages)return toast(`${i+1}. ünite henüz kilitli`);if(i>0)return toast(`${i+1}. ünite yakında`);
   const p=$('#mappawn');const b=document.createElement('div');b.className='bubble tail-down';b.style.cssText+=`left:${parseFloat(p.style.left)-10}px;top:${parseFloat(p.style.top)-66}px;font-size:21px`;
   b.textContent='Hadi başlıyoruz!';p.parentNode.appendChild(b);requestAnimationFrame(()=>b.classList.add('in'));p.innerHTML=me('yay');setTimeout(()=>go(scUnit),1300)}
 
 let LS=null;
 function scUnit(d){const L=UNIT.lessons,nx=nextLesson(),all=nx<0;
-  d.innerHTML=vbg(.35)+`<button class="iconbtn back" onclick="go(scMap)">‹ Köy</button><div style="position:absolute;right:20px;top:12px">${goldbox()}</div>
+  d.innerHTML=vbg(.35)+`<button class="iconbtn back" onclick="go(scMap)">‹ Harita</button><div style="position:absolute;right:20px;top:12px">${goldbox()}</div>
   <div class="parch" style="position:absolute;left:22px;top:66px;width:338px;padding:14px 20px">
     <div style="font-size:34px;font-weight:800;line-height:1">${UNIT.no}. Ünite</div><div style="font-size:22px;font-weight:800;color:var(--wood);margin:2px 0 6px">${esc(UNIT.title)}</div>
     <div style="font-weight:700;font-size:18px;margin-bottom:6px">${L.length} bölüm, ${L.length*3} soru</div>
@@ -498,7 +498,7 @@ function startLesson(i){const l=UNIT.lessons[i];LS={mode:'lesson',i,q:0,qs:l.qs,
   const lines=l.dlg.map(x=>x.k==='antrenor'?{w:'h',t:x.m}:{w:'n',who:PEER[x.k][0],g:PEER[x.k][1],t:x.m});
   go(scDialog,lines,()=>go(scVideo))}
 function startTest(){LS={mode:'test',i:-1,q:0,qs:TEST,ilk:0};
-  go(scDialog,[{w:'h',t:`${DATA.unite_testi.baslik} başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki köyün kapısı açılır.`},{w:'p',t:'Hazırım!',yay:true}],()=>go(scQuiz),{prop:'paper',title:DATA.unite_testi.baslik})}
+  go(scDialog,[{w:'h',t:`${DATA.unite_testi.baslik} başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.`},{w:'p',t:'Hazırım!',yay:true}],()=>go(scQuiz),{prop:'paper',title:DATA.unite_testi.baslik})}
 
 const vscreen=(t,st)=>`<div class="screenframe" style="${st}"><div class="vscreen">
     <button class="play" id="pl" aria-label="Videoyu oynat"></button>
@@ -568,16 +568,16 @@ function finishLesson(){const i=LS.i,first=!S.done[i];S.done[i]=true;S.st[i]=Mat
 function finishTest(){const n=LS.ilk,pass=n>=8;S.testBest=Math.max(S.testBest||0,n);let bonus=0;
   if(pass&&!S.testDone){S.testDone=true;bonus=DATA.altin.unite_testi_bonus;S.gold+=bonus}
   const unlock=pass&&!S.unitDone;if(unlock){S.unitDone=true;S.villages=Math.max(S.villages,2)}save();
-  const lines=pass?[{w:'h',t:`${n}/10 ilk denemede doğru. ${bonus?`+${bonus} altın kazandın! `:''}${unlock?'Sıradaki köyün kapısı açıldı.':'Testi başarıyla geçtin.'}`},{w:'p',t:'Yaşasın!',yay:true}]
+  const lines=pass?[{w:'h',t:`${n}/10 ilk denemede doğru. ${bonus?`+${bonus} altın kazandın! `:''}${unlock?'Sıradaki ünitenin kapısı açıldı.':'Testi başarıyla geçtin.'}`},{w:'p',t:'Yaşasın!',yay:true}]
    :[{w:'h',t:`${n}/10 ilk denemede doğru. Geçmek için en az 8 gerekir. Bölümleri tekrar izleyip testi yeniden deneyebilirsin, {ad}.`}];
   go(scDialog,lines,()=>go(unlock?scTransition:scUnit),{title:DATA.unite_testi.baslik,prop:'paper'})}
 function scTransition(d){const P='M180 390 C360 390 420 210 700 230';
   d.innerHTML=vbg(.1)+`<svg viewBox="0 0 960 540" width="960" height="540" style="position:absolute;inset:0"><path d="${P}" stroke="#E9D3A4" stroke-width="40" fill="none" stroke-linecap="round"/><path d="${P}" stroke="#C9A870" stroke-width="3" stroke-dasharray="12 12" fill="none"/></svg>
-   <div class="node done" style="left:180px;top:390px">✓</div><div class="nodelabel" style="left:180px;top:430px">1. Köy</div>
-   <div class="node locked" id="n2" style="left:700px;top:230px">🔒</div><div class="nodelabel" style="left:700px;top:270px">2. Köy</div>
+   <div class="node done" style="left:180px;top:390px">✓</div><div class="nodelabel" style="left:180px;top:430px">1. Ünite</div>
+   <div class="node locked" id="n2" style="left:700px;top:230px">🔒</div><div class="nodelabel" style="left:700px;top:270px">2. Ünite</div>
    <div id="tp" style="position:absolute;left:130px;top:230px;width:90px;height:148px;transition:left 2.2s ease-in-out,top 2.2s ease-in-out">${me()}</div>
-   <div id="msg" class="bubble tail-down" style="left:420px;top:30px">2. köyün kilidi açıldı!</div>
-   <button class="btn" id="cb" style="position:absolute;right:30px;bottom:24px;visibility:hidden" onclick="go(scMap)">Köy haritası</button>`;
+   <div id="msg" class="bubble tail-down" style="left:420px;top:30px">2. ünitenin kilidi açıldı!</div>
+   <button class="btn" id="cb" style="position:absolute;right:30px;bottom:24px;visibility:hidden" onclick="go(scMap)">Harita</button>`;
   setTimeout(()=>{const t=d.querySelector('#tp');t.style.left='585px';t.style.top='80px'},400);
   setTimeout(()=>{S.villages=Math.max(S.villages,2);save();const n=d.querySelector('#n2');n.className='node cur pop';n.textContent='2';d.querySelector('#tp').innerHTML=me('yay');d.querySelector('#msg').classList.add('in');const b=d.querySelector('#cb');b.style.visibility='visible';b.focus()},2700)}
 
@@ -651,7 +651,7 @@ function drawBoard(d,force){
   bl.innerHTML=list.map((p,i)=>`<button class="row" data-k="${esc(p.key)}" style="width:100%;text-align:left;margin-bottom:6px;padding:4px 12px;${p.key===mine?'background:#FFE9B0':''}">
     <div class="num" style="${i<3?`background:${['#E0B84A','#B8BEC8','#C98A4B'][i]};color:var(--ink)`:''}">${i+1}</div>${avatarMini(p)}
     <div class="t">${esc(p.nick)}${p.demo?' <small style="display:inline;color:#9a8266">(örnek)</small>':''}${p.key===mine?' <small style="display:inline;color:var(--orange-d)">(sen)</small>':''}<small>${RANKS[rankOf(p.villages||1)][1]} rütbesi</small></div>
-    <div style="text-align:right;font-weight:800;font-size:18px;line-height:1.1">${p.villages||1}. Köy<small style="display:block;font-size:14px;color:#9a8266">Seviye ${(p.done||0)+1}</small></div></button>`).join('')||'<div class="hint">Henüz oyuncu yok.</div>';
+    <div style="text-align:right;font-weight:800;font-size:18px;line-height:1.1">${p.villages||1}. Ünite<small style="display:block;font-size:14px;color:#9a8266">Seviye ${(p.done||0)+1}</small></div></button>`).join('')||'<div class="hint">Henüz oyuncu yok.</div>';
   bl.querySelectorAll('.row').forEach(r=>r.onclick=()=>{const p=list.find(x=>x.key===r.dataset.k);if(p)go(scPlayer,p)});
 }
 function scSearch(d){
@@ -659,7 +659,7 @@ function scSearch(d){
    <div class="parch" style="position:absolute;left:180px;right:180px;top:70px;padding:18px 22px">
      <div style="font-weight:800;font-size:26px;margin-bottom:6px">Oyuncu ara</div>
      <div style="display:flex;gap:10px"><input class="field" id="q" placeholder="Oyuncu adı, örn. Eken22" style="margin:0" maxlength="14"><button class="btn small" id="go">Ara</button></div>
-     <div class="hint" id="sh" style="margin-top:8px">Arkadaşının oyuncu adını yaz, hangi köyde olduğunu ve neler giydiğini gör. (Deneme için örnek: Eken22)</div>
+     <div class="hint" id="sh" style="margin-top:8px">Arkadaşının oyuncu adını yaz, hangi ünitede olduğunu ve neler giydiğini gör. (Deneme için örnek: Eken22)</div>
      <div id="sr" style="margin-top:8px;max-height:260px;overflow-y:auto"></div></div>`;
   const q=d.querySelector('#q'),sh=d.querySelector('#sh'),sr=d.querySelector('#sr');
   const run=()=>{const k=pid(q.value.trim());sr.innerHTML='';if(k.length<2){sh.textContent='En az 2 harf yaz.';return}
@@ -667,7 +667,7 @@ function scSearch(d){
     const L=all.filter(p=>p.key.startsWith(k)).slice(0,10);
     if(!L.length){sh.textContent='Bu adla bir oyuncu bulunamadı.';return}
     sh.textContent='Bunu mu demek istedin?';
-    sr.innerHTML=L.map(p=>`<button class="row" data-k="${esc(p.key)}" style="width:100%;text-align:left;margin-bottom:6px;padding:4px 12px">${avatarMini(p)}<div class="t">${esc(p.nick)}<small>${p.villages||1}. Köy</small></div></button>`).join('');
+    sr.innerHTML=L.map(p=>`<button class="row" data-k="${esc(p.key)}" style="width:100%;text-align:left;margin-bottom:6px;padding:4px 12px">${avatarMini(p)}<div class="t">${esc(p.nick)}<small>${p.villages||1}. Ünite</small></div></button>`).join('');
     sr.querySelectorAll('.row').forEach(b=>b.onclick=()=>go(scPlayer,L.find(x=>x.key===b.dataset.k)))};
   d.querySelector('#go').onclick=run;q.onkeydown=e=>{if(e.key==='Enter')run()};q.focus();
 }
@@ -680,7 +680,7 @@ function scPlayer(d,p,self){
    <div class="parch" style="position:absolute;left:380px;right:60px;top:66px;padding:18px 24px">
      <div style="font-size:34px;font-weight:800;line-height:1">${esc(p.nick)}${p.demo?' <span class="hint">(örnek oyuncu)</span>':''}</div>
      <div style="display:flex;gap:12px;margin:14px 0">
-       <div class="stat"><b>${p.villages||1}.</b><span>Köy</span></div>
+       <div class="stat"><b>${p.villages||1}.</b><span>Ünite</span></div>
        <div class="stat"><b>${(p.done||0)+1}</b><span>Seviye</span></div>
        <div class="stat"><b>${p.rekor||0}</b><span>Kare avı rekoru</span></div></div>
      <div style="font-weight:800;font-size:20px">Rütbe: ${RANKS[rankOf(p.villages||1)][1]}</div>
