@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Chessigo — Ünite 1 taslağı</title>
+<title>Chessigo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -22,6 +22,7 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 html,body{height:100%;margin:0}
 body{background:#2a1a0e;font-family:var(--font);color:var(--ink);overflow:hidden;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
 #viewport{position:relative;width:100%;height:100%;overflow:hidden}
+#boot{position:fixed;inset:0;z-index:9999;background:#2a1a0e;display:flex;align-items:center;justify-content:center;color:#FCC73C;font:800 clamp(40px,9vw,88px) "Baloo 2","Trebuchet MS",system-ui,sans-serif;letter-spacing:2px;text-shadow:0 4px 0 #3B2314}
 #stage{position:absolute;left:0;top:0;width:960px;height:540px;transform-origin:0 0;overflow:hidden;background:#8FD0EE;border-radius:18px}
 .screen{position:absolute;inset:0;overflow:hidden}
 .bg{position:absolute;inset:0;background-size:cover;background-position:center}
@@ -184,6 +185,7 @@ label.l{font-weight:700;font-size:17px}
 </style>
 </head>
 <body>
+<div id="boot">Chessigo</div>
 <div id="viewport"><div id="stage"></div></div>
 <div id="rotate"><div class="ph"></div><p>Chessigo yatay oynanır. Telefonunu yan çevir.</p>
 <button class="btn small" onclick="document.body.classList.add('force');fit()">Yine de devam et</button></div>
@@ -1254,7 +1256,7 @@ function muzikDugme(){S.muzik=!S.muzik;save();
 addEventListener('pointerdown',()=>{if(S.muzik&&MZ.ctx&&MZ.ctx.state!=='running'&&MZ.ctx.state!=='closed')mzCal(MZ.key);else if(S.muzik&&!MZ.ctx)mzCal(MZ.key)},{capture:true});
 document.addEventListener('visibilitychange',()=>{const c=MZ.ctx;if(!c)return;if(document.hidden)c.suspend();else if(S.muzik)c.resume()});
 
-if(!route())go(scSplash);addEventListener('hashchange',route);
+if(!route())go(scSplash);addEventListener('hashchange',route);requestAnimationFrame(()=>{const b=document.getElementById('boot');if(b)b.remove()});
 if(/[?&]dev/.test(location.search)){const t=document.createElement('div');t.style.cssText='position:fixed;left:6px;bottom:6px;z-index:200;display:flex;gap:6px;font:12px sans-serif';
   [['+100 altın',()=>{S.gold+=100;save();toast('+100 altın')}],['Bölümleri bitir',()=>{S.done=S.done.map(()=>true);S.st=S.st.map(()=>2);save();go(scUnit)}],['Sonraki saat',()=>{S.hourOff=(S.hourOff||0)+1;save();toast('1 saat ileri')}],['Sıfırla',()=>{S=fresh();save();go(scSplash)}]].forEach(([n,f])=>{const b=document.createElement('button');b.textContent=n;b.style.cssText='padding:3px 8px;opacity:.85';b.onclick=f;t.appendChild(b)});document.body.appendChild(t)}
 </script>
