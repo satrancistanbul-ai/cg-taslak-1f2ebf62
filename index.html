@@ -4672,7 +4672,9 @@ const BOTS=[
  {id:'ejder',ad:'Kızıl Ejder',g:'usta',lv:'2700',k:'Saldırıda durmaz.',sel:'Ateş yakmaya geliyorum!',kaz:'Ejder kazandı.',kay:'Ejderi yendin, çok büyük!',spec:{tur:'tam',nodes:33000}},
  {id:'bilge',ad:'Kadim Bilge',g:'usta',lv:'2800',k:'Her pozisyonu bilir gibi oynar.',sel:'Bu pozisyonları hep biliyorum.',kaz:'Bu oyunu önceden biliyordum.',kay:'Bilgeyi şaşırttın!',spec:{tur:'tam',nodes:100000}},
  {id:'kapi',ad:'Son Kapı Bekçisi',g:'usta',lv:'2900',k:'Antrenör\'e giden yolun son engeli.',sel:'Son kapıya hoş geldin.',kaz:'Kapı kapalı kaldı.',kay:'Son kapıyı açtın!',spec:{tur:'tam',nodes:300000}},
- {id:'antrenor',ad:'Satranç İstanbul Antrenörü',g:'ant',lv:'3000',k:'Yenilmez. Sert değil, sıcak. Maç sonunda hatanı gösterir.',sel:'Hoş geldin. Birlikte oynayalım, hatalarını sonra konuşuruz.',kaz:'İyi dayandın. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Bu maçı benimle incele.',spec:{tur:'tam',nodes:1000000}}
+ {id:'antrenor',ad:'Satranç İstanbul Antrenörü',g:'ant',lv:'3000',k:'Yenilmez. Sert değil, sıcak. Maç sonunda hatanı gösterir.',sel:'Hoş geldin. Birlikte oynayalım, hatalarını sonra konuşuruz.',kaz:'İyi dayandın. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Bu maçı benimle incele.',spec:{tur:'tam',nodes:1000000}},
+ {id:'atakan',ad:'Atakan Eken',g:'ant',lv:'3000',k:'Satranç İstanbul Kurucusu. Yenilmez, sıcak ve sabırlı.',sel:'Hoş geldin. Güzel bir oyun olsun.',kaz:'İyi dayandın. Birlikte bakalım, nerede geliştirebilirsin?',kay:'Bu mümkün değil! Harika oynadın.',spec:{tur:'tam',nodes:1000000}},
+ {id:'alikaan',ad:'Ali Kaan Özçelik',g:'ant',lv:'3000',k:'Satranç İstanbul Antrenörü. Yenilmez, hataları sakin sakin gösterir.',sel:'Hazırsan başlayalım. Sakin ve dikkatli oyna.',kaz:'Güzel mücadeleydi. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Çok iyi oynadın.',spec:{tur:'tam',nodes:1000000}}
 ];
 const BOT_BY=Object.fromEntries(BOTS.map(b=>[b.id,b]));
 const BOT_ALTIN={win:20,draw:10,loss:3,gun:60,min:10};
@@ -4721,9 +4723,10 @@ const BotMotor=(()=>{let w=null,hazir=null,dinle=null,sira=Promise.resolve();
 
 /* ===== Maç Salonu: karakter botlarla oyun ===== */
 const MAC=()=>S.mac=S.mac||{w:{},n:0,g:{d:'',n:0},ant:{best:0,beraber:0,galip:0}};
-const macAcik=i=>i<4||!!S.macAc||!!MAC().w[BOTS[i-1].id];
+const macOnceki=i=>BOTS[i].g==='ant'?BOT_BY.kapi:BOTS[i-1];
+const macAcik=i=>i<4||!!S.macAc||!!MAC().w[macOnceki(i).id];
 const macKalan=()=>{const m=MAC(),t=todayStr();if(m.g.d!==t)m.g={d:t,n:0};return Math.max(0,BOT_ALTIN.gun-m.g.n)};
-const BOT_PC={yumak:'P',tombi:'P',cik:'P',findik:'P',aras:'N',filiz:'B',koray:'R',defne:'Q',marti:'B',baykus:'N',tilki:'N',galata:'R',sisli:'B',kartal:'N',sihirbaz:'Q',golge:'B',ejder:'Q',bilge:'K',kapi:'R',antrenor:'K'};
+const BOT_PC={yumak:'P',tombi:'P',cik:'P',findik:'P',aras:'N',filiz:'B',koray:'R',defne:'Q',marti:'B',baykus:'N',tilki:'N',galata:'R',sisli:'B',kartal:'N',sihirbaz:'Q',golge:'B',ejder:'Q',bilge:'K',kapi:'R',antrenor:'K',atakan:'K',alikaan:'K'};
 const BOT_COL={yumak:'#F6A860',tombi:'#7FCB8A',cik:'#FFE066',findik:'#C99A6B',aras:'#7BC0E8',filiz:'#F2A6C8',koray:'#A9B4C0',defne:'#F5B84A'};
 const botAv=(b,sz=52)=>{const g=BOT_GRUP.find(x=>x.id===b.g),im=SPR['bot_'+b.id],p=Math.round(sz*.72);
   return im?`<img src="${im}" alt="" style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);object-fit:cover">`
@@ -4734,7 +4737,7 @@ function scMacSec(d){
   const M=MAC();
   const kart=(b,i)=>{const ac=macAcik(i),w=M.w[b.id]||0;
     return `<button class="pzc${ac?'':' lk'}" data-i="${i}" style="width:200px;height:146px">${ac?botAv(b,62):`<span style="position:relative;display:inline-block;line-height:0;margin-bottom:6px"><span style="display:inline-block;filter:grayscale(1)">${botAv(b,62)}</span><span style="position:absolute;right:-8px;bottom:-6px;background:#fff;border:2px solid var(--ink);border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center">${ico('lock',16)}</span></span>`}
-      <b>${esc(b.ad)}</b><small>${ac?`Seviye ${b.lv}${w?` · ${w} galibiyet`:''}`:`${esc(BOTS[i-1].ad)} yenilince açılır`}</small></button>`};
+      <b>${esc(b.ad)}</b><small>${ac?`Seviye ${b.lv}${w?` · ${w} galibiyet`:''}`:`${esc(macOnceki(i).ad)} yenilince açılır`}</small></button>`};
   const gr=BOT_GRUP.map(g=>{const L=BOTS.map((b,i)=>[b,i]).filter(([b])=>b.g===g.id);
     return `<div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:20px;margin:12px 0 6px;font-weight:800">${esc(g.ad)}</div><div style="display:flex;flex-wrap:wrap;gap:12px">${L.map(([b,i])=>kart(b,i)).join('')}</div>`}).join('');
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button>
@@ -4742,7 +4745,7 @@ function scMacSec(d){
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
    <div style="position:absolute;left:24px;right:24px;top:66px;bottom:12px;overflow-y:auto;scrollbar-width:none">
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;font-weight:800">Bir rakip seç ve maç yap! Rakibi yenince bir sonraki açılır. Bugün maçlardan ${macKalan()} altın daha kazanabilirsin.</div>${gr}</div>`;
-  d.querySelectorAll('.pzc[data-i]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;macAcik(i)?go(scMacKur,i):toast(`${BOTS[i-1].ad} yenilince açılır`)});
+  d.querySelectorAll('.pzc[data-i]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;macAcik(i)?go(scMacKur,i):toast(`${macOnceki(i).ad} yenilince açılır`)});
 }
 
 function scMacKur(d,i){
@@ -4822,7 +4825,7 @@ function macSonuc(s){const G0=MG,M=MAC(),b=G0.bot;let earn=0,acildi=null;
   if(uygun){let a=s==='win'?BOT_ALTIN.win:s==='draw'?BOT_ALTIN.draw:BOT_ALTIN.loss;if(G0.ipUsed&&s!=='loss')a=Math.floor(a/2);
     earn=Math.min(a,macKalan());if(earn){M.g.n+=earn;S.gold+=earn}}
   M.n++;
-  if(s==='win'){const ilk=!M.w[b.id];M.w[b.id]=(M.w[b.id]||0)+1;if(ilk&&G0.i+1<BOTS.length)acildi=BOTS[G0.i+1]}
+  if(s==='win'){const ilk=!M.w[b.id];M.w[b.id]=(M.w[b.id]||0)+1;if(ilk&&b.id==='kapi')acildi={ad:'Final rakipleri'};else if(ilk&&G0.i+1<BOTS.length&&BOTS[G0.i+1].g!=='ant')acildi=BOTS[G0.i+1]}
   if(b.g==='ant'){M.ant.best=Math.max(M.ant.best,G0.mv);if(s==='draw')M.ant.beraber++;if(s==='win')M.ant.galip++}
   save();return{s,earn,acildi,uygun,mv:G0.mv,i:G0.i}}
 
@@ -4830,8 +4833,8 @@ function scMacSon(d,r){
   const b=BOTS[r.i],M=MAC(),ant=b.g==='ant';
   const baslik=r.s==='win'?'Kazandın!':r.s==='draw'?'Berabere!':'Bu sefer olmadı';
   const soz=r.s==='win'?b.kay:b.kaz;
-  const ek=ant?`<div class="hint" style="margin-top:6px;font-size:17px">${r.mv>=20?'Rozet: Antrenör\'e karşı 20 hamle dayandın!':`Antrenör'e karşı ${r.mv} hamle dayandın. 20 hamle dayanırsan rozet kazanırsın.`}</div>`:'';
-  const onceki=r.s==='loss'&&r.i>0?`<button class="btn alt" id="kolay">${esc(BOTS[r.i-1].ad)} ile dene</button>`:'';
+  const ek=ant?`<div class="hint" style="margin-top:6px;font-size:17px">${r.mv>=20?'Rozet: Final rakibine karşı 20 hamle dayandın!':`Final rakibine karşı ${r.mv} hamle dayandın. 20 hamle dayanırsan rozet kazanırsın.`}</div>`:'';
+  const onceki=r.s==='loss'&&r.i>0?`<button class="btn alt" id="kolay">${esc(macOnceki(r.i).ad)} ile dene</button>`:'';
   d.innerHTML=vbg(.5)+`<div class="parch" style="position:absolute;left:150px;right:150px;top:60px;padding:22px 30px;text-align:center">
     <div style="display:flex;justify-content:center;margin-bottom:6px">${botAv(b,96)}</div>
     <div style="font-weight:800;font-size:36px;line-height:1.05">${baslik}</div>
@@ -4840,7 +4843,7 @@ function scMacSon(d,r){
     ${r.acildi?`<div style="font-weight:800;font-size:20px;margin-top:6px;color:var(--grass-d)">Yeni rakip açıldı: ${esc(r.acildi.ad)}</div>`:''}${ek}
     <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap"><button class="btn" id="tek">Tekrar oyna</button>${onceki}<button class="btn alt" id="sec">Rakip seç</button></div></div>`;
   d.querySelector('#tek').onclick=()=>go(scMacKur,r.i);d.querySelector('#sec').onclick=()=>go(scMacSec);
-  const k=d.querySelector('#kolay');if(k)k.onclick=()=>go(scMacKur,r.i-1);
+  const k=d.querySelector('#kolay');if(k)k.onclick=()=>go(scMacKur,BOTS.indexOf(macOnceki(r.i)));
 }
 
 if(!route())go(scSplash);addEventListener('hashchange',route);requestAnimationFrame(()=>{const b=document.getElementById('boot');if(b)b.remove()});
