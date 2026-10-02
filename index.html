@@ -4673,8 +4673,8 @@ const BOTS=[
  {id:'bilge',ad:'Kadim Bilge',g:'usta',lv:'2800',k:'Her pozisyonu bilir gibi oynar.',sel:'Bu pozisyonları hep biliyorum.',kaz:'Bu oyunu önceden biliyordum.',kay:'Bilgeyi şaşırttın!',spec:{tur:'tam',nodes:100000}},
  {id:'kapi',ad:'Son Kapı Bekçisi',g:'usta',lv:'2900',k:'Antrenör\'e giden yolun son engeli.',sel:'Son kapıya hoş geldin.',kaz:'Kapı kapalı kaldı.',kay:'Son kapıyı açtın!',spec:{tur:'tam',nodes:300000}},
  {id:'antrenor',ad:'Satranç İstanbul Antrenörü',g:'ant',lv:'3000',k:'Yenilmez. Sert değil, sıcak. Maç sonunda hatanı gösterir.',sel:'Hoş geldin. Birlikte oynayalım, hatalarını sonra konuşuruz.',kaz:'İyi dayandın. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Bu maçı benimle incele.',spec:{tur:'tam',nodes:1000000}},
- {id:'atakan',ad:'Atakan Eken',g:'ant',lv:'3000',k:'Satranç İstanbul Kurucusu. Yenilmez, sıcak ve sabırlı.',sel:'Hoş geldin. Güzel bir oyun olsun.',kaz:'İyi dayandın. Birlikte bakalım, nerede geliştirebilirsin?',kay:'Bu mümkün değil! Harika oynadın.',spec:{tur:'tam',nodes:1000000}},
- {id:'alikaan',ad:'Ali Kaan Özçelik',g:'ant',lv:'3000',k:'Satranç İstanbul Antrenörü. Yenilmez, hataları sakin sakin gösterir.',sel:'Hazırsan başlayalım. Sakin ve dikkatli oyna.',kaz:'Güzel mücadeleydi. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Çok iyi oynadın.',spec:{tur:'tam',nodes:1000000}}
+ {id:'alikaan',ad:'Ali Kaan Özçelik',g:'ant',ro:'Antrenörümüz',lv:'3000',k:'Satranç İstanbul Antrenörü. Yenilmez, hataları sakin sakin gösterir.',sel:'Hazırsan başlayalım. Sakin ve dikkatli oyna.',kaz:'Güzel mücadeleydi. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Çok iyi oynadın.',spec:{tur:'tam',nodes:1000000}},
+ {id:'atakan',ad:'Atakan Eken',g:'ant',ro:'Kurucumuz',lv:'3000',k:'Satranç İstanbul Kurucusu. Yenilmez, sıcak ve sabırlı.',sel:'Hoş geldin. Güzel bir oyun olsun.',kaz:'İyi dayandın. Birlikte bakalım, nerede geliştirebilirsin?',kay:'Bu mümkün değil! Harika oynadın.',spec:{tur:'tam',nodes:1000000}}
 ];
 const BOT_BY=Object.fromEntries(BOTS.map(b=>[b.id,b]));
 const BOT_ALTIN={win:20,draw:10,loss:3,gun:60,min:10};
@@ -4737,7 +4737,7 @@ function scMacSec(d){
   const M=MAC();
   const kart=(b,i)=>{const ac=macAcik(i),w=M.w[b.id]||0;
     return `<button class="pzc${ac?'':' lk'}" data-i="${i}" style="width:200px;height:146px">${ac?botAv(b,62):`<span style="position:relative;display:inline-block;line-height:0;margin-bottom:6px"><span style="display:inline-block;filter:grayscale(1)">${botAv(b,62)}</span><span style="position:absolute;right:-8px;bottom:-6px;background:#fff;border:2px solid var(--ink);border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center">${ico('lock',16)}</span></span>`}
-      <b>${esc(b.ad)}</b><small>${ac?`Seviye ${b.lv}${w?` · ${w} galibiyet`:''}`:`${esc(macOnceki(i).ad)} yenilince açılır`}</small></button>`};
+      <b>${esc(b.ad)}</b><small>${ac?`${b.ro?b.ro+' · ':''}Seviye ${b.lv}${w?` · ${w} galibiyet`:''}`:`${esc(macOnceki(i).ad)} yenilince açılır`}</small></button>`};
   const gr=BOT_GRUP.map(g=>{const L=BOTS.map((b,i)=>[b,i]).filter(([b])=>b.g===g.id);
     return `<div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:20px;margin:12px 0 6px;font-weight:800">${esc(g.ad)}</div><div style="display:flex;flex-wrap:wrap;gap:12px">${L.map(([b,i])=>kart(b,i)).join('')}</div>`}).join('');
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button>
@@ -4753,7 +4753,7 @@ function scMacKur(d,i){
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scMacSec)">‹ Rakipler</button>
    <div class="parch" style="position:absolute;left:60px;top:70px;width:300px;height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:16px">
      ${botAv(b,130)}<div style="font-weight:800;font-size:28px;line-height:1.05">${esc(b.ad)}</div>
-     <span class="chip ink" style="font-size:16px;line-height:24px">Seviye ${b.lv}</span><div class="hint" style="font-size:17px">${esc(b.k)}</div></div>
+     <span class="chip ink" style="font-size:16px;line-height:24px">${b.ro?b.ro+' · ':''}Seviye ${b.lv}</span><div class="hint" style="font-size:17px">${esc(b.k)}</div></div>
    <div class="parch" style="position:absolute;left:390px;right:60px;top:70px;padding:20px 26px">
      <div style="font-weight:800;font-size:22px;margin-bottom:12px;color:var(--orange-d)">“${esc(b.sel)}”</div>
      <div style="font-weight:800;font-size:20px;margin-bottom:6px">Hangi renkle oynarsın?</div>
@@ -4777,7 +4777,7 @@ function scMac(d){
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
    <div style="position:absolute;left:150px;top:26px;transform:scale(1.2);transform-origin:top left"><div class="bframe"><div class="board" id="bd"></div></div></div>
    <div class="parch" style="position:absolute;left:590px;right:20px;top:70px;bottom:20px;padding:12px 14px;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center">
-     ${botAv(b,76)}<div style="font-weight:800;font-size:22px;line-height:1.05">${esc(b.ad)}</div><span class="chip ink">Seviye ${b.lv}</span>
+     ${botAv(b,76)}<div style="font-weight:800;font-size:22px;line-height:1.05">${esc(b.ad)}</div><span class="chip ink">${b.ro?b.ro+' · ':''}Seviye ${b.lv}</span>
      <div id="durum" style="font-weight:800;font-size:19px;min-height:48px;margin-top:6px"></div>
      <div class="hint" id="son" style="min-height:20px"></div>
      <div style="flex:1"></div>
