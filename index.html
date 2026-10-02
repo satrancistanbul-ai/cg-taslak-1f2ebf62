@@ -4739,7 +4739,7 @@ function scMacSec(d){
    <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Maç Salonu</span></div>
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
    <div style="position:absolute;left:24px;right:24px;top:66px;bottom:12px;overflow-y:auto;scrollbar-width:none">
-     <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;font-weight:800">Bir rakip seç ve maç yap! Rakibi yenince bir sonraki açılır. Bugün maçlardan ${macKalan()} altın daha kazanabilirsin.</div>${gr}<div class="hint" style="color:#fff;text-shadow:0 1px 0 var(--ink);font-size:13px;margin:14px 0 4px">Rakipler, GPL-3.0 lisanslı Stockfish satranç motoruyla cihazında çalışır.</div></div>`;
+     <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;font-weight:800">Bir rakip seç ve maç yap! Rakibi yenince bir sonraki açılır. Bugün maçlardan ${macKalan()} altın daha kazanabilirsin.</div>${gr}</div>`;
   d.querySelectorAll('.pzc[data-i]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;macAcik(i)?go(scMacKur,i):toast(`${BOTS[i-1].ad} yenilince açılır`)});
 }
 
