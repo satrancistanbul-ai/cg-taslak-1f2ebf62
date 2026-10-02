@@ -4724,15 +4724,16 @@ const MAC=()=>S.mac=S.mac||{w:{},n:0,g:{d:'',n:0},ant:{best:0,beraber:0,galip:0}
 const macAcik=i=>i<4||!!S.macAc||!!MAC().w[BOTS[i-1].id];
 const macKalan=()=>{const m=MAC(),t=todayStr();if(m.g.d!==t)m.g={d:t,n:0};return Math.max(0,BOT_ALTIN.gun-m.g.n)};
 const BOT_PC={yumak:'P',tombi:'P',cik:'P',findik:'P',aras:'N',filiz:'B',koray:'R',defne:'Q',marti:'B',baykus:'N',tilki:'N',galata:'R',sisli:'B',kartal:'N',sihirbaz:'Q',golge:'B',ejder:'Q',bilge:'K',kapi:'R',antrenor:'K'};
+const BOT_COL={yumak:'#F6A860',tombi:'#7FCB8A',cik:'#FFE066',findik:'#C99A6B',aras:'#7BC0E8',filiz:'#F2A6C8',koray:'#A9B4C0',defne:'#F5B84A'};
 const botAv=(b,sz=52)=>{const g=BOT_GRUP.find(x=>x.id===b.g),im=SPR['bot_'+b.id],p=Math.round(sz*.72);
   return im?`<img src="${im}" alt="" style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);object-fit:cover">`
-  :`<span style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);background:${g.col};display:inline-flex;align-items:center;justify-content:center;flex:none"><span class="pc ${b.g==='usta'?'w':'b'}" style="width:${p}px;height:${p}px">${pcSvg(BOT_PC[b.id]).replace('<svg','<svg style="width:'+p+'px;height:'+p+'px"')}</span></span>`};
+  :`<span style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);background:${BOT_COL[b.id]||g.col};display:inline-flex;align-items:center;justify-content:center;flex:none"><span class="pc ${b.g==='usta'?'w':'b'}" style="width:${p}px;height:${p}px">${pcSvg(BOT_PC[b.id]).replace('<svg','<svg style="width:'+p+'px;height:'+p+'px"')}</span></span>`};
 let MG=null;
 
 function scMacSec(d){
   const M=MAC();
   const kart=(b,i)=>{const ac=macAcik(i),w=M.w[b.id]||0;
-    return `<button class="pzc${ac?'':' lk'}" data-i="${i}" style="width:200px;height:132px">${ac?botAv(b,48):`<span class="ic" style="background:#dcd6c6">${ico('lock',26)}</span>`}
+    return `<button class="pzc${ac?'':' lk'}" data-i="${i}" style="width:200px;height:132px">${ac?botAv(b,48):`<span style="position:relative;display:inline-block;line-height:0;margin-bottom:6px"><span style="display:inline-block;filter:grayscale(1)">${botAv(b,48)}</span><span style="position:absolute;right:-8px;bottom:-6px;background:#fff;border:2px solid var(--ink);border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center">${ico('lock',16)}</span></span>`}
       <b>${esc(b.ad)}</b><small>${ac?`Seviye ${b.lv}${w?` · ${w} galibiyet`:''}`:`${esc(BOTS[i-1].ad)} yenilince açılır`}</small></button>`};
   const gr=BOT_GRUP.map(g=>{const L=BOTS.map((b,i)=>[b,i]).filter(([b])=>b.g===g.id);
     return `<div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:20px;margin:12px 0 6px;font-weight:800">${esc(g.ad)}</div><div style="display:flex;flex-wrap:wrap;gap:12px">${L.map(([b,i])=>kart(b,i)).join('')}</div>`}).join('');
