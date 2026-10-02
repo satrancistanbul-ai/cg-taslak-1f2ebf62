@@ -4723,9 +4723,10 @@ const BotMotor=(()=>{let w=null,hazir=null,dinle=null,sira=Promise.resolve();
 const MAC=()=>S.mac=S.mac||{w:{},n:0,g:{d:'',n:0},ant:{best:0,beraber:0,galip:0}};
 const macAcik=i=>i<4||!!S.macAc||!!MAC().w[BOTS[i-1].id];
 const macKalan=()=>{const m=MAC(),t=todayStr();if(m.g.d!==t)m.g={d:t,n:0};return Math.max(0,BOT_ALTIN.gun-m.g.n)};
-const botAv=(b,sz=52)=>{const g=BOT_GRUP.find(x=>x.id===b.g),im=SPR['bot_'+b.id];
+const BOT_PC={yumak:'P',tombi:'P',cik:'P',findik:'P',aras:'N',filiz:'B',koray:'R',defne:'Q',marti:'B',baykus:'N',tilki:'N',galata:'R',sisli:'B',kartal:'N',sihirbaz:'Q',golge:'B',ejder:'Q',bilge:'K',kapi:'R',antrenor:'K'};
+const botAv=(b,sz=52)=>{const g=BOT_GRUP.find(x=>x.id===b.g),im=SPR['bot_'+b.id],p=Math.round(sz*.72);
   return im?`<img src="${im}" alt="" style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);object-fit:cover">`
-  :`<span style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);background:${g.col};display:inline-flex;align-items:center;justify-content:center;font-size:${Math.round(sz*.58)}px;font-family:'Segoe UI Symbol','Noto Sans Symbols 2','DejaVu Sans',serif;color:var(--ink)">${g.gl}${G}</span>`};
+  :`<span style="width:${sz}px;height:${sz}px;border-radius:50%;border:3px solid var(--ink);background:${g.col};display:inline-flex;align-items:center;justify-content:center;flex:none"><span class="pc ${b.g==='usta'?'w':'b'}" style="width:${p}px;height:${p}px">${pcSvg(BOT_PC[b.id]).replace('<svg','<svg style="width:'+p+'px;height:'+p+'px"')}</span></span>`};
 let MG=null;
 
 function scMacSec(d){
