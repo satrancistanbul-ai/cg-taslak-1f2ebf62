@@ -263,6 +263,7 @@ const rankIdx=()=>rankOf(S.villages);
 const rankHTML=()=>`<div class="rank">${RANKS.map((r,i)=>`<i class="${i===rankIdx()?'on':''}" title="${r[1]}">${r[0]}${G}</i>`).join('')}</div>`;
 function go(fn,...a){stage.innerHTML='';const d=document.createElement('div');d.className='screen';stage.appendChild(d);fn(d,...a);muzikEkran(fn,d)}
 const vbg=(dim=0)=>`<div class="bg" style="background-image:${dim?`linear-gradient(rgba(40,22,10,${dim}),rgba(40,22,10,${dim})),`:''}url(${IMG.village})"></div>`;
+const sbg=()=>`<div class="bg" style="background-image:url(${IMG.classroom});background-size:1920px 1080px;background-position:-528px -312px"></div>`;
 const cbg=(dim=0)=>`<div class="bg" style="background-image:${dim?`linear-gradient(rgba(40,22,10,${dim}),rgba(40,22,10,${dim})),`:''}url(${IMG.classroom})"></div>`;
 
 /* ===== BOARD ===== */
@@ -338,7 +339,7 @@ let LS=null;
 /* Diyalog: antrenör tahtanın önünde, oyuncu köşede portre */
 function scDialog(d,lines,next,opts={}){
   const title=opts.title||(LS&&LS.mode==='lesson'?UNIT.lessons[LS.i].t:'Chessigo');
-  d.innerHTML=`<div class="bg" style="background-image:url(${IMG.classroom});background-size:1920px 1080px;background-position:-528px -312px"></div>
+  d.innerHTML=sbg()+`
    <div style="position:absolute;left:320px;top:334px;width:300px;text-align:center;color:#EAF4EC;font-weight:700;font-size:20px;line-height:1.15;font-family:'Comic Sans MS','Baloo 2',cursive;opacity:.92">${esc(title)}</div>
    <div style="position:absolute;left:590px;top:222px;width:270px;height:365px">${hoca(opts.prop||'')}</div>
    <img src="${IMG.table}" alt="" style="position:absolute;left:470px;top:400px;width:520px;z-index:2">
@@ -367,10 +368,11 @@ const vscreen=(t,st)=>`<div class="screenframe" style="${st}"><div class="vscree
 function simVideo(d,akis,done){d.querySelector('#pl').onclick=e=>{e.currentTarget.style.visibility='hidden';const vt=d.querySelector('#vt'),vp=d.querySelector('#vp'),ab=d.querySelector('#ab');let t=0;
   const iv=setInterval(()=>{if(!vp.isConnected)return clearInterval(iv);t+=2;vp.style.width=t+'%';vt.textContent=akis[Math.min(akis.length-1,Math.floor(t/100*akis.length))];
     if(t>=100){clearInterval(iv);vt.textContent='Video bitti!';if(ab)ab.innerHTML='<b class="who">Satranç İstanbul Antrenörü</b>Harika! Şimdi öğrendiklerini deneyelim.';done()}},90)}}
-const CLASSVIDEO=(title,v,back,btn)=>cbg(.15)+`<button class="iconbtn back" onclick="${back}">‹ Geri</button>
+const CLASSVIDEO=(title,v,back,btn)=>sbg()+`<button class="iconbtn back" onclick="${back}">‹ Geri</button>
   <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 16px;font-weight:800;font-size:22px;border-radius:12px;border-width:3px">${esc(title)}</span></div>
   ${vscreen(`${esc(v.baslik)}<br><small style="opacity:.75;font-weight:600">${esc(v.sure)} · antrenörün ders videosu burada oynayacak</small>`,'left:34px;top:70px;width:600px;height:338px')}
-  <div style="position:absolute;left:668px;top:190px;width:250px;height:338px" class="float">${hoca()}</div>
+  <div style="position:absolute;left:668px;top:250px;width:250px;height:338px">${hoca()}</div>
+  <img src="${IMG.table}" alt="" style="position:absolute;left:560px;top:430px;width:480px;z-index:2">
   <div id="ab" class="bubble tail-down in" style="right:24px;top:70px;max-width:290px;font-size:20px"><b class="who">Satranç İstanbul Antrenörü</b>Şimdi bu konuyu birlikte izleyelim. Oynat tuşuna dokun.</div>${btn}`;
 function scVideo(d){const l=UNIT.lessons[LS.i];
   d.innerHTML=CLASSVIDEO(`${LS.i+1}. ${l.t}`,l.video,'go(scUnit)',`<button class="btn" id="tt" style="position:absolute;left:34px;bottom:18px" disabled onclick="go(scTestIntro)">Teste geç</button>
@@ -4431,8 +4433,8 @@ function scWin(d,info){
 
 /* ===== Seviye tespiti: 6 bant x 3 soru; ilk kaçırılan bandın ünitesinden başlar ===== */
 function scPlaceIntro(d){
-  d.innerHTML=cbg(.1)+`<div style="position:absolute;left:600px;top:150px;width:250px;height:338px" class="float">${hoca()}</div>
-   <img src="${IMG.table}" alt="" style="position:absolute;left:470px;top:400px;width:520px">
+  d.innerHTML=sbg()+`<div style="position:absolute;left:600px;top:222px;width:270px;height:365px">${hoca()}</div>
+   <img src="${IMG.table}" alt="" style="position:absolute;left:470px;top:400px;width:520px;z-index:2">
    <div class="bubble tail-right in" style="right:370px;top:56px;max-width:470px"><b class="who">Satranç İstanbul Antrenörü</b>Merhaba ${esc(S.nick||'şampiyon')}! Satrancı ne kadar biliyorsun? Birkaç kısa soruyla seviyeni ölçelim, seni doğru üniteden başlatayım. Puan yok, sadece seni tanımak istiyorum. Bilmediğin soruda üzülme!</div>
    <div style="position:absolute;left:18px;bottom:14px;width:190px;height:190px;overflow:hidden;border-radius:26px;border:4px solid var(--ink);background:linear-gradient(#FFF4DC,#EBD7AE)"><div style="position:absolute;left:5px;top:10px;width:180px;height:298px">${me()}</div></div>
    <div style="position:absolute;left:236px;bottom:26px;display:flex;flex-direction:column;gap:12px;align-items:flex-start">
@@ -4447,7 +4449,8 @@ function placeBandEnd(){const pass=LS.ilk>=PLACE.gecme;
   go(scPlaceResult,pass?PLACE.tum_bantlar_sonrasi_unite:PLACE.bantlar[LS.band-1].baslangic_unite)}
 function scPlaceResult(d,start){
   const u=UNITS[start-1],first=start===1;
-  d.innerHTML=cbg(.15)+`<div style="position:absolute;left:60px;top:120px;width:230px;height:380px" class="float">${me('yay')}</div>
+  d.innerHTML=sbg()+`<div style="position:absolute;left:60px;top:205px;width:230px;height:380px">${me('yay')}</div>
+   <img src="${IMG.table}" alt="" style="position:absolute;left:-60px;top:430px;width:480px;z-index:2">
    <div class="parch pop" style="position:absolute;left:330px;top:70px;width:560px;padding:20px 28px;text-align:center">
      <div style="font-weight:800;font-size:20px;color:var(--orange-d)">Seviye tespiti tamam!</div>
      <div style="font-weight:800;font-size:54px;line-height:1.05;margin:4px 0 0">${start}. Ünite</div>
