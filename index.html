@@ -414,7 +414,7 @@ function scQuiz(d){
   const nb=`<button class="btn" id="nx" style="position:absolute;right:26px;bottom:18px;visibility:hidden;z-index:4" onclick="nextQ()">${puz?'Sonraki bulmaca':place?(last?'Sonucu gör':'Sonraki soru'):last?(test?'Testi bitir':'Bölümü bitir'):'Sonraki soru'}</button>`;
   function win(el){if(solved)return;solved=true;let earn=0;if(tries===0)LS.ilk++;
     if(puz){if(tries===0)earn=pzEarn();LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
-    else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
+    else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]&&!S.done[LS.i]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
     fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
     if(earn)flyCoin(el,earn);save();const n=d.querySelector('#nx');n.style.visibility='visible';n.focus()}
   function lose(el,msg){
