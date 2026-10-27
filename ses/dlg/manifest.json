@@ -71,6 +71,12 @@
   "dosya": "0451dc392f938ffe.mp3",
   "sure": 2.32
  },
+ "06077e127f001d02": {
+  "k": "antrenor",
+  "m": "{ad}, vezir hem kale hem fil gibi gider. Yani şişi hem düz hem çapraz çizgide yapabilir.",
+  "dosya": "06077e127f001d02.mp3",
+  "sure": 7.34
+ },
  "064d7e764fd01755": {
   "k": "antrenor",
   "m": "Dur Pars. Önce şah çeken hamleleri say, sonra her birinde kaçış, alma, araya girme kontrolü yap.",
@@ -131,6 +137,12 @@
   "dosya": "09930605cedabd0c.mp3",
   "sure": 6.95
  },
+ "09d35bf1dcb7462e": {
+  "k": "pars",
+  "m": "Şah kaçmak zorunda olduğu için arkadaki taşı kurtaramaz!",
+  "dosya": "09d35bf1dcb7462e.mp3",
+  "sure": 3.19
+ },
  "0a0088b014e437ea": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Notasyon ve Turnuva Kuralları Testi seni bekliyor.",
@@ -149,11 +161,29 @@
   "dosya": "0aa233c052721aa8.mp3",
   "sure": 1.8
  },
+ "0b8688891847b7af": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Vezir hem kale hem fil gibi gidebildiği için en çok yönlü şiş yapan taştır.",
+  "dosya": "0b8688891847b7af.mp3",
+  "sure": 6.64
+ },
+ "0c24ff44008922f4": {
+  "k": "antrenor",
+  "m": "Evet. Kale, fil ya da vezir öndeki değerli taşa saldırır. O kaçınca arkasındaki taşı alır. Buna şiş denir.",
+  "dosya": "0c24ff44008922f4.mp3",
+  "sure": 8.2
+ },
  "0ca287a53676be34": {
   "k": "damla",
   "m": "Vezirden bile mi önemli?",
   "dosya": "0ca287a53676be34.mp3",
   "sure": 1.91
+ },
+ "0d9d84fa983ff696": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? İyi oyuncu yalnız şiş yapmaz; rakibin şişini önceden görüp taşını çizgiden çıkarır.",
+  "dosya": "0d9d84fa983ff696.mp3",
+  "sure": 7.89
  },
  "0dd1fc411fca31be": {
   "k": "antrenor",
@@ -172,6 +202,12 @@
   "m": "Dördüncü altın kural: şahını güvene al. En kolay yolu rok.",
   "dosya": "0ef8bafcdf79136d.mp3",
   "sure": 4.36
+ },
+ "0f7bc84073a32a15": {
+  "k": "antrenor",
+  "m": "Arkasında da rakip taş varsa evet. Önde kendi taşın varsa, arkada rakip taş durduğunda X-ışını olur.",
+  "dosya": "0f7bc84073a32a15.mp3",
+  "sure": 7.84
  },
  "1042c99cec8b0860": {
   "k": "antrenor",
@@ -413,6 +449,12 @@
   "dosya": "216aabedc251d43a.mp3",
   "sure": 2.51
  },
+ "224a766ba0ee3e70": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? X-ışını, kendi taşının arkasından rakip taşa bakmaktır; öndeki taş çekilince saldırı başlar.",
+  "dosya": "224a766ba0ee3e70.mp3",
+  "sure": 7.76
+ },
  "229c6eb896fbb254": {
   "k": "antrenor",
   "m": "Güzel soru {ad}! Ona geçerken alma diyoruz. Sanki tek kare gitmiş gibi onu alabilirsin.",
@@ -431,6 +473,12 @@
   "dosya": "23168410c76ac9ed.mp3",
   "sure": 6.22
  },
+ "23492cafe9ac1c1f": {
+  "k": "pars",
+  "m": "Rakip şiş yapacaksa ben taşımı çizgiden çıkarırım!",
+  "dosya": "23492cafe9ac1c1f.mp3",
+  "sure": 3.29
+ },
  "24545403c5340bae": {
   "k": "antrenor",
   "m": "Tahtaya bakarken iki soru sor, {ad}: Bu taş neye saldırıyor? Bana kim saldırıyor?",
@@ -442,6 +490,12 @@
   "m": "Hocam, piyon ilk hamlesinde iki kare gidebiliyordu. Yanımdaki piyonu böyle geçerse ne olur?",
   "dosya": "24620f70e7f3eeb1.mp3",
   "sure": 5.43
+ },
+ "2495ca8246f2e159": {
+  "k": "damla",
+  "m": "Önde bir taş, arkasında bir taş mı hocam?",
+  "dosya": "2495ca8246f2e159.mp3",
+  "sure": 2.04
  },
  "24aba4fee9420913": {
   "k": "antrenor",
@@ -490,6 +544,12 @@
   "m": "Piyon ucuz, taşlar pahalı. Çok kazandırır!",
   "dosya": "29476a9146ec58ab.mp3",
   "sure": 2.87
+ },
+ "2ac97fcbeda1b17f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şiş, kebap şişi gibidir: iki taş aynı çizgide art arda dizilir, öndeki kaçınca arkadaki alınır.",
+  "dosya": "2ac97fcbeda1b17f.mp3",
+  "sure": 9.09
  },
  "2b2514cc173f4650": {
   "k": "antrenor",
@@ -575,6 +635,18 @@
   "dosya": "2f0565aa5d39841d.mp3",
   "sure": 7.05
  },
+ "2f13eb97e2be5cfb": {
+  "k": "damla",
+  "m": "Önde rakip taş varsa şiş mi?",
+  "dosya": "2f13eb97e2be5cfb.mp3",
+  "sure": 1.85
+ },
+ "2fb66a5afafcdc21": {
+  "k": "antrenor",
+  "m": "Olur; buna göreli şiş diyoruz. Öndeki taş vezir ya da kale gibi değerli bir taştır. O kaçınca arkadakini alırız.",
+  "dosya": "2fb66a5afafcdc21.mp3",
+  "sure": 8.25
+ },
  "30200cb711376ff3": {
   "k": "pars",
   "m": "Korumak ne demek?",
@@ -634,6 +706,12 @@
   "m": "O zaman bir piyonu ileri oynayıp şaha nefes alacak yer açmalıyım.",
   "dosya": "32dd1cca00776695.mp3",
   "sure": 3.79
+ },
+ "334954589d74e77b": {
+  "k": "antrenor",
+  "m": "Aynen. Buna mutlak şiş diyoruz: öndeki taş şahtır.",
+  "dosya": "334954589d74e77b.mp3",
+  "sure": 4.02
  },
  "337c5e9158468621": {
   "k": "damla",
@@ -833,6 +911,12 @@
   "dosya": "3fbfe94097fc35fa.mp3",
   "sure": 4.91
  },
+ "3fc3372b43ecdea1": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahın önünde şiş varsa şah mutlaka kaçmak zorundadır; arkadaki taş bedava düşer.",
+  "dosya": "3fc3372b43ecdea1.mp3",
+  "sure": 7.47
+ },
  "40f808d620f93359": {
   "k": "antrenor",
   "m": "Biliyor muydun? Kale ile kale, vezir ile vezir gibi aynı puandaki taşların takası eşit takastır: kimse kazanmaz.",
@@ -977,6 +1061,12 @@
   "dosya": "4950f472c82a8a7b.mp3",
   "sure": 7.18
  },
+ "4976c4cca44d0b66": {
+  "k": "antrenor",
+  "m": "{ad}, şişin en güçlü hali şah önde dururken olur.",
+  "dosya": "4976c4cca44d0b66.mp3",
+  "sure": 4.31
+ },
  "498ad914f06d76d0": {
   "k": "damla",
   "m": "En ünlüsü pat, değil mi?",
@@ -994,6 +1084,12 @@
   "m": "Tehdit gelirse de h piyonuyla vezirin yolunu kapatabilirim.",
   "dosya": "4b62cd5d3cc368a0.mp3",
   "sure": 3.29
+ },
+ "4b900be4efb554c4": {
+  "k": "antrenor",
+  "m": "Aynen. Önce çizgiyi tanı, sonra güvenli hamleni seç.",
+  "dosya": "4b900be4efb554c4.mp3",
+  "sure": 4.36
  },
  "4baf81f342ed5847": {
   "k": "antrenor",
@@ -1114,6 +1210,12 @@
   "m": "Kale de şahın yanına geliyor değil mi?",
   "dosya": "5551fea936b9114e.mp3",
   "sure": 2.12
+ },
+ "55914b7c9e5c2d69": {
+  "k": "damla",
+  "m": "Kendi taşının arkasını mı hocam?",
+  "dosya": "55914b7c9e5c2d69.mp3",
+  "sure": 2.22
  },
  "55f2ef9ff6872e10": {
   "k": "antrenor",
@@ -1403,6 +1505,12 @@
   "dosya": "6d2b20beeb4e1dab.mp3",
   "sure": 6.4
  },
+ "6d8b08a9f1976810": {
+  "k": "damla",
+  "m": "Öndeki taş şah değilse de şiş olur mu hocam?",
+  "dosya": "6d8b08a9f1976810.mp3",
+  "sure": 2.4
+ },
  "6d924cb8141e2b49": {
   "k": "antrenor",
   "m": "Biliyor muydun? Mat ararken önce şah çeken hamleleri say; sonra hangisinde şahın kaçışı kalmadığına bak!",
@@ -1541,6 +1649,12 @@
   "dosya": "7956387dc08042c6.mp3",
   "sure": 2.53
  },
+ "7982f89deecd80ec": {
+  "k": "antrenor",
+  "m": "{ad}, kebap şişini düşün: etler art arda dizilir. Satrançta da iki taş aynı çizgide art arda durabilir.",
+  "dosya": "7982f89deecd80ec.mp3",
+  "sure": 7.84
+ },
  "7993950a8ccc102e": {
   "k": "antrenor",
   "m": "Biliyor muydun? Korumalı taşı almadan önce say: kaç saldırgan, kaç koruyucu var? Alırken hep en az puanlı taşınla başla.",
@@ -1570,6 +1684,12 @@
   "m": "Biliyor muydun? Vezir 9 puanla en değerli taştır. Kale 5 puandır: bir at ile iki piyon kadar (3 + 1 + 1).",
   "dosya": "7be89392d1651e12.mp3",
   "sure": 9.2
+ },
+ "7cd103cfeb92edb7": {
+  "k": "antrenor",
+  "m": "O zaman şiş işe yaramaz, kaleni kaybedersin. Rakip de aynı oyunu oynamak isteyebilir.",
+  "dosya": "7cd103cfeb92edb7.mp3",
+  "sure": 5.56
  },
  "7d23274f2429a92c": {
   "k": "antrenor",
@@ -1738,6 +1858,12 @@
   "m": "Çünkü geri dönemez. Ve çok özel bir kuralı var: düz gider, çapraz alır.",
   "dosya": "88d4bd22702b17c9.mp3",
   "sure": 5.28
+ },
+ "8903985575a6e314": {
+  "k": "antrenor",
+  "m": "Evet. Filin önünde kendi atın varken bile arkadaki vezire bakıyor olabilir. At çekilince fil vezire saldırır. Buna X-ışını diyoruz.",
+  "dosya": "8903985575a6e314.mp3",
+  "sure": 9.51
  },
  "891a4cf0d246975f": {
   "k": "antrenor",
@@ -2021,6 +2147,12 @@
   "dosya": "9c45ad141ebc8af5.mp3",
   "sure": 1.52
  },
+ "9c4d3487facb9f8c": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Şiş Testi seni bekliyor.",
+  "dosya": "9c4d3487facb9f8c.mp3",
+  "sure": 5.51
+ },
  "9ca44b6e44796658": {
   "k": "damla",
   "m": "Peki şah şahtayken?",
@@ -2086,6 +2218,12 @@
   "m": "L harfi çizer: iki kare düz, bir kare yana. Ve en güzeli, taşların üzerinden atlar!",
   "dosya": "a083cf9cdb528f22.mp3",
   "sure": 7.13
+ },
+ "a0a242111df88669": {
+  "k": "damla",
+  "m": "Kale oraya gidince alınırsa ne olur?",
+  "dosya": "a0a242111df88669.mp3",
+  "sure": 2.4
  },
  "a14d828a5b076ee9": {
   "k": "antrenor",
@@ -2165,6 +2303,12 @@
   "dosya": "a81a016cbc2c8d99.mp3",
   "sure": 5.04
  },
+ "a8c4a6aba94507bf": {
+  "k": "pars",
+  "m": "Yani öndeki kaçmak zorunda, arkadaki de açıkta kalıyor!",
+  "dosya": "a8c4a6aba94507bf.mp3",
+  "sure": 3.24
+ },
  "a9e5252217d6da8c": {
   "k": "antrenor",
   "m": "Merhaba {ad}! Bugün satranç dünyasına ilk adımını atıyorsun. Hazır mısın?",
@@ -2176,6 +2320,12 @@
   "m": "Biliyor muydun? Şah da çatal yapabilir; ama şahın gittiği kare rakip taşlarca saldırıya uğramamalıdır.",
   "dosya": "aa42bb58c3af8db5.mp3",
   "sure": 7.52
+ },
+ "ab0b6963acc97c26": {
+  "k": "antrenor",
+  "m": "{ad}, bugün öğrendiklerimizi birleştiriyoruz. Bir çizgi görünce önce önde kimin taşı olduğuna bak.",
+  "dosya": "ab0b6963acc97c26.mp3",
+  "sure": 6.77
  },
  "ab3aea344dc5e0b7": {
   "k": "damla",
@@ -2363,6 +2513,12 @@
   "dosya": "b4290557fc723f2f.mp3",
   "sure": 2.69
  },
+ "b440b6e47f4f4000": {
+  "k": "pars",
+  "m": "Arkada kendi taşım varsa ikisi de değil!",
+  "dosya": "b440b6e47f4f4000.mp3",
+  "sure": 2.46
+ },
  "b544564cc75a624e": {
   "k": "antrenor",
   "m": "Aynen {ad}. Şahın önünü açan piyon hamleleri bu yüzden tehlikelidir.",
@@ -2398,6 +2554,12 @@
   "m": "İkinci savunma yolu, {ad}: saldıran taşı almak.",
   "dosya": "b66c2c7a4418cf5f.mp3",
   "sure": 3.79
+ },
+ "b748534198644e7e": {
+  "k": "antrenor",
+  "m": "Güzel düşünce. Yalnız gittiğin kare de güvenli olsun.",
+  "dosya": "b748534198644e7e.mp3",
+  "sure": 4.21
  },
  "b7c4179bcbd0e819": {
   "k": "antrenor",
@@ -2531,6 +2693,12 @@
   "dosya": "c02894cb7ab524f1.mp3",
   "sure": 3.94
  },
+ "c14dabba56612574": {
+  "k": "antrenor",
+  "m": "{ad}, şişi bulmak yetmez; şiş yapacağın kare güvenli mi diye de bakmalısın.",
+  "dosya": "c14dabba56612574.mp3",
+  "sure": 5.98
+ },
  "c159282de86a762a": {
   "k": "damla",
   "m": "Rakibin çatalını nasıl durduracağım?",
@@ -2560,6 +2728,12 @@
   "m": "{ad}, dört kalıbı öğrendik: çoban, tembel, merdiven ve koridor matı. Bugün onları ayırt edeceğiz.",
   "dosya": "c2e97122420d76f9.mp3",
   "sure": 7.42
+ },
+ "c3133b3b4a26630e": {
+  "k": "antrenor",
+  "m": "Şiş Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "c3133b3b4a26630e.mp3",
+  "sure": 8.49
  },
  "c3f582f73d426347": {
   "k": "pars",
@@ -2831,6 +3005,12 @@
   "dosya": "da7187f865980d15.mp3",
   "sure": 7.55
  },
+ "da7e8361517b56a6": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şişte öndeki taş rakibindir, X-ışınında kendi taşındır; ikisini karıştırma.",
+  "dosya": "da7e8361517b56a6.mp3",
+  "sure": 7.18
+ },
  "da9445cd3606cc2f": {
   "k": "antrenor",
   "m": "Hamle numarasına bak. '2. Ac3' yazıyorsa, beyaz ikinci hamlesini oynuyor; numaradan sonra önce beyazın, sonra siyahın hamlesi gelir.",
@@ -3029,6 +3209,12 @@
   "dosya": "e8bb9741cf3dfe1b.mp3",
   "sure": 5.2
  },
+ "e8e4826bde98d07c": {
+  "k": "antrenor",
+  "m": "Tam öyle. Şişte öndeki taş rakibindir, X-ışınında öndeki taş senindir.",
+  "dosya": "e8e4826bde98d07c.mp3",
+  "sure": 5.98
+ },
  "e9091dd6b65a63c6": {
   "k": "antrenor",
   "m": "Yok! Piyon hamlesinde yalnız varılan kareyi yazarız.",
@@ -3101,6 +3287,12 @@
   "dosya": "ee5f62000df4d67e.mp3",
   "sure": 7.97
  },
+ "ef9a560e51e19a3c": {
+  "k": "antrenor",
+  "m": "Şah tehlikede olduğu için başka bir şey yapamaz, kaçmak zorunda. Bu sırada arkadaki taşı alırız.",
+  "dosya": "ef9a560e51e19a3c.mp3",
+  "sure": 6.87
+ },
  "f02ee9c78f6aa72f": {
   "k": "antrenor",
   "m": "Bir taşı kim koruyor, {ad}? Bunu sormayı unutma.",
@@ -3155,11 +3347,29 @@
   "dosya": "f2eaef7f0c949a37.mp3",
   "sure": 2.64
  },
+ "f2fa733b91eca064": {
+  "k": "pars",
+  "m": "Şişte önde rakip taş vardı; burada önde kendi taşım var!",
+  "dosya": "f2fa733b91eca064.mp3",
+  "sure": 3.79
+ },
  "f37a8531807c468c": {
   "k": "antrenor",
   "m": "Çok iyi Damla. Şimdi karışık matlara geçelim.",
   "dosya": "f37a8531807c468c.mp3",
   "sure": 3.0
+ },
+ "f3ae24295e6d1522": {
+  "k": "antrenor",
+  "m": "{ad}, röntgen çekilince kemikleri görürüz. Satrançta da bazı taşlar, önündeki kendi taşının arkasını görür.",
+  "dosya": "f3ae24295e6d1522.mp3",
+  "sure": 7.71
+ },
+ "f48af0e533ff41f0": {
+  "k": "pars",
+  "m": "Kaçmazsa da öndeki değerli taşı alırız. İkisinde de kazanç var!",
+  "dosya": "f48af0e533ff41f0.mp3",
+  "sure": 4.18
  },
  "f4ca2565484ae376": {
   "k": "antrenor",
