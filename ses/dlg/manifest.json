@@ -173,6 +173,18 @@
   "dosya": "08d185615b8e4299.mp3",
   "sure": 3.6
  },
+ "08f41a296f18016d": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Terfi yarışında ilk hamlede iki kare gitmek bir tempo kazandırır; bu bazen yarışı kazandırır.",
+  "dosya": "08f41a296f18016d.mp3",
+  "sure": 7.47
+ },
+ "091e85c353847e77": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon oyunsonunda kazanmanın sırrı: say, karşılaştır, şahını yardıma getir.",
+  "dosya": "091e85c353847e77.mp3",
+  "sure": 7.37
+ },
  "09930605cedabd0c": {
   "k": "antrenor",
   "m": "Beyaz fil ve vezirini siyahın f7 karesine doğrultur. O kareyi yalnız siyah şah korur.",
@@ -317,6 +329,12 @@
   "dosya": "11f19b8320159335.mp3",
   "sure": 5.43
  },
+ "123ac07b70e6eb73": {
+  "k": "antrenor",
+  "m": "{ad}, tahtanın kenarındaki geçer piyon rakip şaha uzaksa çok tehlikelidir.",
+  "dosya": "123ac07b70e6eb73.mp3",
+  "sure": 5.67
+ },
  "123f3084aee5ec06": {
   "k": "damla",
   "m": "Şahla vezire birden saldırırsa vezir bize kalır!",
@@ -431,6 +449,12 @@
   "dosya": "166a268170279456.mp3",
   "sure": 7.89
  },
+ "16f85b06ee4f9573": {
+  "k": "antrenor",
+  "m": "Aynen. Bakalım tahtada geçer piyonları bulabilecek misin?",
+  "dosya": "16f85b06ee4f9573.mp3",
+  "sure": 3.76
+ },
  "176db32b1c5d415c": {
   "k": "antrenor",
   "m": "Evet! Piyon hamlesinde harf yok; piyon e4'e giderse yalnız e4 yazarız.",
@@ -454,6 +478,12 @@
   "m": "Merdiven mi? Kaleler merdiven mi çıkıyor?",
   "dosya": "1810ef70fbf2541b.mp3",
   "sure": 3.16
+ },
+ "183345a33b8e0597": {
+  "k": "damla",
+  "m": "Önce hangisine bakacağız hocam?",
+  "dosya": "183345a33b8e0597.mp3",
+  "sure": 2.22
  },
  "183f5bd5e64a3789": {
   "k": "antrenor",
@@ -563,6 +593,12 @@
   "dosya": "1d621e43cf7452ce.mp3",
   "sure": 2.77
  },
+ "1db52f189feda67b": {
+  "k": "antrenor",
+  "m": "Aynen. Sırayı da unutma: bir hamlelik fark sonucu değiştirir.",
+  "dosya": "1db52f189feda67b.mp3",
+  "sure": 4.31
+ },
  "1e827e87195ec400": {
   "k": "damla",
   "m": "Merdiven nasıl çıkılır?",
@@ -599,6 +635,12 @@
   "dosya": "2106253393f0b165.mp3",
   "sure": 7.97
  },
+ "2121e017397d5d75": {
+  "k": "damla",
+  "m": "Her hamlede bir kare mi gidiyor?",
+  "dosya": "2121e017397d5d75.mp3",
+  "sure": 2.12
+ },
  "2128e2f04111c3d9": {
   "k": "antrenor",
   "m": "Neredeyse Pars. Yanında durması yetmez; dostun o kareye gidebiliyorsa taşını korur. Koruyanı olan taş asılı değildir. Her hamleden önce taşlarına bak: kimin koruyanı yok?",
@@ -617,6 +659,12 @@
   "dosya": "216aabedc251d43a.mp3",
   "sure": 2.51
  },
+ "21c74fa41ac319ea": {
+  "k": "antrenor",
+  "m": "Hayır, giremez. Şahını götürürken rakip şahın yanına yaklaşmamaya dikkat et.",
+  "dosya": "21c74fa41ac319ea.mp3",
+  "sure": 5.51
+ },
  "224a766ba0ee3e70": {
   "k": "antrenor",
   "m": "Biliyor muydun? X-ışını, kendi taşının arkasından rakip taşa bakmaktır; öndeki taş çekilince saldırı başlar.",
@@ -634,6 +682,12 @@
   "m": "Biliyor muydun? Korumasız taşa saldırılırsa rakip onu bedavaya alabilir. Hamle yapmadan önce taşlarını say ve kontrol et!",
   "dosya": "22feda9987916361.mp3",
   "sure": 8.39
+ },
+ "230ed38ffb0cd791": {
+  "k": "antrenor",
+  "m": "{ad}, bazen iki tarafın da geçer piyonu olur. O zaman iki piyon terfiye yarışır.",
+  "dosya": "230ed38ffb0cd791.mp3",
+  "sure": 6.53
  },
  "23168410c76ac9ed": {
   "k": "antrenor",
@@ -670,6 +724,12 @@
   "m": "Hocam, piyon ilk hamlesinde iki kare gidebiliyordu. Yanımdaki piyonu böyle geçerse ne olur?",
   "dosya": "24620f70e7f3eeb1.mp3",
   "sure": 5.43
+ },
+ "247af963e54db743": {
+  "k": "pars",
+  "m": "Yani yalnız şah ya da taş durdurabilir.",
+  "dosya": "247af963e54db743.mp3",
+  "sure": 2.46
  },
  "2495ca8246f2e159": {
   "k": "damla",
@@ -712,6 +772,12 @@
   "m": "Biliyor muydun? Şah tahtanın ortasında 8, köşesinde ise yalnızca 3 kareye gidebilir.",
   "dosya": "274de0df7b17f6f2.mp3",
   "sure": 6.16
+ },
+ "27a923fa8b420fb5": {
+  "k": "antrenor",
+  "m": "Rakip şah onu durdurmaya giderse öbür tarafta kalan piyonlarını alamaz.",
+  "dosya": "27a923fa8b420fb5.mp3",
+  "sure": 5.51
  },
  "27d10eff11f54068": {
   "k": "antrenor",
@@ -803,6 +869,12 @@
   "dosya": "2d268d6d579f6701.mp3",
   "sure": 5.33
  },
+ "2d471e40a75ed7c2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon 8. sıraya varınca vezir olur. Bu yüzden geçer piyon çok değerlidir.",
+  "dosya": "2d471e40a75ed7c2.mp3",
+  "sure": 6.95
+ },
  "2d7ae6392910127d": {
   "k": "damla",
   "m": "Şah istediği yere gidemez mi?",
@@ -844,6 +916,12 @@
   "m": "{ad}, bugün çok güçlü bir taktik öğreniyoruz: çatal!",
   "dosya": "2ed7d2f311bbd3e2.mp3",
   "sure": 3.89
+ },
+ "2ee6c902150dd189": {
+  "k": "antrenor",
+  "m": "{ad}, ünitenin son bölümündeyiz: hepsini karışık soracağım.",
+  "dosya": "2ee6c902150dd189.mp3",
+  "sure": 4.44
  },
  "2ee850f41cebdf19": {
   "k": "antrenor",
@@ -898,6 +976,12 @@
   "m": "Hocam, siyahın atı bu kaleyi koruyor. Alsam geri alır mı?",
   "dosya": "30f09b4cfdd0d632.mp3",
   "sure": 4.0
+ },
+ "31096556aa429287": {
+  "k": "antrenor",
+  "m": "{ad}, tek başına koşan piyonu rakip şah durdurabilir mi? Sayarak buluruz: buna kare kuralı diyoruz.",
+  "dosya": "31096556aa429287.mp3",
+  "sure": 7.55
  },
  "311021826fcf1028": {
   "k": "antrenor",
@@ -958,6 +1042,12 @@
   "m": "O zaman bir piyonu ileri oynayıp şaha nefes alacak yer açmalıyım.",
   "dosya": "32dd1cca00776695.mp3",
   "sure": 3.79
+ },
+ "33083b4f655d9e59": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kenardaki uzak geçer piyon rakip şahı kendine çeker; şahın uzaklaşınca diğer piyonlar korumasız kalır.",
+  "dosya": "33083b4f655d9e59.mp3",
+  "sure": 8.72
  },
  "334954589d74e77b": {
   "k": "antrenor",
@@ -1103,6 +1193,12 @@
   "dosya": "376795dfe980673c.mp3",
   "sure": 6.5
  },
+ "37d64ee5422d474c": {
+  "k": "damla",
+  "m": "Neyi sayacağız hocam?",
+  "dosya": "37d64ee5422d474c.mp3",
+  "sure": 1.33
+ },
  "380b84e45c164891": {
   "k": "antrenor",
   "m": "At kaçamaz {ad}. O yüzden ona bir piyonla saldır: piyon küçük, at büyük.",
@@ -1199,6 +1295,12 @@
   "dosya": "3df6f21803fdb849.mp3",
   "sure": 8.12
  },
+ "3e0b6285876390fa": {
+  "k": "antrenor",
+  "m": "{ad}, bugün oyunsonunun en özel piyonunu tanıyoruz: geçer piyon.",
+  "dosya": "3e0b6285876390fa.mp3",
+  "sure": 5.56
+ },
  "3e8c3f16235e3db9": {
   "k": "antrenor",
   "m": "{ad}, en küçük taş da mat yapabilir.",
@@ -1234,6 +1336,12 @@
   "m": "Güzel. İlk hamlenle kapat, ikinci hamlenle şah çek. Böylece mat olur.",
   "dosya": "3fccbca049a6b1e4.mp3",
   "sure": 5.75
+ },
+ "3fef7641e202ca4c": {
+  "k": "pars",
+  "m": "Sıra kimdeyse önce o oynuyor, değil mi?",
+  "dosya": "3fef7641e202ca4c.mp3",
+  "sure": 2.69
  },
  "40628bf900405e1a": {
   "k": "pars",
@@ -1385,6 +1493,12 @@
   "dosya": "471280fbf3c6bb78.mp3",
   "sure": 1.62
  },
+ "471abe91f3de7120": {
+  "k": "pars",
+  "m": "Terfi edince vezir mi oluyor?",
+  "dosya": "471abe91f3de7120.mp3",
+  "sure": 1.67
+ },
  "473495034d3c241e": {
   "k": "antrenor",
   "m": "{ad}, bugün öğrendiklerimizi birleştiriyoruz: vezir, kale, iki kale.",
@@ -1433,6 +1547,12 @@
   "dosya": "4950f472c82a8a7b.mp3",
   "sure": 7.18
  },
+ "495ebeef21b3acb3": {
+  "k": "antrenor",
+  "m": "Evet. Kare kuralı kenar piyonu için de geçerli. Sayar, karşılaştırır, karar veririz.",
+  "dosya": "495ebeef21b3acb3.mp3",
+  "sure": 6.03
+ },
  "4976c4cca44d0b66": {
   "k": "antrenor",
   "m": "{ad}, şişin en güçlü hali şah önde dururken olur.",
@@ -1444,6 +1564,12 @@
   "m": "En ünlüsü pat, değil mi?",
   "dosya": "498ad914f06d76d0.mp3",
   "sure": 1.49
+ },
+ "4a163077b7e8dafd": {
+  "k": "antrenor",
+  "m": "{ad}, rakip şah yetişebiliyorsa geçer piyonu yalnız bırakmayız: şahımızı yardıma çağırırız.",
+  "dosya": "4a163077b7e8dafd.mp3",
+  "sure": 6.58
  },
  "4a3e4435143276a3": {
   "k": "antrenor",
@@ -1835,6 +1961,12 @@
   "dosya": "5ecc2abac38ca29b.mp3",
   "sure": 6.95
  },
+ "5ed762ec3666fb06": {
+  "k": "damla",
+  "m": "Kim önce vezir olursa o mu kazanır hocam?",
+  "dosya": "5ed762ec3666fb06.mp3",
+  "sure": 2.59
+ },
  "5ee86a5e2318947b": {
   "k": "antrenor",
   "m": "Sayı önemli Pars, ama puan da önemli. Alırken en az puanlı taşınla başlamalısın.",
@@ -1919,6 +2051,12 @@
   "dosya": "623ad03d0f3d18f7.mp3",
   "sure": 10.81
  },
+ "626786bfbde098ad": {
+  "k": "pars",
+  "m": "Şah çapraz da gidebiliyor, değil mi?",
+  "dosya": "626786bfbde098ad.mp3",
+  "sure": 2.35
+ },
  "628f4a2cd63a9333": {
   "k": "pars",
   "m": "Kaçırmak istemezsem başka taşla koruyabilirim, değil mi?",
@@ -1954,6 +2092,12 @@
   "m": "Yani bana saldıran taşı ben alırsam saldırı kalmaz, öyle mi?",
   "dosya": "6468f5934de46633.mp3",
   "sure": 4.0
+ },
+ "650612d400b56023": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah piyonun yanında durursa piyon korunur; rakip şah korunan piyonu alamaz.",
+  "dosya": "650612d400b56023.mp3",
+  "sure": 6.45
  },
  "655c62a3bd691588": {
   "k": "antrenor",
@@ -2164,6 +2308,12 @@
   "m": "Şah kaçar, şah çeken taş alınır ya da araya bir taş girer. Bazen bunlardan yalnız biri kalır.",
   "dosya": "70fa8df9647f189c.mp3",
   "sure": 7.11
+ },
+ "71cf514da654237c": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Piyon Oyunsonları-1 Testi seni bekliyor.",
+  "dosya": "71cf514da654237c.mp3",
+  "sure": 7.18
  },
  "72de69316c6f2313": {
   "k": "antrenor",
@@ -2627,6 +2777,12 @@
   "dosya": "89cd723efe5c2322.mp3",
   "sure": 3.34
  },
+ "89e589977befacc6": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Geçer piyon oyunsonunun yıldızıdır: onu yalnız şah ya da taş durdurabilir.",
+  "dosya": "89e589977befacc6.mp3",
+  "sure": 6.92
+ },
  "8a1ea8503f195fc0": {
   "k": "antrenor",
   "m": "Biliyor muydun? Her konumda mat yoktur! Önce şah çeken hamleleri say, hiçbirinde mat yoksa başka plan ara.",
@@ -2650,6 +2806,12 @@
   "m": "Sıra bende ama rakibin de mat tehdidi olabilir. Hangisine bakacağım?",
   "dosya": "8b37ce4b5db147a5.mp3",
   "sure": 4.49
+ },
+ "8bf0bbbe6fdb4ad9": {
+  "k": "antrenor",
+  "m": "Evet. Yalnız ilk hamlesinde iki kare de gidebilir. Sayarken bunu unutma.",
+  "dosya": "8bf0bbbe6fdb4ad9.mp3",
+  "sure": 5.33
  },
  "8cc69db62fac46ad": {
   "k": "antrenor",
@@ -2789,6 +2951,12 @@
   "dosya": "90e4770667756697.mp3",
   "sure": 9.2
  },
+ "917c0ab6b7b368a8": {
+  "k": "antrenor",
+  "m": "Evet ama şah çok yakındaysa yine de yetişir. Her seferinde iki sayıyı karşılaştır.",
+  "dosya": "917c0ab6b7b368a8.mp3",
+  "sure": 5.56
+ },
  "91d5b958ed28dba8": {
   "k": "pars",
   "m": "Nereden başlayacağım hocam?",
@@ -2867,6 +3035,12 @@
   "dosya": "95855413a316da3f.mp3",
   "sure": 6.4
  },
+ "96479238ac39ae48": {
+  "k": "pars",
+  "m": "Sıra beyazdaysa piyon önce koşuyor, değil mi?",
+  "dosya": "96479238ac39ae48.mp3",
+  "sure": 2.77
+ },
  "97391006d36f4839": {
   "k": "antrenor",
   "m": "Tahtaya bakıp karar vereceğiz, Damla. Saldıran taş at ise araya girilmez. Saldıran taş korunuyorsa almak zarar getirebilir. Her seferinde dört yolu da düşün.",
@@ -2921,6 +3095,12 @@
   "dosya": "98b8ddf8789c8e77.mp3",
   "sure": 2.53
  },
+ "98f57fe6ac947faa": {
+  "k": "antrenor",
+  "m": "Evet. Sıradaki tarafın sayısı eşit ya da küçükse önce vezir olur. Siyah piyon aşağı doğru gider.",
+  "dosya": "98f57fe6ac947faa.mp3",
+  "sure": 7.55
+ },
  "993bebca9fb94e55": {
   "k": "antrenor",
   "m": "{ad}, bu ünitede şah çekmeyi, mat tehdidini, kaçış karelerini ve savunmayı öğrendik. Şimdi hepsini birleştirelim.",
@@ -2938,6 +3118,12 @@
   "m": "{ad}, bir satranç oyunu üç şekilde bitebilir: kazanç, beraberlik ya da kayıp.",
   "dosya": "9998866b4b1f5a15.mp3",
   "sure": 5.67
+ },
+ "99aad692d9af5344": {
+  "k": "antrenor",
+  "m": "{ad}, geçer piyonun asıl amacı 8. sıraya koşup terfi etmek.",
+  "dosya": "99aad692d9af5344.mp3",
+  "sure": 5.33
  },
  "99de5741336789ca": {
   "k": "antrenor",
@@ -3041,6 +3227,12 @@
   "dosya": "9ce836e1cf56e348.mp3",
   "sure": 4.0
  },
+ "9cf70dac2effdd9e": {
+  "k": "antrenor",
+  "m": "Önce piyon geçer mi diye bak, sonra hamle sayılarını karşılaştır.",
+  "dosya": "9cf70dac2effdd9e.mp3",
+  "sure": 4.62
+ },
  "9d1f77ccfa243668": {
   "k": "antrenor",
   "m": "Biliyor muydun? Bir taşı almadan önce takasın sonunu hesapla: alıp verdiğin puanı karşılaştır.",
@@ -3142,6 +3334,12 @@
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Satrancı Tanıyalım Testi seni bekliyor.",
   "dosya": "a199a9c6ad368e19.mp3",
   "sure": 6.35
+ },
+ "a234835e97bc8abe": {
+  "k": "antrenor",
+  "m": "İlk hamlede iki kare gidersen bir hamle kazanırsın. Bazen bu tek hamle piyonu kurtarır.",
+  "dosya": "a234835e97bc8abe.mp3",
+  "sure": 5.69
  },
  "a23671e39d91a1c0": {
   "k": "damla",
@@ -3268,6 +3466,12 @@
   "m": "Yani öndeki kaçmak zorunda, arkadaki de açıkta kalıyor!",
   "dosya": "a8c4a6aba94507bf.mp3",
   "sure": 3.24
+ },
+ "a900ea355e926dc0": {
+  "k": "antrenor",
+  "m": "Evet. Sıra beyazdaysa şahın sayısı piyonunkinden büyükse piyon kurtulur. Sıra siyahtaysa şaha bir hamle bonus vermelisin.",
+  "dosya": "a900ea355e926dc0.mp3",
+  "sure": 9.09
  },
  "a9547d722647db5e": {
   "k": "damla",
@@ -3407,6 +3611,12 @@
   "dosya": "ae858ba37f61b7e5.mp3",
   "sure": 6.16
  },
+ "ae8c2172ccebac6f": {
+  "k": "damla",
+  "m": "Şah piyonu nasıl koruyor hocam?",
+  "dosya": "ae8c2172ccebac6f.mp3",
+  "sure": 2.59
+ },
  "ae9c0932bfabe23e": {
   "k": "antrenor",
   "m": "{ad}, bir kareye üç taşınla saldırıyorsun. Hangisiyle önce alırsın?",
@@ -3478,6 +3688,12 @@
   "m": "Biliyor muydun? Mat yapmak kadar rakibin mat tehdidini görmek de önemlidir; her hamleden önce rakibin tehdidine bak.",
   "dosya": "b127c51719971c2d.mp3",
   "sure": 8.59
+ },
+ "b1640e6fffe87034": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kare kuralı: piyon ile şahın terfi karesine kaç hamlede vardığını say, sonra karşılaştır!",
+  "dosya": "b1640e6fffe87034.mp3",
+  "sure": 7.13
  },
  "b25a6a1b64549adf": {
   "k": "antrenor",
@@ -3569,6 +3785,12 @@
   "dosya": "b605597a2d21ffa4.mp3",
   "sure": 8.12
  },
+ "b619ac1a47464dd5": {
+  "k": "damla",
+  "m": "Yetişip yetişemeyeceğini yine sayarak mı bulacağız?",
+  "dosya": "b619ac1a47464dd5.mp3",
+  "sure": 3.0
+ },
  "b66c2c7a4418cf5f": {
   "k": "antrenor",
   "m": "İkinci savunma yolu, {ad}: saldıran taşı almak.",
@@ -3604,6 +3826,12 @@
   "m": "Aynen öyle. Açılışta yeni taşı oyuna sokmak, aynı taşı yeniden oynamaktan iyidir.",
   "dosya": "b84689340dac2f63.mp3",
   "sure": 5.88
+ },
+ "b87bc0fcca777d8b": {
+  "k": "antrenor",
+  "m": "Evet, genelde vezir seçeriz. Ama önce piyonun kaç hamlesi kaldığını saymalıyız.",
+  "dosya": "b87bc0fcca777d8b.mp3",
+  "sure": 5.46
  },
  "b8861b781b66ef92": {
   "k": "antrenor",
@@ -3658,6 +3886,12 @@
   "m": "Şahın kendi taşları yanındaysa kaçamaz!",
   "dosya": "bc687fb33ac9d106.mp3",
   "sure": 2.53
+ },
+ "bc87a371c73a40db": {
+  "k": "damla",
+  "m": "Geçer piyon geçip gidiyor mu hocam?",
+  "dosya": "bc87a371c73a40db.mp3",
+  "sure": 2.27
  },
  "bc9457d6cae3a35f": {
   "k": "antrenor",
@@ -3779,6 +4013,12 @@
   "dosya": "c22eae388659c8b4.mp3",
   "sure": 3.24
  },
+ "c23ba340733f09d8": {
+  "k": "antrenor",
+  "m": "Piyon Oyunsonları-1 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "c23ba340733f09d8.mp3",
+  "sure": 9.64
+ },
  "c248170256003a07": {
   "k": "antrenor",
   "m": "Biliyor muydun? Hamle yapmadan önce üç soru sor: Korumalı mı? Kim saldırıyor? Sayınca kâr var mı?",
@@ -3820,6 +4060,12 @@
   "m": "Biliyor muydun? Kale ve şahla mat, siyah şah tahtanın kenarındayken olur. Şahımız kaleye destek verir.",
   "dosya": "c49e0e31a1ba8bcd.mp3",
   "sure": 8.2
+ },
+ "c49f46a92cfc67b7": {
+  "k": "pars",
+  "m": "Neden hocam, o da bir kare ilerliyor sonuçta?",
+  "dosya": "c49f46a92cfc67b7.mp3",
+  "sure": 2.69
  },
  "c502092dd81b9216": {
   "k": "antrenor",
@@ -3886,6 +4132,12 @@
   "m": "Çoğu zaman evet {ad}, çünkü vezir en güçlü taş. Ama bazen başka taş daha iyi.",
   "dosya": "c8292251f8f26ae1.mp3",
   "sure": 6.09
+ },
+ "c8a654afba642b16": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Bir hamlelik sıra farkı oyunu değiştirir: kare kuralında sıra kimdeyse ona göre say.",
+  "dosya": "c8a654afba642b16.mp3",
+  "sure": 7.05
  },
  "c8a6ec62340b9bbc": {
   "k": "damla",
@@ -4223,6 +4475,12 @@
   "dosya": "da9445cd3606cc2f.mp3",
   "sure": 10.4
  },
+ "dab329a9501b0fd9": {
+  "k": "antrenor",
+  "m": "{ad}, artık sayıları kendin karşılaştıracaksın: piyon mu koşar, şah mı yakalar?",
+  "dosya": "dab329a9501b0fd9.mp3",
+  "sure": 5.8
+ },
  "dac288563e05a65e": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Saldırı ve Savunma Testi seni bekliyor.",
@@ -4240,6 +4498,12 @@
   "m": "Çabuk soruyorsun Pars. Birinci soru: Bu taş korumalı mı?",
   "dosya": "db2550f607982cf2.mp3",
   "sure": 4.13
+ },
+ "db3576d9e735af14": {
+  "k": "antrenor",
+  "m": "Piyonun hemen yanındaki kareye gelerek. Rakip şah piyonu alamaz, çünkü alırsa şahımızın yanındaki kareye girmiş olur.",
+  "dosya": "db3576d9e735af14.mp3",
+  "sure": 8.59
  },
  "db5c033de4ffad88": {
   "k": "pars",
@@ -4294,6 +4558,12 @@
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 3/3 doğru.",
   "dosya": "ddf14eb481494d78.mp3",
   "sure": 4.96
+ },
+ "ddf928bbea9bef94": {
+  "k": "antrenor",
+  "m": "Çoğu zaman öyle. Önce her piyonun terfiye kaç hamlesi olduğunu say.",
+  "dosya": "ddf928bbea9bef94.mp3",
+  "sure": 4.86
  },
  "de8874dd4d05e77b": {
   "k": "damla",
@@ -4481,6 +4751,12 @@
   "dosya": "e6c75fd8bfa65b27.mp3",
   "sure": 7.24
  },
+ "e6f73da2dc91618e": {
+  "k": "damla",
+  "m": "Peki piyon 2. sıradaysa?",
+  "dosya": "e6f73da2dc91618e.mp3",
+  "sure": 1.49
+ },
  "e7c59c405978bb67": {
   "k": "damla",
   "m": "Şah çekmek, siyah şaha saldırmak demek, değil mi hocam?",
@@ -4631,6 +4907,12 @@
   "dosya": "ee5f62000df4d67e.mp3",
   "sure": 7.97
  },
+ "eeca7076dedda8b2": {
+  "k": "pars",
+  "m": "Ama şah, rakip şahın çektiği karelere girebilir mi?",
+  "dosya": "eeca7076dedda8b2.mp3",
+  "sure": 2.93
+ },
  "eedf90ed1bb3fd38": {
   "k": "antrenor",
   "m": "Biliyor muydun? Çifte şahta taş alarak ya da araya taş koyarak kurtulamazsın; yalnızca şah kaçabilir.",
@@ -4756,6 +5038,12 @@
   "m": "{ad}, röntgen çekilince kemikleri görürüz. Satrançta da bazı taşlar, önündeki kendi taşının arkasını görür.",
   "dosya": "f3ae24295e6d1522.mp3",
   "sure": 7.71
+ },
+ "f40ce690221f3a6b": {
+  "k": "pars",
+  "m": "Yetişemiyorsam şahımı yardıma getiririm, değil mi?",
+  "dosya": "f40ce690221f3a6b.mp3",
+  "sure": 3.19
  },
  "f48af0e533ff41f0": {
   "k": "pars",
@@ -4907,6 +5195,12 @@
   "dosya": "fe970ec69d8c94d8.mp3",
   "sure": 2.93
  },
+ "ff349979d3aed4a7": {
+  "k": "antrenor",
+  "m": "İki sayı var: piyonun terfiye kaç hamlesi, şahın terfi karesine kaç hamlesi.",
+  "dosya": "ff349979d3aed4a7.mp3",
+  "sure": 5.69
+ },
  "ff5b4029830eb61c": {
   "k": "antrenor",
   "m": "Şahın kendi taşları yanında duruyorsa evet Damla. O taşlar şahın kaçışını kapatır.",
@@ -4930,5 +5224,11 @@
   "m": "Yani beyaz şah, siyah şahın karşısına geçip yolu kapatıyor.",
   "dosya": "ff9c75ecdbb4628d.mp3",
   "sure": 3.37
+ },
+ "ffc5abb42f34e475": {
+  "k": "antrenor",
+  "m": "Neredeyse! Önünde ve yan dosyalarında rakip piyon yoksa hiçbir piyon onu durduramaz.",
+  "dosya": "ffc5abb42f34e475.mp3",
+  "sure": 7.0
  }
 }
