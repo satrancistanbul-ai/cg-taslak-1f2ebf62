@@ -83,6 +83,18 @@
   "dosya": "023c6499b15d0daa.mp3",
   "sure": 6.03
  },
+ "0269a496a2f05f20": {
+  "k": "damla",
+  "m": "Kazandıran fedayı da, mat için fedayı da mı bulacağız?",
+  "dosya": "0269a496a2f05f20.mp3",
+  "sure": 3.37
+ },
+ "02c1eed6749f1798": {
+  "k": "damla",
+  "m": "Taşım güvendeyse feda değil mi?",
+  "dosya": "02c1eed6749f1798.mp3",
+  "sure": 2.12
+ },
  "02f61d06c6cfe41f": {
   "k": "pars",
   "m": "O zaman ben de kendi tehditlerimi arayabilirim!",
@@ -172,6 +184,12 @@
   "m": "Biliyor muydun? Açılışta her hamlede yeni bir taşı oyuna sokmak, aynı taşla koşuşturmaktan çok daha iyidir.",
   "dosya": "06b1dc3348e103bb.mp3",
   "sure": 7.34
+ },
+ "06cfe82dd4558f45": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Boğma matında şahı kendi taşları sıkıştırır. Tek bir at hamlesi şahı çaresiz bırakır!",
+  "dosya": "06cfe82dd4558f45.mp3",
+  "sure": 7.52
  },
  "06f90800c9a5fb31": {
   "k": "antrenor",
@@ -323,6 +341,12 @@
   "dosya": "0aa233c052721aa8.mp3",
   "sure": 1.8
  },
+ "0b03bb246c8c95da": {
+  "k": "antrenor",
+  "m": "{ad}, her feda iyi değildir. Bazıları gerçek kazanç getirir, bazıları taşı boşa gönderir.",
+  "dosya": "0b03bb246c8c95da.mp3",
+  "sure": 7.65
+ },
  "0b068924a7dd8654": {
   "k": "damla",
   "m": "Önce başka bir şey mi yaparız?",
@@ -334,6 +358,12 @@
   "m": "Biliyor muydun? Açarak saldırıyı hazırlamak için taşı, kendi taşının arkasına ve rakibin değerli taşının hizasına yerleştir.",
   "dosya": "0b5413d92c45ce78.mp3",
   "sure": 9.04
+ },
+ "0b6f75dd78c54f0b": {
+  "k": "damla",
+  "m": "Yani önce kaybediyorum, sonra kazanıyorum?",
+  "dosya": "0b6f75dd78c54f0b.mp3",
+  "sure": 2.59
  },
  "0b8688891847b7af": {
   "k": "antrenor",
@@ -947,6 +977,12 @@
   "dosya": "21c74fa41ac319ea.mp3",
   "sure": 5.51
  },
+ "21e590a720d38305": {
+  "k": "pars",
+  "m": "Sonra da tek hamleyle mat mı?",
+  "dosya": "21e590a720d38305.mp3",
+  "sure": 1.75
+ },
  "224a766ba0ee3e70": {
   "k": "antrenor",
   "m": "Biliyor muydun? X-ışını, kendi taşının arkasından rakip taşa bakmaktır; öndeki taş çekilince saldırı başlar.",
@@ -964,6 +1000,12 @@
   "m": "Güzel soru {ad}! Ona geçerken alma diyoruz. Sanki tek kare gitmiş gibi onu alabilirsin.",
   "dosya": "229c6eb896fbb254.mp3",
   "sure": 6.45
+ },
+ "22a560fa1716ec35": {
+  "k": "pars",
+  "m": "Peki nasıl bileceğiz kazanç mı, zarar mı?",
+  "dosya": "22a560fa1716ec35.mp3",
+  "sure": 2.53
  },
  "22b23c49714bb0f9": {
   "k": "antrenor",
@@ -1000,6 +1042,18 @@
   "m": "Rakip şiş yapacaksa ben taşımı çizgiden çıkarırım!",
   "dosya": "23492cafe9ac1c1f.mp3",
   "sure": 3.29
+ },
+ "2362a7924d0d0bf1": {
+  "k": "pars",
+  "m": "Kazanç ya da mat çıkmıyorsa o feda yanlış.",
+  "dosya": "2362a7924d0d0bf1.mp3",
+  "sure": 2.4
+ },
+ "23d7badc2823260e": {
+  "k": "antrenor",
+  "m": "Haklısın Damla. O yüzden feda, ancak karşılığında daha büyük bir kazanç varsa yapılır.",
+  "dosya": "23d7badc2823260e.mp3",
+  "sure": 5.67
  },
  "23f1ca3b95f99fbf": {
   "k": "pars",
@@ -1103,6 +1157,12 @@
   "dosya": "27e01d672ec2b22c.mp3",
   "sure": 8.12
  },
+ "27ef6494df139eaf": {
+  "k": "antrenor",
+  "m": "{ad}, şimdi daha büyük bir feda: mat için feda. Burada puan saymayız, şahı yakalarız.",
+  "dosya": "27ef6494df139eaf.mp3",
+  "sure": 6.82
+ },
  "280c417559fbbd68": {
   "k": "damla",
   "m": "Yani 1 - 9 = eksi 8. Büyük zarar!",
@@ -1162,6 +1222,18 @@
   "m": "Biliyor muydun? Tek başına iki taşı koruyan taşın işi çok ağırdır. Aşırı yüklenmiş taş, rakibin fırsatıdır.",
   "dosya": "2a404fdc41bc2f41.mp3",
   "sure": 8.2
+ },
+ "2a448323c5ad4e22": {
+  "k": "damla",
+  "m": "Hangisi olduğunu nasıl anlarım?",
+  "dosya": "2a448323c5ad4e22.mp3",
+  "sure": 1.99
+ },
+ "2aa186d1d39dcbda": {
+  "k": "antrenor",
+  "m": "Hesap yap. Verdiğim puanı, alacağım puanı say. Ya da mat var mı, ona bak.",
+  "dosya": "2aa186d1d39dcbda.mp3",
+  "sure": 7.05
  },
  "2ac97fcbeda1b17f": {
   "k": "antrenor",
@@ -1649,6 +1721,12 @@
   "dosya": "388e9e7b4b39dd96.mp3",
   "sure": 6.87
  },
+ "38fd4b49872a9902": {
+  "k": "antrenor",
+  "m": "Doğru Damla. Siyah taşı alamıyorsa ya da alması ona kaybettiriyorsa bu sıradan bir hamledir.",
+  "dosya": "38fd4b49872a9902.mp3",
+  "sure": 6.16
+ },
  "390e17f981709eb1": {
   "k": "antrenor",
   "m": "{ad}, bugün öğrendiklerimizi karıştırıp deniyoruz. Her pozisyonda önce kaçış karelerine bak.",
@@ -1805,6 +1883,12 @@
   "dosya": "3f8473365de58336.mp3",
   "sure": 4.6
  },
+ "3fa89d7188121e87": {
+  "k": "antrenor",
+  "m": "Puan say Pars! Verdiğin ve aldığın taşları topla, farka bak.",
+  "dosya": "3fa89d7188121e87.mp3",
+  "sure": 4.78
+ },
  "3fbfe94097fc35fa": {
   "k": "antrenor",
   "m": "{ad}, vezir tahtanın en güçlü taşı. Uzaktan da mat yapar.",
@@ -1888,6 +1972,12 @@
   "m": "{ad}, bazen bir taşı hemen almak en iyisi değildir. Önce araya bir hamle sokarız.",
   "dosya": "4183a124591821b9.mp3",
   "sure": 5.67
+ },
+ "418a095a6d6b8244": {
+  "k": "antrenor",
+  "m": "Evet, Damla. Biz taşımızı veririz, siyah onu alır. Sonra açılan yerden yeni bir hamleyle karşılığımızı alırız.",
+  "dosya": "418a095a6d6b8244.mp3",
+  "sure": 7.94
  },
  "418d4a656ce7148b": {
   "k": "antrenor",
@@ -2261,6 +2351,12 @@
   "dosya": "4e976239ad2375f3.mp3",
   "sure": 8.49
  },
+ "4ebb2a517487bb9f": {
+  "k": "damla",
+  "m": "Vezirimi bile verebilir miyim?",
+  "dosya": "4ebb2a517487bb9f.mp3",
+  "sure": 1.99
+ },
  "4ebf0d7a630ff14e": {
   "k": "antrenor",
   "m": "Çok doğru Pars. Sonuç artıysa takas kârlı, sıfırsa eşit, eksiyse zararlıdır.",
@@ -2302,6 +2398,12 @@
   "m": "Biliyor muydun? Şah asla şahta kalamaz. Bu yüzden mutlak açmazdaki taş hattın dışına çıkamaz.",
   "dosya": "50c16ecb089613a2.mp3",
   "sure": 7.18
+ },
+ "50f804abfbe3442b": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Üç fedadan yalnız biri çalışabilir. Diğerleri taş kaybettirir. Siyahın cevabına hep bak!",
+  "dosya": "50f804abfbe3442b.mp3",
+  "sure": 7.65
  },
  "50f8d57c53fe5574": {
   "k": "antrenor",
@@ -2434,6 +2536,12 @@
   "m": "Biliyor muydun? Takas hesabının ilk adımı saymaktır: kaç taş saldırıyor, kaç taş koruyor?",
   "dosya": "5598257acaef0197.mp3",
   "sure": 6.4
+ },
+ "55a74c601b66fed2": {
+  "k": "antrenor",
+  "m": "Tam öyle. Şahın kaçış karelerini say, fedayla hangisini kapatacağını bul.",
+  "dosya": "55a74c601b66fed2.mp3",
+  "sure": 5.67
  },
  "55f2ef9ff6872e10": {
   "k": "antrenor",
@@ -3053,6 +3161,12 @@
   "dosya": "6dd1364c392f1726.mp3",
   "sure": 2.32
  },
+ "6e0e4b36116c108a": {
+  "k": "antrenor",
+  "m": "Aynen Pars. Önce hesapla: ne veriyorum, ne alıyorum? Sonra karar ver.",
+  "dosya": "6e0e4b36116c108a.mp3",
+  "sure": 4.83
+ },
  "6f1917d946e2f954": {
   "k": "antrenor",
   "m": "Evet Pars. İki filin karelerinin renkleri farklıdır. Şahı köşeye sıkıştıran bu iki fili ara.",
@@ -3125,6 +3239,12 @@
   "dosya": "70d28fbbe497cc83.mp3",
   "sure": 5.62
  },
+ "70ed8d64632b049c": {
+  "k": "antrenor",
+  "m": "{ad}, bugün cesur bir konuya geçiyoruz: feda. Feda, bir taşı bilerek vermektir.",
+  "dosya": "70ed8d64632b049c.mp3",
+  "sure": 6.16
+ },
  "70ef502a2c6120f1": {
   "k": "antrenor",
   "m": "Tam bu. Değerli taşla korunan ucuz taşı alma; taşın değerinden kazandığın puan azdır.",
@@ -3148,6 +3268,12 @@
   "m": "Mat Kalıpları-1 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "71d8def274302993.mp3",
   "sure": 9.09
+ },
+ "72568d20bca7e4a9": {
+  "k": "pars",
+  "m": "Yani fedayla şahın yolunu tıkayıp kalıbı tamamlıyoruz.",
+  "dosya": "72568d20bca7e4a9.mp3",
+  "sure": 3.34
  },
  "727de1f82a6443bf": {
   "k": "pars",
@@ -3275,6 +3401,12 @@
   "dosya": "758d8368d5c61f10.mp3",
   "sure": 2.77
  },
+ "760be1239e3568e2": {
+  "k": "pars",
+  "m": "Yani önce siyah alabilir mi diye bakacağım.",
+  "dosya": "760be1239e3568e2.mp3",
+  "sure": 2.4
+ },
  "762ba3a83c3746e6": {
   "k": "antrenor",
   "m": "{ad}, sıradaki kalıp köşe matı. Şah köşede oturuyorsa dikkat!",
@@ -3365,6 +3497,18 @@
   "dosya": "79a160daf6a479ae.mp3",
   "sure": 7.34
  },
+ "79d1eede916758d5": {
+  "k": "pars",
+  "m": "Önce mat var mı diye bakıp sonra puan sayacağım.",
+  "dosya": "79d1eede916758d5.mp3",
+  "sure": 2.69
+ },
+ "79f23af0a2363dde": {
+  "k": "antrenor",
+  "m": "{ad}, fedayı tanıyalım. Feda, taşı rakibin alabileceği bir kareye bilerek götürmektir.",
+  "dosya": "79f23af0a2363dde.mp3",
+  "sure": 7.37
+ },
  "7a1701fe841a7413": {
   "k": "pars",
   "m": "Hocam, vezirle şah çektim ama siyah kurtuldu!",
@@ -3454,6 +3598,12 @@
   "m": "Artık altın kuralları biliyorsun {ad}: merkez, geliştirme, rok. Şimdi hangi hamlenin hangi ilkeye uyduğunu seçeceksin.",
   "dosya": "7d4aa3dd3e338ec0.mp3",
   "sure": 8.02
+ },
+ "7d6d07b54387d4c4": {
+  "k": "antrenor",
+  "m": "{ad}, bugün fedayla biten mat kalıplarına bakıyoruz: arka sıra, boğma, Boden ve Anastasia.",
+  "dosya": "7d6d07b54387d4c4.mp3",
+  "sure": 7.76
  },
  "7d93da30ad4a0fde": {
   "k": "antrenor",
@@ -3605,6 +3755,12 @@
   "dosya": "81e5cf912acfabf4.mp3",
   "sure": 7.34
  },
+ "822590980d3ad200": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Usta oyuncu önce hesap yapar, sonra feda eder. Sen de hem hesap hem mat aramayı unutma!",
+  "dosya": "822590980d3ad200.mp3",
+  "sure": 7.47
+ },
  "82c72a2c187f02ef": {
   "k": "antrenor",
   "m": "{ad}, taşların puanını öğrendik: piyon 1, at ve fil 3, kale 5, vezir 9. Peki şah kaç puan?",
@@ -3616,6 +3772,12 @@
   "m": "Doğru Damla. Aldığın taş verdiğinden değersizse takas zararlıdır.",
   "dosya": "82c7b47490d8051f.mp3",
   "sure": 4.86
+ },
+ "82e0962e97a9cc6e": {
+  "k": "antrenor",
+  "m": "Evet Damla. Ama şimdi kalıba ulaşmak için bir taş feda edeceğiz.",
+  "dosya": "82e0962e97a9cc6e.mp3",
+  "sure": 4.36
  },
  "832fa8e4317b38e8": {
   "k": "antrenor",
@@ -3707,6 +3869,12 @@
   "dosya": "85b9e5276bd533f9.mp3",
   "sure": 8.31
  },
+ "85d5d7803337ba81": {
+  "k": "antrenor",
+  "m": "Evet. Sonra karşılığı var mı, ona bak. İkisi de varsa doğru fedadır!",
+  "dosya": "85d5d7803337ba81.mp3",
+  "sure": 5.09
+ },
  "8633235c7377d79e": {
   "k": "antrenor",
   "m": "Çok iyi Damla. At matı çoğu zaman şahın kendi taşlarıyla sıkıştığı yerde olur.",
@@ -3730,6 +3898,12 @@
   "m": "Evet Damla. Şimdi bildiklerini karıştırıp deneyelim, {ad}.",
   "dosya": "87471b69d0f2c6a9.mp3",
   "sure": 4.08
+ },
+ "8763187844945268": {
+  "k": "antrenor",
+  "m": "Aynen. Kalıbı tanı, eksik parçayı fedayla tamamla!",
+  "dosya": "8763187844945268.mp3",
+  "sure": 3.89
  },
  "87e16cb002bd5fc6": {
   "k": "antrenor",
@@ -4001,6 +4175,12 @@
   "dosya": "8ed673718658bd9c.mp3",
   "sure": 2.77
  },
+ "8ee0953ba9f79757": {
+  "k": "antrenor",
+  "m": "{ad}, ilk feda türümüz materyal fedası. Bir taş veririz, sonra daha değerli bir taş alırız.",
+  "dosya": "8ee0953ba9f79757.mp3",
+  "sure": 6.64
+ },
  "8ee3ec644ec73826": {
   "k": "antrenor",
   "m": "Biliyor muydun? Mat, şaha şah çekilip kaçacak karesi kalmadığında olur. Kaçış karelerini saymak matı bulmanın kestirme yoludur!",
@@ -4187,6 +4367,12 @@
   "dosya": "93cb161d02715ab0.mp3",
   "sure": 4.78
  },
+ "94011917197e886c": {
+  "k": "antrenor",
+  "m": "Evet Damla. Bazen de feda hiç işe yaramıyor olacak, dikkat!",
+  "dosya": "94011917197e886c.mp3",
+  "sure": 4.68
+ },
  "9465b9abc0593aa6": {
   "k": "damla",
   "m": "Yemek çatalı gibi mi hocam?",
@@ -4331,6 +4517,12 @@
   "dosya": "9945c4465925647a.mp3",
   "sure": 3.37
  },
+ "99521b6d058f38dc": {
+  "k": "antrenor",
+  "m": "Çok güzel Pars. Sakin ol, hesapla, sonra feda et.",
+  "dosya": "99521b6d058f38dc.mp3",
+  "sure": 3.94
+ },
  "997807d4147a6bb6": {
   "k": "antrenor",
   "m": "{ad}, her alma kâr değildir. Bazen aldığından daha fazlasını kaybedersin.",
@@ -4361,6 +4553,12 @@
   "dosya": "99de5741336789ca.mp3",
   "sure": 6.87
  },
+ "99fafa1a56e33007": {
+  "k": "antrenor",
+  "m": "Satrançta Fedalar-1 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "99fafa1a56e33007.mp3",
+  "sure": 10.11
+ },
  "9a368716a4a5f4fe": {
   "k": "damla",
   "m": "Siyah ne oynarsa oynasın mat gelmeli, değil mi?",
@@ -4390,6 +4588,12 @@
   "m": "{ad}, bu ünitede savunmayı kaldırmayı öğrendin. Şimdi tersine bakalım: rakip bizi mat etmek üzereyse ne yaparız?",
   "dosya": "9aff3d6955458aa4.mp3",
   "sure": 8.31
+ },
+ "9b1c1db273ba9136": {
+  "k": "pars",
+  "m": "Yani verdiğimden daha fazlasını geri alacaksam, değil mi?",
+  "dosya": "9b1c1db273ba9136.mp3",
+  "sure": 3.76
  },
  "9b4f1d23efa966aa": {
   "k": "antrenor",
@@ -4432,6 +4636,12 @@
   "m": "Hiçbirinde mat çıkmazsa o zaman mat yok demektir.",
   "dosya": "9c0b7a5bdb2f60cc.mp3",
   "sure": 3.11
+ },
+ "9c207da3bb901b39": {
+  "k": "antrenor",
+  "m": "O zaman bu feda değil, hatadır. Sadece öne geçtiğin fedayı yap.",
+  "dosya": "9c207da3bb901b39.mp3",
+  "sure": 4.91
  },
  "9c2c40a1ff9fce9c": {
   "k": "antrenor",
@@ -4516,6 +4726,12 @@
   "m": "Biliyor muydun? İyi oyuncu almadan önce şunu sorar: kaç taş saldırıyor, kaç taş savunuyor, sonuç ne?",
   "dosya": "9d637f5b2167ec95.mp3",
   "sure": 7.24
+ },
+ "9e052cf688353a09": {
+  "k": "damla",
+  "m": "Nasıl ayıracağım hocam?",
+  "dosya": "9e052cf688353a09.mp3",
+  "sure": 1.8
  },
  "9e1cabe72db794ad": {
   "k": "antrenor",
@@ -5135,6 +5351,12 @@
   "dosya": "b260181152947ea3.mp3",
   "sure": 2.59
  },
+ "b2afe6b3f9414441": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Feda, taşı alınabilecek kareye götürmektir. Korunan ve alınamayan taş feda sayılmaz!",
+  "dosya": "b2afe6b3f9414441.mp3",
+  "sure": 7.42
+ },
  "b2b14da32402a848": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şahın önündeki açmazdaki taş hiç kıpırdayamaz. Kıpırdarsa kendi şahı şah altında kalır!",
@@ -5242,6 +5464,12 @@
   "m": "Yetişip yetişemeyeceğini yine sayarak mı bulacağız?",
   "dosya": "b619ac1a47464dd5.mp3",
   "sure": 3.0
+ },
+ "b631564f2221b65c": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Materyal, tahtadaki taşların toplam puanıdır. Fedada az puan verip çok puan alırsın!",
+  "dosya": "b631564f2221b65c.mp3",
+  "sure": 7.94
  },
  "b635aef3f4a13de6": {
   "k": "antrenor",
@@ -5933,6 +6161,12 @@
   "dosya": "d1f7752d733fcc74.mp3",
   "sure": 3.89
  },
+ "d216ec1bf92a4d6b": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her feda iyi değildir. Karşılığında kazanç ya da mat yoksa taşını boşuna vermiş olursun!",
+  "dosya": "d216ec1bf92a4d6b.mp3",
+  "sure": 7.65
+ },
  "d22081d3f910e8ab": {
   "k": "damla",
   "m": "Onlardan birini alırız. Koruyucu geri almak zorunda kalır.",
@@ -6011,6 +6245,12 @@
   "dosya": "d47dc56c08e70888.mp3",
   "sure": 3.11
  },
+ "d50ea0d2c97af979": {
+  "k": "antrenor",
+  "m": "{ad}, feda ünitesinin sonuna geldik. Bugün her şey karışık olacak.",
+  "dosya": "d50ea0d2c97af979.mp3",
+  "sure": 5.25
+ },
  "d54d48f0c778731a": {
   "k": "damla",
   "m": "Peki siyah tehdidi durduramazsa?",
@@ -6059,6 +6299,12 @@
   "dosya": "d6bb453e65ede9c0.mp3",
   "sure": 5.38
  },
+ "d6c121996eafefc8": {
+  "k": "pars",
+  "m": "Puanlar eşit çıkarsa ya da ben geride kalırsam?",
+  "dosya": "d6c121996eafefc8.mp3",
+  "sure": 2.77
+ },
  "d7299c124752e7e3": {
   "k": "antrenor",
   "m": "Evet. Ama önce tehdidi görmelisin: rakip kalesini son sıraya getirirse mat olur mu, her hamlede bunu kontrol et.",
@@ -6076,6 +6322,12 @@
   "m": "Hocam, bir de uzun rok var mı?",
   "dosya": "d7431ce8a7666a8c.mp3",
   "sure": 2.46
+ },
+ "d8146d30d956af58": {
+  "k": "antrenor",
+  "m": "Her feda için siyahın cevabını düşün. Alınca ne oluyor, sıra bana gelince ne kazanıyorum?",
+  "dosya": "d8146d30d956af58.mp3",
+  "sure": 5.98
  },
  "d8c2da03d68f5d20": {
   "k": "antrenor",
@@ -6269,6 +6521,12 @@
   "dosya": "ddf14eb481494d78.mp3",
   "sure": 4.96
  },
+ "ddf312a91bb92fdf": {
+  "k": "damla",
+  "m": "Bunların hepsini daha önce öğrenmiştik hocam.",
+  "dosya": "ddf312a91bb92fdf.mp3",
+  "sure": 2.59
+ },
  "ddf928bbea9bef94": {
   "k": "antrenor",
   "m": "Çoğu zaman öyle. Önce her piyonun terfiye kaç hamlesi olduğunu say.",
@@ -6449,6 +6707,12 @@
   "dosya": "e3b69cbe0d686407.mp3",
   "sure": 4.83
  },
+ "e3d1ae5e971a1d61": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Satrançta Fedalar-1 Testi seni bekliyor.",
+  "dosya": "e3d1ae5e971a1d61.mp3",
+  "sure": 7.29
+ },
  "e3e47534d341418c": {
   "k": "pars",
   "m": "Piyon son sıraya gidip vezir olursa nasıl yazarız?",
@@ -6515,6 +6779,12 @@
   "dosya": "e64f5a1d3538fa9c.mp3",
   "sure": 7.6
  },
+ "e68caaf8889bdd7b": {
+  "k": "antrenor",
+  "m": "{ad}, bugün üç fedadan doğru olanı bulacağız. Hepsi cazip görünür ama yalnız biri çalışır.",
+  "dosya": "e68caaf8889bdd7b.mp3",
+  "sure": 7.24
+ },
  "e6aa6c93beaa9dc0": {
   "k": "pars",
   "m": "Ama vezirle piyon alırsam bir taş kazanırım!",
@@ -6532,6 +6802,12 @@
   "m": "Peki piyon 2. sıradaysa?",
   "dosya": "e6f73da2dc91618e.mp3",
   "sure": 1.49
+ },
+ "e791c2e5d839bf6e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Matta taşın puanı önemli değildir. Şahı yakalarsan oyun biter, verdiğin vezir bile fark etmez!",
+  "dosya": "e791c2e5d839bf6e.mp3",
+  "sure": 7.78
  },
  "e7c59c405978bb67": {
   "k": "damla",
@@ -6869,6 +7145,12 @@
   "dosya": "f25ad07758009dd6.mp3",
   "sure": 8.44
  },
+ "f267bed22c905c4e": {
+  "k": "antrenor",
+  "m": "Aynen Pars. Sırayla dene, çalışanı seç.",
+  "dosya": "f267bed22c905c4e.mp3",
+  "sure": 2.87
+ },
  "f2c8ecd98edb1a11": {
   "k": "antrenor",
   "m": "Korunan taşlara ve koruyucularına. Sonra puan hesabı yap.",
@@ -7103,6 +7385,12 @@
   "dosya": "fc93c2622192676e.mp3",
   "sure": 5.43
  },
+ "fcca95398db90ae9": {
+  "k": "damla",
+  "m": "Taşımı vermek mi hocam? Ama taşlarım çok değerli!",
+  "dosya": "fcca95398db90ae9.mp3",
+  "sure": 2.95
+ },
  "fcd585424263b402": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah kaçarken, rakip taşın hattındaki geri kareye de gidemez; o kare de tehdit altındadır.",
@@ -7114,6 +7402,18 @@
   "m": "Evet. Hem koruyucuyu uzaklaştırdık hem de sırayı kazandık.",
   "dosya": "fce3a17792230b7d.mp3",
   "sure": 4.31
+ },
+ "fd5ea54ed87f4916": {
+  "k": "antrenor",
+  "m": "Mat geliyorsa evet! Siyah taşı almak zorunda kalır ve şahın yolu tıkanır.",
+  "dosya": "fd5ea54ed87f4916.mp3",
+  "sure": 5.75
+ },
+ "fd6c10842f153644": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Büyük ustalar bile bazen vezirlerini feda eder. Doğru feda oyunu bir anda kazandırabilir!",
+  "dosya": "fd6c10842f153644.mp3",
+  "sure": 7.0
  },
  "fd794f8bf9b3890c": {
   "k": "damla",
