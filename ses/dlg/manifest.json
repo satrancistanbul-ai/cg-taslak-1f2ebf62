@@ -41,6 +41,18 @@
   "dosya": "08c98458f2c25857.mp3",
   "sure": 7.89
  },
+ "08d185615b8e4299": {
+  "k": "damla",
+  "m": "Hocam, piyon hep bir kare mi gidecek? Hiç güçlenmeyecek mi?",
+  "dosya": "08d185615b8e4299.mp3",
+  "sure": 3.6
+ },
+ "0aa233c052721aa8": {
+  "k": "pars",
+  "m": "Sonraki hamlede yapmazsam?",
+  "dosya": "0aa233c052721aa8.mp3",
+  "sure": 1.8
+ },
  "0ca287a53676be34": {
   "k": "damla",
   "m": "Vezirden bile mi önemli?",
@@ -107,6 +119,12 @@
   "dosya": "21618e0461858925.mp3",
   "sure": 7.47
  },
+ "229c6eb896fbb254": {
+  "k": "antrenor",
+  "m": "Güzel soru {ad}! Ona geçerken alma diyoruz. Sanki tek kare gitmiş gibi onu alabilirsin.",
+  "dosya": "229c6eb896fbb254.mp3",
+  "sure": 6.45
+ },
  "22feda9987916361": {
   "k": "antrenor",
   "m": "Biliyor muydun? Korumasız taşa saldırılırsa rakip onu bedavaya alabilir. Hamle yapmadan önce taşlarını say ve kontrol et!",
@@ -118,6 +136,12 @@
   "m": "Tahtaya bakarken iki soru sor, {ad}: Bu taş neye saldırıyor? Bana kim saldırıyor?",
   "dosya": "24545403c5340bae.mp3",
   "sure": 6.22
+ },
+ "24620f70e7f3eeb1": {
+  "k": "pars",
+  "m": "Hocam, piyon ilk hamlesinde iki kare gidebiliyordu. Yanımdaki piyonu böyle geçerse ne olur?",
+  "dosya": "24620f70e7f3eeb1.mp3",
+  "sure": 5.43
  },
  "25790c15f5181ca7": {
   "k": "antrenor",
@@ -142,6 +166,12 @@
   "m": "{ad}, mat ile pat çok karıştırılır. Bugün ikisini ayırmayı öğreneceğiz.",
   "dosya": "2b2514cc173f4650.mp3",
   "sure": 5.43
+ },
+ "2bb8ffea40a17db2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Geçerken alma yalnız piyonlarla yapılır: sanki rakip piyon tek kare ilerlemiş gibi onu alırsın.",
+  "dosya": "2bb8ffea40a17db2.mp3",
+  "sure": 7.34
  },
  "2c170ad9aa97fdbc": {
   "k": "antrenor",
@@ -275,6 +305,12 @@
   "dosya": "3d6ffbc387f50337.mp3",
   "sure": 5.15
  },
+ "3df6f21803fdb849": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Terfide çoğunlukla vezir seçilir. Ama pattan kaçmak ya da şah çekmek için başka taş seçilebilir.",
+  "dosya": "3df6f21803fdb849.mp3",
+  "sure": 8.12
+ },
  "3f8473365de58336": {
   "k": "antrenor",
   "m": "{ad}, bugün satrancın en önemli anını öğreniyoruz: mat.",
@@ -298,6 +334,12 @@
   "m": "{ad}, ünitenin sonuna geldik. Şimdi mat, pat ve şah çekmeyi birlikte tekrar edeceğiz.",
   "dosya": "4239b8ab69c9302d.mp3",
   "sure": 5.85
+ },
+ "42e3e2c1f9882afa": {
+  "k": "damla",
+  "m": "Ne zaman mesela?",
+  "dosya": "42e3e2c1f9882afa.mp3",
+  "sure": 1.44
  },
  "438c5365c7b7e9ee": {
   "k": "pars",
@@ -359,11 +401,29 @@
   "dosya": "548ec7b0001c422f.mp3",
   "sure": 2.46
  },
+ "552ac87e7ff49f84": {
+  "k": "antrenor",
+  "m": "Özel Hamleler Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "552ac87e7ff49f84.mp3",
+  "sure": 9.09
+ },
+ "5551fea936b9114e": {
+  "k": "pars",
+  "m": "Kale de şahın yanına geliyor değil mi?",
+  "dosya": "5551fea936b9114e.mp3",
+  "sure": 2.12
+ },
  "56ec97e519f7c9af": {
   "k": "antrenor",
   "m": "Doğru. Ayıran tek soru şu: şah çekiliyor mu?",
   "dosya": "56ec97e519f7c9af.mp3",
   "sure": 3.58
+ },
+ "571ce937040b1986": {
+  "k": "pars",
+  "m": "Yani küçük piyon vezir olabilir mi?",
+  "dosya": "571ce937040b1986.mp3",
+  "sure": 1.93
  },
  "58230973574f3110": {
   "k": "antrenor",
@@ -431,6 +491,18 @@
   "dosya": "672fb962d4759741.mp3",
   "sure": 2.22
  },
+ "67b11384144954ae": {
+  "k": "antrenor",
+  "m": "Rakip piyonun atladığı boş kareye. Rakip piyon da tahtadan çıkar. Ama bu hak yalnız hemen sonraki hamlede geçerli.",
+  "dosya": "67b11384144954ae.mp3",
+  "sure": 7.55
+ },
+ "67f91e308b267682": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Uzun rokta kale üç kare gider, şah ise yine iki kare. Araları üç kare boş olmalı.",
+  "dosya": "67f91e308b267682.mp3",
+  "sure": 7.94
+ },
  "69a83c8baa4ef9b5": {
   "k": "pars",
   "m": "O zaman mat için önce şahın kaçış karelerine bakmalıyım.",
@@ -478,6 +550,12 @@
   "m": "Biliyor muydun? Boş bir tahtada kale, hangi karede olursa olsun tam 14 kareye gidebilir.",
   "dosya": "6feab6adb4d844c4.mp3",
   "sure": 7.6
+ },
+ "72de69316c6f2313": {
+  "k": "antrenor",
+  "m": "Aynen {ad}. Kale d1'e gelir. Ama şahla kale arasında üç kare boş olmalı.",
+  "dosya": "72de69316c6f2313.mp3",
+  "sure": 5.85
  },
  "73cb1252df3c2601": {
   "k": "damla",
@@ -527,6 +605,18 @@
   "dosya": "7ed53febfa5be58c.mp3",
   "sure": 1.57
  },
+ "7f08b74ff1c7723a": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Terfi eden piyon vezir, kale, fil ya da at olabilir; şah ya da piyon olamaz.",
+  "dosya": "7f08b74ff1c7723a.mp3",
+  "sure": 6.95
+ },
+ "7f44692577e0fdf8": {
+  "k": "antrenor",
+  "m": "Güçlenecek Damla! Piyon rakibin son sırasına ulaşınca başka bir taşa dönüşür. Buna terfi denir.",
+  "dosya": "7f44692577e0fdf8.mp3",
+  "sure": 7.52
+ },
  "85b9e5276bd533f9": {
   "k": "antrenor",
   "m": "Biliyor muydun? Fil rengini hiç değiştiremez. Bir fil tahtanın yalnızca 32 karesini kullanabilir.",
@@ -551,11 +641,23 @@
   "dosya": "8cc8d33eea707b45.mp3",
   "sure": 2.93
  },
+ "8fdcdae9fbdf1a9d": {
+  "k": "antrenor",
+  "m": "Şah ile kale aynı hamlede oynar. Kısa rokta şah kaleye doğru iki kare gider, kale de şahın yanına geçer.",
+  "dosya": "8fdcdae9fbdf1a9d.mp3",
+  "sure": 7.47
+ },
  "8febb2ac7bc636bf": {
   "k": "antrenor",
   "m": "Biliyor muydun? Beyazın ilk hamlede 20 seçeneği vardır: 16 piyon hamlesi ve 4 at hamlesi.",
   "dosya": "8febb2ac7bc636bf.mp3",
   "sure": 7.76
+ },
+ "908afef1b04380cf": {
+  "k": "antrenor",
+  "m": "Üç şart var Damla: rakip piyon iki kare ilerlemiş olacak, senin piyonun tam yanına gelecek ve hemen sonraki hamlede alacaksın.",
+  "dosya": "908afef1b04380cf.mp3",
+  "sure": 8.78
  },
  "90c69e46bd8ca200": {
   "k": "antrenor",
@@ -635,6 +737,12 @@
   "dosya": "9c2c40a1ff9fce9c.mp3",
   "sure": 6.53
  },
+ "9ca44b6e44796658": {
+  "k": "damla",
+  "m": "Peki şah şahtayken?",
+  "dosya": "9ca44b6e44796658.mp3",
+  "sure": 1.33
+ },
  "9ce836e1cf56e348": {
   "k": "antrenor",
   "m": "Hayır Pars, kale hiç çapraz gitmez. Videoda görelim.",
@@ -665,17 +773,53 @@
   "dosya": "a32c29970397c4db.mp3",
   "sure": 1.33
  },
+ "a41b5ece3bfdaf0e": {
+  "k": "antrenor",
+  "m": "Şahtayken rok yapılmaz. Şahın geçeceği ve varacağı kareler de saldırı altında olmamalı.",
+  "dosya": "a41b5ece3bfdaf0e.mp3",
+  "sure": 6.5
+ },
+ "a4c06f69d0ad40c1": {
+  "k": "antrenor",
+  "m": "Vezirle pat olacaksa ya da ancak atla şah çekilebiliyorsa. Her seferinde konuma bak, sonra seç.",
+  "dosya": "a4c06f69d0ad40c1.mp3",
+  "sure": 7.29
+ },
+ "a51c6008ee65f417": {
+  "k": "antrenor",
+  "m": "Aferin. Şimdi konumlara bakıp hangisinin yapılabileceğini bulalım.",
+  "dosya": "a51c6008ee65f417.mp3",
+  "sure": 4.36
+ },
  "a59e6e1533d58e08": {
   "k": "pars",
   "m": "Nereye kaçacağım ki?",
   "dosya": "a59e6e1533d58e08.mp3",
   "sure": 1.52
  },
+ "a68b8f31cef94970": {
+  "k": "damla",
+  "m": "Rok ne hocam?",
+  "dosya": "a68b8f31cef94970.mp3",
+  "sure": 1.07
+ },
+ "a81a016cbc2c8d99": {
+  "k": "antrenor",
+  "m": "{ad}, bugün şahı güvene almanın en güzel yolunu öğreniyoruz: rok.",
+  "dosya": "a81a016cbc2c8d99.mp3",
+  "sure": 5.04
+ },
  "a9e5252217d6da8c": {
   "k": "antrenor",
   "m": "Merhaba {ad}! Bugün satranç dünyasına ilk adımını atıyorsun. Hazır mısın?",
   "dosya": "a9e5252217d6da8c.mp3",
   "sure": 4.83
+ },
+ "ab56699b89b6f65f": {
+  "k": "pars",
+  "m": "Hocam, terfide hep vezir seçsem olur mu?",
+  "dosya": "ab56699b89b6f65f.mp3",
+  "sure": 2.53
  },
  "ab583b3942ce553f": {
   "k": "antrenor",
@@ -695,6 +839,12 @@
   "dosya": "ac956e8e27afac34.mp3",
   "sure": 4.41
  },
+ "ad47f6276328d52f": {
+  "k": "antrenor",
+  "m": "Hayır {ad}. Şah ve kale hiç oynamamış olmalı, araları boş olmalı.",
+  "dosya": "ad47f6276328d52f.mp3",
+  "sure": 5.43
+ },
  "ad5df85e8adbb073": {
   "k": "damla",
   "m": "Çekiliyorsa mat, çekilmiyorsa pat!",
@@ -712,6 +862,12 @@
   "m": "Merhaba {ad}! Satrancı ne kadar biliyorsun? Birkaç kısa soruyla seviyeni ölçelim, seni doğru üniteden başlatayım. Puan yok, sadece seni tanımak istiyorum. Bilmediğin soruda üzülme!",
   "dosya": "ad6d4e4597851bda.mp3",
   "sure": 12.3
+ },
+ "adcd3a01fcf673d3": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Rok, tek hamlede iki taşın birden oynadığı tek hamledir: şah ve kale.",
+  "dosya": "adcd3a01fcf673d3.mp3",
+  "sure": 6.58
  },
  "ae364ddab798e57d": {
   "k": "antrenor",
@@ -773,6 +929,12 @@
   "dosya": "ba167c8d96d6b2e9.mp3",
   "sure": 1.62
  },
+ "bbaba1ee25c3f129": {
+  "k": "damla",
+  "m": "Hangi kareye gidiyorum peki?",
+  "dosya": "bbaba1ee25c3f129.mp3",
+  "sure": 1.67
+ },
  "bd2fec40216305e4": {
   "k": "antrenor",
   "m": "Tek fark: şah çekiliyor mu? Çekiliyor ve kaçış yoksa mat. Çekilmiyor ve hamle yoksa pat.",
@@ -785,6 +947,24 @@
   "dosya": "bd57e6766c73691f.mp3",
   "sure": 7.18
  },
+ "bdc40e73cc5c01c8": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Özel Hamleler Testi seni bekliyor.",
+  "dosya": "bdc40e73cc5c01c8.mp3",
+  "sure": 6.4
+ },
+ "be864a0dd727e454": {
+  "k": "antrenor",
+  "m": "Var Damla. Şah bu sefer vezir tarafındaki kaleye, yani a1 kalesine doğru iki kare gider.",
+  "dosya": "be864a0dd727e454.mp3",
+  "sure": 7.84
+ },
+ "bf8b544e1add577f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah şahtaysa ya da geçeceği kare saldırı altındaysa rok yapılamaz.",
+  "dosya": "bf8b544e1add577f.mp3",
+  "sure": 6.3
+ },
  "c016537d5c4453c7": {
   "k": "antrenor",
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 2/3 doğru.",
@@ -796,6 +976,12 @@
   "m": "Bazen kazandığın oyunu berabere bitirirsin. O yüzden her hamlede rakip şahın karelerini say.",
   "dosya": "c502092dd81b9216.mp3",
   "sure": 6.82
+ },
+ "c5bc56b2d4175b1b": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Geçerken alma hakkı yalnız bir hamle sürer. Kullanmazsan o hak biter.",
+  "dosya": "c5bc56b2d4175b1b.mp3",
+  "sure": 6.16
  },
  "c784e99c4045ec50": {
   "k": "antrenor",
@@ -814,6 +1000,12 @@
   "m": "Aynen öyle Pars. Kale ile filin birleşimi. Ama gücünü dikkatli kullan!",
   "dosya": "c7f13c918f0db4e1.mp3",
   "sure": 4.73
+ },
+ "c8292251f8f26ae1": {
+  "k": "antrenor",
+  "m": "Çoğu zaman evet {ad}, çünkü vezir en güçlü taş. Ama bazen başka taş daha iyi.",
+  "dosya": "c8292251f8f26ae1.mp3",
+  "sure": 6.09
  },
  "c9d3831029e9ce56": {
   "k": "antrenor",
@@ -881,6 +1073,12 @@
   "dosya": "d64e763bd2a1f623.mp3",
   "sure": 6.5
  },
+ "d7431ce8a7666a8c": {
+  "k": "damla",
+  "m": "Hocam, bir de uzun rok var mı?",
+  "dosya": "d7431ce8a7666a8c.mp3",
+  "sure": 2.46
+ },
  "d8c2da03d68f5d20": {
   "k": "antrenor",
   "m": "Artık bütün taşları tanıyorsun, {ad}. Şimdi hepsini bir arada görelim.",
@@ -923,6 +1121,30 @@
   "dosya": "df00af65563ac2d1.mp3",
   "sure": 0.65
  },
+ "df3cb2b2804393a1": {
+  "k": "pars",
+  "m": "Bir hamlede iki taş birden! Şah da köşeye saklanmış oluyor.",
+  "dosya": "df3cb2b2804393a1.mp3",
+  "sure": 3.66
+ },
+ "dfe7775e2f4ae014": {
+  "k": "antrenor",
+  "m": "Evet {ad}. Vezir, kale, fil ya da at seçebilirsin.",
+  "dosya": "dfe7775e2f4ae014.mp3",
+  "sure": 4.55
+ },
+ "e1173e05b0683391": {
+  "k": "pars",
+  "m": "Rok, terfi ve geçerken alma!",
+  "dosya": "e1173e05b0683391.mp3",
+  "sure": 1.99
+ },
+ "e12d96e5d18d3c66": {
+  "k": "pars",
+  "m": "Hocam, rok çok güzel. Hep yapabilir miyim?",
+  "dosya": "e12d96e5d18d3c66.mp3",
+  "sure": 2.4
+ },
  "e190dad650f16018": {
   "k": "damla",
   "m": "Hangi konuları hatırlamalıyım?",
@@ -953,6 +1175,12 @@
   "dosya": "e895fed95946a914.mp3",
   "sure": 3.11
  },
+ "e9610d114b5ba20c": {
+  "k": "antrenor",
+  "m": "{ad}, bugün öğrendiğimiz özel hamleleri karıştırıp deneyeceğiz.",
+  "dosya": "e9610d114b5ba20c.mp3",
+  "sure": 4.21
+ },
  "ecbce93e44f15f11": {
   "k": "antrenor",
   "m": "Şaha saldırılmış ve şah hiçbir şekilde kurtulamıyorsa buna mat denir. Oyun orada biter.",
@@ -976,6 +1204,12 @@
   "m": "Bir taşı kim koruyor, {ad}? Bunu sormayı unutma.",
   "dosya": "f02ee9c78f6aa72f.mp3",
   "sure": 3.76
+ },
+ "f0c746164e29f992": {
+  "k": "damla",
+  "m": "Hocam, geçerken almayı ne zaman yapabilirim?",
+  "dosya": "f0c746164e29f992.mp3",
+  "sure": 2.53
  },
  "f1af2a069f4075ab": {
   "k": "antrenor",
@@ -1001,11 +1235,29 @@
   "dosya": "f7d624df277c9a83.mp3",
   "sure": 8.39
  },
+ "f804ff1bdc0e23f6": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Özel hamleler üç tane: rok, piyon terfisi ve geçerken alma.",
+  "dosya": "f804ff1bdc0e23f6.mp3",
+  "sure": 5.93
+ },
+ "f80b14f0bb31f2ef": {
+  "k": "antrenor",
+  "m": "Hak biter {ad}. Ayrıca zorunlu değil; istersen başka hamle yapabilirsin.",
+  "dosya": "f80b14f0bb31f2ef.mp3",
+  "sure": 6.09
+ },
  "f89460294ab405e9": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Şah ve Şah Çekme Testi seni bekliyor.",
   "dosya": "f89460294ab405e9.mp3",
   "sure": 6.22
+ },
+ "f8c43670f21d51fc": {
+  "k": "damla",
+  "m": "Rokta şah ve kale, terfide piyon son sıraya, geçerken almada iki kare giden piyon.",
+  "dosya": "f8c43670f21d51fc.mp3",
+  "sure": 5.2
  },
  "f9f7ec0c8193ff8e": {
   "k": "antrenor",
