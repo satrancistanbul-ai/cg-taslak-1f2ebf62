@@ -383,11 +383,23 @@
   "dosya": "08d185615b8e4299.mp3",
   "sure": 3.6
  },
+ "08ddedd60993be61": {
+  "k": "pars",
+  "m": "Rakip mat tehdit ederse?",
+  "dosya": "08ddedd60993be61.mp3",
+  "sure": 1.75
+ },
  "08f41a296f18016d": {
   "k": "antrenor",
   "m": "Biliyor muydun? Terfi yarışında ilk hamlede iki kare gitmek bir tempo kazandırır; bu bazen yarışı kazandırır.",
   "dosya": "08f41a296f18016d.mp3",
   "sure": 7.47
+ },
+ "09133fc91664f078": {
+  "k": "damla",
+  "m": "Nasıl bulacağız hocam?",
+  "dosya": "09133fc91664f078.mp3",
+  "sure": 1.62
  },
  "091e85c353847e77": {
   "k": "antrenor",
@@ -736,6 +748,12 @@
   "m": "Biliyor muydun? Güvenli görünen her kare güvenli değildir. Hamleden önce rakibin taşı hapsedip hapsedemeyeceğine bak.",
   "dosya": "12a834f60cded80b.mp3",
   "sure": 8.31
+ },
+ "12dc40dd8cb4d714": {
+  "k": "antrenor",
+  "m": "Kale rütbesini tamamlayıp Vezir'e terfi ediyorsun. Tebrikler {ad}, buraya kadar gelmen çok değerli!",
+  "dosya": "12dc40dd8cb4d714.mp3",
+  "sure": 7.0
  },
  "12fc4442db1e0332": {
   "k": "pars",
@@ -1217,6 +1235,12 @@
   "dosya": "20145bd70a856835.mp3",
   "sure": 4.26
  },
+ "202a13934ca204bb": {
+  "k": "pars",
+  "m": "Taşlar çıkmadıysa ne olur?",
+  "dosya": "202a13934ca204bb.mp3",
+  "sure": 1.57
+ },
  "205570e79b4ad148": {
   "k": "antrenor",
   "m": "Biliyor muydun? At ile fil aynı değerde: ikisi de 3 puan. Yani 3 piyon, bir at ya da bir fil kadar eder.",
@@ -1456,6 +1480,12 @@
   "m": "Biliyor muydun? Geride kalsan bile şahı durmadan çekersen oyun berabere biter: aynı konum üç kez gelince oyun biter!",
   "dosya": "24ea8b3ce307cfda.mp3",
   "sure": 8.12
+ },
+ "252cbd022aeef5cc": {
+  "k": "damla",
+  "m": "Açılışta neye bakıyoruz hocam?",
+  "dosya": "252cbd022aeef5cc.mp3",
+  "sure": 1.52
  },
  "25790c15f5181ca7": {
   "k": "antrenor",
@@ -2015,6 +2045,12 @@
   "dosya": "33b3f8f68b37417c.mp3",
   "sure": 2.87
  },
+ "33c2268ca2d2b79e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon son sıraya ulaşınca vezir olur. Sen de bu ünitenin sonunda Kale'den Vezir'e terfi ediyorsun!",
+  "dosya": "33c2268ca2d2b79e.mp3",
+  "sure": 7.29
+ },
  "33f41d609f14d820": {
   "k": "antrenor",
   "m": "{ad}, kendi çatalını bulmak kadar rakibinkini görmek de önemli.",
@@ -2098,6 +2134,12 @@
   "m": "Neden hocam? Onlar da terfiye gidiyor.",
   "dosya": "34ee8b849aff7091.mp3",
   "sure": 2.93
+ },
+ "34f7680c061f17d8": {
+  "k": "antrenor",
+  "m": "Önce onu bitir. Veziri kovala, yolu kapat ya da şahı kaçır. Sonra kendi planına dön.",
+  "dosya": "34f7680c061f17d8.mp3",
+  "sure": 5.98
  },
  "35011181f22ab424": {
   "k": "antrenor",
@@ -2783,6 +2825,12 @@
   "dosya": "4640625dbafe4818.mp3",
   "sure": 8.67
  },
+ "465646e89df73c35": {
+  "k": "antrenor",
+  "m": "O zaman rakip daha çok taşla oynar. Geride kalan at ve fili bul, onu oyuna çıkar.",
+  "dosya": "465646e89df73c35.mp3",
+  "sure": 5.46
+ },
  "466a73a007520b0e": {
   "k": "antrenor",
   "m": "f6'ya. Orada hem d5'i korur hem e4'e bakar. Vezirini erken çıkarma.",
@@ -3035,6 +3083,12 @@
   "dosya": "4cadd4373264529f.mp3",
   "sure": 6.92
  },
+ "4cf839be24c7b684": {
+  "k": "antrenor",
+  "m": "Üç şeye. Taşların oyuna çıktı mı, şah rok ile güvene alındı mı, merkezde yer aldın mı?",
+  "dosya": "4cf839be24c7b684.mp3",
+  "sure": 6.09
+ },
  "4d09b1802b4cc254": {
   "k": "pars",
   "m": "Türkiye'de ne zaman başladı?",
@@ -3124,6 +3178,12 @@
   "m": "{ad}, açılışın ilk altın kuralı: merkezi ele geçir. Merkez, tahtanın ortasındaki d4, e4, d5 ve e5 kareleridir.",
   "dosya": "4efd66b8ad589f14.mp3",
   "sure": 10.27
+ },
+ "4ff6eaf517d6e4c0": {
+  "k": "damla",
+  "m": "Hepsi mi hocam?",
+  "dosya": "4ff6eaf517d6e4c0.mp3",
+  "sure": 1.25
  },
  "5008410afdebc635": {
   "k": "pars",
@@ -3478,6 +3538,12 @@
   "m": "Evet {ad}. At ve fil ise ikisi de 3 puan; yani üç piyon, bir at eder.",
   "dosya": "59a94fd5be488c54.mp3",
   "sure": 6.03
+ },
+ "59e23febdb1b4c9e": {
+  "k": "antrenor",
+  "m": "Rok, taş çıkarma, mat, hata bulma ve oyunsonu. Her soruda önce tahtaya bak, sonra say.",
+  "dosya": "59e23febdb1b4c9e.mp3",
+  "sure": 6.4
  },
  "5a0a92c7ec6f33b2": {
   "k": "antrenor",
@@ -3857,6 +3923,12 @@
   "dosya": "651667f9553b006d.mp3",
   "sure": 6.09
  },
+ "6539b7532db40e07": {
+  "k": "damla",
+  "m": "Şah da oynar mı hocam?",
+  "dosya": "6539b7532db40e07.mp3",
+  "sure": 1.8
+ },
  "6558a55f292e6967": {
   "k": "antrenor",
   "m": "{ad}, sıra taş hapsetmede. Rakibin bir taşı tahtanın kenarında ya da köşesinde sıkışmış olabilir.",
@@ -4048,6 +4120,12 @@
   "m": "Boşuna verirsek kötü. Ama planla verirsek karşılığında daha çok kazanırız. Kurban, planlı taş vermedir.",
   "dosya": "6ad3e88e98d9d485.mp3",
   "sure": 7.65
+ },
+ "6b0dee8402cb62cc": {
+  "k": "antrenor",
+  "m": "{ad}, büyük final! Bu bölümde öğrendiklerinin hepsi karışık geliyor.",
+  "dosya": "6b0dee8402cb62cc.mp3",
+  "sure": 4.91
  },
  "6b97ba3bdd8ffd24": {
   "k": "antrenor",
@@ -4469,6 +4547,12 @@
   "dosya": "7710de34d58e7740.mp3",
   "sure": 6.5
  },
+ "771993c753079704": {
+  "k": "antrenor",
+  "m": "O da olur. Şah çek, rakibin tek cevabını bul, sonra matı yap. Sabırla tek tek dene.",
+  "dosya": "771993c753079704.mp3",
+  "sure": 5.93
+ },
  "772a1505dfbb2ec8": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Mat Kalıpları-2 Testi seni bekliyor.",
@@ -4642,6 +4726,12 @@
   "m": "Biliyor muydun? Kanca matında kaleyi at, atı da piyon korur. Taşlar kanca gibi birbirine tutunur, şah hiçbir şey yapamaz!",
   "dosya": "7b3c9edbbc84a8d1.mp3",
   "sure": 8.67
+ },
+ "7b6f393d2e32c798": {
+  "k": "antrenor",
+  "m": "Final: Kendi Partini Analiz Et Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "7b6f393d2e32c798.mp3",
+  "sure": 10.87
  },
  "7bd3bd55944b6ccd": {
   "k": "antrenor",
@@ -4991,6 +5081,12 @@
   "dosya": "8364619b7ac2e25f.mp3",
   "sure": 8.91
  },
+ "83764e72f7745b33": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Saymak satrançta süper güçtür! Saldıranları ve koruyanları say, puanı hesapla, sonra hamleni seç.",
+  "dosya": "83764e72f7745b33.mp3",
+  "sure": 8.78
+ },
  "8387d8bc74352c0f": {
   "k": "antrenor",
   "m": "Sırası gelen taraf şahta değil ama oynayacak hiçbir hamlesi yok. Oyun berabere biter.",
@@ -5164,6 +5260,12 @@
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Açarak Saldırı, Açarak Şah, Çifte Şah Testi seni bekliyor.",
   "dosya": "87e16cb002bd5fc6.mp3",
   "sure": 9.27
+ },
+ "87f284470482e801": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Partilerde en çok kaçan şey mat ve bedava taş! Her hamlede önce şah çeken hamlelere ve korumasız taşlara bak.",
+  "dosya": "87f284470482e801.mp3",
+  "sure": 9.87
  },
  "87f9d76851da9c94": {
   "k": "damla",
@@ -5428,6 +5530,12 @@
   "m": "Nasıl anlarız?",
   "dosya": "8df59f0c53e98de2.mp3",
   "sure": 1.1
+ },
+ "8e09c996cd9f7e8c": {
+  "k": "antrenor",
+  "m": "O zaman fırsat! Cezalandıracak hamleyi ara. Korumasız taşa saldır ve kazan.",
+  "dosya": "8e09c996cd9f7e8c.mp3",
+  "sure": 5.85
  },
  "8e0ec2aeb7f14f18": {
   "k": "pars",
@@ -5789,6 +5897,12 @@
   "dosya": "93cb161d02715ab0.mp3",
   "sure": 4.78
  },
+ "93df5c32f94df5c8": {
+  "k": "antrenor",
+  "m": "Kaç taş saldırıyor, kaç taş koruyor. Bir de iki tarafın puanını: piyon bir, at ve fil üç, kale beş, vezir dokuz.",
+  "dosya": "93df5c32f94df5c8.mp3",
+  "sure": 8.2
+ },
  "94011917197e886c": {
   "k": "antrenor",
   "m": "Evet Damla. Bazen de feda hiç işe yaramıyor olacak, dikkat!",
@@ -6058,6 +6172,12 @@
   "m": "Satrançta Fedalar-1 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "99fafa1a56e33007.mp3",
   "sure": 10.11
+ },
+ "9a003a5138e1ca17": {
+  "k": "antrenor",
+  "m": "{ad}, son ünitedeyiz! Şimdi kendi partini birlikte inceleyeceğiz. İlk durak açılış.",
+  "dosya": "9a003a5138e1ca17.mp3",
+  "sure": 5.98
  },
  "9a368716a4a5f4fe": {
   "k": "damla",
@@ -6371,6 +6491,12 @@
   "dosya": "a14d828a5b076ee9.mp3",
   "sure": 3.66
  },
+ "a18b840bc5ee0f21": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Partini analiz ederken önce açılışa bak: taşların çıktı mı, rok yapabildin mi, merkezde yer aldın mı?",
+  "dosya": "a18b840bc5ee0f21.mp3",
+  "sure": 8.44
+ },
  "a194a2bcb5e7ad63": {
   "k": "damla",
   "m": "Şah zaten yavaş, nasıl yapacak?",
@@ -6502,6 +6628,12 @@
   "m": "{ad}, sıra açmazda. Hatırlıyor musun, açmazdaki taş yerinden oynayamıyordu.",
   "dosya": "a4f59fa73e54280e.mp3",
   "sure": 6.03
+ },
+ "a50f33f5a4c4c2ad": {
+  "k": "antrenor",
+  "m": "{ad}, partini incelerken ikinci iş şu: Kaçırdığın mat ya da taş var mı?",
+  "dosya": "a50f33f5a4c4c2ad.mp3",
+  "sure": 5.8
  },
  "a515ff91119dc1ee": {
   "k": "antrenor",
@@ -7067,6 +7199,12 @@
   "dosya": "b260181152947ea3.mp3",
   "sure": 2.59
  },
+ "b29bd941779493fc": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Oyunsonunda şah güçlü bir taştır! Şahını piyonuna eşlik ettir ve rakip şahı sıkıştırıp mat yap.",
+  "dosya": "b29bd941779493fc.mp3",
+  "sure": 8.36
+ },
  "b2afe6b3f9414441": {
   "k": "antrenor",
   "m": "Biliyor muydun? Feda, taşı alınabilecek kareye götürmektir. Korunan ve alınamayan taş feda sayılmaz!",
@@ -7289,6 +7427,12 @@
   "dosya": "b8861b781b66ef92.mp3",
   "sure": 7.55
  },
+ "b8a69489edce2180": {
+  "k": "antrenor",
+  "m": "Hayır, bazısı berabere biter. Rakip şah piyona yetişirse sonuç değişir. Hamlenden önce say.",
+  "dosya": "b8a69489edce2180.mp3",
+  "sure": 6.92
+ },
  "b8bffce4a3185893": {
   "k": "pars",
   "m": "Üçüncüsü de şahım güvende mi, yani rok yaptım mı!",
@@ -7360,6 +7504,12 @@
   "m": "Koruyucuyu doğrudan alıyorsan, koruyucuyu almaktır. Kurban veriyor ve koruyucu görevini bırakıyorsa, saptırma.",
   "dosya": "bae33e6ae5618588.mp3",
   "sure": 8.54
+ },
+ "bb03125b70851de0": {
+  "k": "pars",
+  "m": "Rakip hata yaparsa?",
+  "dosya": "bb03125b70851de0.mp3",
+  "sure": 1.49
  },
  "bb2d759819ad3453": {
   "k": "antrenor",
@@ -7529,6 +7679,12 @@
   "dosya": "c15f9a5106deb840.mp3",
   "sure": 7.76
  },
+ "c17b2b606d500c43": {
+  "k": "pars",
+  "m": "Bitirince ne olacak?",
+  "dosya": "c17b2b606d500c43.mp3",
+  "sure": 1.57
+ },
  "c19dfe8132efcc19": {
   "k": "antrenor",
   "m": "Bir taşımızın arkasında rakip şaha bakan başka bir taşımız varsa. Öndeki taş bir taşı alır, rakip şahını kurtarmak zorunda kalır.",
@@ -7630,6 +7786,12 @@
   "m": "Evet Pars. Köşedeki şahın çevresi kendi taşlarıyla doluysa atla şah çekmeyi dene.",
   "dosya": "c329cd8a465614de.mp3",
   "sure": 6.35
+ },
+ "c32f8b0ab2efe903": {
+  "k": "antrenor",
+  "m": "{ad}, beşinci iş: tahtada az taş kalınca ne yapacağız?",
+  "dosya": "c32f8b0ab2efe903.mp3",
+  "sure": 4.26
  },
  "c3881e75e8823f37": {
   "k": "antrenor",
@@ -7768,6 +7930,12 @@
   "m": "Şahın tek karesi kaldıysa ne yapıyoruz hocam?",
   "dosya": "c7c9358629540adc.mp3",
   "sure": 2.77
+ },
+ "c7d83d6fad93548c": {
+  "k": "damla",
+  "m": "Hata nasıl görünür hocam?",
+  "dosya": "c7d83d6fad93548c.mp3",
+  "sure": 1.52
  },
  "c7e6250d7c827dd5": {
   "k": "pars",
@@ -8021,6 +8189,12 @@
   "dosya": "cff1238e833b857a.mp3",
   "sure": 9.14
  },
+ "cff78562aae3a679": {
+  "k": "antrenor",
+  "m": "Önce şah çeken hamleleri say. Sonra rakibin korumasız taşlarına bak.",
+  "dosya": "cff78562aae3a679.mp3",
+  "sure": 5.69
+ },
  "d00454fa7bb43e0c": {
   "k": "pars",
   "m": "Ya öndeki taşın arkasında şah varsa? O taş hiç kıpırdayamaz!",
@@ -8267,6 +8441,12 @@
   "dosya": "d54d48f0c778731a.mp3",
   "sure": 1.75
  },
+ "d5583f91d3a0d6ea": {
+  "k": "antrenor",
+  "m": "{ad}, üçüncü iş hatayı bulmak. Bir hamle taş kaybettirdi mi?",
+  "dosya": "d5583f91d3a0d6ea.mp3",
+  "sure": 5.04
+ },
  "d56d6859d5c3ab3b": {
   "k": "antrenor",
   "m": "Biliyor muydun? Tahtanın ortasındaki vezir 27 kareye gidebilir. Tek bir taş için neredeyse tahtanın yarısı!",
@@ -8296,6 +8476,18 @@
   "m": "Tam öyle Pars. Önce açmazdaki taşı bul, sonra ona nasıl saldıracağını düşün.",
   "dosya": "d5d8018da865cb7a.mp3",
   "sure": 5.62
+ },
+ "d60d18fad3d5ce78": {
+  "k": "pars",
+  "m": "Her oyunsonu kazanılır mı?",
+  "dosya": "d60d18fad3d5ce78.mp3",
+  "sure": 1.7
+ },
+ "d635d45e31ddf6bf": {
+  "k": "antrenor",
+  "m": "Genelde bir taş saldırı altında kalır ve onu kimse korumaz. Hamleden sonra rakip alabilir.",
+  "dosya": "d635d45e31ddf6bf.mp3",
+  "sure": 6.09
  },
  "d64e763bd2a1f623": {
   "k": "antrenor",
@@ -8381,6 +8573,12 @@
   "dosya": "d8146d30d956af58.mp3",
   "sure": 5.98
  },
+ "d86b1786bdc7652f": {
+  "k": "antrenor",
+  "m": "Evet! Oyunsonunda şah savaşa katılır. Piyonu vezire taşırken şahınla piyonun önüne ya da yanına geç.",
+  "dosya": "d86b1786bdc7652f.mp3",
+  "sure": 7.78
+ },
  "d8c2da03d68f5d20": {
   "k": "antrenor",
   "m": "Artık bütün taşları tanıyorsun, {ad}. Şimdi hepsini bir arada görelim.",
@@ -8416,6 +8614,12 @@
   "m": "Fil tek başına mat yapabilir mi?",
   "dosya": "d95b6dadcf14eb16.mp3",
   "sure": 2.17
+ },
+ "d96c47c05b50fc68": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Final: Kendi Partini Analiz Et Testi seni bekliyor.",
+  "dosya": "d96c47c05b50fc68.mp3",
+  "sure": 8.25
  },
  "d9c264b23957c428": {
   "k": "pars",
@@ -9449,6 +9653,12 @@
   "dosya": "f33c7fadeb4107e8.mp3",
   "sure": 2.35
  },
+ "f3667a398aea530d": {
+  "k": "antrenor",
+  "m": "{ad}, dördüncü iş hesaplamak. Almadan önce say.",
+  "dosya": "f3667a398aea530d.mp3",
+  "sure": 4.02
+ },
  "f37a8531807c468c": {
   "k": "antrenor",
   "m": "Çok iyi Damla. Şimdi karışık matlara geçelim.",
@@ -9641,6 +9851,12 @@
   "dosya": "f8c43670f21d51fc.mp3",
   "sure": 5.2
  },
+ "f8dd6fa15c9f3d49": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Hata çoğu zaman bir taşı korumasız bırakmaktır. Hamleden sonra rakibin neyi alabileceğine hep bak!",
+  "dosya": "f8dd6fa15c9f3d49.mp3",
+  "sure": 8.44
+ },
  "f8e73f222f3de0cf": {
   "k": "antrenor",
   "m": "Biliyor muydun? Ustalar bir pozisyona bakınca ilk iş korumasız taşları arar. Korumasız taş, bedava kazanılabilir!",
@@ -9664,6 +9880,12 @@
   "m": "{ad}, mat için siyah şahın hiç kaçış karesi kalmamalı. Önce kaç kaçış karesi var, sayalım.",
   "dosya": "f93ec8156d77f263.mp3",
   "sure": 6.53
+ },
+ "f954175d35e0c457": {
+  "k": "pars",
+  "m": "Mat iki hamlede olursa?",
+  "dosya": "f954175d35e0c457.mp3",
+  "sure": 1.75
  },
  "f96a9fccee2f4356": {
   "k": "antrenor",
