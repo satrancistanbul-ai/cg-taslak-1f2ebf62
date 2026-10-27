@@ -65,6 +65,12 @@
   "dosya": "109f557e56e81838.mp3",
   "sure": 5.25
  },
+ "1190cba1df920211": {
+  "k": "damla",
+  "m": "At mı fil mi daha değerli?",
+  "dosya": "1190cba1df920211.mp3",
+  "sure": 1.75
+ },
  "11f19b8320159335": {
   "k": "antrenor",
   "m": "Hiç zor değil. Bir harf ve bir rakam, bu kadar. Şimdi nasıl olduğunu göstereyim.",
@@ -76,6 +82,12 @@
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 1/3 doğru.",
   "dosya": "1259dc4d2515990e.mp3",
   "sure": 4.55
+ },
+ "13f3a780ae00ba6c": {
+  "k": "damla",
+  "m": "Çünkü karşı taraf geri alınca en az puanı kaybederiz.",
+  "dosya": "13f3a780ae00ba6c.mp3",
+  "sure": 3.16
  },
  "14b7c3cda0ef2c1c": {
   "k": "pars",
@@ -89,11 +101,47 @@
   "dosya": "1567db849a2019f3.mp3",
   "sure": 2.93
  },
+ "15c58bcd47bcf425": {
+  "k": "pars",
+  "m": "O zaman bir vezir, bir kale ile dört piyona eşit galiba.",
+  "dosya": "15c58bcd47bcf425.mp3",
+  "sure": 3.24
+ },
+ "17aacd59b8576f0d": {
+  "k": "pars",
+  "m": "İkimiz de 5 puan kaybettik. Kim kazandı?",
+  "dosya": "17aacd59b8576f0d.mp3",
+  "sure": 2.59
+ },
+ "1922efbacc4b2a86": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Bir hamlede iki taşa birden saldırırsan rakip yalnız birini kurtarabilir. Bu fikir ileride 'çatal' adıyla karşına çıkacak.",
+  "dosya": "1922efbacc4b2a86.mp3",
+  "sure": 10.21
+ },
+ "195624ea85d88e8a": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahın puanı yoktur, çünkü şah paha biçilmezdir. Şahı kaybedersen oyun biter!",
+  "dosya": "195624ea85d88e8a.mp3",
+  "sure": 7.71
+ },
  "1a0fd8327fedb8e6": {
   "k": "damla",
   "m": "Nereden başlayacağız hocam?",
   "dosya": "1a0fd8327fedb8e6.mp3",
   "sure": 1.67
+ },
+ "1a58cb4324b704dd": {
+  "k": "pars",
+  "m": "Ya gittiğimiz kareye rakip saldırıyorsa?",
+  "dosya": "1a58cb4324b704dd.mp3",
+  "sure": 2.4
+ },
+ "1bc6a22c30056047": {
+  "k": "antrenor",
+  "m": "Aslında şahın puanı yok Pars. Çünkü şah paha biçilmez: onu kaybedersen tüm puanlar boşa gider.",
+  "dosya": "1bc6a22c30056047.mp3",
+  "sure": 7.52
  },
  "1c265057ec271480": {
   "k": "antrenor",
@@ -112,6 +160,12 @@
   "m": "Üçüncü savunma yolu koruma, {ad}.",
   "dosya": "1d621e43cf7452ce.mp3",
   "sure": 2.77
+ },
+ "205570e79b4ad148": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? At ile fil aynı değerde: ikisi de 3 puan. Yani 3 piyon, bir at ya da bir fil kadar eder.",
+  "dosya": "205570e79b4ad148.mp3",
+  "sure": 9.14
  },
  "21618e0461858925": {
   "k": "antrenor",
@@ -161,6 +215,12 @@
   "dosya": "274de0df7b17f6f2.mp3",
   "sure": 6.16
  },
+ "280c417559fbbd68": {
+  "k": "damla",
+  "m": "Yani 1 - 9 = eksi 8. Büyük zarar!",
+  "dosya": "280c417559fbbd68.mp3",
+  "sure": 2.4
+ },
  "2b2514cc173f4650": {
   "k": "antrenor",
   "m": "{ad}, mat ile pat çok karıştırılır. Bugün ikisini ayırmayı öğreneceğiz.",
@@ -209,6 +269,12 @@
   "dosya": "30200cb711376ff3.mp3",
   "sure": 1.25
  },
+ "30ce1d4ff9a48daf": {
+  "k": "antrenor",
+  "m": "O zaman taşımız alınır Pars. Önce karenin güvenli olduğuna bak, sonra saldır.",
+  "dosya": "30ce1d4ff9a48daf.mp3",
+  "sure": 5.28
+ },
  "3180a00c40c602bf": {
   "k": "antrenor",
   "m": "Hem de nasıl Damla! Piyon çapraz saldırır ve büyük taşları korkutabilir. Videoda görelim.",
@@ -233,6 +299,24 @@
   "dosya": "337c5e9158468621.mp3",
   "sure": 1.25
  },
+ "346eb56f3e406b3b": {
+  "k": "antrenor",
+  "m": "Harika {ad}! 5 + 4 = 9. Bu hesabı takaslarda çok kullanacağız.",
+  "dosya": "346eb56f3e406b3b.mp3",
+  "sure": 6.3
+ },
+ "347dfd5baf3b2092": {
+  "k": "antrenor",
+  "m": "Değiş-Tokuş Ustası Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "347dfd5baf3b2092.mp3",
+  "sure": 10.06
+ },
+ "349ada71c9010b31": {
+  "k": "antrenor",
+  "m": "{ad}, takas demek karşılıklı taş almak demek. Ben senin kaleni alırım, sen de benim kalemi alırsın.",
+  "dosya": "349ada71c9010b31.mp3",
+  "sure": 7.11
+ },
  "34c34a576493f0ec": {
   "k": "pars",
   "m": "Hangisi hangisiydi, karıştırdım!",
@@ -244,6 +328,12 @@
   "m": "Rakip şahı mat edersen kazanırsın. Mat olursan kaybedersin. Pat olursa oyun berabere biter.",
   "dosya": "34ca234de756af7e.mp3",
   "sure": 7.29
+ },
+ "34d1ea5c3c0cbf0c": {
+  "k": "pars",
+  "m": "Hangi taşı vereceğime bu puanlara bakarak karar veririm!",
+  "dosya": "34d1ea5c3c0cbf0c.mp3",
+  "sure": 2.77
  },
  "35011181f22ab424": {
   "k": "antrenor",
@@ -317,6 +407,12 @@
   "dosya": "3f8473365de58336.mp3",
   "sure": 4.6
  },
+ "40f808d620f93359": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kale ile kale, vezir ile vezir gibi aynı puandaki taşların takası eşit takastır: kimse kazanmaz.",
+  "dosya": "40f808d620f93359.mp3",
+  "sure": 8.67
+ },
  "41561b768256f1b1": {
   "k": "antrenor",
   "m": "Çok eski, Damla. Yaklaşık 1500 yıl önce Hindistan'da ortaya çıktığı kabul edilir. Şimdi tahtamıza bakalım.",
@@ -359,11 +455,29 @@
   "dosya": "44978d549f898179.mp3",
   "sure": 4.31
  },
+ "4550e30982d4bf3f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Vezirle korumalı bir piyonu almak kötü fikirdir: 1 puan alırsın, 9 puan verirsin!",
+  "dosya": "4550e30982d4bf3f.mp3",
+  "sure": 7.24
+ },
+ "455b60c872e51e09": {
+  "k": "pars",
+  "m": "Mesela piyonla kale alırsam çok kazanırım!",
+  "dosya": "455b60c872e51e09.mp3",
+  "sure": 2.46
+ },
  "45f9a0fd4f85c966": {
   "k": "antrenor",
   "m": "Saldırı altındaki bir taşı kurtarmanın dört yolu var, {ad}. Bugün ilkini öğreniyoruz.",
   "dosya": "45f9a0fd4f85c966.mp3",
   "sure": 6.03
+ },
+ "47f4bf15129aaa19": {
+  "k": "antrenor",
+  "m": "Aynen Damla. Kârlı takas: kazandığın puan, kaybettiğin puandan büyük.",
+  "dosya": "47f4bf15129aaa19.mp3",
+  "sure": 5.98
  },
  "493c7b8299ebe291": {
   "k": "damla",
@@ -371,11 +485,29 @@
   "dosya": "493c7b8299ebe291.mp3",
   "sure": 1.91
  },
+ "494c9431f6a0a70a": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Değiş-Tokuş Ustası Testi seni bekliyor.",
+  "dosya": "494c9431f6a0a70a.mp3",
+  "sure": 6.82
+ },
  "4a3e4435143276a3": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şahını koruyan taş saldırı hattından çıkarsa şah açıkta kalır; bu hamle yasadışıdır.",
   "dosya": "4a3e4435143276a3.mp3",
   "sure": 7.78
+ },
+ "4e976239ad2375f3": {
+  "k": "antrenor",
+  "m": "Evet Damla. Taşını öyle bir kareye koy ki iki korumasız rakip taşı birden görsün. Rakip bir hamlede ikisini kurtaramaz.",
+  "dosya": "4e976239ad2375f3.mp3",
+  "sure": 8.49
+ },
+ "4ebf0d7a630ff14e": {
+  "k": "antrenor",
+  "m": "Çok doğru Pars. Sonuç artıysa takas kârlı, sıfırsa eşit, eksiyse zararlıdır.",
+  "dosya": "4ebf0d7a630ff14e.mp3",
+  "sure": 6.16
  },
  "50f8d57c53fe5574": {
   "k": "antrenor",
@@ -394,6 +526,12 @@
   "m": "Biliyor muydun? Şah bir taşı alabilir; ama o taş korunuyorsa şah onu alamaz, çünkü şah çekilmiş olur.",
   "dosya": "513c7afc94d51e78.mp3",
   "sure": 8.02
+ },
+ "532e2e5b190fb81e": {
+  "k": "antrenor",
+  "m": "Bugün en küçük üç taşı tanıyoruz: piyon, at ve fil.",
+  "dosya": "532e2e5b190fb81e.mp3",
+  "sure": 4.18
  },
  "548ec7b0001c422f": {
   "k": "antrenor",
@@ -431,6 +569,12 @@
   "dosya": "58230973574f3110.mp3",
   "sure": 8.72
  },
+ "59a94fd5be488c54": {
+  "k": "antrenor",
+  "m": "Evet {ad}. At ve fil ise ikisi de 3 puan; yani üç piyon, bir at eder.",
+  "dosya": "59a94fd5be488c54.mp3",
+  "sure": 6.03
+ },
  "5c47ad60424042e6": {
   "k": "antrenor",
   "m": "{ad}, bugün satrancın en önemli kelimelerinden birini öğreniyoruz: şah çekmek.",
@@ -449,11 +593,35 @@
   "dosya": "5d57c96a2f9049e8.mp3",
   "sure": 4.36
  },
+ "5e4bfa6e80109aeb": {
+  "k": "pars",
+  "m": "Herhalde en çok, 10 puan!",
+  "dosya": "5e4bfa6e80109aeb.mp3",
+  "sure": 2.09
+ },
  "5ecc2abac38ca29b": {
   "k": "antrenor",
   "m": "Biliyor muydun? Pat, çok üstün olsan bile oyunu berabere bitirir. Hamleden önce rakibin hamlesi var mı diye bak.",
   "dosya": "5ecc2abac38ca29b.mp3",
   "sure": 6.95
+ },
+ "5ee86a5e2318947b": {
+  "k": "antrenor",
+  "m": "Sayı önemli Pars, ama puan da önemli. Alırken en az puanlı taşınla başlamalısın.",
+  "dosya": "5ee86a5e2318947b.mp3",
+  "sure": 6.16
+ },
+ "60f3c0fb0907f924": {
+  "k": "antrenor",
+  "m": "Şimdi büyük taşlar: kale ve vezir.",
+  "dosya": "60f3c0fb0907f924.mp3",
+  "sure": 2.69
+ },
+ "61f2c5f5b5cbb8d8": {
+  "k": "damla",
+  "m": "Yani küçük taşla büyük taşı almak kârlı.",
+  "dosya": "61f2c5f5b5cbb8d8.mp3",
+  "sure": 2.74
  },
  "623ad03d0f3d18f7": {
   "k": "antrenor",
@@ -503,6 +671,12 @@
   "dosya": "67f91e308b267682.mp3",
   "sure": 7.94
  },
+ "68f2a70c541e6376": {
+  "k": "damla",
+  "m": "Korumalı taşta koruyucuları da saymayı unutmayacağım.",
+  "dosya": "68f2a70c541e6376.mp3",
+  "sure": 3.06
+ },
  "69a83c8baa4ef9b5": {
   "k": "pars",
   "m": "O zaman mat için önce şahın kaçış karelerine bakmalıyım.",
@@ -538,6 +712,12 @@
   "m": "Nasıl gider?",
   "dosya": "6c46505d70349b0b.mp3",
   "sure": 1.07
+ },
+ "6f5d965dc2ef714f": {
+  "k": "antrenor",
+  "m": "Puanları aynı Damla. İkisi birbirinin dengi.",
+  "dosya": "6f5d965dc2ef714f.mp3",
+  "sure": 3.37
  },
  "6fd2103c7895697e": {
   "k": "antrenor",
@@ -593,11 +773,35 @@
   "dosya": "7872685d618f3252.mp3",
   "sure": 6.27
  },
+ "7993950a8ccc102e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Korumalı taşı almadan önce say: kaç saldırgan, kaç koruyucu var? Alırken hep en az puanlı taşınla başla.",
+  "dosya": "7993950a8ccc102e.mp3",
+  "sure": 8.49
+ },
  "79a160daf6a479ae": {
   "k": "antrenor",
   "m": "Aynen Damla. Alan taş bir beyaz taş olabilir; şah da alabilir, ama yalnızca korunmayan taşı.",
   "dosya": "79a160daf6a479ae.mp3",
   "sure": 7.34
+ },
+ "7ab0a2debac104de": {
+  "k": "antrenor",
+  "m": "{ad}, satrançta her taşın bir puan değeri var. Bu puan, taşın ne kadar güçlü olduğunu gösterir.",
+  "dosya": "7ab0a2debac104de.mp3",
+  "sure": 6.92
+ },
+ "7be89392d1651e12": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Vezir 9 puanla en değerli taştır. Kale 5 puandır: bir at ile iki piyon kadar (3 + 1 + 1).",
+  "dosya": "7be89392d1651e12.mp3",
+  "sure": 9.2
+ },
+ "7e0f8685fa7d4301": {
+  "k": "antrenor",
+  "m": "Evet Pars. Piyon 1 puan, kale 5 puan. Piyonu geri alsalar bile 5 - 1 = 4 puan kâr edersin.",
+  "dosya": "7e0f8685fa7d4301.mp3",
+  "sure": 10.53
  },
  "7ed53febfa5be58c": {
   "k": "damla",
@@ -617,6 +821,36 @@
   "dosya": "7f44692577e0fdf8.mp3",
   "sure": 7.52
  },
+ "8111224332a2419e": {
+  "k": "damla",
+  "m": "Yani şah alınmıyor, sadece mat ediliyor.",
+  "dosya": "8111224332a2419e.mp3",
+  "sure": 2.35
+ },
+ "81b87466b258b586": {
+  "k": "damla",
+  "m": "Vezir hem kale gibi hem fil gibi gidiyor. O yüzden çok değerli mi?",
+  "dosya": "81b87466b258b586.mp3",
+  "sure": 4.08
+ },
+ "82c72a2c187f02ef": {
+  "k": "antrenor",
+  "m": "{ad}, taşların puanını öğrendik: piyon 1, at ve fil 3, kale 5, vezir 9. Peki şah kaç puan?",
+  "dosya": "82c72a2c187f02ef.mp3",
+  "sure": 8.62
+ },
+ "82c7b47490d8051f": {
+  "k": "antrenor",
+  "m": "Doğru Damla. Aldığın taş verdiğinden değersizse takas zararlıdır.",
+  "dosya": "82c7b47490d8051f.mp3",
+  "sure": 4.86
+ },
+ "834a5002df18d0c9": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon 1, at 3, fil 3, kale 5, vezir 9 puan eder. Puan, bir taşın gücünü gösterir.",
+  "dosya": "834a5002df18d0c9.mp3",
+  "sure": 9.93
+ },
  "85b9e5276bd533f9": {
   "k": "antrenor",
   "m": "Biliyor muydun? Fil rengini hiç değiştiremez. Bir fil tahtanın yalnızca 32 karesini kullanabilir.",
@@ -629,17 +863,35 @@
   "dosya": "88d4bd22702b17c9.mp3",
   "sure": 5.28
  },
+ "891a4cf0d246975f": {
+  "k": "antrenor",
+  "m": "{ad}, bugün öğrendiklerimizi birleştiriyoruz. Her takasta aynı hesabı yapacağız.",
+  "dosya": "891a4cf0d246975f.mp3",
+  "sure": 5.69
+ },
  "893b305b83cce453": {
   "k": "antrenor",
   "m": "Hayır Damla. Şah çekilince şahın kaçacak bir karesi varsa oyun devam eder.",
   "dosya": "893b305b83cce453.mp3",
   "sure": 5.85
  },
+ "8987d9da5c676405": {
+  "k": "damla",
+  "m": "İkinci soru: Kim saldırıyor? Üçüncü soru da: Sayınca kâr var mı?",
+  "dosya": "8987d9da5c676405.mp3",
+  "sure": 4.02
+ },
  "8cc8d33eea707b45": {
   "k": "pars",
   "m": "İkisinde de rakibin hamlesi yok, değil mi hocam?",
   "dosya": "8cc8d33eea707b45.mp3",
   "sure": 2.93
+ },
+ "8d4bdd8c8f2ddc16": {
+  "k": "antrenor",
+  "m": "{ad}, korumalı bir taşı almadan önce saymamız gerekiyor. Kaç taşım saldırıyor, rakibin kaç taşı koruyor?",
+  "dosya": "8d4bdd8c8f2ddc16.mp3",
+  "sure": 8.2
  },
  "8fdcdae9fbdf1a9d": {
   "k": "antrenor",
@@ -713,11 +965,23 @@
   "dosya": "98b8ddf8789c8e77.mp3",
   "sure": 2.53
  },
+ "997807d4147a6bb6": {
+  "k": "antrenor",
+  "m": "{ad}, her alma kâr değildir. Bazen aldığından daha fazlasını kaybedersin.",
+  "dosya": "997807d4147a6bb6.mp3",
+  "sure": 5.75
+ },
  "9998866b4b1f5a15": {
   "k": "antrenor",
   "m": "{ad}, bir satranç oyunu üç şekilde bitebilir: kazanç, beraberlik ya da kayıp.",
   "dosya": "9998866b4b1f5a15.mp3",
   "sure": 5.67
+ },
+ "99de5741336789ca": {
+  "k": "antrenor",
+  "m": "{ad}, takasları öğrendin. Şimdi taş kazanmanın en güzel yolu: iki taşa birden saldırmak.",
+  "dosya": "99de5741336789ca.mp3",
+  "sure": 6.87
  },
  "9abe083258e1c157": {
   "k": "antrenor",
@@ -748,6 +1012,18 @@
   "m": "Hayır Pars, kale hiç çapraz gitmez. Videoda görelim.",
   "dosya": "9ce836e1cf56e348.mp3",
   "sure": 4.0
+ },
+ "a05450455f2bccb2": {
+  "k": "antrenor",
+  "m": "Tam öyle Damla. Bu üç soruyu sormadan taş alma, taş bırakma.",
+  "dosya": "a05450455f2bccb2.mp3",
+  "sure": 4.86
+ },
+ "a0644acb585d4bcd": {
+  "k": "antrenor",
+  "m": "Harika Damla! Eşit takasta net kazanç sıfırdır.",
+  "dosya": "a0644acb585d4bcd.mp3",
+  "sure": 4.13
  },
  "a083cf9cdb528f22": {
   "k": "antrenor",
@@ -815,6 +1091,12 @@
   "dosya": "a9e5252217d6da8c.mp3",
   "sure": 4.83
  },
+ "ab3aea344dc5e0b7": {
+  "k": "damla",
+  "m": "Bir taşla iki taşa mı saldıracağız?",
+  "dosya": "ab3aea344dc5e0b7.mp3",
+  "sure": 2.59
+ },
  "ab56699b89b6f65f": {
   "k": "pars",
   "m": "Hocam, terfide hep vezir seçsem olur mu?",
@@ -826,6 +1108,12 @@
   "m": "Biliyor muydun? Piyon düz ilerler ama şahı çapraz tehdit eder.",
   "dosya": "ab583b3942ce553f.mp3",
   "sure": 5.38
+ },
+ "ab9bd9e12e9c594f": {
+  "k": "pars",
+  "m": "Piyon 1 puan, değil mi hocam?",
+  "dosya": "ab9bd9e12e9c594f.mp3",
+  "sure": 1.8
  },
  "ac0ac605dadd7144": {
   "k": "pars",
@@ -875,6 +1163,12 @@
   "dosya": "ae364ddab798e57d.mp3",
   "sure": 3.29
  },
+ "ae858ba37f61b7e5": {
+  "k": "antrenor",
+  "m": "Aynen Damla. Puan toplarken şahı saymayız; şah tehlikedeyse önce onu kurtarırız.",
+  "dosya": "ae858ba37f61b7e5.mp3",
+  "sure": 6.16
+ },
  "af30c3559740cded": {
   "k": "pars",
   "m": "64 karenin adını ezberlemek zor olmaz mı?",
@@ -887,6 +1181,12 @@
   "dosya": "afb8c43e8092e919.mp3",
   "sure": 1.8
  },
+ "b04089f45491820f": {
+  "k": "antrenor",
+  "m": "{ad}, takasta kazanmak istiyorsak aldığımız taş, verdiğimiz taştan daha değerli olmalı.",
+  "dosya": "b04089f45491820f.mp3",
+  "sure": 6.69
+ },
  "b07882723e1e3d2f": {
   "k": "damla",
   "m": "Nereye giriyoruz?",
@@ -898,6 +1198,12 @@
   "m": "Bir taşımızın öyle bir dostu olsun ki, rakip o taşı alırsa biz de rakibin taşını geri alabilelim. Buna korumalı taş denir.",
   "dosya": "b0bb3d06106cb7c9.mp3",
   "sure": 8.12
+ },
+ "b25da1c807b6a690": {
+  "k": "pars",
+  "m": "Üç soru mu? Hızlı oynamayı seviyorum hocam.",
+  "dosya": "b25da1c807b6a690.mp3",
+  "sure": 2.4
  },
  "b4290557fc723f2f": {
   "k": "damla",
@@ -928,6 +1234,12 @@
   "m": "Peki hangisini seçeceğiz?",
   "dosya": "ba167c8d96d6b2e9.mp3",
   "sure": 1.62
+ },
+ "bb2d759819ad3453": {
+  "k": "antrenor",
+  "m": "Harika Damla. Önce say, sonra hesapla, sonra karar ver.",
+  "dosya": "bb2d759819ad3453.mp3",
+  "sure": 4.62
  },
  "bbaba1ee25c3f129": {
   "k": "damla",
@@ -970,6 +1282,12 @@
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 2/3 doğru.",
   "dosya": "c016537d5c4453c7.mp3",
   "sure": 5.04
+ },
+ "c248170256003a07": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Hamle yapmadan önce üç soru sor: Korumalı mı? Kim saldırıyor? Sayınca kâr var mı?",
+  "dosya": "c248170256003a07.mp3",
+  "sure": 6.77
  },
  "c502092dd81b9216": {
   "k": "antrenor",
@@ -1025,17 +1343,47 @@
   "dosya": "caf9118abb3c8dbd.mp3",
   "sure": 5.8
  },
+ "cb86756866d28e19": {
+  "k": "damla",
+  "m": "Yani vezir en çok puanlı taş mı hocam?",
+  "dosya": "cb86756866d28e19.mp3",
+  "sure": 2.64
+ },
  "cbd897ab63bbcdb9": {
   "k": "antrenor",
   "m": "Şah ve Şah Çekme Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "cbd897ab63bbcdb9.mp3",
   "sure": 10.58
  },
+ "cf406e699b191499": {
+  "k": "antrenor",
+  "m": "{ad}, bir hamle yapmadan önce üç soruluk bir rutinimiz var: 'Güvenli mi?'",
+  "dosya": "cf406e699b191499.mp3",
+  "sure": 5.33
+ },
+ "cf4ba460be917a11": {
+  "k": "antrenor",
+  "m": "Aynen Damla. Sırayla al, sırayla say, sonunda kazanç mı kayıp mı bak.",
+  "dosya": "cf4ba460be917a11.mp3",
+  "sure": 5.75
+ },
  "cfa495348a49a926": {
   "k": "pars",
   "m": "Saldırı, taşın rakibi hemen almasıdır, değil mi?",
   "dosya": "cfa495348a49a926.mp3",
   "sure": 2.95
+ },
+ "d05fe383e732b344": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her takasta aynı hesap: aldığın puan eksi verdiğin puan. Sonuç artıysa kâr, sıfırsa eşit, eksiyse zarar!",
+  "dosya": "d05fe383e732b344.mp3",
+  "sure": 9.27
+ },
+ "d0676179a9d5f69c": {
+  "k": "antrenor",
+  "m": "Evet Damla. Piyon 1, at ve fil 3, kale 5, vezir 9 puan eder.",
+  "dosya": "d0676179a9d5f69c.mp3",
+  "sure": 6.22
  },
  "d2b0a00a1783eeb8": {
   "k": "antrenor",
@@ -1090,6 +1438,12 @@
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Saldırı ve Savunma Testi seni bekliyor.",
   "dosya": "dac288563e05a65e.mp3",
   "sure": 6.69
+ },
+ "db2550f607982cf2": {
+  "k": "antrenor",
+  "m": "Çabuk soruyorsun Pars. Birinci soru: Bu taş korumalı mı?",
+  "dosya": "db2550f607982cf2.mp3",
+  "sure": 4.13
  },
  "db5c033de4ffad88": {
   "k": "pars",
@@ -1151,6 +1505,12 @@
   "dosya": "e190dad650f16018.mp3",
   "sure": 1.57
  },
+ "e192c03463d19263": {
+  "k": "pars",
+  "m": "Saldırganlarım daha çoksa hemen alırım!",
+  "dosya": "e192c03463d19263.mp3",
+  "sure": 2.4
+ },
  "e3ede520b4d08c32": {
   "k": "pars",
   "m": "Yani şahı kurtaramayan oyunu kaybeder!",
@@ -1163,17 +1523,41 @@
   "dosya": "e4407d36554136ce.mp3",
   "sure": 7.37
  },
+ "e63b329989cfd09d": {
+  "k": "damla",
+  "m": "O zaman 5 - 5 = 0, kazanç yok!",
+  "dosya": "e63b329989cfd09d.mp3",
+  "sure": 2.27
+ },
+ "e6aa6c93beaa9dc0": {
+  "k": "pars",
+  "m": "Ama vezirle piyon alırsam bir taş kazanırım!",
+  "dosya": "e6aa6c93beaa9dc0.mp3",
+  "sure": 2.74
+ },
  "e7e6fc0675471846": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Mat ve Pat Testi seni bekliyor.",
   "dosya": "e7e6fc0675471846.mp3",
   "sure": 6.35
  },
+ "e83da5a098dcd36a": {
+  "k": "antrenor",
+  "m": "Doğru Damla! Vezir 9 puan, kale 5 puan.",
+  "dosya": "e83da5a098dcd36a.mp3",
+  "sure": 3.84
+ },
  "e895fed95946a914": {
   "k": "damla",
   "m": "Taş almak için rakibin taşının üzerinden mi atlıyoruz?",
   "dosya": "e895fed95946a914.mp3",
   "sure": 3.11
+ },
+ "e8bb9741cf3dfe1b": {
+  "k": "antrenor",
+  "m": "Kimse Pars. Aynı puanlık taşlar değiştiyse buna eşit takas denir.",
+  "dosya": "e8bb9741cf3dfe1b.mp3",
+  "sure": 5.2
  },
  "e9610d114b5ba20c": {
   "k": "antrenor",
@@ -1199,6 +1583,12 @@
   "dosya": "edb27cbdc61ff75e.mp3",
   "sure": 9.69
  },
+ "ee0463a4150098e5": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Küçük taşla büyük taş almak kârlıdır. Piyonla korumalı kaleyi almak 5 - 1 = 4 puan kazandırır!",
+  "dosya": "ee0463a4150098e5.mp3",
+  "sure": 8.91
+ },
  "f02ee9c78f6aa72f": {
   "k": "antrenor",
   "m": "Bir taşı kim koruyor, {ad}? Bunu sormayı unutma.",
@@ -1216,6 +1606,12 @@
   "m": "Piyonlar küçük ama çok önemli, {ad}. Ordunun asker çocukları.",
   "dosya": "f1af2a069f4075ab.mp3",
   "sure": 4.91
+ },
+ "f1c72282e4d3193c": {
+  "k": "antrenor",
+  "m": "Piyon korumalıysa veziri kaybedersin Pars: 1 puan alırsın, 9 puan verirsin.",
+  "dosya": "f1c72282e4d3193c.mp3",
+  "sure": 6.27
  },
  "f24529df78951543": {
   "k": "antrenor",
@@ -1246,6 +1642,12 @@
   "m": "Hak biter {ad}. Ayrıca zorunlu değil; istersen başka hamle yapabilirsin.",
   "dosya": "f80b14f0bb31f2ef.mp3",
   "sure": 6.09
+ },
+ "f8858752553f8360": {
+  "k": "pars",
+  "m": "Aldığım puan eksi verdiğim puan!",
+  "dosya": "f8858752553f8360.mp3",
+  "sure": 2.32
  },
  "f89460294ab405e9": {
   "k": "antrenor",
