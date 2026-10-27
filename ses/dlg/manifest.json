@@ -41,6 +41,18 @@
   "dosya": "0149744e6269521a.mp3",
   "sure": 2.22
  },
+ "016b368b15e72fdd": {
+  "k": "antrenor",
+  "m": "Şah çeken bir yem seçeriz. Yemezse de siyah mat olur, yerse de.",
+  "dosya": "016b368b15e72fdd.mp3",
+  "sure": 4.86
+ },
+ "0200269787944329": {
+  "k": "pars",
+  "m": "Sırayı karıştırırsak olmaz, değil mi?",
+  "dosya": "0200269787944329.mp3",
+  "sure": 2.4
+ },
  "02f61d06c6cfe41f": {
   "k": "pars",
   "m": "O zaman ben de kendi tehditlerimi arayabilirim!",
@@ -77,6 +89,12 @@
   "dosya": "0385f35c685ec3e2.mp3",
   "sure": 7.89
  },
+ "03daba98c2c8a2de": {
+  "k": "antrenor",
+  "m": "Aferin. Önce sor: neyi almak, neyi uzaklaştırmak ya da nereye çekmek istiyorum?",
+  "dosya": "03daba98c2c8a2de.mp3",
+  "sure": 5.56
+ },
  "03e3385a3e2eb159": {
   "k": "antrenor",
   "m": "{ad}, turnuvada oyun kuralları kadar davranış da önemlidir.",
@@ -112,6 +130,12 @@
   "m": "Fark edebilir. O yüzden hattı erken kur ve hamle sırası sende gelince öndeki taşı çek, {ad}.",
   "dosya": "06f90800c9a5fb31.mp3",
   "sure": 8.25
+ },
+ "0703dfae5e6bdb03": {
+  "k": "antrenor",
+  "m": "Son bölüm {ad}. Tahtada üç yöntemden biri gizli olacak.",
+  "dosya": "0703dfae5e6bdb03.mp3",
+  "sure": 4.49
  },
  "076f56721e84b9c8": {
   "k": "damla",
@@ -353,6 +377,12 @@
   "dosya": "1259dc4d2515990e.mp3",
   "sure": 4.55
  },
+ "131662a17ffcc99f": {
+  "k": "antrenor",
+  "m": "Yerini bırakır ve koruduğu taş yalnız kalır. Buna saptırma diyoruz: koruyucuyu görevinden uzaklaştırmak.",
+  "dosya": "131662a17ffcc99f.mp3",
+  "sure": 7.71
+ },
  "1370a2c5f433b896": {
   "k": "damla",
   "m": "Vezirle alayım, en güçlü o!",
@@ -394,6 +424,12 @@
   "m": "Vezir ve Kale ile Mat Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "14f6e45895198100.mp3",
   "sure": 10.34
+ },
+ "1551a99a1d63cae4": {
+  "k": "antrenor",
+  "m": "Evet. Sonuç artıdaysa plan işe yarıyor demektir.",
+  "dosya": "1551a99a1d63cae4.mp3",
+  "sure": 4.08
  },
  "1567db849a2019f3": {
   "k": "damla",
@@ -479,11 +515,23 @@
   "dosya": "1810ef70fbf2541b.mp3",
   "sure": 3.16
  },
+ "1811ba00b6a1abe5": {
+  "k": "antrenor",
+  "m": "Doğru. Şah çeken yem, siyaha hazırlık zamanı bırakmaz.",
+  "dosya": "1811ba00b6a1abe5.mp3",
+  "sure": 4.41
+ },
  "183345a33b8e0597": {
   "k": "damla",
   "m": "Önce hangisine bakacağız hocam?",
   "dosya": "183345a33b8e0597.mp3",
   "sure": 2.22
+ },
+ "18352ba6f353d11a": {
+  "k": "damla",
+  "m": "Kurban mı? Taş vermek kötü değil mi?",
+  "dosya": "18352ba6f353d11a.mp3",
+  "sure": 2.64
  },
  "183f5bd5e64a3789": {
   "k": "antrenor",
@@ -563,6 +611,12 @@
   "dosya": "1bc6a22c30056047.mp3",
   "sure": 7.52
  },
+ "1c035e523cf1110b": {
+  "k": "damla",
+  "m": "Nasıl ayırt edeceğiz hocam?",
+  "dosya": "1c035e523cf1110b.mp3",
+  "sure": 1.85
+ },
  "1c265057ec271480": {
   "k": "antrenor",
   "m": "Neredeyse Pars! Piyon, at, fil, kale ve vezir şah çekebilir. Şah ise çekemez; çünkü iki şah asla yan yana duramaz.",
@@ -640,6 +694,12 @@
   "m": "Her hamlede bir kare mi gidiyor?",
   "dosya": "2121e017397d5d75.mp3",
   "sure": 2.12
+ },
+ "2128cf38ed95f7fe": {
+  "k": "pars",
+  "m": "Ya yemi yemezse?",
+  "dosya": "2128cf38ed95f7fe.mp3",
+  "sure": 1.62
  },
  "2128e2f04111c3d9": {
   "k": "antrenor",
@@ -743,6 +803,12 @@
   "dosya": "24aba4fee9420913.mp3",
   "sure": 6.27
  },
+ "24da91f1f837876f": {
+  "k": "pars",
+  "m": "Şah çekiyorsam mat gelir mi diye de bakarım.",
+  "dosya": "24da91f1f837876f.mp3",
+  "sure": 2.77
+ },
  "25790c15f5181ca7": {
   "k": "antrenor",
   "m": "{ad}, şahtan kurtulmanın ikinci yolu: şah çeken taşı almak.",
@@ -815,6 +881,12 @@
   "dosya": "29becb6a9c53b403.mp3",
   "sure": 3.0
  },
+ "29de60c9cafd0444": {
+  "k": "pars",
+  "m": "Kurban rakip taşı mat karesine çekiyorsa cezbetme!",
+  "dosya": "29de60c9cafd0444.mp3",
+  "sure": 3.16
+ },
  "2ac97fcbeda1b17f": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şiş, kebap şişi gibidir: iki taş aynı çizgide art arda dizilir, öndeki kaçınca arkadaki alınır.",
@@ -844,6 +916,12 @@
   "m": "Yalnızca şahını oynatarak. İki taşı birden durduramaz; hiçbir taşla alamaz, araya da taş koyamaz.",
   "dosya": "2c175fb5fd9cdbc2.mp3",
   "sure": 7.94
+ },
+ "2cb987eebaddf889": {
+  "k": "pars",
+  "m": "Üçüncü adım: yalnız kalan taşı almak!",
+  "dosya": "2cb987eebaddf889.mp3",
+  "sure": 2.93
  },
  "2cec14acf4409940": {
   "k": "antrenor",
@@ -940,6 +1018,12 @@
   "m": "Bir yolu. Fil, kale ya da veziriniz bir taşın arkasında bekliyor. Öndeki taş çekilince yol açılır ve arkadaki taş saldırıya geçer.",
   "dosya": "2ef92c830f0d179c.mp3",
   "sure": 9.33
+ },
+ "2efb4186750ec9c0": {
+  "k": "damla",
+  "m": "Nereden bakmaya başlayacağız?",
+  "dosya": "2efb4186750ec9c0.mp3",
+  "sure": 1.7
  },
  "2f0565aa5d39841d": {
   "k": "antrenor",
@@ -1180,6 +1264,12 @@
   "m": "İşte bunu kontrol edeceğiz Damla. Üç yolu deneriz: kaç, şah çeken taşı al, araya gir.",
   "dosya": "367bbc8776426141.mp3",
   "sure": 6.71
+ },
+ "36a89eecc27072ed": {
+  "k": "antrenor",
+  "m": "Doğru Pars. Önce koruyucu, sonra korunan taş.",
+  "dosya": "36a89eecc27072ed.mp3",
+  "sure": 4.36
  },
  "3720f73543e92704": {
   "k": "antrenor",
@@ -1463,6 +1553,12 @@
   "dosya": "44978d549f898179.mp3",
   "sure": 4.31
  },
+ "44b2d6a2edb484d9": {
+  "k": "antrenor",
+  "m": "Evet. Yemi yiyen taşı geri alan taş olmazsa plan çalışmaz. Kurban, o taşın hattında olmalı.",
+  "dosya": "44b2d6a2edb484d9.mp3",
+  "sure": 6.45
+ },
  "4550e30982d4bf3f": {
   "k": "antrenor",
   "m": "Biliyor muydun? Vezirle korumalı bir piyonu almak kötü fikirdir: 1 puan alırsın, 9 puan verirsin!",
@@ -1522,6 +1618,12 @@
   "m": "Aynen Damla. Kârlı takas: kazandığın puan, kaybettiğin puandan büyük.",
   "dosya": "47f4bf15129aaa19.mp3",
   "sure": 5.98
+ },
+ "4891f0c3dd7e5568": {
+  "k": "pars",
+  "m": "Yani kurban aslında geri geliyor!",
+  "dosya": "4891f0c3dd7e5568.mp3",
+  "sure": 2.46
  },
  "48ea494b7c81d5bd": {
   "k": "antrenor",
@@ -1889,6 +1991,12 @@
   "dosya": "5b26fcbaac5f4fb2.mp3",
   "sure": 7.97
  },
+ "5b7d5a5ee44f15b0": {
+  "k": "antrenor",
+  "m": "Tam öyle! Yem bir kurbandır. Siyah taş yemi yiyince yanlış karede yakalanır.",
+  "dosya": "5b7d5a5ee44f15b0.mp3",
+  "sure": 5.85
+ },
  "5c0cf7bbf66ace24": {
   "k": "pars",
   "m": "Yani vezir gitti, ben sadece bir piyon aldım.",
@@ -2189,6 +2297,12 @@
   "dosya": "6aaf878279de0975.mp3",
   "sure": 3.19
  },
+ "6ad3e88e98d9d485": {
+  "k": "antrenor",
+  "m": "Boşuna verirsek kötü. Ama planla verirsek karşılığında daha çok kazanırız. Kurban, planlı taş vermedir.",
+  "dosya": "6ad3e88e98d9d485.mp3",
+  "sure": 7.65
+ },
  "6b97ba3bdd8ffd24": {
   "k": "antrenor",
   "m": "Neredeyse Pars. Sırası gelirse alabiliyorsa o taş rakibe saldırıyor demektir. Almak zorunda değil, ama alabilir.",
@@ -2285,6 +2399,12 @@
   "dosya": "7030ac7a021190f8.mp3",
   "sure": 3.24
  },
+ "70486964f063f60f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Bir taşı yalnız bir taş koruyorsa, o koruyucu rakibin en zayıf halkası olabilir.",
+  "dosya": "70486964f063f60f.mp3",
+  "sure": 7.42
+ },
  "70bd46aaa3d89caa": {
   "k": "pars",
   "m": "Siyah ne yaparsa yapsın, ben mat yaparım!",
@@ -2327,6 +2447,12 @@
   "dosya": "7341ef198c382ac3.mp3",
   "sure": 5.43
  },
+ "735b97b09f9d3065": {
+  "k": "damla",
+  "m": "Balık avı gibi mi hocam?",
+  "dosya": "735b97b09f9d3065.mp3",
+  "sure": 1.62
+ },
  "73cb1252df3c2601": {
   "k": "damla",
   "m": "Nasıl önleriz?",
@@ -2350,6 +2476,12 @@
   "m": "Gibi ama tahtadan düşmüyor. Asılı taş, hiçbir taşın korumadığı taştır. Rakip alırsa geri alamayız.",
   "dosya": "73fa91ca0ab8b451.mp3",
   "sure": 7.42
+ },
+ "74127e88b06ba802": {
+  "k": "antrenor",
+  "m": "Aynen! Buna koruyucuyu almak diyoruz. Önce koruyucuyu alırız, sonra yalnız kalan taşı kazanırız.",
+  "dosya": "74127e88b06ba802.mp3",
+  "sure": 6.82
  },
  "746c43c18f8c0d2f": {
   "k": "antrenor",
@@ -2458,6 +2590,12 @@
   "m": "{ad}, satrançta her taşın bir puan değeri var. Bu puan, taşın ne kadar güçlü olduğunu gösterir.",
   "dosya": "7ab0a2debac104de.mp3",
   "sure": 6.92
+ },
+ "7ab3ce6795758bb3": {
+  "k": "antrenor",
+  "m": "Piyon 1, at ve fil 3, kale 5, vezir 9. Aldıklarını topla, verdiğini çıkar.",
+  "dosya": "7ab3ce6795758bb3.mp3",
+  "sure": 7.55
  },
  "7abb49213930eb9d": {
   "k": "antrenor",
@@ -2584,6 +2722,12 @@
   "m": "Yani şah alınmıyor, sadece mat ediliyor.",
   "dosya": "8111224332a2419e.mp3",
   "sure": 2.35
+ },
+ "814c8a34534f06ee": {
+  "k": "pars",
+  "m": "Koruyucu kurbanı alırsa ne olur?",
+  "dosya": "814c8a34534f06ee.mp3",
+  "sure": 1.8
  },
  "81713dcb71dfafbf": {
   "k": "damla",
@@ -2795,11 +2939,23 @@
   "dosya": "8a7d772520f47f00.mp3",
   "sure": 1.38
  },
+ "8aaaa7ccb3ae6c4b": {
+  "k": "antrenor",
+  "m": "{ad}, cezbetmeyle mat için önce arkadaki yardımcını bul.",
+  "dosya": "8aaaa7ccb3ae6c4b.mp3",
+  "sure": 4.55
+ },
  "8b075f79dc3494b3": {
   "k": "antrenor",
   "m": "Aynen {ad}. Önce at ve fil çıkar, sonra şahını rokla koru.",
   "dosya": "8b075f79dc3494b3.mp3",
   "sure": 4.91
+ },
+ "8b21e7d3438092cc": {
+  "k": "antrenor",
+  "m": "Şimdi üçüncü silahımız: cezbetme. Yem atıp rakibin taşını istediğimiz kareye çekeriz.",
+  "dosya": "8b21e7d3438092cc.mp3",
+  "sure": 5.8
  },
  "8b37ce4b5db147a5": {
   "k": "damla",
@@ -2855,6 +3011,12 @@
   "dosya": "8e0ec2aeb7f14f18.mp3",
   "sure": 2.22
  },
+ "8e1a281250700c6f": {
+  "k": "damla",
+  "m": "Şah çekince siyah başka bir şey yapamaz mı?",
+  "dosya": "8e1a281250700c6f.mp3",
+  "sure": 2.51
+ },
  "8e39ba669936ccb3": {
   "k": "damla",
   "m": "Peki fil ya da kale?",
@@ -2873,6 +3035,12 @@
   "dosya": "8e891f72a9bb009d.mp3",
   "sure": 6.4
  },
+ "8ec5232106594881": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Yemi vermeden önce sor: kurban karesine geri alabilecek bir taşım var mı?",
+  "dosya": "8ec5232106594881.mp3",
+  "sure": 6.03
+ },
  "8ed673718658bd9c": {
   "k": "damla",
   "m": "Hepsi birbirine benziyor. Nasıl ayıracağım?",
@@ -2890,6 +3058,12 @@
   "m": "İlk Mat Kalıpları Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "8efceb8a5e4e006c.mp3",
   "sure": 9.33
+ },
+ "8f1ce3c2e94f5781": {
+  "k": "antrenor",
+  "m": "Bazen koruyucuya saldıramayız. O zaman ona bir yem veririz: kurban.",
+  "dosya": "8f1ce3c2e94f5781.mp3",
+  "sure": 5.04
  },
  "8f1ffe37350007f0": {
   "k": "antrenor",
@@ -2914,6 +3088,12 @@
   "m": "Biliyor muydun? Beyazın ilk hamlede 20 seçeneği vardır: 16 piyon hamlesi ve 4 at hamlesi.",
   "dosya": "8febb2ac7bc636bf.mp3",
   "sure": 7.76
+ },
+ "8ffaf68e1d02609e": {
+  "k": "antrenor",
+  "m": "Savunmanın Kaldırılması Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "8ffaf68e1d02609e.mp3",
+  "sure": 9.87
  },
  "904e14c4aab86a0e": {
   "k": "antrenor",
@@ -2957,11 +3137,29 @@
   "dosya": "917c0ab6b7b368a8.mp3",
   "sure": 5.56
  },
+ "91ab17ccadd524ec": {
+  "k": "pars",
+  "m": "Yani korunan taşı almak boşuna mı?",
+  "dosya": "91ab17ccadd524ec.mp3",
+  "sure": 2.17
+ },
  "91d5b958ed28dba8": {
   "k": "pars",
   "m": "Nereden başlayacağım hocam?",
   "dosya": "91d5b958ed28dba8.mp3",
   "sure": 1.8
+ },
+ "91f205e68bcb3e72": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Cezbetme bir balık avı gibidir: kurban yemdir, rakip taşı yemi yiyince yakalanır.",
+  "dosya": "91f205e68bcb3e72.mp3",
+  "sure": 6.82
+ },
+ "91f448e2a0cce98e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Saptırmada üç adım vardır: kurban ver, koruyucu alsın, yalnız kalan taşı kazan.",
+  "dosya": "91f448e2a0cce98e.mp3",
+  "sure": 7.13
  },
  "91fa738d93f55cfd": {
   "k": "damla",
@@ -2986,6 +3184,12 @@
   "m": "Hocam, atımı f3'e çıkardım, şimdi de d4'e götüreyim mi?",
   "dosya": "929e588965464483.mp3",
   "sure": 3.6
+ },
+ "92af8b16b481607d": {
+  "k": "pars",
+  "m": "Koruyucuyu aldık, o taş geri aldı. Sonra korunan taşı aldık. Üç hamle!",
+  "dosya": "92af8b16b481607d.mp3",
+  "sure": 4.68
  },
  "92b2643f9f18b9f9": {
   "k": "antrenor",
@@ -3125,6 +3329,12 @@
   "dosya": "99aad692d9af5344.mp3",
   "sure": 5.33
  },
+ "99cd1b9d1e160270": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Koruyucuyu almak savunmayı bozmaktır: önce koruyucu gider, sonra yalnız kalan taş alınır.",
+  "dosya": "99cd1b9d1e160270.mp3",
+  "sure": 8.36
+ },
  "99de5741336789ca": {
   "k": "antrenor",
   "m": "{ad}, takasları öğrendin. Şimdi taş kazanmanın en güzel yolu: iki taşa birden saldırmak.",
@@ -3155,11 +3365,23 @@
   "dosya": "9abe083258e1c157.mp3",
   "sure": 4.78
  },
+ "9aff3d6955458aa4": {
+  "k": "antrenor",
+  "m": "{ad}, bu ünitede savunmayı kaldırmayı öğrendin. Şimdi tersine bakalım: rakip bizi mat etmek üzereyse ne yaparız?",
+  "dosya": "9aff3d6955458aa4.mp3",
+  "sure": 8.31
+ },
  "9b66c3b880843758": {
   "k": "pars",
   "m": "Turnuvada kazanınca 1 puan, berabere kalınca yarım puan alıyoruz.",
   "dosya": "9b66c3b880843758.mp3",
   "sure": 4.31
+ },
+ "9b7b268cbac20191": {
+  "k": "antrenor",
+  "m": "Önce tehdidi bul: hangi taş hangi karede mat ediyor? Sonra o tehdidi bozan hamleyi ara.",
+  "dosya": "9b7b268cbac20191.mp3",
+  "sure": 6.16
  },
  "9b82d34aceff02e0": {
   "k": "antrenor",
@@ -3208,6 +3430,12 @@
   "m": "Aynen Pars. Kazançlıysa gir, kayıplıysa girme. Eşit takas ise planına bağlıdır.",
   "dosya": "9c7f147c3fbf7300.mp3",
   "sure": 5.93
+ },
+ "9c95461b5f3dd32e": {
+  "k": "antrenor",
+  "m": "Yapamaz. Önce şahını kurtarmak zorunda. O sırada yalnız kalan taşı alırız.",
+  "dosya": "9c95461b5f3dd32e.mp3",
+  "sure": 5.38
  },
  "9ca44b6e44796658": {
   "k": "damla",
@@ -3353,6 +3581,12 @@
   "dosya": "a2c4647c5601f075.mp3",
   "sure": 4.36
  },
+ "a32bc22d47dd07cd": {
+  "k": "antrenor",
+  "m": "Bazen Damla. Ama beş yol var: şaha nefes deliği aç, mat karesini koru, mat hattını kapat, tehdit eden taşı al ya da karşı şah çek.",
+  "dosya": "a32bc22d47dd07cd.mp3",
+  "sure": 10.81
+ },
  "a32c29970397c4db": {
   "k": "pars",
   "m": "Çapraz gidebilir mi?",
@@ -3388,6 +3622,12 @@
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Vezir ve Kale ile Mat Testi seni bekliyor.",
   "dosya": "a542924f468dfd32.mp3",
   "sure": 7.24
+ },
+ "a57da979a60a64a2": {
+  "k": "antrenor",
+  "m": "{ad}, saptırmayı üç adımda yapıyoruz. Birinci adım: korunan taşı ve tek koruyucusunu bul.",
+  "dosya": "a57da979a60a64a2.mp3",
+  "sure": 7.13
  },
  "a59e6e1533d58e08": {
   "k": "pars",
@@ -3497,6 +3737,12 @@
   "dosya": "ab0b6963acc97c26.mp3",
   "sure": 6.77
  },
+ "ab27d943e404e2b9": {
+  "k": "antrenor",
+  "m": "Korunan taşı hemen alamıyoruz. Peki koruyucuyu almayı denesek?",
+  "dosya": "ab27d943e404e2b9.mp3",
+  "sure": 4.41
+ },
  "ab3aea344dc5e0b7": {
   "k": "damla",
   "m": "Bir taşla iki taşa mı saldıracağız?",
@@ -3544,6 +3790,12 @@
   "m": "Aferin. Hangisi eksikse o hamleyi yap. Bu liste her açılışta işe yarar.",
   "dosya": "ac76378afc55bfdf.mp3",
   "sure": 5.38
+ },
+ "ac7e5fe949823658": {
+  "k": "antrenor",
+  "m": "{ad}, üç yöntemimiz oldu. Hepsini bir arada görelim.",
+  "dosya": "ac7e5fe949823658.mp3",
+  "sure": 4.08
  },
  "ac956e8e27afac34": {
   "k": "antrenor",
@@ -3695,6 +3947,18 @@
   "dosya": "b1640e6fffe87034.mp3",
   "sure": 7.13
  },
+ "b1b99efae1c29b97": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her hamleden önce sor: rakip ne tehdit ediyor? Mat tehdidi varsa önce onu önle; saldırı bekleyebilir.",
+  "dosya": "b1b99efae1c29b97.mp3",
+  "sure": 8.96
+ },
+ "b1ccb555a9b4058d": {
+  "k": "antrenor",
+  "m": "Çoğu zaman. Bu yüzden önce koruyucuyu bulmayı öğreneceğiz.",
+  "dosya": "b1ccb555a9b4058d.mp3",
+  "sure": 3.79
+ },
  "b25a6a1b64549adf": {
   "k": "antrenor",
   "m": "Rakibin iki taşına bak; iki taşa aynı anda saldıran bir kare var mı?",
@@ -3755,6 +4019,12 @@
   "dosya": "b4d7c32e7ea4d5b7.mp3",
   "sure": 7.52
  },
+ "b51ccc1162c64689": {
+  "k": "damla",
+  "m": "Nasıl hesaplıyoruz hocam?",
+  "dosya": "b51ccc1162c64689.mp3",
+  "sure": 1.67
+ },
  "b544564cc75a624e": {
   "k": "antrenor",
   "m": "Aynen {ad}. Şahın önünü açan piyon hamleleri bu yüzden tehlikelidir.",
@@ -3772,6 +4042,12 @@
   "m": "Kaçış yolları kapalıysa mat!",
   "dosya": "b5b4d55e3628490c.mp3",
   "sure": 1.8
+ },
+ "b5df125f97c71f18": {
+  "k": "antrenor",
+  "m": "Evet. Koruyucunun alabileceği bir kareye taş sürüyoruz. Koruyucu alırsa görevi bırakır.",
+  "dosya": "b5df125f97c71f18.mp3",
+  "sure": 6.3
  },
  "b5ed5f4d3cb70f92": {
   "k": "antrenor",
@@ -3845,6 +4121,12 @@
   "dosya": "b8bffce4a3185893.mp3",
   "sure": 3.79
  },
+ "b9975b7f61cbece6": {
+  "k": "antrenor",
+  "m": "{ad}, bugün savunmayı bozmayı öğreniyoruz. Önce savunmanın nasıl çalıştığına bakalım.",
+  "dosya": "b9975b7f61cbece6.mp3",
+  "sure": 6.45
+ },
  "b9ddf5d6e5fb434d": {
   "k": "antrenor",
   "m": "Biliyor muydun? Mat kalıbını tanımak için önce mat yapan taşa, sonra şahın nerede ve önünde ne olduğuna bak.",
@@ -3868,6 +4150,12 @@
   "m": "En kolayı hangisi?",
   "dosya": "ba893a902df81376.mp3",
   "sure": 1.44
+ },
+ "bae33e6ae5618588": {
+  "k": "antrenor",
+  "m": "Koruyucuyu doğrudan alıyorsan, koruyucuyu almaktır. Kurban veriyor ve koruyucu görevini bırakıyorsa, saptırma.",
+  "dosya": "bae33e6ae5618588.mp3",
+  "sure": 8.54
  },
  "bb2d759819ad3453": {
   "k": "antrenor",
@@ -4079,6 +4367,12 @@
   "dosya": "c55207bc1227877d.mp3",
   "sure": 2.04
  },
+ "c5683667c0efbe2c": {
+  "k": "damla",
+  "m": "Koruyucu gidince taş korumasız mı kalır?",
+  "dosya": "c5683667c0efbe2c.mp3",
+  "sure": 2.51
+ },
  "c57af9b68b77becc": {
   "k": "antrenor",
   "m": "{ad}, bugün tahtadan biraz uzaklaşıp satrancın hikâyesine bakacağız.",
@@ -4133,6 +4427,12 @@
   "dosya": "c8292251f8f26ae1.mp3",
   "sure": 6.09
  },
+ "c82cd8e9bcc61769": {
+  "k": "antrenor",
+  "m": "Evet. Bir taşı başka bir taş koruyorsa, biz o taşı alınca koruyucu geri alır. Geri alan taşa koruyucu diyoruz.",
+  "dosya": "c82cd8e9bcc61769.mp3",
+  "sure": 8.39
+ },
  "c8a654afba642b16": {
   "k": "antrenor",
   "m": "Biliyor muydun? Bir hamlelik sıra farkı oyunu değiştirir: kare kuralında sıra kimdeyse ona göre say.",
@@ -4144,6 +4444,18 @@
   "m": "Yani siyah şahı çok sıkıştırırsam beraberlik mi olur?",
   "dosya": "c8a6ec62340b9bbc.mp3",
   "sure": 3.29
+ },
+ "c90c5ffdafb8c2f2": {
+  "k": "antrenor",
+  "m": "Aferin. Sonunda puan hesabını yapmayı unutma.",
+  "dosya": "c90c5ffdafb8c2f2.mp3",
+  "sure": 3.53
+ },
+ "c91fda51000df284": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Savunmanın Kaldırılması Testi seni bekliyor.",
+  "dosya": "c91fda51000df284.mp3",
+  "sure": 7.13
  },
  "c937dd3d535588d8": {
   "k": "antrenor",
@@ -4247,6 +4559,12 @@
   "dosya": "cf4ba460be917a11.mp3",
   "sure": 5.75
  },
+ "cf68796fdb72c511": {
+  "k": "damla",
+  "m": "Kaçarız!",
+  "dosya": "cf68796fdb72c511.mp3",
+  "sure": 0.84
+ },
  "cfa495348a49a926": {
   "k": "pars",
   "m": "Saldırı, taşın rakibi hemen almasıdır, değil mi?",
@@ -4289,6 +4607,12 @@
   "dosya": "d16605918913cb68.mp3",
   "sure": 7.13
  },
+ "d18bb0381c3a5ae8": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kurban, boşuna taş vermek değildir. Karşılığında daha çok kazanacağın bir plandır.",
+  "dosya": "d18bb0381c3a5ae8.mp3",
+  "sure": 6.22
+ },
  "d1ab3b04f99877a0": {
   "k": "antrenor",
   "m": "Biliyor muydun? Çatalı durdurmanın en iyi yolu, rakibin çatal karesini hamle sırası sendeyken önceden görmektir.",
@@ -4300,6 +4624,12 @@
   "m": "Aynen. Rakip taşı geri alsa bile sen 2 puan öndesin.",
   "dosya": "d1f7752d733fcc74.mp3",
   "sure": 3.89
+ },
+ "d252a2eb1cb6e507": {
+  "k": "antrenor",
+  "m": "Bazen kurbanı koruyucu alır, biz de şah çekerek geri alırız.",
+  "dosya": "d252a2eb1cb6e507.mp3",
+  "sure": 4.21
  },
  "d2b0a00a1783eeb8": {
   "k": "antrenor",
@@ -4378,6 +4708,12 @@
   "m": "Rakibini pat etmişsindir {ad}. Bu, üstün oyuncuların en sık yaptığı hatalardan biri.",
   "dosya": "d64e763bd2a1f623.mp3",
   "sure": 6.5
+ },
+ "d66279192f3ac1ed": {
+  "k": "damla",
+  "m": "İkinci adım kurban mı?",
+  "dosya": "d66279192f3ac1ed.mp3",
+  "sure": 1.7
  },
  "d67fc52e0d2ad8f3": {
   "k": "pars",
@@ -4499,6 +4835,12 @@
   "dosya": "db2550f607982cf2.mp3",
   "sure": 4.13
  },
+ "db2d542733683a24": {
+  "k": "damla",
+  "m": "Savunma, taşı korumak mı hocam?",
+  "dosya": "db2d542733683a24.mp3",
+  "sure": 2.09
+ },
  "db3576d9e735af14": {
   "k": "antrenor",
   "m": "Piyonun hemen yanındaki kareye gelerek. Rakip şah piyonu alamaz, çünkü alırsa şahımızın yanındaki kareye girmiş olur.",
@@ -4523,6 +4865,12 @@
   "dosya": "db73c63014aa7622.mp3",
   "sure": 2.51
  },
+ "db8884d359e67635": {
+  "k": "pars",
+  "m": "Ve kurban şah çekmeli, değil mi?",
+  "dosya": "db8884d359e67635.mp3",
+  "sure": 2.53
+ },
  "dbd656d2588af1c9": {
   "k": "pars",
   "m": "Sert derken?",
@@ -4534,6 +4882,12 @@
   "m": "Hepsinin planı aynı: şahı kenara sür, şahımızı yaklaştır, mat yap. Pat tuzağına da dikkat!",
   "dosya": "dbe522f04b16a217.mp3",
   "sure": 7.84
+ },
+ "dc404d4423376bf7": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Puan sayarken önce verdiklerini, sonra aldıklarını yaz. Fark, kazancındır.",
+  "dosya": "dc404d4423376bf7.mp3",
+  "sure": 6.77
  },
  "dd4c74b6a7f81713": {
   "k": "damla",
@@ -4661,6 +5015,12 @@
   "dosya": "e164fc8b90db5ec9.mp3",
   "sure": 6.5
  },
+ "e18eb3c1a41d7633": {
+  "k": "damla",
+  "m": "Yem karesine geri alacak taş mı?",
+  "dosya": "e18eb3c1a41d7633.mp3",
+  "sure": 2.27
+ },
  "e190dad650f16018": {
   "k": "damla",
   "m": "Hangi konuları hatırlamalıyım?",
@@ -4685,6 +5045,12 @@
   "dosya": "e1f99a7390487c19.mp3",
   "sure": 7.11
  },
+ "e348df61f796804e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Üç yöntemi ayırmak kolay: alıyorsan koruyucuyu almak, yem veriyorsan saptırma ya da cezbetme.",
+  "dosya": "e348df61f796804e.mp3",
+  "sure": 7.76
+ },
  "e35412c798f128e5": {
   "k": "antrenor",
   "m": "Doğru Damla. Şah kaçamamalı, şah çeken taş alınamamalı, araya da taş girememeli.",
@@ -4708,6 +5074,12 @@
   "m": "Rakip taşların saldırmadığı boş bir kareye. Ama dikkat: şahın gideceği kareyi rakip taşlar görmemeli.",
   "dosya": "e4407d36554136ce.mp3",
   "sure": 7.37
+ },
+ "e4428c987d49921e": {
+  "k": "antrenor",
+  "m": "{ad}, koruyucuyu alırken kendi taşımızı da verebiliriz. Kazanç var mı, hesaplayalım.",
+  "dosya": "e4428c987d49921e.mp3",
+  "sure": 6.09
  },
  "e49bb5e7514e3858": {
   "k": "damla",
@@ -4973,6 +5345,12 @@
   "dosya": "f0e2c55a276790a1.mp3",
   "sure": 1.91
  },
+ "f14517133d659373": {
+  "k": "antrenor",
+  "m": "Çok güzel. Şimdi hepsini denemeye başlayalım.",
+  "dosya": "f14517133d659373.mp3",
+  "sure": 3.19
+ },
  "f1503644364ab08b": {
   "k": "pars",
   "m": "O zaman satırı soldan sağa oynamak yeterli!",
@@ -5009,6 +5387,12 @@
   "dosya": "f253196880a8cb2e.mp3",
   "sure": 8.54
  },
+ "f2c8ecd98edb1a11": {
+  "k": "antrenor",
+  "m": "Korunan taşlara ve koruyucularına. Sonra puan hesabı yap.",
+  "dosya": "f2c8ecd98edb1a11.mp3",
+  "sure": 4.68
+ },
  "f2eaef7f0c949a37": {
   "k": "pars",
   "m": "O zaman ilk hamlem e4 ya da d4 olsun!",
@@ -5044,6 +5428,12 @@
   "m": "Yetişemiyorsam şahımı yardıma getiririm, değil mi?",
   "dosya": "f40ce690221f3a6b.mp3",
   "sure": 3.19
+ },
+ "f452dcd23f815c48": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah çeken hamlede rakibin önce şahını kurtarması gerekir; sen de bu sırada taş kazanırsın.",
+  "dosya": "f452dcd23f815c48.mp3",
+  "sure": 6.95
  },
  "f48af0e533ff41f0": {
   "k": "pars",
@@ -5165,6 +5555,12 @@
   "dosya": "fc17248320fe6ad2.mp3",
   "sure": 3.6
  },
+ "fc2958e1dc376d1a": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? İyi oyuncular hamleden önce düşünür: hangi taşı kim koruyor ve o taş nasıl uzaklaşır?",
+  "dosya": "fc2958e1dc376d1a.mp3",
+  "sure": 7.52
+ },
  "fc39dad0ab5ab7a6": {
   "k": "antrenor",
   "m": "Biliyor muydun? Kale ve fil uzak mesafeden saldırır, ama önlerindeki tek taş yolu kapatır.",
@@ -5183,11 +5579,23 @@
   "dosya": "fcd585424263b402.mp3",
   "sure": 7.37
  },
+ "fce3a17792230b7d": {
+  "k": "antrenor",
+  "m": "Evet. Hem koruyucuyu uzaklaştırdık hem de sırayı kazandık.",
+  "dosya": "fce3a17792230b7d.mp3",
+  "sure": 4.31
+ },
  "fd9012e09f0eb84a": {
   "k": "antrenor",
   "m": "Biliyor muydun? Satrançta amaç şahı yemek değil, mat etmek. Mat olunca oyun hemen biter.",
   "dosya": "fd9012e09f0eb84a.mp3",
   "sure": 5.8
+ },
+ "fda9e743f6076ec1": {
+  "k": "pars",
+  "m": "Hangisini seçeceğiz?",
+  "dosya": "fda9e743f6076ec1.mp3",
+  "sure": 1.52
  },
  "fe970ec69d8c94d8": {
   "k": "pars",
