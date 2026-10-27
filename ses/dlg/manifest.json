@@ -77,6 +77,12 @@
   "dosya": "016b368b15e72fdd.mp3",
   "sure": 4.86
  },
+ "016d8d9307724256": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahlar zıt taraflara rok yapınca iki taraf da birbirinin şahına saldırır. Piyonlar rakip şahın yanına yürür!",
+  "dosya": "016d8d9307724256.mp3",
+  "sure": 9.56
+ },
  "0200269787944329": {
   "k": "pars",
   "m": "Sırayı karıştırırsak olmaz, değil mi?",
@@ -179,6 +185,12 @@
   "dosya": "0451dc392f938ffe.mp3",
   "sure": 2.32
  },
+ "05b4b923d99aa554": {
+  "k": "pars",
+  "m": "Araya taş girerse olur mu?",
+  "dosya": "05b4b923d99aa554.mp3",
+  "sure": 1.85
+ },
  "06077e127f001d02": {
   "k": "antrenor",
   "m": "{ad}, vezir hem kale hem fil gibi gider. Yani şişi hem düz hem çapraz çizgide yapabilir.",
@@ -263,6 +275,12 @@
   "dosya": "07a3a19cf9de5622.mp3",
   "sure": 7.0
  },
+ "07cc668a54c7ccea": {
+  "k": "damla",
+  "m": "Nereden başlayalım hocam?",
+  "dosya": "07cc668a54c7ccea.mp3",
+  "sure": 1.67
+ },
  "07e2763e1701ff0a": {
   "k": "antrenor",
   "m": "İşte bu bir yarış Pars! Anahtar karelere önce ulaşan taraf oyunu belirler.",
@@ -274,6 +292,12 @@
   "m": "Evet. Bu kalıpları bilirsen iki hamlede mat yapmak çok kolaylaşır.",
   "dosya": "07e7b0bd257277f6.mp3",
   "sure": 4.96
+ },
+ "08207b12ebceab92": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her zaman şah çekmek gerekmez. Sessiz bir hamleyle mat tehdidi kurarsan rakip baskı altında kalır!",
+  "dosya": "08207b12ebceab92.mp3",
+  "sure": 8.2
  },
  "08334eb6ac4b3dfa": {
   "k": "antrenor",
@@ -521,6 +545,12 @@
   "dosya": "0f7bc84073a32a15.mp3",
   "sure": 7.84
  },
+ "0f8bfd9c2c5a0134": {
+  "k": "pars",
+  "m": "Sonra o kareyi nasıl durduruyoruz?",
+  "dosya": "0f8bfd9c2c5a0134.mp3",
+  "sure": 1.99
+ },
  "0fb13e4ae1b0c2bf": {
   "k": "antrenor",
   "m": "Çok iyi soru {ad}. Açmaz yapacağın kare güvenli olmalı; yoksa taşını kaybedersin. Önce güvenli kareyi bul.",
@@ -545,6 +575,12 @@
   "dosya": "101122601beca7e4.mp3",
   "sure": 7.76
  },
+ "1017689f18730622": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Saldırmadan önce rakibin ne tehdit ettiğine bak. Bir mat tehdidini görmezsen oyun bir hamlede biter!",
+  "dosya": "1017689f18730622.mp3",
+  "sure": 8.54
+ },
  "1042c99cec8b0860": {
   "k": "antrenor",
   "m": "Evet. At bir karede sekiz kareye birden saldırabilir ve araya taş koyarak durduramazsın.",
@@ -556,6 +592,12 @@
   "m": "Güzel soru! Biri açık, biri koyu karelerde yürür. Videoda göreceksin.",
   "dosya": "109f557e56e81838.mp3",
   "sure": 5.25
+ },
+ "10f73acc9751e923": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Rok yapmış şahın önündeki üç piyon kalkan gibidir. Bir piyon ilerlerse kalkanda delik açılır!",
+  "dosya": "10f73acc9751e923.mp3",
+  "sure": 8.07
  },
  "111618758dc358f6": {
   "k": "antrenor",
@@ -592,6 +634,12 @@
   "m": "{ad}, tahtanın kenarındaki geçer piyon rakip şaha uzaksa çok tehlikelidir.",
   "dosya": "123ac07b70e6eb73.mp3",
   "sure": 5.67
+ },
+ "123e13acd363bd31": {
+  "k": "antrenor",
+  "m": "Durmayız! Şah çekmeden sessiz bir hamle yaparız. Siyah pas geçerse bir sonraki hamlede mat vermeliyiz.",
+  "dosya": "123e13acd363bd31.mp3",
+  "sure": 7.65
  },
  "123f3084aee5ec06": {
   "k": "damla",
@@ -713,6 +761,12 @@
   "dosya": "14f6e45895198100.mp3",
   "sure": 10.34
  },
+ "151e6bcce3d11921": {
+  "k": "antrenor",
+  "m": "Rakip şahın olduğu kanatta piyonlarını ileri sürmek. Amaç kalkan piyonlarına saldırıp kalkanı bozmak.",
+  "dosya": "151e6bcce3d11921.mp3",
+  "sure": 6.82
+ },
  "1551a99a1d63cae4": {
   "k": "antrenor",
   "m": "Evet. Sonuç artıdaysa plan işe yarıyor demektir.",
@@ -779,6 +833,12 @@
   "dosya": "1641dd6eed34d332.mp3",
   "sure": 6.95
  },
+ "1646e5a199708097": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Şaha Hücum Testi seni bekliyor.",
+  "dosya": "1646e5a199708097.mp3",
+  "sure": 6.4
+ },
  "164ce25f256e1d1b": {
   "k": "antrenor",
   "m": "Evet. Sakin ol, düşün ve en iyi hamleyi seç.",
@@ -808,6 +868,12 @@
   "m": "Aynen. İki görevi olan taşa aşırı yüklenmiş taş diyoruz. Önce bu taşları bulmayı öğrenelim.",
   "dosya": "1773233599fd5659.mp3",
   "sure": 6.4
+ },
+ "177adf52eb3d99f8": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kanat saldırısında piyonlar yalnız yürümez. Yanındaki piyonla korunan piyon, kalkana güvenle saldırır!",
+  "dosya": "177adf52eb3d99f8.mp3",
+  "sure": 7.97
  },
  "17aacd59b8576f0d": {
   "k": "pars",
@@ -1001,6 +1067,12 @@
   "dosya": "1db52f189feda67b.mp3",
   "sure": 4.31
  },
+ "1e293530abd596cd": {
+  "k": "antrenor",
+  "m": "Şaha Hücum Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "1e293530abd596cd.mp3",
+  "sure": 9.01
+ },
  "1e783a0be02ef180": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Aşırı Yükleme, Ara Hamle, Engelleme Testi seni bekliyor.",
@@ -1043,11 +1115,23 @@
   "dosya": "205570e79b4ad148.mp3",
   "sure": 9.14
  },
+ "20cd18d5f7573021": {
+  "k": "antrenor",
+  "m": "{ad}, iki şah da rok yaptıysa şahların yerine bak.",
+  "dosya": "20cd18d5f7573021.mp3",
+  "sure": 4.36
+ },
  "2106253393f0b165": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah kendi taşının olduğu ya da rakip taşın saldırdığı kareye gidemez. Mat için hepsi kapalı olmalı!",
   "dosya": "2106253393f0b165.mp3",
   "sure": 7.97
+ },
+ "210b5e65c141a76f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah ya da kale bir kez oynadıysa o yana bir daha rok yapılamaz. Şah şahtayken de rok yoktur!",
+  "dosya": "210b5e65c141a76f.mp3",
+  "sure": 8.2
  },
  "2121e017397d5d75": {
   "k": "damla",
@@ -1258,6 +1342,12 @@
   "m": "O zaman mat olur!",
   "dosya": "266e627832be6ad6.mp3",
   "sure": 1.25
+ },
+ "26b484568070807e": {
+  "k": "antrenor",
+  "m": "{ad}, bugün şahı güvenli yere götürmeyi öğreniyoruz: rok!",
+  "dosya": "26b484568070807e.mp3",
+  "sure": 4.91
  },
  "2702364e53ffe6c5": {
   "k": "antrenor",
@@ -1595,6 +1685,12 @@
   "dosya": "30200cb711376ff3.mp3",
   "sure": 1.25
  },
+ "306e82d1edc9228a": {
+  "k": "damla",
+  "m": "Kısa rokla farkı ne hocam?",
+  "dosya": "306e82d1edc9228a.mp3",
+  "sure": 1.52
+ },
  "30834b641d2ef563": {
   "k": "pars",
   "m": "O zaman onu kaçıramaz, biz alırız.",
@@ -1648,6 +1744,12 @@
   "m": "Taşın nereden geldiği yazılmıyor mu?",
   "dosya": "318f703f543877cf.mp3",
   "sure": 2.77
+ },
+ "31c1c192a04aeabe": {
+  "k": "antrenor",
+  "m": "Önce şah çekebileceğin kareleri bul. Sonra hangisinin matı verdiğine bak.",
+  "dosya": "31c1c192a04aeabe.mp3",
+  "sure": 5.28
  },
  "31d9235317d11653": {
   "k": "antrenor",
@@ -1714,6 +1816,12 @@
   "m": "Peki neden iki fil var?",
   "dosya": "337c5e9158468621.mp3",
   "sure": 1.25
+ },
+ "3396442a7178d077": {
+  "k": "pars",
+  "m": "Kısa rokta şah hangi kareye gider?",
+  "dosya": "3396442a7178d077.mp3",
+  "sure": 1.91
  },
  "33b3f8f68b37417c": {
   "k": "damla",
@@ -1811,6 +1919,12 @@
   "dosya": "3516e6f1a35ce83a.mp3",
   "sure": 2.59
  },
+ "351a79f13634d537": {
+  "k": "damla",
+  "m": "Ne zaman yapılamaz hocam?",
+  "dosya": "351a79f13634d537.mp3",
+  "sure": 1.7
+ },
  "3524cad7498de604": {
   "k": "antrenor",
   "m": "Biliyor muydun? Usta oyuncular her hamlede önce şuna bakar: Rakibin taşları neye saldırıyor?",
@@ -1876,6 +1990,12 @@
   "m": "Çaprazındaki kareye saldırır Damla. Şah o karedeyse şah çekilmiş olur.",
   "dosya": "3720f73543e92704.mp3",
   "sure": 5.98
+ },
+ "372b2f59ec5f8bd1": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her hamleden önce üç soru sor: Mat var mı? Rakibin mat tehdidi var mı? Yoksa sessiz tehdit kurabilir miyim?",
+  "dosya": "372b2f59ec5f8bd1.mp3",
+  "sure": 9.74
  },
  "376795dfe980673c": {
   "k": "antrenor",
@@ -2015,6 +2135,12 @@
   "dosya": "3b995aba7b1c15ca.mp3",
   "sure": 2.32
  },
+ "3bb4d311281c13b3": {
+  "k": "antrenor",
+  "m": "{ad}, rok çok güzel ama her zaman yapılamaz.",
+  "dosya": "3bb4d311281c13b3.mp3",
+  "sure": 3.89
+ },
  "3be6d687e20792dd": {
   "k": "damla",
   "m": "Antrenör, satranç çok eski bir oyun mu?",
@@ -2075,6 +2201,12 @@
   "dosya": "3df6f21803fdb849.mp3",
   "sure": 8.12
  },
+ "3e08fa89456203b2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Mat olmak için şahın hem şahta olması hem de kaçacak karesinin kalmaması gerekir. Önce şah çeken kareleri bul!",
+  "dosya": "3e08fa89456203b2.mp3",
+  "sure": 9.46
+ },
  "3e0b6285876390fa": {
   "k": "antrenor",
   "m": "{ad}, bugün oyunsonunun en özel piyonunu tanıyoruz: geçer piyon.",
@@ -2134,6 +2266,12 @@
   "m": "Güzel. İlk hamlenle kapat, ikinci hamlenle şah çek. Böylece mat olur.",
   "dosya": "3fccbca049a6b1e4.mp3",
   "sure": 5.75
+ },
+ "3fe00ba96e4ece6e": {
+  "k": "antrenor",
+  "m": "{ad}, rok yapmış şahı neyin koruduğunu biliyor musun?",
+  "dosya": "3fe00ba96e4ece6e.mp3",
+  "sure": 3.94
  },
  "3fef7641e202ca4c": {
   "k": "pars",
@@ -2423,6 +2561,12 @@
   "dosya": "47fa8a27af0898b7.mp3",
   "sure": 8.36
  },
+ "4885e574dbc77393": {
+  "k": "pars",
+  "m": "Şahın gideceği kare tehlikedeyse?",
+  "dosya": "4885e574dbc77393.mp3",
+  "sure": 1.93
+ },
  "4891f0c3dd7e5568": {
   "k": "pars",
   "m": "Yani kurban aslında geri geliyor!",
@@ -2482,6 +2626,12 @@
   "m": "En ünlüsü pat, değil mi?",
   "dosya": "498ad914f06d76d0.mp3",
   "sure": 1.49
+ },
+ "49b50594a4bcca99": {
+  "k": "antrenor",
+  "m": "Kareyi tutan taşı alırız, yolunu keseriz ya da araya girerek kapatırız. Şah da rokla kaçabiliyorsa rok yaparız.",
+  "dosya": "49b50594a4bcca99.mp3",
+  "sure": 9.14
  },
  "4a0203e1c6fcf32a": {
   "k": "antrenor",
@@ -2591,6 +2741,12 @@
   "dosya": "4d09b1802b4cc254.mp3",
   "sure": 1.57
  },
+ "4d31bade26559185": {
+  "k": "antrenor",
+  "m": "{ad}, rok yapmış şaha saldırmaya başlıyoruz.",
+  "dosya": "4d31bade26559185.mp3",
+  "sure": 3.6
+ },
  "4d6bbbabeefc169e": {
   "k": "pars",
   "m": "Kımıldarsa arkadaki değerli taş tehlikeye girer, değil mi? Taş yerine çivilenmiş gibi!",
@@ -2620,6 +2776,12 @@
   "m": "O zaman opozisyon siyahtadır. Beyaz şah ilerleyemez ve oyun berabere kalabilir. Sırayı iyi say!",
   "dosya": "4def5ff858231cf2.mp3",
   "sure": 6.77
+ },
+ "4e1cb401b86a0544": {
+  "k": "antrenor",
+  "m": "Uzun rok vezir tarafına yapılır. Şah e1'den c1'e gider, a1'deki kale d1'e gelir.",
+  "dosya": "4e1cb401b86a0544.mp3",
+  "sure": 6.71
  },
  "4e68896f1171f14c": {
   "k": "antrenor",
@@ -2897,6 +3059,18 @@
   "dosya": "57599c830ed5a702.mp3",
   "sure": 5.43
  },
+ "57a2efcc24204388": {
+  "k": "antrenor",
+  "m": "{ad}, bütün öğrendiklerini birleştiriyoruz. Her hamleden önce üç soru soracaksın.",
+  "dosya": "57a2efcc24204388.mp3",
+  "sure": 5.75
+ },
+ "57b81bdb82180611": {
+  "k": "pars",
+  "m": "Siyah karşılık verirse?",
+  "dosya": "57b81bdb82180611.mp3",
+  "sure": 1.7
+ },
  "57c9c25060216aa8": {
   "k": "damla",
   "m": "Şah çekildi ama kurtulabilir miyiz?",
@@ -2986,6 +3160,12 @@
   "m": "Tam öyle! Yem bir kurbandır. Siyah taş yemi yiyince yanlış karede yakalanır.",
   "dosya": "5b7d5a5ee44f15b0.mp3",
   "sure": 5.85
+ },
+ "5b81c0a814a6bb4d": {
+  "k": "antrenor",
+  "m": "Piyonlarını rakip şahın yanındaki kanatta ileri sürebilirsin. Kendi şahın başka kanatta olduğu için piyonlar onu zayıflatmaz.",
+  "dosya": "5b81c0a814a6bb4d.mp3",
+  "sure": 8.96
  },
  "5ba3e10de2d3e99d": {
   "k": "pars",
@@ -3167,6 +3347,12 @@
   "dosya": "6173d4c14ae1ddc3.mp3",
   "sure": 4.86
  },
+ "61afe994c866f849": {
+  "k": "antrenor",
+  "m": "Şah kaçamıyorsa, şah çeken taş alınamıyorsa ve araya taş girilemiyorsa olur Pars. Üçü de tamamsa mat!",
+  "dosya": "61afe994c866f849.mp3",
+  "sure": 8.36
+ },
  "61c31987f246f1f0": {
   "k": "pars",
   "m": "Yani önce kalıbı tanıyacağız, sonra son hamleyi bulacağız!",
@@ -3316,6 +3502,12 @@
   "m": "Evet Pars. İki işi olan taşı bul, onu zorla, açıkta kalanı kazan.",
   "dosya": "65c88daa70a5663e.mp3",
   "sure": 4.86
+ },
+ "65f74adc10fbd347": {
+  "k": "antrenor",
+  "m": "Olmaz Pars, alınır. Yanındaki piyonla korunan bir kareye ilerlet. Hem saldırır hem korunursun.",
+  "dosya": "65f74adc10fbd347.mp3",
+  "sure": 6.87
  },
  "6701069cfac132c7": {
   "k": "antrenor",
@@ -3911,6 +4103,12 @@
   "dosya": "790ee78952fa266b.mp3",
   "sure": 1.93
  },
+ "7930da165d72673b": {
+  "k": "antrenor",
+  "m": "Asıl koruyan, şahın önündeki üç piyon. Buna kalkan diyoruz.",
+  "dosya": "7930da165d72673b.mp3",
+  "sure": 5.02
+ },
  "7956387dc08042c6": {
   "k": "pars",
   "m": "Neden özel, at zıplıyor diye mi?",
@@ -4006,6 +4204,12 @@
   "m": "Biliyor muydun? Vezir 9 puanla en değerli taştır. Kale 5 puandır: bir at ile iki piyon kadar (3 + 1 + 1).",
   "dosya": "7be89392d1651e12.mp3",
   "sure": 9.2
+ },
+ "7c0c1ce164095370": {
+  "k": "pars",
+  "m": "Şah çekince hemen mat olur mu?",
+  "dosya": "7c0c1ce164095370.mp3",
+  "sure": 1.99
  },
  "7ca8748552b9aff2": {
   "k": "pars",
@@ -4240,6 +4444,12 @@
   "m": "Biliyor muydun? Usta oyuncu önce hesap yapar, sonra feda eder. Sen de hem hesap hem mat aramayı unutma!",
   "dosya": "822590980d3ad200.mp3",
   "sure": 7.47
+ },
+ "8260be6235b6e950": {
+  "k": "pars",
+  "m": "Piyon tek başına gitse olur mu?",
+  "dosya": "8260be6235b6e950.mp3",
+  "sure": 1.75
  },
  "82c72a2c187f02ef": {
   "k": "antrenor",
@@ -4493,6 +4703,12 @@
   "dosya": "897c23f9712eea0d.mp3",
   "sure": 3.34
  },
+ "8986b37141dd5047": {
+  "k": "antrenor",
+  "m": "{ad}, bazen hemen mat yok. O zaman ne yaparız?",
+  "dosya": "8986b37141dd5047.mp3",
+  "sure": 4.44
+ },
  "8987d9da5c676405": {
   "k": "damla",
   "m": "İkinci soru: Kim saldırıyor? Üçüncü soru da: Sayınca kâr var mı?",
@@ -4600,6 +4816,12 @@
   "m": "Taktik gözlüğü mü hocam? Onunla ne görüyoruz?",
   "dosya": "8c194f2f7ce81167.mp3",
   "sure": 2.59
+ },
+ "8ca9b03b59e4a6f8": {
+  "k": "antrenor",
+  "m": "Şah iki kare yana gider, kale de onun üstünden atlayıp yanına gelir. Şah tarafına yapılan rok kısa roktur.",
+  "dosya": "8ca9b03b59e4a6f8.mp3",
+  "sure": 7.55
  },
  "8cbb3df9f1baf646": {
   "k": "antrenor",
@@ -4762,6 +4984,12 @@
   "m": "Biliyor muydun? Beyazın ilk hamlede 20 seçeneği vardır: 16 piyon hamlesi ve 4 at hamlesi.",
   "dosya": "8febb2ac7bc636bf.mp3",
   "sure": 7.76
+ },
+ "8ff3b339cb8094af": {
+  "k": "antrenor",
+  "m": "Doğru Pars! Şah geçeceği ve varacağı karede şahta olamaz. Yalnız kale saldırı altındaysa rok yine olur.",
+  "dosya": "8ff3b339cb8094af.mp3",
+  "sure": 8.44
  },
  "8ffaf68e1d02609e": {
   "k": "antrenor",
@@ -5039,6 +5267,12 @@
   "dosya": "97cfa57c7058e734.mp3",
   "sure": 4.21
  },
+ "97ee8eb12ba93a86": {
+  "k": "damla",
+  "m": "Kalesi mi hocam?",
+  "dosya": "97ee8eb12ba93a86.mp3",
+  "sure": 1.07
+ },
  "97ee9db71165c64c": {
   "k": "antrenor",
   "m": "At açmazda mı diye bak {ad}. Açmazdaki at oynayamaz, dolayısıyla geri alamaz.",
@@ -5117,6 +5351,12 @@
   "dosya": "99521b6d058f38dc.mp3",
   "sure": 3.94
  },
+ "9968c64968745b82": {
+  "k": "damla",
+  "m": "Savunmada ilk ne yapıyoruz hocam?",
+  "dosya": "9968c64968745b82.mp3",
+  "sure": 2.46
+ },
  "996a8a5f56979301": {
   "k": "damla",
   "m": "Taş vermek mi? Kaybetmez miyiz hocam?",
@@ -5188,6 +5428,12 @@
   "m": "{ad}, şahın gidemeyeceği kareleri öğrenelim. Bunlar çok önemli.",
   "dosya": "9abe083258e1c157.mp3",
   "sure": 4.78
+ },
+ "9ac26908b1b8cb37": {
+  "k": "pars",
+  "m": "Kalkandaki bir piyon ilerlerse ne olur?",
+  "dosya": "9ac26908b1b8cb37.mp3",
+  "sure": 2.12
  },
  "9aff3d6955458aa4": {
   "k": "antrenor",
@@ -5399,6 +5645,12 @@
   "dosya": "9fe3bc64bfe79b67.mp3",
   "sure": 6.64
  },
+ "9ffbfce56dd39677": {
+  "k": "damla",
+  "m": "Şah çekip durmaz mıyız hocam?",
+  "dosya": "9ffbfce56dd39677.mp3",
+  "sure": 2.04
+ },
  "a025a4b2679e532f": {
   "k": "pars",
   "m": "Tutulan karelere şah gidemez, değil mi?",
@@ -5495,6 +5747,12 @@
   "dosya": "a2e425b690280f2c.mp3",
   "sure": 5.93
  },
+ "a2f730ff2ff3d3c1": {
+  "k": "pars",
+  "m": "Yoksa?",
+  "dosya": "a2f730ff2ff3d3c1.mp3",
+  "sure": 0.78
+ },
  "a32bc22d47dd07cd": {
   "k": "antrenor",
   "m": "Bazen Damla. Ama beş yol var: şaha nefes deliği aç, mat karesini koru, mat hattını kapat, tehdit eden taşı al ya da karşı şah çek.",
@@ -5548,6 +5806,12 @@
   "m": "Şahımı sürekli kaçırırsam belki.",
   "dosya": "a4c542a21e330962.mp3",
   "sure": 2.27
+ },
+ "a4ddcf4d83c55eed": {
+  "k": "antrenor",
+  "m": "Rakibin mat vermek istediği kareye bakarız: beyaz pas geçse siyah nereye gidip mat yapar?",
+  "dosya": "a4ddcf4d83c55eed.mp3",
+  "sure": 6.82
  },
  "a4f59fa73e54280e": {
   "k": "antrenor",
@@ -5729,6 +5993,12 @@
   "dosya": "ab0b6963acc97c26.mp3",
   "sure": 6.77
  },
+ "ab1246edb7603685": {
+  "k": "damla",
+  "m": "Kanat saldırısı ne demek hocam?",
+  "dosya": "ab1246edb7603685.mp3",
+  "sure": 1.91
+ },
  "ab27d943e404e2b9": {
   "k": "antrenor",
   "m": "Korunan taşı hemen alamıyoruz. Peki koruyucuyu almayı denesek?",
@@ -5752,6 +6022,12 @@
   "m": "Biliyor muydun? Piyon düz ilerler ama şahı çapraz tehdit eder.",
   "dosya": "ab583b3942ce553f.mp3",
   "sure": 5.38
+ },
+ "ab67febc6d8ff1b4": {
+  "k": "antrenor",
+  "m": "{ad}, saldırı kadar savunma da önemli.",
+  "dosya": "ab67febc6d8ff1b4.mp3",
+  "sure": 2.74
  },
  "ab85dad7f91072f8": {
   "k": "damla",
@@ -5849,6 +6125,12 @@
   "dosya": "ad7acc4b2d4a5334.mp3",
   "sure": 2.51
  },
+ "ad9c9a2707664eed": {
+  "k": "damla",
+  "m": "Hep aynı yerde mi oluyorlar hocam?",
+  "dosya": "ad9c9a2707664eed.mp3",
+  "sure": 2.09
+ },
  "adcd3a01fcf673d3": {
   "k": "antrenor",
   "m": "Biliyor muydun? Rok, tek hamlede iki taşın birden oynadığı tek hamledir: şah ve kale.",
@@ -5873,6 +6155,12 @@
   "dosya": "ae858ba37f61b7e5.mp3",
   "sure": 6.16
  },
+ "ae8acbd269cda760": {
+  "k": "damla",
+  "m": "Hangi sorular hocam?",
+  "dosya": "ae8acbd269cda760.mp3",
+  "sure": 1.1
+ },
  "ae8c2172ccebac6f": {
   "k": "damla",
   "m": "Şah piyonu nasıl koruyor hocam?",
@@ -5890,6 +6178,12 @@
   "m": "Aynen Pars! Şahlar opozisyondaysa sıraya bak: sıra beyazdaysa berabere, siyahtaysa beyaz kazanır.",
   "dosya": "aeaec422201eee09.mp3",
   "sure": 7.29
+ },
+ "aeb65464b2d1895a": {
+  "k": "antrenor",
+  "m": "{ad}, zıt rokta asıl silah kanat saldırısı.",
+  "dosya": "aeb65464b2d1895a.mp3",
+  "sure": 3.79
  },
  "aebe3d67d9df031e": {
   "k": "antrenor",
@@ -5986,6 +6280,12 @@
   "m": "Biliyor muydun? Kare kuralı: piyon ile şahın terfi karesine kaç hamlede vardığını say, sonra karşılaştır!",
   "dosya": "b1640e6fffe87034.mp3",
   "sure": 7.13
+ },
+ "b19b6f48ab6f3686": {
+  "k": "antrenor",
+  "m": "Güzel soru Pars. En güçlü plan, siyah ne oynarsa oynasın bir sonraki hamlede mat yapılan plandır. Buna zorla mat diyoruz.",
+  "dosya": "b19b6f48ab6f3686.mp3",
+  "sure": 8.86
  },
  "b1a8a752c82ab391": {
   "k": "pars",
@@ -6233,6 +6533,18 @@
   "dosya": "b8bffce4a3185893.mp3",
   "sure": 3.79
  },
+ "b9135d13fe11acc1": {
+  "k": "antrenor",
+  "m": "Beyazda g1'e Pars. Kale de h1'den f1'e gelir. Şah köşeye saklanır, kale oyuna girer.",
+  "dosya": "b9135d13fe11acc1.mp3",
+  "sure": 7.13
+ },
+ "b99322db7d5f90b1": {
+  "k": "antrenor",
+  "m": "Şah ya da kale daha önce oynadıysa, şahla kale arasında taş varsa ya da şah şahtaysa.",
+  "dosya": "b99322db7d5f90b1.mp3",
+  "sure": 6.53
+ },
  "b9975b7f61cbece6": {
   "k": "antrenor",
   "m": "{ad}, bugün savunmayı bozmayı öğreniyoruz. Önce savunmanın nasıl çalıştığına bakalım.",
@@ -6286,6 +6598,12 @@
   "m": "Harika Damla. Önce say, sonra hesapla, sonra karar ver.",
   "dosya": "bb2d759819ad3453.mp3",
   "sure": 4.62
+ },
+ "bb538122c5a1b164": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Uzun rokta şah c1'e, kale d1'e gider. Arada üç kare boş olmalı: b1, c1 ve d1!",
+  "dosya": "bb538122c5a1b164.mp3",
+  "sure": 7.76
  },
  "bbaba1ee25c3f129": {
   "k": "damla",
@@ -6376,6 +6694,12 @@
   "m": "Hocam, vezirim en güçlü taş. Hemen çıkarıp saldırayım mı?",
   "dosya": "bf5094295d61cb69.mp3",
   "sure": 3.47
+ },
+ "bf88374fab18ef07": {
+  "k": "antrenor",
+  "m": "İkincisi: Rakibin mat tehdidi var mı? Varsa önce durdur. Üçüncüsü: hiçbiri yoksa sessiz bir hamleyle mat tehdidi kur.",
+  "dosya": "bf88374fab18ef07.mp3",
+  "sure": 10.16
  },
  "bf8b544e1add577f": {
   "k": "antrenor",
@@ -6863,6 +7187,12 @@
   "dosya": "d0676179a9d5f69c.mp3",
   "sure": 6.22
  },
+ "d0d677193c348abe": {
+  "k": "antrenor",
+  "m": "Hayır. İkisi de şah tarafına yapabilir ya da biri şah, öbürü vezir tarafına yapabilir. Zıt rok dediğimiz bu.",
+  "dosya": "d0d677193c348abe.mp3",
+  "sure": 7.47
+ },
  "d10ec7126e2e465d": {
   "k": "antrenor",
   "m": "Bir kale şah çeker. Şah kenara kaçınca öbür kale bir sıra ilerleyip şah çeker. Her kale ötekini korur.",
@@ -6995,6 +7325,12 @@
   "dosya": "d401c327b0f1f2a0.mp3",
   "sure": 8.72
  },
+ "d4115ab3574ed82c": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Rok, şahı ve kaleyi aynı hamlede oynatan tek hamledir. Kısa rokta şah g1'e, kale f1'e gider!",
+  "dosya": "d4115ab3574ed82c.mp3",
+  "sure": 8.2
+ },
  "d41555dc4925f5ab": {
   "k": "antrenor",
   "m": "Aynen Damla. Bu kontrol seni hem matı bulmaya hem de acele etmemeye alıştırır.",
@@ -7120,6 +7456,12 @@
   "m": "Biliyor muydun? Usta oyuncular kendi planından önce rakibin ne yapmak istediğine bakar. Önce tehdidi gör!",
   "dosya": "d78ea63103e6aeee.mp3",
   "sure": 8.02
+ },
+ "d794566c4bd77e3b": {
+  "k": "pars",
+  "m": "Zıt rokta ne değişiyor?",
+  "dosya": "d794566c4bd77e3b.mp3",
+  "sure": 1.67
  },
  "d80f49600a7f844e": {
   "k": "antrenor",
@@ -7349,6 +7691,12 @@
   "dosya": "ddf928bbea9bef94.mp3",
   "sure": 4.86
  },
+ "de18a90e5be9111c": {
+  "k": "damla",
+  "m": "Rok nasıl yapılıyor hocam?",
+  "dosya": "de18a90e5be9111c.mp3",
+  "sure": 1.85
+ },
  "de4c022c054e77c2": {
   "k": "pars",
   "m": "Mat olunca matta hiç işi olmayan taşlar da olur mu?",
@@ -7510,6 +7858,12 @@
   "m": "Şah çekince genelde az olur: şah kaçar, taş alınır ya da araya girilir. Her birini dene.",
   "dosya": "e1f99a7390487c19.mp3",
   "sure": 7.11
+ },
+ "e221b9d489335a4b": {
+  "k": "antrenor",
+  "m": "Kalkanda delik açılır Pars. Rakip taşlar o deliğe girip şaha saldırabilir. Bu yüzden kendi kalkanını bozma, rakibinkine saldır!",
+  "dosya": "e221b9d489335a4b.mp3",
+  "sure": 9.64
  },
  "e22e8b8ff497d715": {
   "k": "antrenor",
@@ -7763,6 +8117,12 @@
   "dosya": "e9ea469b054ff739.mp3",
   "sure": 8.25
  },
+ "e9ece690a5b57615": {
+  "k": "antrenor",
+  "m": "Olmaz Pars! Şahla kale arasındaki üç kare boş olmalı. Kısa rokta iki kare yeterli.",
+  "dosya": "e9ece690a5b57615.mp3",
+  "sure": 5.8
+ },
  "e9f632e500086383": {
   "k": "damla",
   "m": "Neden boğma diyoruz hocam?",
@@ -8014,6 +8374,12 @@
   "m": "O zaman satırı soldan sağa oynamak yeterli!",
   "dosya": "f1503644364ab08b.mp3",
   "sure": 2.64
+ },
+ "f18d293751039ce1": {
+  "k": "antrenor",
+  "m": "{ad}, rokun bir de uzun türü var.",
+  "dosya": "f18d293751039ce1.mp3",
+  "sure": 2.69
  },
  "f1af2a069f4075ab": {
   "k": "antrenor",
@@ -8302,6 +8668,12 @@
   "m": "Sonra o taşı alıyoruz, değil mi?",
   "dosya": "fa7b68da53e76d4c.mp3",
   "sure": 2.27
+ },
+ "fac2c694de8820ff": {
+  "k": "antrenor",
+  "m": "Birincisi: Hemen mat yapabilir miyim? Varsa yap, başka bir şey düşünme.",
+  "dosya": "fac2c694de8820ff.mp3",
+  "sure": 5.28
  },
  "faf60816dbf5147a": {
   "k": "antrenor",
