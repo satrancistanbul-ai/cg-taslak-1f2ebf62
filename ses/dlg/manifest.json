@@ -1,0 +1,578 @@
+{
+ "011c13704a8c1317": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her oyuncunun 16 taşı vardır: 1 şah, 1 vezir, 2 kale, 2 fil, 2 at ve 8 piyon.",
+  "dosya": "011c13704a8c1317.mp3",
+  "sure": 9.38
+ },
+ "0874d326df8b5a26": {
+  "k": "antrenor",
+  "m": "Evet Damla! Ama önce bak: o taşı biri koruyor mu? Koruyorsa alınca geri alınabilirsin.",
+  "dosya": "0874d326df8b5a26.mp3",
+  "sure": 6.11
+ },
+ "08c98458f2c25857": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Bir at, vezire bile saldırabilir. Küçük taş büyük taşı korkutursa, büyük taş kaçmalıdır.",
+  "dosya": "08c98458f2c25857.mp3",
+  "sure": 7.89
+ },
+ "0ca287a53676be34": {
+  "k": "damla",
+  "m": "Vezirden bile mi önemli?",
+  "dosya": "0ca287a53676be34.mp3",
+  "sure": 1.91
+ },
+ "109f557e56e81838": {
+  "k": "antrenor",
+  "m": "Güzel soru! Biri açık, biri koyu karelerde yürür. Videoda göreceksin.",
+  "dosya": "109f557e56e81838.mp3",
+  "sure": 5.25
+ },
+ "11f19b8320159335": {
+  "k": "antrenor",
+  "m": "Hiç zor değil. Bir harf ve bir rakam, bu kadar. Şimdi nasıl olduğunu göstereyim.",
+  "dosya": "11f19b8320159335.mp3",
+  "sure": 5.43
+ },
+ "1259dc4d2515990e": {
+  "k": "antrenor",
+  "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 1/3 doğru.",
+  "dosya": "1259dc4d2515990e.mp3",
+  "sure": 4.55
+ },
+ "1d621e43cf7452ce": {
+  "k": "antrenor",
+  "m": "Üçüncü savunma yolu koruma, {ad}.",
+  "dosya": "1d621e43cf7452ce.mp3",
+  "sure": 2.77
+ },
+ "21618e0461858925": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Bir saldırıya karşı bazen yalnızca tek yol işe yarar; bu yüzden dört yola da bakmak gerekir.",
+  "dosya": "21618e0461858925.mp3",
+  "sure": 7.47
+ },
+ "22feda9987916361": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Korumasız taşa saldırılırsa rakip onu bedavaya alabilir. Hamle yapmadan önce taşlarını say ve kontrol et!",
+  "dosya": "22feda9987916361.mp3",
+  "sure": 8.39
+ },
+ "24545403c5340bae": {
+  "k": "antrenor",
+  "m": "Tahtaya bakarken iki soru sor, {ad}: Bu taş neye saldırıyor? Bana kim saldırıyor?",
+  "dosya": "24545403c5340bae.mp3",
+  "sure": 6.22
+ },
+ "2702364e53ffe6c5": {
+  "k": "antrenor",
+  "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 0/3 doğru.",
+  "dosya": "2702364e53ffe6c5.mp3",
+  "sure": 5.38
+ },
+ "274de0df7b17f6f2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah tahtanın ortasında 8, köşesinde ise yalnızca 3 kareye gidebilir.",
+  "dosya": "274de0df7b17f6f2.mp3",
+  "sure": 6.16
+ },
+ "2d225dca5a769e66": {
+  "k": "damla",
+  "m": "Yaşasın!",
+  "dosya": "2d225dca5a769e66.mp3",
+  "sure": 0.68
+ },
+ "2e1548e6c0876165": {
+  "k": "antrenor",
+  "m": "Satrancı Tanıyalım Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "2e1548e6c0876165.mp3",
+  "sure": 9.46
+ },
+ "30200cb711376ff3": {
+  "k": "pars",
+  "m": "Korumak ne demek?",
+  "dosya": "30200cb711376ff3.mp3",
+  "sure": 1.25
+ },
+ "3180a00c40c602bf": {
+  "k": "antrenor",
+  "m": "Hem de nasıl Damla! Piyon çapraz saldırır ve büyük taşları korkutabilir. Videoda görelim.",
+  "dosya": "3180a00c40c602bf.mp3",
+  "sure": 5.8
+ },
+ "322757661ced4360": {
+  "k": "antrenor",
+  "m": "Bu ünitede dört savunma yolu öğrendik, {ad}: kaç, al, koru, araya gir.",
+  "dosya": "322757661ced4360.mp3",
+  "sure": 5.88
+ },
+ "337c5e9158468621": {
+  "k": "damla",
+  "m": "Peki neden iki fil var?",
+  "dosya": "337c5e9158468621.mp3",
+  "sure": 1.25
+ },
+ "34c34a576493f0ec": {
+  "k": "pars",
+  "m": "Hangisi hangisiydi, karıştırdım!",
+  "dosya": "34c34a576493f0ec.mp3",
+  "sure": 2.04
+ },
+ "3524cad7498de604": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Usta oyuncular her hamlede önce şuna bakar: Rakibin taşları neye saldırıyor?",
+  "dosya": "3524cad7498de604.mp3",
+  "sure": 6.5
+ },
+ "3b11a68d61b34dec": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Satranç yaklaşık 1500 yıl önce Hindistan'da doğdu. Orada adı çaturangaydı ve tahta 64 kareydi.",
+  "dosya": "3b11a68d61b34dec.mp3",
+  "sure": 8.96
+ },
+ "3be6d687e20792dd": {
+  "k": "damla",
+  "m": "Antrenör, satranç çok eski bir oyun mu?",
+  "dosya": "3be6d687e20792dd.mp3",
+  "sure": 2.4
+ },
+ "3cce7020d47f80c4": {
+  "k": "antrenor",
+  "m": "Şimdi öğrendiklerimizi test etme zamanı!",
+  "dosya": "3cce7020d47f80c4.mp3",
+  "sure": 2.95
+ },
+ "3d6ffbc387f50337": {
+  "k": "antrenor",
+  "m": "Sıra filde. Fil, kaleden farklı olarak yalnızca çapraz gider.",
+  "dosya": "3d6ffbc387f50337.mp3",
+  "sure": 5.15
+ },
+ "41561b768256f1b1": {
+  "k": "antrenor",
+  "m": "Çok eski, Damla. Yaklaşık 1500 yıl önce Hindistan'da ortaya çıktığı kabul edilir. Şimdi tahtamıza bakalım.",
+  "dosya": "41561b768256f1b1.mp3",
+  "sure": 7.52
+ },
+ "4174d47fef93ea85": {
+  "k": "antrenor",
+  "m": "Son taşımız şah. Oyunun en önemli taşı, {ad}.",
+  "dosya": "4174d47fef93ea85.mp3",
+  "sure": 4.6
+ },
+ "45f9a0fd4f85c966": {
+  "k": "antrenor",
+  "m": "Saldırı altındaki bir taşı kurtarmanın dört yolu var, {ad}. Bugün ilkini öğreniyoruz.",
+  "dosya": "45f9a0fd4f85c966.mp3",
+  "sure": 6.03
+ },
+ "493c7b8299ebe291": {
+  "k": "damla",
+  "m": "Hepsi birbirinden farklı görünüyor!",
+  "dosya": "493c7b8299ebe291.mp3",
+  "sure": 1.91
+ },
+ "50f8d57c53fe5574": {
+  "k": "antrenor",
+  "m": "Yeni bir dostumuz var, {ad}: koruma.",
+  "dosya": "50f8d57c53fe5574.mp3",
+  "sure": 2.46
+ },
+ "51376f8bbd495207": {
+  "k": "pars",
+  "m": "Yaşasın!",
+  "dosya": "51376f8bbd495207.mp3",
+  "sure": 0.73
+ },
+ "548ec7b0001c422f": {
+  "k": "antrenor",
+  "m": "Harika! Şimdi öğrendiklerini deneyelim.",
+  "dosya": "548ec7b0001c422f.mp3",
+  "sure": 2.46
+ },
+ "58230973574f3110": {
+  "k": "antrenor",
+  "m": "Saldıran taşla saldırılan taşın arasına, Damla. Böylece saldırı yolu kapanır. Ama araya giren taşın da güvende olması gerekir.",
+  "dosya": "58230973574f3110.mp3",
+  "sure": 8.72
+ },
+ "5d492697b06e00b9": {
+  "k": "antrenor",
+  "m": "Yeni ünitemize hoş geldin, {ad}! Bugün satrançta taş almayı öğreniyoruz.",
+  "dosya": "5d492697b06e00b9.mp3",
+  "sure": 4.91
+ },
+ "5d57c96a2f9049e8": {
+  "k": "antrenor",
+  "m": "Her karenin bir adı var, {ad}. Tıpkı senin adın gibi!",
+  "dosya": "5d57c96a2f9049e8.mp3",
+  "sure": 4.36
+ },
+ "629f0af47193d242": {
+  "k": "antrenor",
+  "m": "Olur Pars. Taşımızı alırlarsa biz de onların taşını geri alacaksak, taş korumalıdır. Yeter ki saldıran taş, korunan taştan değerli olsun.",
+  "dosya": "629f0af47193d242.mp3",
+  "sure": 10.16
+ },
+ "6468f5934de46633": {
+  "k": "damla",
+  "m": "Yani bana saldıran taşı ben alırsam saldırı kalmaz, öyle mi?",
+  "dosya": "6468f5934de46633.mp3",
+  "sure": 4.0
+ },
+ "655c62a3bd691588": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon en küçük taştır ama vezire bile saldırabilir. Piyonun çaprazına giren taş dikkat etmeli!",
+  "dosya": "655c62a3bd691588.mp3",
+  "sure": 7.55
+ },
+ "6596665546f2f479": {
+  "k": "pars",
+  "m": "Kale gibi de fil gibi de gidebilir mi?",
+  "dosya": "6596665546f2f479.mp3",
+  "sure": 1.99
+ },
+ "69eae1b861213f69": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah da rakibin korumasız taşını alabilir, yeter ki gideceği kare saldırı altında olmasın.",
+  "dosya": "69eae1b861213f69.mp3",
+  "sure": 7.52
+ },
+ "6a3ddd26f7cf7e49": {
+  "k": "antrenor",
+  "m": "Sorun değil. Birlikte tekrar edeceğiz.",
+  "dosya": "6a3ddd26f7cf7e49.mp3",
+  "sure": 2.74
+ },
+ "6b97ba3bdd8ffd24": {
+  "k": "antrenor",
+  "m": "Neredeyse Pars. Sırası gelirse alabiliyorsa o taş rakibe saldırıyor demektir. Almak zorunda değil, ama alabilir.",
+  "dosya": "6b97ba3bdd8ffd24.mp3",
+  "sure": 8.96
+ },
+ "6c46505d70349b0b": {
+  "k": "damla",
+  "m": "Nasıl gider?",
+  "dosya": "6c46505d70349b0b.mp3",
+  "sure": 1.07
+ },
+ "6feab6adb4d844c4": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Boş bir tahtada kale, hangi karede olursa olsun tam 14 kareye gidebilir.",
+  "dosya": "6feab6adb4d844c4.mp3",
+  "sure": 7.6
+ },
+ "746c43c18f8c0d2f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyonlar da taş korur. Piyon, önündeki kareyi değil, çaprazındaki iki kareyi korur.",
+  "dosya": "746c43c18f8c0d2f.mp3",
+  "sure": 8.36
+ },
+ "749a29da675014ed": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Her oyuncunun 8 piyonu vardır ve hiçbiri geri dönemez. Piyon hamlesi geri alınamaz.",
+  "dosya": "749a29da675014ed.mp3",
+  "sure": 7.89
+ },
+ "7710de34d58e7740": {
+  "k": "antrenor",
+  "m": "Öyle. Şah, vezir, kale, fil, at ve piyon. Tahtaya nasıl dizildiklerini beraber görelim.",
+  "dosya": "7710de34d58e7740.mp3",
+  "sure": 6.5
+ },
+ "7872685d618f3252": {
+  "k": "antrenor",
+  "m": "Aynen Pars, ilk yol kaçmak. Ama dikkat: gittiğin karede de bir saldırı olmamalı.",
+  "dosya": "7872685d618f3252.mp3",
+  "sure": 6.27
+ },
+ "85b9e5276bd533f9": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Fil rengini hiç değiştiremez. Bir fil tahtanın yalnızca 32 karesini kullanabilir.",
+  "dosya": "85b9e5276bd533f9.mp3",
+  "sure": 8.31
+ },
+ "88d4bd22702b17c9": {
+  "k": "antrenor",
+  "m": "Çünkü geri dönemez. Ve çok özel bir kuralı var: düz gider, çapraz alır.",
+  "dosya": "88d4bd22702b17c9.mp3",
+  "sure": 5.28
+ },
+ "8febb2ac7bc636bf": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Beyazın ilk hamlede 20 seçeneği vardır: 16 piyon hamlesi ve 4 at hamlesi.",
+  "dosya": "8febb2ac7bc636bf.mp3",
+  "sure": 7.76
+ },
+ "90c69e46bd8ca200": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Atın saldırısına araya girilemez, çünkü at diğer taşların üzerinden atlayarak saldırır.",
+  "dosya": "90c69e46bd8ca200.mp3",
+  "sure": 7.84
+ },
+ "936485efb5e1a223": {
+  "k": "damla",
+  "m": "Taşları nasıl koruyoruz?",
+  "dosya": "936485efb5e1a223.mp3",
+  "sure": 1.52
+ },
+ "93b7c42a4db17744": {
+  "k": "pars",
+  "m": "Hazırım!",
+  "dosya": "93b7c42a4db17744.mp3",
+  "sure": 0.86
+ },
+ "97391006d36f4839": {
+  "k": "antrenor",
+  "m": "Tahtaya bakıp karar vereceğiz, Damla. Saldıran taş at ise araya girilmez. Saldıran taş korunuyorsa almak zarar getirebilir. Her seferinde dört yolu da düşün.",
+  "dosya": "97391006d36f4839.mp3",
+  "sure": 10.34
+ },
+ "9854d1597ef6f145": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Hamleler kare adlarıyla yazılır. Bu sayede 100 yıl önce oynanmış bir oyunu bugün tekrar oynayabiliriz.",
+  "dosya": "9854d1597ef6f145.mp3",
+  "sure": 7.89
+ },
+ "98b8ddf8789c8e77": {
+  "k": "pars",
+  "m": "Ben hemen kaçarım! Tehlikeden uzaklaşırım.",
+  "dosya": "98b8ddf8789c8e77.mp3",
+  "sure": 2.53
+ },
+ "9ce836e1cf56e348": {
+  "k": "antrenor",
+  "m": "Hayır Pars, kale hiç çapraz gitmez. Videoda görelim.",
+  "dosya": "9ce836e1cf56e348.mp3",
+  "sure": 4.0
+ },
+ "a083cf9cdb528f22": {
+  "k": "antrenor",
+  "m": "L harfi çizer: iki kare düz, bir kare yana. Ve en güzeli, taşların üzerinden atlar!",
+  "dosya": "a083cf9cdb528f22.mp3",
+  "sure": 7.13
+ },
+ "a14d828a5b076ee9": {
+  "k": "antrenor",
+  "m": "Şimdi bu konuyu birlikte izleyelim. Oynat tuşuna dokun.",
+  "dosya": "a14d828a5b076ee9.mp3",
+  "sure": 3.66
+ },
+ "a199a9c6ad368e19": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Satrancı Tanıyalım Testi seni bekliyor.",
+  "dosya": "a199a9c6ad368e19.mp3",
+  "sure": 6.35
+ },
+ "a32c29970397c4db": {
+  "k": "pars",
+  "m": "Çapraz gidebilir mi?",
+  "dosya": "a32c29970397c4db.mp3",
+  "sure": 1.33
+ },
+ "a9e5252217d6da8c": {
+  "k": "antrenor",
+  "m": "Merhaba {ad}! Bugün satranç dünyasına ilk adımını atıyorsun. Hazır mısın?",
+  "dosya": "a9e5252217d6da8c.mp3",
+  "sure": 4.83
+ },
+ "ac956e8e27afac34": {
+  "k": "antrenor",
+  "m": "Dördüncü savunma yolu en ilginci, {ad}: araya girmek.",
+  "dosya": "ac956e8e27afac34.mp3",
+  "sure": 4.41
+ },
+ "ad6d4e4597851bda": {
+  "k": "antrenor",
+  "m": "Merhaba {ad}! Satrancı ne kadar biliyorsun? Birkaç kısa soruyla seviyeni ölçelim, seni doğru üniteden başlatayım. Puan yok, sadece seni tanımak istiyorum. Bilmediğin soruda üzülme!",
+  "dosya": "ad6d4e4597851bda.mp3",
+  "sure": 12.3
+ },
+ "ae364ddab798e57d": {
+  "k": "antrenor",
+  "m": "Şimdi en güçlü taşla tanışıyoruz: vezir!",
+  "dosya": "ae364ddab798e57d.mp3",
+  "sure": 3.29
+ },
+ "af30c3559740cded": {
+  "k": "pars",
+  "m": "64 karenin adını ezberlemek zor olmaz mı?",
+  "dosya": "af30c3559740cded.mp3",
+  "sure": 2.87
+ },
+ "b07882723e1e3d2f": {
+  "k": "damla",
+  "m": "Nereye giriyoruz?",
+  "dosya": "b07882723e1e3d2f.mp3",
+  "sure": 1.67
+ },
+ "b0bb3d06106cb7c9": {
+  "k": "antrenor",
+  "m": "Bir taşımızın öyle bir dostu olsun ki, rakip o taşı alırsa biz de rakibin taşını geri alabilelim. Buna korumalı taş denir.",
+  "dosya": "b0bb3d06106cb7c9.mp3",
+  "sure": 8.12
+ },
+ "b4290557fc723f2f": {
+  "k": "damla",
+  "m": "Piyon da saldırıyor mu? O çok küçük!",
+  "dosya": "b4290557fc723f2f.mp3",
+  "sure": 2.69
+ },
+ "b66c2c7a4418cf5f": {
+  "k": "antrenor",
+  "m": "İkinci savunma yolu, {ad}: saldıran taşı almak.",
+  "dosya": "b66c2c7a4418cf5f.mp3",
+  "sure": 3.79
+ },
+ "b7c4179bcbd0e819": {
+  "k": "antrenor",
+  "m": "Hayır Damla. Taşımız rakip taşın karesine gider; rakip taş tahtadan çıkar. Videoda göreceksin.",
+  "dosya": "b7c4179bcbd0e819.mp3",
+  "sure": 6.92
+ },
+ "ba0320de238a2aee": {
+  "k": "pars",
+  "m": "Piyon neden hep ileri gidiyor?",
+  "dosya": "ba0320de238a2aee.mp3",
+  "sure": 2.27
+ },
+ "ba167c8d96d6b2e9": {
+  "k": "damla",
+  "m": "Peki hangisini seçeceğiz?",
+  "dosya": "ba167c8d96d6b2e9.mp3",
+  "sure": 1.62
+ },
+ "c016537d5c4453c7": {
+  "k": "antrenor",
+  "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 2/3 doğru.",
+  "dosya": "c016537d5c4453c7.mp3",
+  "sure": 5.04
+ },
+ "c7e6250d7c827dd5": {
+  "k": "pars",
+  "m": "Kaçmasak da olur mu yani?",
+  "dosya": "c7e6250d7c827dd5.mp3",
+  "sure": 1.85
+ },
+ "c7f13c918f0db4e1": {
+  "k": "antrenor",
+  "m": "Aynen öyle Pars. Kale ile filin birleşimi. Ama gücünü dikkatli kullan!",
+  "dosya": "c7f13c918f0db4e1.mp3",
+  "sure": 4.73
+ },
+ "ca87a0169851b927": {
+  "k": "antrenor",
+  "m": "Evet. Şah düşerse oyun biter. Onun için çok dikkatli gitmeli: her yöne, ama yalnızca bir kare.",
+  "dosya": "ca87a0169851b927.mp3",
+  "sure": 6.92
+ },
+ "caf9118abb3c8dbd": {
+  "k": "antrenor",
+  "m": "At, tahtanın en çevik taşı, {ad}. Diğerlerinden çok farklı gider.",
+  "dosya": "caf9118abb3c8dbd.mp3",
+  "sure": 5.8
+ },
+ "cfa495348a49a926": {
+  "k": "pars",
+  "m": "Saldırı, taşın rakibi hemen almasıdır, değil mi?",
+  "dosya": "cfa495348a49a926.mp3",
+  "sure": 2.95
+ },
+ "d2b0a00a1783eeb8": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Korumalı bir taşı alan taş, karşılığında geri alınır. Bu karşılıklı alışa takas denir.",
+  "dosya": "d2b0a00a1783eeb8.mp3",
+  "sure": 7.42
+ },
+ "d56d6859d5c3ab3b": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Tahtanın ortasındaki vezir 27 kareye gidebilir. Tek bir taş için neredeyse tahtanın yarısı!",
+  "dosya": "d56d6859d5c3ab3b.mp3",
+  "sure": 7.89
+ },
+ "d5718f52e171f4c8": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Satrançta alınan taş oyundan çıkar ve geri gelmez. Bu yüzden her taşına iyi bakmalısın.",
+  "dosya": "d5718f52e171f4c8.mp3",
+  "sure": 7.11
+ },
+ "d8c2da03d68f5d20": {
+  "k": "antrenor",
+  "m": "Artık bütün taşları tanıyorsun, {ad}. Şimdi hepsini bir arada görelim.",
+  "dosya": "d8c2da03d68f5d20.mp3",
+  "sure": 5.88
+ },
+ "dac288563e05a65e": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Saldırı ve Savunma Testi seni bekliyor.",
+  "dosya": "dac288563e05a65e.mp3",
+  "sure": 6.69
+ },
+ "ddf14eb481494d78": {
+  "k": "antrenor",
+  "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 3/3 doğru.",
+  "dosya": "ddf14eb481494d78.mp3",
+  "sure": 4.96
+ },
+ "df00af65563ac2d1": {
+  "k": "damla",
+  "m": "Hazırım!",
+  "dosya": "df00af65563ac2d1.mp3",
+  "sure": 0.65
+ },
+ "e895fed95946a914": {
+  "k": "damla",
+  "m": "Taş almak için rakibin taşının üzerinden mi atlıyoruz?",
+  "dosya": "e895fed95946a914.mp3",
+  "sure": 3.11
+ },
+ "ecdb4337b72417f2": {
+  "k": "antrenor",
+  "m": "Rakip bir taşımızı alırsa ve kendi taşlarımızdan biri onu geri alabiliyorsa o taş korunuyordur. Kimse korumuyorsa taş korumasızdır.",
+  "dosya": "ecdb4337b72417f2.mp3",
+  "sure": 9.61
+ },
+ "edb27cbdc61ff75e": {
+  "k": "antrenor",
+  "m": "Saldırı ve Savunma Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "edb27cbdc61ff75e.mp3",
+  "sure": 9.69
+ },
+ "f02ee9c78f6aa72f": {
+  "k": "antrenor",
+  "m": "Bir taşı kim koruyor, {ad}? Bunu sormayı unutma.",
+  "dosya": "f02ee9c78f6aa72f.mp3",
+  "sure": 3.76
+ },
+ "f1af2a069f4075ab": {
+  "k": "antrenor",
+  "m": "Piyonlar küçük ama çok önemli, {ad}. Ordunun asker çocukları.",
+  "dosya": "f1af2a069f4075ab.mp3",
+  "sure": 4.91
+ },
+ "f75a54a2cd41f184": {
+  "k": "antrenor",
+  "m": "Şimdi ordumuzla tanışma vakti, {ad}. Her oyuncunun 16 taşı var.",
+  "dosya": "f75a54a2cd41f184.mp3",
+  "sure": 5.56
+ },
+ "f7d624df277c9a83": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? At tahtanın köşesinde yalnızca 2, ortasında ise 8 kareye gidebilir. At köşeyi hiç sevmez.",
+  "dosya": "f7d624df277c9a83.mp3",
+  "sure": 8.39
+ },
+ "f9f7ec0c8193ff8e": {
+  "k": "antrenor",
+  "m": "{ad}, şimdi çok önemli bir kelimeyle tanışıyoruz: saldırı.",
+  "dosya": "f9f7ec0c8193ff8e.mp3",
+  "sure": 3.89
+ },
+ "faf60816dbf5147a": {
+  "k": "antrenor",
+  "m": "İlk taşımız kale. Kale, satrançta bir kule gibi düz ilerler.",
+  "dosya": "faf60816dbf5147a.mp3",
+  "sure": 4.36
+ }
+}
