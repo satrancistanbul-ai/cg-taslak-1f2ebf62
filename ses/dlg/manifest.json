@@ -1,9 +1,27 @@
 {
+ "00b31790c409bb0f": {
+  "k": "antrenor",
+  "m": "Hayır Pars. Şahını şahta bırakan ya da şaha sokan hamle yapılamaz; ona yasadışı hamle denir.",
+  "dosya": "00b31790c409bb0f.mp3",
+  "sure": 7.71
+ },
  "011c13704a8c1317": {
   "k": "antrenor",
   "m": "Biliyor muydun? Her oyuncunun 16 taşı vardır: 1 şah, 1 vezir, 2 kale, 2 fil, 2 at ve 8 piyon.",
   "dosya": "011c13704a8c1317.mp3",
   "sure": 9.38
+ },
+ "08334eb6ac4b3dfa": {
+  "k": "antrenor",
+  "m": "{ad}, şimdi yasal ve yasadışı hamleyi öğreneceğiz.",
+  "dosya": "08334eb6ac4b3dfa.mp3",
+  "sure": 3.94
+ },
+ "0851d07d6c629192": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Araya girmek, şahın önüne bir kalkan koymak gibidir.",
+  "dosya": "0851d07d6c629192.mp3",
+  "sure": 5.04
  },
  "0874d326df8b5a26": {
   "k": "antrenor",
@@ -41,6 +59,24 @@
   "dosya": "1259dc4d2515990e.mp3",
   "sure": 4.55
  },
+ "1567db849a2019f3": {
+  "k": "damla",
+  "m": "Taşı alırsak şah çeken kalmaz, değil mi?",
+  "dosya": "1567db849a2019f3.mp3",
+  "sure": 2.93
+ },
+ "1c265057ec271480": {
+  "k": "antrenor",
+  "m": "Neredeyse Pars! Piyon, at, fil, kale ve vezir şah çekebilir. Şah ise çekemez; çünkü iki şah asla yan yana duramaz.",
+  "dosya": "1c265057ec271480.mp3",
+  "sure": 9.43
+ },
+ "1d37b8a9c86725a1": {
+  "k": "antrenor",
+  "m": "{ad}, bu bölümde bu üniteyi baştan tekrar edeceğiz.",
+  "dosya": "1d37b8a9c86725a1.mp3",
+  "sure": 3.58
+ },
  "1d621e43cf7452ce": {
   "k": "antrenor",
   "m": "Üçüncü savunma yolu koruma, {ad}.",
@@ -65,6 +101,12 @@
   "dosya": "24545403c5340bae.mp3",
   "sure": 6.22
  },
+ "25790c15f5181ca7": {
+  "k": "antrenor",
+  "m": "{ad}, şahtan kurtulmanın ikinci yolu: şah çeken taşı almak.",
+  "dosya": "25790c15f5181ca7.mp3",
+  "sure": 4.49
+ },
  "2702364e53ffe6c5": {
   "k": "antrenor",
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 0/3 doğru.",
@@ -77,11 +119,23 @@
   "dosya": "274de0df7b17f6f2.mp3",
   "sure": 6.16
  },
+ "2c170ad9aa97fdbc": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah asla alınmaz. Şahı tehdit eden taş sadece “Şah!” uyarısı yapar.",
+  "dosya": "2c170ad9aa97fdbc.mp3",
+  "sure": 7.11
+ },
  "2d225dca5a769e66": {
   "k": "damla",
   "m": "Yaşasın!",
   "dosya": "2d225dca5a769e66.mp3",
   "sure": 0.68
+ },
+ "2d7ae6392910127d": {
+  "k": "damla",
+  "m": "Şah istediği yere gidemez mi?",
+  "dosya": "2d7ae6392910127d.mp3",
+  "sure": 2.35
  },
  "2e1548e6c0876165": {
   "k": "antrenor",
@@ -124,6 +178,12 @@
   "m": "Biliyor muydun? Usta oyuncular her hamlede önce şuna bakar: Rakibin taşları neye saldırıyor?",
   "dosya": "3524cad7498de604.mp3",
   "sure": 6.5
+ },
+ "35c933774e7348b4": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? İki şah hiçbir zaman yan yana duramaz; aralarında en az bir kare boş kalmalı.",
+  "dosya": "35c933774e7348b4.mp3",
+  "sure": 6.27
  },
  "3b11a68d61b34dec": {
   "k": "antrenor",
@@ -173,6 +233,12 @@
   "dosya": "493c7b8299ebe291.mp3",
   "sure": 1.91
  },
+ "4a3e4435143276a3": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahını koruyan taş saldırı hattından çıkarsa şah açıkta kalır; bu hamle yasadışıdır.",
+  "dosya": "4a3e4435143276a3.mp3",
+  "sure": 7.78
+ },
  "50f8d57c53fe5574": {
   "k": "antrenor",
   "m": "Yeni bir dostumuz var, {ad}: koruma.",
@@ -184,6 +250,12 @@
   "m": "Yaşasın!",
   "dosya": "51376f8bbd495207.mp3",
   "sure": 0.73
+ },
+ "513c7afc94d51e78": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah bir taşı alabilir; ama o taş korunuyorsa şah onu alamaz, çünkü şah çekilmiş olur.",
+  "dosya": "513c7afc94d51e78.mp3",
+  "sure": 8.02
  },
  "548ec7b0001c422f": {
   "k": "antrenor",
@@ -197,6 +269,12 @@
   "dosya": "58230973574f3110.mp3",
   "sure": 8.72
  },
+ "5c47ad60424042e6": {
+  "k": "antrenor",
+  "m": "{ad}, bugün satrancın en önemli kelimelerinden birini öğreniyoruz: şah çekmek.",
+  "dosya": "5c47ad60424042e6.mp3",
+  "sure": 6.16
+ },
  "5d492697b06e00b9": {
   "k": "antrenor",
   "m": "Yeni ünitemize hoş geldin, {ad}! Bugün satrançta taş almayı öğreniyoruz.",
@@ -208,6 +286,12 @@
   "m": "Her karenin bir adı var, {ad}. Tıpkı senin adın gibi!",
   "dosya": "5d57c96a2f9049e8.mp3",
   "sure": 4.36
+ },
+ "623ad03d0f3d18f7": {
+  "k": "antrenor",
+  "m": "Hayır Damla. Şah hiçbir zaman alınmaz. Bir taş şaha saldırıyorsa “Şah!” deriz; şahın sahibi bu tehlikeyi hemen ortadan kaldırmak zorundadır.",
+  "dosya": "623ad03d0f3d18f7.mp3",
+  "sure": 10.81
  },
  "629f0af47193d242": {
   "k": "antrenor",
@@ -257,6 +341,12 @@
   "dosya": "6c46505d70349b0b.mp3",
   "sure": 1.07
  },
+ "6fd2103c7895697e": {
+  "k": "antrenor",
+  "m": "Şaha uzaktan saldıran taşla şah arasındaki bir kareye kendi taşını koyarsın. Hat kapanır, şah çekme sona erer.",
+  "dosya": "6fd2103c7895697e.mp3",
+  "sure": 8.67
+ },
  "6feab6adb4d844c4": {
   "k": "antrenor",
   "m": "Biliyor muydun? Boş bir tahtada kale, hangi karede olursa olsun tam 14 kareye gidebilir.",
@@ -286,6 +376,12 @@
   "m": "Aynen Pars, ilk yol kaçmak. Ama dikkat: gittiğin karede de bir saldırı olmamalı.",
   "dosya": "7872685d618f3252.mp3",
   "sure": 6.27
+ },
+ "79a160daf6a479ae": {
+  "k": "antrenor",
+  "m": "Aynen Damla. Alan taş bir beyaz taş olabilir; şah da alabilir, ama yalnızca korunmayan taşı.",
+  "dosya": "79a160daf6a479ae.mp3",
+  "sure": 7.34
  },
  "85b9e5276bd533f9": {
   "k": "antrenor",
@@ -323,6 +419,12 @@
   "dosya": "93b7c42a4db17744.mp3",
   "sure": 0.86
  },
+ "94f600cc29971ce7": {
+  "k": "antrenor",
+  "m": "Şahı kimin çektiğini bulmayı ve şahtan kurtulmanın üç yolunu: kaç, al, araya gir.",
+  "dosya": "94f600cc29971ce7.mp3",
+  "sure": 6.27
+ },
  "97391006d36f4839": {
   "k": "antrenor",
   "m": "Tahtaya bakıp karar vereceğiz, Damla. Saldıran taş at ise araya girilmez. Saldıran taş korunuyorsa almak zarar getirebilir. Her seferinde dört yolu da düşün.",
@@ -340,6 +442,12 @@
   "m": "Ben hemen kaçarım! Tehlikeden uzaklaşırım.",
   "dosya": "98b8ddf8789c8e77.mp3",
   "sure": 2.53
+ },
+ "9abe083258e1c157": {
+  "k": "antrenor",
+  "m": "{ad}, şahın gidemeyeceği kareleri öğrenelim. Bunlar çok önemli.",
+  "dosya": "9abe083258e1c157.mp3",
+  "sure": 4.78
  },
  "9ce836e1cf56e348": {
   "k": "antrenor",
@@ -371,17 +479,41 @@
   "dosya": "a32c29970397c4db.mp3",
   "sure": 1.33
  },
+ "a59e6e1533d58e08": {
+  "k": "pars",
+  "m": "Nereye kaçacağım ki?",
+  "dosya": "a59e6e1533d58e08.mp3",
+  "sure": 1.52
+ },
  "a9e5252217d6da8c": {
   "k": "antrenor",
   "m": "Merhaba {ad}! Bugün satranç dünyasına ilk adımını atıyorsun. Hazır mısın?",
   "dosya": "a9e5252217d6da8c.mp3",
   "sure": 4.83
  },
+ "ab583b3942ce553f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon düz ilerler ama şahı çapraz tehdit eder.",
+  "dosya": "ab583b3942ce553f.mp3",
+  "sure": 5.38
+ },
+ "ac0ac605dadd7144": {
+  "k": "pars",
+  "m": "Ben hepsinin çekebileceğini düşünüyorum!",
+  "dosya": "ac0ac605dadd7144.mp3",
+  "sure": 2.59
+ },
  "ac956e8e27afac34": {
   "k": "antrenor",
   "m": "Dördüncü savunma yolu en ilginci, {ad}: araya girmek.",
   "dosya": "ac956e8e27afac34.mp3",
   "sure": 4.41
+ },
+ "ad605825a2100f22": {
+  "k": "antrenor",
+  "m": "Hayır Damla. Rakip taşların saldırdığı bir kareye ve rakip şahın yanındaki karelere gidemez.",
+  "dosya": "ad605825a2100f22.mp3",
+  "sure": 7.11
  },
  "ad6d4e4597851bda": {
   "k": "antrenor",
@@ -400,6 +532,12 @@
   "m": "64 karenin adını ezberlemek zor olmaz mı?",
   "dosya": "af30c3559740cded.mp3",
   "sure": 2.87
+ },
+ "afb8c43e8092e919": {
+  "k": "pars",
+  "m": "Her hamle yapılabilir mi hoca?",
+  "dosya": "afb8c43e8092e919.mp3",
+  "sure": 1.8
  },
  "b07882723e1e3d2f": {
   "k": "damla",
@@ -449,6 +587,12 @@
   "dosya": "c016537d5c4453c7.mp3",
   "sure": 5.04
  },
+ "c784e99c4045ec50": {
+  "k": "antrenor",
+  "m": "{ad}, hangi taşlar şah çekebilir, bilelim.",
+  "dosya": "c784e99c4045ec50.mp3",
+  "sure": 3.76
+ },
  "c7e6250d7c827dd5": {
   "k": "pars",
   "m": "Kaçmasak da olur mu yani?",
@@ -473,6 +617,12 @@
   "dosya": "caf9118abb3c8dbd.mp3",
   "sure": 5.8
  },
+ "cbd897ab63bbcdb9": {
+  "k": "antrenor",
+  "m": "Şah ve Şah Çekme Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "cbd897ab63bbcdb9.mp3",
+  "sure": 10.58
+ },
  "cfa495348a49a926": {
   "k": "pars",
   "m": "Saldırı, taşın rakibi hemen almasıdır, değil mi?",
@@ -484,6 +634,12 @@
   "m": "Biliyor muydun? Korumalı bir taşı alan taş, karşılığında geri alınır. Bu karşılıklı alışa takas denir.",
   "dosya": "d2b0a00a1783eeb8.mp3",
   "sure": 7.42
+ },
+ "d45c79efc8c0e4a1": {
+  "k": "antrenor",
+  "m": "{ad}, şah çekildi! Şahını kurtarmanın ilk yolu: kaçmak.",
+  "dosya": "d45c79efc8c0e4a1.mp3",
+  "sure": 4.73
  },
  "d56d6859d5c3ab3b": {
   "k": "antrenor",
@@ -509,6 +665,24 @@
   "dosya": "dac288563e05a65e.mp3",
   "sure": 6.69
  },
+ "db5c033de4ffad88": {
+  "k": "pars",
+  "m": "Araya girmek mi? Nasıl yani?",
+  "dosya": "db5c033de4ffad88.mp3",
+  "sure": 1.91
+ },
+ "db6cd2bf4b73b3b3": {
+  "k": "antrenor",
+  "m": "{ad}, şahtan kurtulmanın üçüncü yolu: araya girmek.",
+  "dosya": "db6cd2bf4b73b3b3.mp3",
+  "sure": 4.36
+ },
+ "db73c63014aa7622": {
+  "k": "damla",
+  "m": "Şah çekmek, şahı yakalamak mı demek?",
+  "dosya": "db73c63014aa7622.mp3",
+  "sure": 2.51
+ },
  "ddf14eb481494d78": {
   "k": "antrenor",
   "m": "Tebrikler {ad}, bu bölümü bitirdin! İlk denemede 3/3 doğru.",
@@ -520,6 +694,18 @@
   "m": "Hazırım!",
   "dosya": "df00af65563ac2d1.mp3",
   "sure": 0.65
+ },
+ "e190dad650f16018": {
+  "k": "damla",
+  "m": "Hangi konuları hatırlamalıyım?",
+  "dosya": "e190dad650f16018.mp3",
+  "sure": 1.57
+ },
+ "e4407d36554136ce": {
+  "k": "antrenor",
+  "m": "Rakip taşların saldırmadığı boş bir kareye. Ama dikkat: şahın gideceği kareyi rakip taşlar görmemeli.",
+  "dosya": "e4407d36554136ce.mp3",
+  "sure": 7.37
  },
  "e895fed95946a914": {
   "k": "damla",
@@ -551,6 +737,12 @@
   "dosya": "f1af2a069f4075ab.mp3",
   "sure": 4.91
  },
+ "f24529df78951543": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahtan kurtulmanın üç yolu var: şahı kaçır, çekeni al ya da araya bir taş koy.",
+  "dosya": "f24529df78951543.mp3",
+  "sure": 6.69
+ },
  "f75a54a2cd41f184": {
   "k": "antrenor",
   "m": "Şimdi ordumuzla tanışma vakti, {ad}. Her oyuncunun 16 taşı var.",
@@ -563,6 +755,12 @@
   "dosya": "f7d624df277c9a83.mp3",
   "sure": 8.39
  },
+ "f89460294ab405e9": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Şah ve Şah Çekme Testi seni bekliyor.",
+  "dosya": "f89460294ab405e9.mp3",
+  "sure": 6.22
+ },
  "f9f7ec0c8193ff8e": {
   "k": "antrenor",
   "m": "{ad}, şimdi çok önemli bir kelimeyle tanışıyoruz: saldırı.",
@@ -574,5 +772,11 @@
   "m": "İlk taşımız kale. Kale, satrançta bir kule gibi düz ilerler.",
   "dosya": "faf60816dbf5147a.mp3",
   "sure": 4.36
+ },
+ "fcd585424263b402": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah kaçarken, rakip taşın hattındaki geri kareye de gidemez; o kare de tehdit altındadır.",
+  "dosya": "fcd585424263b402.mp3",
+  "sure": 7.37
  }
 }
