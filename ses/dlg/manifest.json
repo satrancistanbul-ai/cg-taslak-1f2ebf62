@@ -5,6 +5,12 @@
   "dosya": "0063e2433a2ba294.mp3",
   "sure": 3.89
  },
+ "008d462fcad11554": {
+  "k": "damla",
+  "m": "Yazılı partide kimin hamlesi olduğunu nasıl anlarız?",
+  "dosya": "008d462fcad11554.mp3",
+  "sure": 3.06
+ },
  "00b31790c409bb0f": {
   "k": "antrenor",
   "m": "Hayır Pars. Şahını şahta bırakan ya da şaha sokan hamle yapılamaz; ona yasadışı hamle denir.",
@@ -23,11 +29,29 @@
   "dosya": "0149744e6269521a.mp3",
   "sure": 2.22
  },
+ "02fe3496cfc7c0cb": {
+  "k": "damla",
+  "m": "Hangi sırayla yazıyoruz?",
+  "dosya": "02fe3496cfc7c0cb.mp3",
+  "sure": 1.44
+ },
  "034fa13f3d15a4f3": {
   "k": "antrenor",
   "m": "{ad}, bugün ilk mat kalıbımızı öğreniyoruz: çoban matı.",
   "dosya": "034fa13f3d15a4f3.mp3",
   "sure": 4.62
+ },
+ "0385f35c685ec3e2": {
+  "k": "antrenor",
+  "m": "Hamle numarası, sonra beyazın hamlesi, sonra siyahın hamlesi. Her hamleden sonra sıra rakibe geçer.",
+  "dosya": "0385f35c685ec3e2.mp3",
+  "sure": 7.89
+ },
+ "03e3385a3e2eb159": {
+  "k": "antrenor",
+  "m": "{ad}, turnuvada oyun kuralları kadar davranış da önemlidir.",
+  "dosya": "03e3385a3e2eb159.mp3",
+  "sure": 4.36
  },
  "064d7e764fd01755": {
   "k": "antrenor",
@@ -83,6 +107,12 @@
   "dosya": "09930605cedabd0c.mp3",
   "sure": 6.95
  },
+ "0a0088b014e437ea": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Notasyon ve Turnuva Kuralları Testi seni bekliyor.",
+  "dosya": "0a0088b014e437ea.mp3",
+  "sure": 7.47
+ },
  "0aa233c052721aa8": {
   "k": "pars",
   "m": "Sonraki hamlede yapmazsam?",
@@ -95,11 +125,23 @@
   "dosya": "0ca287a53676be34.mp3",
   "sure": 1.91
  },
+ "0ef7c02037f43f43": {
+  "k": "antrenor",
+  "m": "Evet. Her hamlede harfi, işareti ve kareyi ayrı ayrı oku; sonra tahtada yap.",
+  "dosya": "0ef7c02037f43f43.mp3",
+  "sure": 6.22
+ },
  "109f557e56e81838": {
   "k": "antrenor",
   "m": "Güzel soru! Biri açık, biri koyu karelerde yürür. Videoda göreceksin.",
   "dosya": "109f557e56e81838.mp3",
   "sure": 5.25
+ },
+ "113d9ade67ed6523": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Rok, tek bir taşın harfiyle değil özel bir yazıyla gösterilir: kısa rok O-O, uzun rok O-O-O.",
+  "dosya": "113d9ade67ed6523.mp3",
+  "sure": 9.14
  },
  "1190cba1df920211": {
   "k": "damla",
@@ -149,17 +191,35 @@
   "dosya": "1584e1242b2f205c.mp3",
   "sure": 7.6
  },
+ "15b7e517ddec8b12": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Turnuvada dokunduğun taşı oynaman gerekir; taşı düzeltmek istersen önce 'düzeltiyorum' demelisin.",
+  "dosya": "15b7e517ddec8b12.mp3",
+  "sure": 7.29
+ },
  "15c58bcd47bcf425": {
   "k": "pars",
   "m": "O zaman bir vezir, bir kale ile dört piyona eşit galiba.",
   "dosya": "15c58bcd47bcf425.mp3",
   "sure": 3.24
  },
+ "15edd8d7ccd997a3": {
+  "k": "damla",
+  "m": "Bunun için ayrı harfler mi var?",
+  "dosya": "15edd8d7ccd997a3.mp3",
+  "sure": 2.04
+ },
  "166a268170279456": {
   "k": "antrenor",
   "m": "{ad}, bugün bütün mat kalıpları karışık geliyor. Önce mat var mı, sonra rakibin tehdidi var mı, ona bak.",
   "dosya": "166a268170279456.mp3",
   "sure": 7.89
+ },
+ "176db32b1c5d415c": {
+  "k": "antrenor",
+  "m": "Evet! Piyon hamlesinde harf yok; piyon e4'e giderse yalnız e4 yazarız.",
+  "dosya": "176db32b1c5d415c.mp3",
+  "sure": 6.09
  },
  "17aacd59b8576f0d": {
   "k": "pars",
@@ -178,6 +238,12 @@
   "m": "Piyonlar şahı korur ama kaçış yolunu da kapatır. Rakip kale ya da vezir arka sıraya inince şah kaçamaz.",
   "dosya": "183f5bd5e64a3789.mp3",
   "sure": 7.89
+ },
+ "1863975f2a41fbe9": {
+  "k": "antrenor",
+  "m": "Aynen. Mat yapmaya yetmeyen taşlar, aynı konumun üç kez tekrarı ve anlaşma da beraberlik getirir.",
+  "dosya": "1863975f2a41fbe9.mp3",
+  "sure": 7.0
  },
  "1922efbacc4b2a86": {
   "k": "antrenor",
@@ -233,6 +299,12 @@
   "dosya": "1d621e43cf7452ce.mp3",
   "sure": 2.77
  },
+ "1f1f8bd327816295": {
+  "k": "antrenor",
+  "m": "{ad}, bugün satrancın yazı dilini öğreniyoruz: notasyon.",
+  "dosya": "1f1f8bd327816295.mp3",
+  "sure": 4.49
+ },
  "1f6dcee7b805e75f": {
   "k": "antrenor",
   "m": "{ad}, fil çapraz gider, çapraz şah çeker.",
@@ -274,6 +346,12 @@
   "m": "Biliyor muydun? Korumasız taşa saldırılırsa rakip onu bedavaya alabilir. Hamle yapmadan önce taşlarını say ve kontrol et!",
   "dosya": "22feda9987916361.mp3",
   "sure": 8.39
+ },
+ "23168410c76ac9ed": {
+  "k": "antrenor",
+  "m": "{ad}, hamle yazmayı öğrendin; şimdi yazılı bir partiyi okuyup oynamayı öğreneceğiz.",
+  "dosya": "23168410c76ac9ed.mp3",
+  "sure": 6.22
  },
  "24545403c5340bae": {
   "k": "antrenor",
@@ -371,6 +449,18 @@
   "dosya": "2e1548e6c0876165.mp3",
   "sure": 9.46
  },
+ "2e3c4ec93f14baa0": {
+  "k": "antrenor",
+  "m": "Evet. Sırası gelen oyuncunun yasal hamlesi yoksa ve şahı şahta değilse oyun pat ile berabere biter.",
+  "dosya": "2e3c4ec93f14baa0.mp3",
+  "sure": 7.37
+ },
+ "2ee850f41cebdf19": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Skor kâğıdında her satır hamle numarasıyla başlar: önce beyazın, sonra siyahın hamlesi yazılır.",
+  "dosya": "2ee850f41cebdf19.mp3",
+  "sure": 7.84
+ },
  "2eee7579b12b7cb2": {
   "k": "antrenor",
   "m": "Biliyor muydun? Tembel mat sadece 2 hamlede olur: f ve g piyonunu oynayan taraf şahının önünü kendi açar.",
@@ -400,6 +490,12 @@
   "m": "Hem de nasıl Damla! Piyon çapraz saldırır ve büyük taşları korkutabilir. Videoda görelim.",
   "dosya": "3180a00c40c602bf.mp3",
   "sure": 5.8
+ },
+ "318f703f543877cf": {
+  "k": "pars",
+  "m": "Taşın nereden geldiği yazılmıyor mu?",
+  "dosya": "318f703f543877cf.mp3",
+  "sure": 2.77
  },
  "31d9235317d11653": {
   "k": "antrenor",
@@ -436,6 +532,12 @@
   "m": "Peki neden iki fil var?",
   "dosya": "337c5e9158468621.mp3",
   "sure": 1.25
+ },
+ "34252a4b004ee5bf": {
+  "k": "antrenor",
+  "m": "Küçük işaretler var. Alma için x, şah için +, mat için #.",
+  "dosya": "34252a4b004ee5bf.mp3",
+  "sure": 5.93
  },
  "346eb56f3e406b3b": {
   "k": "antrenor",
@@ -575,6 +677,12 @@
   "dosya": "3e8c3f16235e3db9.mp3",
   "sure": 3.0
  },
+ "3ead5854bb27f595": {
+  "k": "antrenor",
+  "m": "Oynanan partiyi kâğıda yazarız; sonra tekrar oynayıp öğrenebiliriz. Her taşın kendi harfi var.",
+  "dosya": "3ead5854bb27f595.mp3",
+  "sure": 6.53
+ },
  "3f8473365de58336": {
   "k": "antrenor",
   "m": "{ad}, bugün satrancın en önemli anını öğreniyoruz: mat.",
@@ -605,17 +713,35 @@
   "dosya": "41561b768256f1b1.mp3",
   "sure": 7.52
  },
+ "4169f1dd2f6cef2e": {
+  "k": "antrenor",
+  "m": "Tek bir mucidi yok, Damla. Yaklaşık 1500 yıl önce Hindistan'da doğdu; İran ve Arap ülkeleri üzerinden dünyaya yayıldı.",
+  "dosya": "4169f1dd2f6cef2e.mp3",
+  "sure": 8.54
+ },
  "4174d47fef93ea85": {
   "k": "antrenor",
   "m": "Son taşımız şah. Oyunun en önemli taşı, {ad}.",
   "dosya": "4174d47fef93ea85.mp3",
   "sure": 4.6
  },
+ "418d4a656ce7148b": {
+  "k": "antrenor",
+  "m": "Hayır. Kısa rok O-O, uzun rok O-O-O. O harflerinin sayısına bak.",
+  "dosya": "418d4a656ce7148b.mp3",
+  "sure": 6.45
+ },
  "4239b8ab69c9302d": {
   "k": "antrenor",
   "m": "{ad}, ünitenin sonuna geldik. Şimdi mat, pat ve şah çekmeyi birlikte tekrar edeceğiz.",
   "dosya": "4239b8ab69c9302d.mp3",
   "sure": 5.85
+ },
+ "42502a71eb1d9b9d": {
+  "k": "antrenor",
+  "m": "{ad}, artık bir partiyi baştan sona kendin yazabilirsin. Turnuvalarda yapılan tam da bu.",
+  "dosya": "42502a71eb1d9b9d.mp3",
+  "sure": 6.4
  },
  "427290d20fb17029": {
   "k": "antrenor",
@@ -695,6 +821,12 @@
   "dosya": "4950f472c82a8a7b.mp3",
   "sure": 7.18
  },
+ "498ad914f06d76d0": {
+  "k": "damla",
+  "m": "En ünlüsü pat, değil mi?",
+  "dosya": "498ad914f06d76d0.mp3",
+  "sure": 1.49
+ },
  "4a3e4435143276a3": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şahını koruyan taş saldırı hattından çıkarsa şah açıkta kalır; bu hamle yasadışıdır.",
@@ -718,6 +850,18 @@
   "m": "Piyon nasıl şah çeker?",
   "dosya": "4c0fb9cfbabbcf83.mp3",
   "sure": 1.28
+ },
+ "4d09b1802b4cc254": {
+  "k": "pars",
+  "m": "Türkiye'de ne zaman başladı?",
+  "dosya": "4d09b1802b4cc254.mp3",
+  "sure": 1.57
+ },
+ "4dc21bf51a8dda65": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Pat olunca oyun berabere biter: sırası gelen oyuncunun yasal hamlesi yoktur ama şahı şahta değildir.",
+  "dosya": "4dc21bf51a8dda65.mp3",
+  "sure": 8.31
  },
  "4e976239ad2375f3": {
   "k": "antrenor",
@@ -821,6 +965,12 @@
   "dosya": "57c9c25060216aa8.mp3",
   "sure": 2.27
  },
+ "5816843d1e0e3d6b": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Notasyonda şah Ş, vezir V, kale K, fil F, at A ile yazılır; piyonun harfi yoktur.",
+  "dosya": "5816843d1e0e3d6b.mp3",
+  "sure": 9.14
+ },
  "58230973574f3110": {
   "k": "antrenor",
   "m": "Saldıran taşla saldırılan taşın arasına, Damla. Böylece saldırı yolu kapanır. Ama araya giren taşın da güvende olması gerekir.",
@@ -832,6 +982,12 @@
   "m": "Aynen {ad}. Önce tehdidi gör, sonra en basit savunmayı seç.",
   "dosya": "587798669b23f9d4.mp3",
   "sure": 5.25
+ },
+ "59915f637265ee30": {
+  "k": "antrenor",
+  "m": "Yazılmaz. Tahtayı bilirsen zaten hangi taşın gittiğini bulursun.",
+  "dosya": "59915f637265ee30.mp3",
+  "sure": 4.31
  },
  "59a94fd5be488c54": {
   "k": "antrenor",
@@ -856,6 +1012,12 @@
   "m": "Her karenin bir adı var, {ad}. Tıpkı senin adın gibi!",
   "dosya": "5d57c96a2f9049e8.mp3",
   "sure": 4.36
+ },
+ "5d60d6b76ba138fb": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Satranç yaklaşık 1500 yıl önce Hindistan'da doğdu; 'şah mat' sözü ise bize Farsçadan geldi.",
+  "dosya": "5d60d6b76ba138fb.mp3",
+  "sure": 8.39
  },
  "5e26d9510a3c1232": {
   "k": "antrenor",
@@ -898,6 +1060,12 @@
   "m": "Şimdi büyük taşlar: kale ve vezir.",
   "dosya": "60f3c0fb0907f924.mp3",
   "sure": 2.69
+ },
+ "6150e6742a62e2d7": {
+  "k": "antrenor",
+  "m": "Kareyi yazıp eşittir ve yeni taşın harfini koyarız: e8=V.",
+  "dosya": "6150e6742a62e2d7.mp3",
+  "sure": 5.2
  },
  "61f2c5f5b5cbb8d8": {
   "k": "damla",
@@ -983,6 +1151,12 @@
   "dosya": "69eae1b861213f69.mp3",
   "sure": 7.52
  },
+ "6a011a2203df28b0": {
+  "k": "pars",
+  "m": "Piyonun harfi de var mı?",
+  "dosya": "6a011a2203df28b0.mp3",
+  "sure": 1.85
+ },
  "6a3ddd26f7cf7e49": {
   "k": "antrenor",
   "m": "Sorun değil. Birlikte tekrar edeceğiz.",
@@ -1048,6 +1222,12 @@
   "m": "Biliyor muydun? Boş bir tahtada kale, hangi karede olursa olsun tam 14 kareye gidebilir.",
   "dosya": "6feab6adb4d844c4.mp3",
   "sure": 7.6
+ },
+ "70d28fbbe497cc83": {
+  "k": "antrenor",
+  "m": "{ad}, her parti kazanmakla bitmez. Bugün beraberliğin yollarını öğreniyoruz.",
+  "dosya": "70d28fbbe497cc83.mp3",
+  "sure": 5.62
  },
  "72de69316c6f2313": {
   "k": "antrenor",
@@ -1121,6 +1301,12 @@
   "dosya": "79a160daf6a479ae.mp3",
   "sure": 7.34
  },
+ "7a688bac0f002f50": {
+  "k": "antrenor",
+  "m": "Federasyonumuz 1954'te kuruldu, 1962'de dünya federasyonuna katıldık. Bir de adil oyunu konuşacağız; o, satrancın en önemli kuralı.",
+  "dosya": "7a688bac0f002f50.mp3",
+  "sure": 12.07
+ },
  "7ab0a2debac104de": {
   "k": "antrenor",
   "m": "{ad}, satrançta her taşın bir puan değeri var. Bu puan, taşın ne kadar güçlü olduğunu gösterir.",
@@ -1144,6 +1330,12 @@
   "m": "Evet Pars. Piyon 1 puan, kale 5 puan. Piyonu geri alsalar bile 5 - 1 = 4 puan kâr edersin.",
   "dosya": "7e0f8685fa7d4301.mp3",
   "sure": 10.53
+ },
+ "7e3c6616445aee16": {
+  "k": "antrenor",
+  "m": "{ad}, hamle yazmak çok kolay: taşın harfi, ardından gittiği kare.",
+  "dosya": "7e3c6616445aee16.mp3",
+  "sure": 5.62
  },
  "7ead14acbb30689e": {
   "k": "damla",
@@ -1211,6 +1403,12 @@
   "dosya": "83a2b6ba30f88bd7.mp3",
   "sure": 7.0
  },
+ "83caa4f4be8f0906": {
+  "k": "damla",
+  "m": "Bir taşa dokunup sonra vazgeçebilir miyim?",
+  "dosya": "83caa4f4be8f0906.mp3",
+  "sure": 2.22
+ },
  "83f18b9e5b11ba76": {
   "k": "antrenor",
   "m": "{ad}, şimdi arka sıra matına bakıyoruz. Buna koridor matı da denir.",
@@ -1265,6 +1463,12 @@
   "dosya": "893b305b83cce453.mp3",
   "sure": 5.85
  },
+ "897c23f9712eea0d": {
+  "k": "damla",
+  "m": "At f3'e giderse Af3 yazarız, değil mi?",
+  "dosya": "897c23f9712eea0d.mp3",
+  "sure": 3.34
+ },
  "8987d9da5c676405": {
   "k": "damla",
   "m": "İkinci soru: Kim saldırıyor? Üçüncü soru da: Sayınca kâr var mı?",
@@ -1294,6 +1498,12 @@
   "m": "Sıra bende ama rakibin de mat tehdidi olabilir. Hangisine bakacağım?",
   "dosya": "8b37ce4b5db147a5.mp3",
   "sure": 4.49
+ },
+ "8cc69db62fac46ad": {
+  "k": "antrenor",
+  "m": "Hamleni yapınca saatin düğmesine basarsın. Oyun bitince de rakibinle tokalaşırsın.",
+  "dosya": "8cc69db62fac46ad.mp3",
+  "sure": 5.69
  },
  "8cc8d33eea707b45": {
   "k": "pars",
@@ -1336,6 +1546,12 @@
   "m": "Biliyor muydun? Beyazın ilk hamlede 20 seçeneği vardır: 16 piyon hamlesi ve 4 at hamlesi.",
   "dosya": "8febb2ac7bc636bf.mp3",
   "sure": 7.76
+ },
+ "904e14c4aab86a0e": {
+  "k": "antrenor",
+  "m": "Evet. Beyaz kazanırsa 1-0, siyah kazanırsa 0-1, beraberlikte 1/2-1/2 yazılır.",
+  "dosya": "904e14c4aab86a0e.mp3",
+  "sure": 7.47
  },
  "908afef1b04380cf": {
   "k": "antrenor",
@@ -1468,6 +1684,12 @@
   "m": "Üstünken bile acele etme. Hamleden önce rakip şahın gidebileceği bir kare kalıyor mu, ona bak.",
   "dosya": "9c2c40a1ff9fce9c.mp3",
   "sure": 6.53
+ },
+ "9c45ad141ebc8af5": {
+  "k": "damla",
+  "m": "Satrancı kim buldu?",
+  "dosya": "9c45ad141ebc8af5.mp3",
+  "sure": 1.52
  },
  "9ca44b6e44796658": {
   "k": "damla",
@@ -1607,6 +1829,12 @@
   "dosya": "ab583b3942ce553f.mp3",
   "sure": 5.38
  },
+ "ab85dad7f91072f8": {
+  "k": "damla",
+  "m": "Kısa rok ile uzun rok aynı yazılır mı?",
+  "dosya": "ab85dad7f91072f8.mp3",
+  "sure": 2.46
+ },
  "ab9bd9e12e9c594f": {
   "k": "pars",
   "m": "Piyon 1 puan, değil mi hocam?",
@@ -1673,6 +1901,12 @@
   "dosya": "aebe3d67d9df031e.mp3",
   "sure": 3.11
  },
+ "aec57ada82c75bb0": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Notasyonda x taş alındığını, + şah çekildiğini, # matı anlatır. x karenin önüne, + ve # sonuna yazılır.",
+  "dosya": "aec57ada82c75bb0.mp3",
+  "sure": 9.8
+ },
  "af05a10db4c6484f": {
   "k": "antrenor",
   "m": "Aynen {ad}. Şah da kaçacak yer bulamaz: mat.",
@@ -1727,6 +1961,12 @@
   "dosya": "b260181152947ea3.mp3",
   "sure": 2.59
  },
+ "b32207c3530b1694": {
+  "k": "antrenor",
+  "m": "Aynen öyle. Piyonla alırken piyonun sütunu yazılır: exd5.",
+  "dosya": "b32207c3530b1694.mp3",
+  "sure": 4.6
+ },
  "b4290557fc723f2f": {
   "k": "damla",
   "m": "Piyon da saldırıyor mu? O çok küçük!",
@@ -1750,6 +1990,18 @@
   "m": "Kaçış yolları kapalıysa mat!",
   "dosya": "b5b4d55e3628490c.mp3",
   "sure": 1.8
+ },
+ "b5ed5f4d3cb70f92": {
+  "k": "antrenor",
+  "m": "Hayır. Dokunduğun taşı oynaman gerekir. Taşı düzeltmek istersen dokunmadan önce 'düzeltiyorum' de.",
+  "dosya": "b5ed5f4d3cb70f92.mp3",
+  "sure": 7.24
+ },
+ "b605597a2d21ffa4": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Turnuvalarda oyuncular partiyi hamle hamle skor kâğıdına yazar; oyun bitince sonuç da yazılır.",
+  "dosya": "b605597a2d21ffa4.mp3",
+  "sure": 8.12
  },
  "b66c2c7a4418cf5f": {
   "k": "antrenor",
@@ -1865,11 +2117,23 @@
   "dosya": "c2e97122420d76f9.mp3",
   "sure": 7.42
  },
+ "c3f582f73d426347": {
+  "k": "pars",
+  "m": "Peki saat ne zaman çalışır?",
+  "dosya": "c3f582f73d426347.mp3",
+  "sure": 1.57
+ },
  "c502092dd81b9216": {
   "k": "antrenor",
   "m": "Bazen kazandığın oyunu berabere bitirirsin. O yüzden her hamlede rakip şahın karelerini say.",
   "dosya": "c502092dd81b9216.mp3",
   "sure": 6.82
+ },
+ "c57af9b68b77becc": {
+  "k": "antrenor",
+  "m": "{ad}, bugün tahtadan biraz uzaklaşıp satrancın hikâyesine bakacağız.",
+  "dosya": "c57af9b68b77becc.mp3",
+  "sure": 4.96
  },
  "c5bc56b2d4175b1b": {
   "k": "antrenor",
@@ -1991,6 +2255,12 @@
   "dosya": "d319056e26ceb4b4.mp3",
   "sure": 6.53
  },
+ "d394d33fc512e3e5": {
+  "k": "pars",
+  "m": "Yani mata çok benziyor ama şah çekilmiyor!",
+  "dosya": "d394d33fc512e3e5.mp3",
+  "sure": 2.69
+ },
  "d41555dc4925f5ab": {
   "k": "antrenor",
   "m": "Aynen Damla. Bu kontrol seni hem matı bulmaya hem de acele etmemeye alıştırır.",
@@ -2045,6 +2315,12 @@
   "dosya": "d8c2da03d68f5d20.mp3",
   "sure": 5.88
  },
+ "d9101c174fedd706": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Hamle yazarken taşın nereden geldiği değil, nereye gittiği yazılır: önce harf, sonra varılan kare.",
+  "dosya": "d9101c174fedd706.mp3",
+  "sure": 8.02
+ },
  "d95b6dadcf14eb16": {
   "k": "damla",
   "m": "Fil tek başına mat yapabilir mi?",
@@ -2057,11 +2333,23 @@
   "dosya": "d9c264b23957c428.mp3",
   "sure": 1.93
  },
+ "da9445cd3606cc2f": {
+  "k": "antrenor",
+  "m": "Hamle numarasına bak. '2. Ac3' yazıyorsa, beyaz ikinci hamlesini oynuyor; numaradan sonra önce beyazın, sonra siyahın hamlesi gelir.",
+  "dosya": "da9445cd3606cc2f.mp3",
+  "sure": 10.4
+ },
  "dac288563e05a65e": {
   "k": "antrenor",
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Saldırı ve Savunma Testi seni bekliyor.",
   "dosya": "dac288563e05a65e.mp3",
   "sure": 6.69
+ },
+ "dace0a5e90d18cfb": {
+  "k": "antrenor",
+  "m": "{ad}, rok iki taşı birden oynatır. Bu yüzden notasyonda harf yerine özel yazı kullanırız.",
+  "dosya": "dace0a5e90d18cfb.mp3",
+  "sure": 6.11
  },
  "db2550f607982cf2": {
   "k": "antrenor",
@@ -2093,6 +2381,12 @@
   "dosya": "ddf14eb481494d78.mp3",
   "sure": 4.96
  },
+ "dea3613bf6c63560": {
+  "k": "pars",
+  "m": "O zaman Vxf7# vezirin f7'deki taşı alıp mat ettiği anlamına geliyor!",
+  "dosya": "dea3613bf6c63560.mp3",
+  "sure": 4.62
+ },
  "df00af65563ac2d1": {
   "k": "damla",
   "m": "Hazırım!",
@@ -2123,6 +2417,12 @@
   "dosya": "e0e7c481cdc4f24c.mp3",
   "sure": 8.31
  },
+ "e10badde68e3c55a": {
+  "k": "damla",
+  "m": "Notasyon ne işe yarar hocam?",
+  "dosya": "e10badde68e3c55a.mp3",
+  "sure": 1.7
+ },
  "e1173e05b0683391": {
   "k": "pars",
   "m": "Rok, terfi ve geçerken alma!",
@@ -2152,6 +2452,12 @@
   "m": "Doğru Damla. Şah kaçamamalı, şah çeken taş alınamamalı, araya da taş girememeli.",
   "dosya": "e35412c798f128e5.mp3",
   "sure": 6.27
+ },
+ "e3e47534d341418c": {
+  "k": "pars",
+  "m": "Piyon son sıraya gidip vezir olursa nasıl yazarız?",
+  "dosya": "e3e47534d341418c.mp3",
+  "sure": 2.87
  },
  "e3ede520b4d08c32": {
   "k": "pars",
@@ -2201,11 +2507,23 @@
   "dosya": "e8bb9741cf3dfe1b.mp3",
   "sure": 5.2
  },
+ "e9091dd6b65a63c6": {
+  "k": "antrenor",
+  "m": "Yok! Piyon hamlesinde yalnız varılan kareyi yazarız.",
+  "dosya": "e9091dd6b65a63c6.mp3",
+  "sure": 3.6
+ },
  "e9610d114b5ba20c": {
   "k": "antrenor",
   "m": "{ad}, bugün öğrendiğimiz özel hamleleri karıştırıp deneyeceğiz.",
   "dosya": "e9610d114b5ba20c.mp3",
   "sure": 4.21
+ },
+ "ea1ff988ffc56604": {
+  "k": "pars",
+  "m": "Oyun bitince sonucu da yazıyor muyuz?",
+  "dosya": "ea1ff988ffc56604.mp3",
+  "sure": 2.27
  },
  "ec594094cb113bfe": {
   "k": "pars",
@@ -2224,6 +2542,12 @@
   "m": "Rakip bir taşımızı alırsa ve kendi taşlarımızdan biri onu geri alabiliyorsa o taş korunuyordur. Kimse korumuyorsa taş korumasızdır.",
   "dosya": "ecdb4337b72417f2.mp3",
   "sure": 9.61
+ },
+ "ed4449aa41b5a20b": {
+  "k": "antrenor",
+  "m": "{ad}, bir hamle olayları da anlatabilir: taş almak, şah çekmek, mat etmek.",
+  "dosya": "ed4449aa41b5a20b.mp3",
+  "sure": 5.38
  },
  "edb27cbdc61ff75e": {
   "k": "antrenor",
@@ -2248,6 +2572,12 @@
   "m": "Hocam, geçerken almayı ne zaman yapabilirim?",
   "dosya": "f0c746164e29f992.mp3",
   "sure": 2.53
+ },
+ "f1503644364ab08b": {
+  "k": "pars",
+  "m": "O zaman satırı soldan sağa oynamak yeterli!",
+  "dosya": "f1503644364ab08b.mp3",
+  "sure": 2.64
  },
  "f1af2a069f4075ab": {
   "k": "antrenor",
@@ -2284,6 +2614,12 @@
   "m": "Çok iyi Damla. Şimdi karışık matlara geçelim.",
   "dosya": "f37a8531807c468c.mp3",
   "sure": 3.0
+ },
+ "f4ca2565484ae376": {
+  "k": "antrenor",
+  "m": "Notasyon ve Turnuva Kuralları Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "f4ca2565484ae376.mp3",
+  "sure": 10.58
  },
  "f75a54a2cd41f184": {
   "k": "antrenor",
