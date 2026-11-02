@@ -665,6 +665,12 @@
   "dosya": "109f557e56e81838.mp3",
   "sure": 5.25
  },
+ "10a8056f10cbf27c": {
+  "k": "antrenor",
+  "m": "Evet. Sırası gelen oyuncunun kurallara uygun hamlesi yoksa ve şahı tehdit altında değilse oyun pat ile berabere biter.",
+  "dosya": "10a8056f10cbf27c.mp3",
+  "sure": 8.12
+ },
  "10f73acc9751e923": {
   "k": "antrenor",
   "m": "Biliyor muydun? Rok yapmış şahın önündeki üç piyon kalkan gibidir. Bir piyon ilerlerse kalkanda delik açılır!",
@@ -1324,6 +1330,12 @@
   "m": "Sonra da tek hamleyle mat mı?",
   "dosya": "21e590a720d38305.mp3",
   "sure": 1.75
+ },
+ "21e952c6de6c4ae9": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Pat olunca oyun berabere biter: sırası gelen oyuncunun kurallara uygun hamlesi yoktur ama şahı tehdit altında değildir.",
+  "dosya": "21e952c6de6c4ae9.mp3",
+  "sure": 9.69
  },
  "224a766ba0ee3e70": {
   "k": "antrenor",
@@ -3070,6 +3082,12 @@
   "m": "Biliyor muydun? Kenardaki at az kareye bakar. Kenar piyonunu sürmek de merkezi tutmaz. Ortaya bak!",
   "dosya": "4c723426226cf034.mp3",
   "sure": 8.25
+ },
+ "4c9e7519ca2db31f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Göreli açmazda taş kurallara uygun olarak kımıldayabilir; ama arkadaki vezir gibi değerli bir taş kaybedilebilir.",
+  "dosya": "4c9e7519ca2db31f.mp3",
+  "sure": 9.51
  },
  "4c9fc99358c60f34": {
   "k": "antrenor",
@@ -4841,6 +4859,12 @@
   "dosya": "7de891a11b4c58d7.mp3",
   "sure": 7.84
  },
+ "7e03722e5779fbf8": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şahını koruyan taş saldırı hattından çıkarsa şah açıkta kalır; bu hamle kural dışıdır.",
+  "dosya": "7e03722e5779fbf8.mp3",
+  "sure": 7.78
+ },
  "7e0f8685fa7d4301": {
   "k": "antrenor",
   "m": "Evet Pars. Piyon 1 puan, kale 5 puan. Piyonu geri alsalar bile 5 - 1 = 4 puan kâr edersin.",
@@ -4852,6 +4876,12 @@
   "m": "{ad}, hamle yazmak çok kolay: taşın harfi, ardından gittiği kare.",
   "dosya": "7e3c6616445aee16.mp3",
   "sure": 5.62
+ },
+ "7e4706b1c22738fe": {
+  "k": "antrenor",
+  "m": "{ad}, şimdi kurallara uygun ve kural dışı hamleyi öğreneceğiz.",
+  "dosya": "7e4706b1c22738fe.mp3",
+  "sure": 4.49
  },
  "7ead14acbb30689e": {
   "k": "damla",
@@ -6929,6 +6959,12 @@
   "dosya": "aca89bdd2e760e1a.mp3",
   "sure": 1.7
  },
+ "acad61dd9d771834": {
+  "k": "antrenor",
+  "m": "Onlar açmaz hattı boyunca kayabilir. Hatta açmaz yapan taşı bile alabilirler. Göreli açmazda ise her hamle kurallara uygundur ama pahalı olabilir.",
+  "dosya": "acad61dd9d771834.mp3",
+  "sure": 11.1
+ },
  "acb34339cbbf7a93": {
   "k": "pars",
   "m": "Ama hocam, piyonlar hep önümde duruyor.",
@@ -7642,6 +7678,12 @@
   "m": "Bir de işe yarayıp yaramadığını kontrol ederim: kare güvenli mi?",
   "dosya": "c02894cb7ab524f1.mp3",
   "sure": 3.94
+ },
+ "c042a00b6055e71b": {
+  "k": "antrenor",
+  "m": "Hayır Pars. Şahını tehdit altında bırakan ya da şaha sokan hamle yapılamaz; ona kural dışı hamle denir.",
+  "dosya": "c042a00b6055e71b.mp3",
+  "sure": 7.6
  },
  "c0af4dc217af0e5c": {
   "k": "antrenor",
@@ -9227,11 +9269,23 @@
   "dosya": "e895fed95946a914.mp3",
   "sure": 3.11
  },
+ "e8b9ea4df6d4dae0": {
+  "k": "antrenor",
+  "m": "Mutlak açmazdaki taş, hattın dışına çıkamaz. Çıkarsa kendi şahını tehdit altında bırakırsın; bu hamle yasaktır.",
+  "dosya": "e8b9ea4df6d4dae0.mp3",
+  "sure": 8.12
+ },
  "e8bb9741cf3dfe1b": {
   "k": "antrenor",
   "m": "Kimse Pars. Aynı puanlık taşlar değiştiyse buna eşit takas denir.",
   "dosya": "e8bb9741cf3dfe1b.mp3",
   "sure": 5.2
+ },
+ "e8c87b83a8a68a83": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Şah asla tehdit altında kalamaz. Bu yüzden mutlak açmazdaki taş hattın dışına çıkamaz.",
+  "dosya": "e8c87b83a8a68a83.mp3",
+  "sure": 8.2
  },
  "e8d18587b1a98bef": {
   "k": "antrenor",
