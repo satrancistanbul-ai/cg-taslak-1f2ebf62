@@ -386,13 +386,13 @@ const vscreen=(t,st)=>`<div class="screenframe" style="${st}"><div class="vscree
     <div style="position:absolute;left:16px;right:16px;bottom:12px;height:8px;background:rgba(255,255,255,.2);border-radius:4px"><i id="vp" style="display:block;height:100%;width:0;background:var(--orange);border-radius:4px"></i></div></div></div>`;
 function simVideo(d,akis,done){d.querySelector('#pl').onclick=e=>{e.currentTarget.style.visibility='hidden';const vt=d.querySelector('#vt'),vp=d.querySelector('#vp'),ab=d.querySelector('#ab');let t=0;
   const iv=setInterval(()=>{if(!vp.isConnected)return clearInterval(iv);t+=2;vp.style.width=t+'%';vt.textContent=akis[Math.min(akis.length-1,Math.floor(t/100*akis.length))];
-    if(t>=100){clearInterval(iv);vt.textContent='Video bitti!';if(ab){ab.innerHTML=hocaBalon(VID_BITTI);sesCal('antrenor',VID_BITTI)}done()}},90)}}
+    if(t>=100){clearInterval(iv);vt.textContent='Video bitti!';gorev('video');if(ab){ab.innerHTML=hocaBalon(VID_BITTI);sesCal('antrenor',VID_BITTI)}done()}},90)}}
 const vreal=(src,st)=>`<div class="screenframe" style="${st}"><video id="vd" controls playsinline preload="metadata" src="${src}" style="display:block;width:100%;height:100%;border-radius:8px;background:#000;object-fit:contain"></video></div>`;
 function realVideo(d,done){const v=d.querySelector('#vd'),ab=d.querySelector('#ab');
   const kis=()=>{if(S.muzik&&MZ.ctx&&MZ.tg)MZ.tg.gain.setTargetAtTime(0,MZ.ctx.currentTime,.2)};
   const ac=()=>{if(S.muzik&&MZ.ctx&&MZ.tg)MZ.tg.gain.setTargetAtTime(MZ.vol,MZ.ctx.currentTime,.4)};
   v.addEventListener('play',()=>{sesDur();kis()});v.addEventListener('pause',ac);
-  v.addEventListener('ended',()=>{ac();if(ab){ab.innerHTML=hocaBalon(VID_BITTI);sesCal('antrenor',VID_BITTI)}done()},{once:true})}
+  v.addEventListener('ended',()=>{ac();gorev('video');if(ab){ab.innerHTML=hocaBalon(VID_BITTI);sesCal('antrenor',VID_BITTI)}done()},{once:true})}
 const CLASSVIDEO=(title,v,back,btn,src)=>sbg()+`<button class="iconbtn back" onclick="${back}">‹ Geri</button>
   <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 16px;font-weight:800;font-size:22px;border-radius:12px;border-width:3px">${esc(title)}</span></div>
   ${src?vreal(src,'left:34px;top:70px;width:600px;height:338px'):vscreen(`${esc(v.baslik)}<br><small style="opacity:.75;font-weight:600">${esc(v.sure)} · antrenörün ders videosu burada oynayacak</small>`,'left:34px;top:70px;width:600px;height:338px')}
@@ -423,7 +423,7 @@ function scQuiz(d){
   function win(el){if(solved)return;solved=true;let earn=0;if(tries===0)LS.ilk++;
     if(puz){if(tries===0)earn=pzEarn();LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
     else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]&&!S.done[LS.i]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
-    fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
+    if(!place){gorev('soru');if(puz)gorev('bulmaca')}fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
     if(earn)flyCoin(el,earn);save();const n=d.querySelector('#nx');n.style.visibility='visible';n.focus()}
   function lose(el,msg){
     if(place){if(solved)return;solved=true;fb().className='feedback bad';fb().innerHTML='Bu sefer olmadı.'+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
@@ -489,7 +489,7 @@ function scHunt(d){
   function pick(){let n;do{n=rnd()}while(n===target);target=n;d.querySelector('#tg').textContent=target}
   d.querySelector('#st').onclick=e=>{e.currentTarget.style.visibility='hidden';on=true;score=0;t=30;pick();
     iv=setInterval(()=>{t--;const tm=d.querySelector('#tm');if(!tm)return clearInterval(iv);tm.textContent=t;
-      if(t<=0){clearInterval(iv);on=false;const rec=score>S.rekor;if(rec){S.rekor=score;save()}
+      if(t<=0){clearInterval(iv);on=false;gorev('kareavi');const rec=score>S.rekor;if(rec){S.rekor=score;save()}
         d.querySelector('#tg').textContent=score+' kare';toast(rec?'Yeni rekor!':'Süre bitti!');const b=d.querySelector('#st');b.textContent='Tekrar oyna';b.style.visibility='visible'}},1000)};
 }
 
@@ -4261,7 +4261,7 @@ function scHome(d){
     <span style="border:3px solid ${RCOL[ri]};border-radius:50%;display:block;box-shadow:0 0 0 2px #fff inset">${headAv(S.av,S.eq,52)}</span>
     <span style="display:flex;flex-direction:column;gap:3px"><span class="nk">${esc(S.nick||'Oyuncu')}</span>
       <span style="display:flex;align-items:center;gap:6px"><span class="chip ink">${RANKS[ri][0]}${G} ${RANKS[ri][1]}</span><span class="chip">Sv ${level(S.villages)}</span></span></span></button>
-  <div class="flame" style="left:${74+66+Math.min(150,8*Math.max(3,(S.nick||'Oyuncu').length))+150}px" title="Üst üste gün">${ico('flame',30)}<span>${S.days||1}</span></div>
+  <button class="flame" style="left:${74+66+Math.min(150,8*Math.max(3,(S.nick||'Oyuncu').length))+150}px;cursor:pointer" title="Günlük seri" onclick="go(scGorev)" aria-label="Günlük seri ve görevler">${ico('flame',30)}<span>${seriGoster()}</span></button>
   ${gold}${rbtn(76,'#F6A12B',ico('shop',30),'Dükkân','go(scShop)')}${rbtn(12,'#7BC0E8',ico('closet',30),'Dolabım','shopView=\'closet\';go(scShop)')}
   <div class="platform"><div class="disc"></div><div class="disc2"></div><button class="btn go" onclick="continueGame()">${fdone()||S.villages>1?'Devam et':'Oyuna başla'}</button></div>
   <div style="position:absolute;left:370px;top:214px;width:170px;height:280px" class="float">${me()}</div>
@@ -4270,6 +4270,7 @@ function scHome(d){
     <div class="stat" style="padding:4px 6px"><span>Rütbe: ${RANKS[ri][1]}</span>${rankChips()}</div>
     <div class="stat" style="padding:2px 6px"><b style="font-size:26px">${S.rekor}</b><span>Kare avı rekoru</span></div></div>
   <div style="position:absolute;right:14px;bottom:14px;display:flex;gap:8px">
+    ${gorevTile()}
     <button class="tile hot" onclick="go(scMacSec)">${ico('duel',30)}Maç</button>
     <button class="tile hot" onclick="go(scPuzzles)">${ico('puzzle',30)}Bulmaca</button>
     <button class="tile" onclick="go(scHunt)">${ico('grid',30)}Kare avı</button>
@@ -4498,6 +4499,119 @@ function scPlaceResult(d,start){
 function applyPlacement(start){S.placed=true;S.villages=Math.max(1,start);
   if(start>1){Object.keys(DATAS).map(Number).filter(n=>n<start).forEach(n=>{const u=uOf(S,n);u.unitDone=u.testDone=u.skip=true;u.done=u.done.map(()=>true)});S.anim={from:1,to:start,quick:true};save();return go(scMap)}
   save();go(scHome)}
+
+/* ===== Günlük görevler, seri ve haftalık çark =====
+   Her gün 3 görev (video + 5 doğru soru + dönen üçüncü görev). Bir görev bitince gün seriye sayılır.
+   Seri bozulursa ceza yok, bir sonraki aktif günde 1'den başlar. 3. günde ve her 7 günde bir kostüm hediyesi.
+   Üç görevin hepsini bitirip sandığı açan çocuk o hafta için bir kez çark çevirir. */
+ICO.gift=c=>`<rect x="5" y="13" width="22" height="14" rx="2" fill="${c||'#E25B45'}"/><rect x="3" y="9" width="26" height="6" rx="2" fill="${c||'#F07A5F'}"/><path d="M16 9v18" stroke-width="3" stroke="#FFD166"/><path d="M16 9c-3-6-9-4-6 0Zm0 0c3-6 9-4 6 0Z" fill="#FFD166"/>`;
+ICO.wheel=()=>`<circle cx="16" cy="16" r="12" fill="#FFD166"/><path d="M16 4v24M4 16h24M7.5 7.5l17 17M24.5 7.5l-17 17" stroke-width="1.6"/><circle cx="16" cy="16" r="3" fill="#E25B45"/>`;
+
+const GRV={
+  video:{t:'Bir ders videosu izle',h:1,ic:'book'},
+  soru:{t:'5 soruyu doğru çöz',h:5,ic:'star'},
+  mac:{t:'Bir rakiple maç oyna',h:1,ic:'duel'},
+  bulmaca:{t:'Bulmaca odasında 3 bulmaca çöz',h:3,ic:'puzzle'},
+  kareavi:{t:'Kare avında bir tur oyna',h:1,ic:'grid'}};
+const GRV_ODUL=20,GRV_SANDIK=30;
+const CARK=[{a:20},{a:50},{a:30},{a:100},{a:20},{kostum:true},{a:40},{a:80}];
+const CARK_AGIRLIK=[22,14,20,6,22,4,16,8];
+
+const gStr=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const gBugun=()=>gStr(new Date());
+const gDun=()=>gStr(new Date(Date.now()-864e5));
+function gHafta(){const d=new Date(),gun=(d.getDay()+6)%7;return gStr(new Date(d.getFullYear(),d.getMonth(),d.getDate()-gun))}
+const gHash=s=>[...s].reduce((a,c)=>(a*31+c.charCodeAt(0))>>>0,7);
+const gRand=n=>Math.floor(Math.random()*n);
+
+function GN(){const t=gBugun();
+  if(!S.gn||S.gn.d!==t){const uc=['mac','bulmaca','kareavi'][gHash(t)%3];
+    S.gn={d:t,g:['video','soru',uc].map(k=>({k,n:0,al:false})),sandik:false};save()}
+  return S.gn}
+function SERI(){return S.seri||(S.seri={n:0,son:'',enUzun:0})}
+const seriGoster=()=>{const s=SERI();return s.son===gBugun()||s.son===gDun()?s.n:0};
+function CARKD(){const h=gHafta();if(!S.cark||S.cark.h!==h)S.cark={h,hak:false,cevrildi:false};return S.cark}
+const seriHediyeGunu=n=>n===3||(n>=7&&n%7===0);
+
+function hediyeKostum(){const aday=SHOP.filter(x=>!S.owned[x.k]&&x.p<=520);
+  if(!aday.length){S.gold+=100;return '100 altın'}
+  const it=aday[gRand(aday.length)];S.owned[it.k]=true;return it.n}
+
+function seriIsle(){const s=SERI(),t=gBugun();if(s.son===t)return;
+  s.n=s.son===gDun()?s.n+1:1;s.son=t;s.enUzun=Math.max(s.enUzun||0,s.n);
+  if(seriHediyeGunu(s.n)){const h=hediyeKostum();setTimeout(()=>toast(`${s.n} günlük seri! Hediye: ${h}`),1900)}}
+
+function gorev(k,m=1){const g=GN(),x=g.g.find(z=>z.k===k);if(!x)return;const h=GRV[k].h;if(x.n>=h)return;
+  x.n=Math.min(h,x.n+m);if(x.n>=h){seriIsle();toast(`Görev tamam: ${GRV[k].t}`)}save();gorevRozet()}
+const gorevBitti=()=>GN().g.filter(x=>x.n>=GRV[x.k].h).length;
+const gorevAlinacak=()=>GN().g.filter(x=>x.n>=GRV[x.k].h&&!x.al).length+(gorevBitti()===3&&!GN().sandik?1:0);
+function gorevRozet(){const b=document.getElementById('grvb');if(!b)return;const n=gorevAlinacak();b.textContent=n?n:`${gorevBitti()}/3`;b.className='grvb'+(n?' hot':'')}
+const gorevTile=()=>`<button class="tile${gorevAlinacak()?' hot':''}" onclick="go(scGorev)" style="position:relative">${ico('gift',30)}Görevler<span id="grvb" class="grvb${gorevAlinacak()?' hot':''}">${gorevAlinacak()||gorevBitti()+'/3'}</span></button>`;
+
+(function(){const st=document.createElement('style');st.textContent=`
+.grvb{position:absolute;top:-8px;right:-8px;min-width:30px;height:24px;padding:0 6px;border-radius:12px;background:#fff;border:2px solid var(--ink);font-weight:800;font-size:14px;line-height:20px;text-align:center}
+.grvb.hot{background:#E25B45;color:#fff}
+.grow{display:grid;grid-template-columns:44px 1fr 74px 96px;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.55);border:2px solid rgba(59,35,20,.25);margin-bottom:10px}
+.grow.ok{background:rgba(145,205,110,.35)}
+.grow b{font-size:19px;line-height:1.1}.gbar{height:10px;border-radius:5px;background:rgba(59,35,20,.15);margin-top:6px;overflow:hidden}.gbar i{display:block;height:100%;background:var(--orange)}
+.grow small{font-weight:700;opacity:.7}
+.gchip{font-weight:800;font-size:17px;display:flex;align-items:center;gap:4px;justify-content:center}
+.btn.mini{font-size:18px;padding:6px 12px;min-width:0}
+.cark{position:absolute;left:250px;top:62px;width:400px;height:400px}
+.cark svg{width:100%;height:100%;transition:transform 3.6s cubic-bezier(.17,.67,.22,1)}
+.cark .ok{position:absolute;left:50%;top:-14px;width:0;height:0;border-left:18px solid transparent;border-right:18px solid transparent;border-top:34px solid #E25B45;transform:translateX(-50%);filter:drop-shadow(0 2px 0 #3B2314);z-index:2}
+`;document.head.appendChild(st)})();
+
+function scGorev(d){const g=GN(),s=SERI(),c=CARKD(),sn=seriGoster();
+  const sonraki=[3,7,14,21,28,35,42,49,56].find(x=>x>sn)||sn+7;
+  const row=x=>{const G=GRV[x.k],tamam=x.n>=G.h;
+    return `<div class="grow${tamam?' ok':''}">${ico(G.ic,40)}<div><b>${G.t}</b><div class="gbar"><i style="width:${x.n/G.h*100}%"></i></div><small>${x.n}/${G.h}</small></div>
+      <span class="gchip">${coinHTML()}+${GRV_ODUL}</span>
+      ${x.al?'<span class="gchip" style="color:var(--grass-d)">Alındı</span>':tamam?`<button class="btn mini" data-al="${x.k}">Al</button>`:'<span></span>'}</div>`};
+  const hepsi=gorevBitti()===3;
+  d.innerHTML=vbg(.45)+`<button class="iconbtn back" onclick="go(scHome)">‹ Ana ekran</button>${goldbox().replace('class="goldbox"','class="goldbox" style="position:absolute;right:16px;top:12px"')}
+  <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Günlük görevler</span></div>
+  <div class="parch" style="position:absolute;left:30px;top:70px;width:540px;padding:16px 16px 10px">
+    ${g.g.map(row).join('')}
+    <div class="grow${g.sandik?' ok':''}" style="grid-template-columns:44px 1fr 96px">${ico('gift',40)}<div><b>Günün sandığı</b><br><small>Üç görevi bitir: +${GRV_SANDIK} altın ve bu haftanın çark hakkı</small></div>
+      ${g.sandik?'<span class="gchip" style="color:var(--grass-d)">Açıldı</span>':hepsi?'<button class="btn mini" id="sandik">Aç</button>':`<span class="gchip">${gorevBitti()}/3</span>`}</div></div>
+  <div class="parch" style="position:absolute;left:592px;top:70px;width:338px;padding:16px;text-align:center">
+    <div style="display:flex;align-items:center;justify-content:center;gap:8px">${ico('flame',58)}<span style="font-weight:800;font-size:46px;line-height:1">${sn}</span><span style="font-weight:800;font-size:22px;text-align:left;line-height:1.05">günlük<br>seri</span></div>
+    <div style="font-weight:700;font-size:17px;margin-top:6px">Bir görev bitirdiğin her gün seriye sayılır.</div>
+    <div style="font-weight:800;font-size:18px;margin-top:8px;color:var(--orange-d)">${sonraki}. günde kostüm hediyesi</div>
+    <div class="gbar" style="height:12px;margin:6px 10px 0"><i style="width:${Math.min(100,sn/sonraki*100)}%"></i></div>
+    <div style="font-weight:700;font-size:15px;opacity:.75;margin-top:6px">En uzun serin: ${s.enUzun||0} gün</div>
+    <div style="border-top:2px dashed rgba(59,35,20,.3);margin:14px 0 10px"></div>
+    <button class="btn${c.hak&&!c.cevrildi?'':' alt'}" id="carkb" style="display:inline-flex;align-items:center;gap:8px" ${c.hak&&!c.cevrildi?'':'disabled'}>${ico('wheel',30)}Haftalık çark</button>
+    <div style="font-weight:700;font-size:15px;margin-top:8px;line-height:1.2">${c.cevrildi?'Bu haftanın çarkını çevirdin. Pazartesi yenisi gelir.':c.hak?'Çarkın hazır! Hemen çevir.':'Bir gün üç görevi de bitirip sandığı açınca çark açılır.'}</div></div>`;
+  d.querySelectorAll('[data-al]').forEach(b=>b.onclick=()=>{const x=g.g.find(z=>z.k===b.dataset.al);if(!x||x.al)return;x.al=true;save();flyCoin(b,GRV_ODUL);setTimeout(()=>go(scGorev),820)});
+  const sd=d.querySelector('#sandik');if(sd)sd.onclick=()=>{if(g.sandik)return;g.sandik=true;const cc=CARKD();if(!cc.cevrildi)cc.hak=true;save();flyCoin(sd,GRV_SANDIK);toast('Sandık açıldı! Çark hakkın hazır.');setTimeout(()=>go(scGorev),820)};
+  const cb=d.querySelector('#carkb');if(cb&&!cb.disabled)cb.onclick=()=>go(scCark);
+}
+
+function carkSvg(){const R=190,cx=200,cy=200,renk=['#F6A12B','#7BC0E8','#91CD6E','#E25B45','#F6A12B','#A15FD6','#7BC0E8','#FFD166'];
+  return `<svg viewBox="0 0 400 400" id="carksvg">${CARK.map((p,i)=>{const a0=(i*45-90-22.5)*Math.PI/180,a1=((i+1)*45-90-22.5)*Math.PI/180;
+    const x0=cx+R*Math.cos(a0),y0=cy+R*Math.sin(a0),x1=cx+R*Math.cos(a1),y1=cy+R*Math.sin(a1),am=(i*45-90)*Math.PI/180,tx=cx+125*Math.cos(am),ty=cy+125*Math.sin(am);
+    return `<path d="M${cx} ${cy}L${x0.toFixed(1)} ${y0.toFixed(1)}A${R} ${R} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}Z" fill="${renk[i]}" stroke="#3B2314" stroke-width="3"/>
+      <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" transform="rotate(${i*45} ${tx.toFixed(1)} ${ty.toFixed(1)})" font-family="Baloo 2,sans-serif" font-weight="800" font-size="${p.kostum?22:30}" fill="#3B2314">${p.kostum?'Kostüm':p.a}</text>`}).join('')}
+    <circle cx="200" cy="200" r="30" fill="#FFF6E0" stroke="#3B2314" stroke-width="4"/></svg>`}
+
+function scCark(d){const c=CARKD();
+  d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scGorev)">‹ Görevler</button>${goldbox().replace('class="goldbox"','class="goldbox" style="position:absolute;right:16px;top:12px"')}
+  <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Haftalık çark</span></div>
+  <div class="cark"><div class="ok"></div>${carkSvg()}</div>
+  <div id="cs" class="parch" style="position:absolute;left:680px;top:200px;width:250px;padding:14px;text-align:center;font-weight:800;font-size:20px">${c.hak&&!c.cevrildi?'Hazır mısın?':'Bu haftanın çarkı kullanıldı.'}</div>
+  <button class="btn go" id="cevir" style="position:absolute;left:380px;bottom:16px" ${c.hak&&!c.cevrildi?'':'disabled'}>Çevir!</button>`;
+  const b=d.querySelector('#cevir');if(b.disabled)return;
+  b.onclick=()=>{const cc=CARKD();if(!cc.hak||cc.cevrildi)return;b.disabled=true;
+    const top=CARK_AGIRLIK.reduce((a,x)=>a+x,0);let r=gRand(top),i=0;while(r>=CARK_AGIRLIK[i]){r-=CARK_AGIRLIK[i];i++}
+    cc.cevrildi=true;cc.hak=false;const p=CARK[i];let mesaj;
+    if(p.kostum){mesaj=`Kostüm kazandın: ${hediyeKostum()}!`}else{S.gold+=p.a;mesaj=`+${p.a} altın kazandın!`}
+    save();
+    const svg=d.querySelector('#carksvg');requestAnimationFrame(()=>{svg.style.transform=`rotate(${360*6-i*45}deg)`});
+    svg.addEventListener('transitionend',()=>{const cs=d.querySelector('#cs');if(!cs)return;cs.textContent=mesaj;const g=$('#gold');
+      if(g){g.querySelector('span:last-child').textContent=S.gold;g.classList.remove('bump');void g.offsetWidth;g.classList.add('bump')}},{once:true})};
+}
 
 /* ===== Bulmaca Odası: konu seç, rastgele sorular çöz (kitapla ortak konular) ===== */
 const todayStr=()=>{const t=new Date();return t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0')};
@@ -4876,7 +4990,7 @@ function macSonuc(s){const G0=MG,M=MAC(),b=G0.bot;let earn=0,acildi=null;
   const uygun=G0.mv>=BOT_ALTIN.min;
   if(uygun){let a=s==='win'?BOT_ALTIN.win:s==='draw'?BOT_ALTIN.draw:BOT_ALTIN.loss;if(G0.ipUsed&&s!=='loss')a=Math.floor(a/2);
     earn=Math.min(a,macKalan());if(earn){M.g.n+=earn;S.gold+=earn}}
-  M.n++;
+  M.n++;if(uygun)gorev('mac');
   if(s==='win'){const ilk=!M.w[b.id];M.w[b.id]=(M.w[b.id]||0)+1;if(ilk&&b.id==='kapi')acildi={ad:'Final rakipleri'};else if(ilk&&G0.i+1<BOTS.length&&BOTS[G0.i+1].g!=='ant')acildi=BOTS[G0.i+1]}
   if(b.g==='ant'){M.ant.best=Math.max(M.ant.best,G0.mv);if(s==='draw')M.ant.beraber++;if(s==='win')M.ant.galip++}
   save();return{s,earn,acildi,uygun,mv:G0.mv,i:G0.i}}
