@@ -4132,6 +4132,21 @@ const ICO={
 };
 const ico=(n,sz=30,c)=>`<svg viewBox="0 0 32 32" width="${sz}" height="${sz}" fill="none" stroke="${INK}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">${ICO[n](c)}</svg>`;
 
+/* ===== Kaydırılabilir listeler: görünür ince çubuk + aşağı/yukarı ok düğmeleri =====
+   Liste taşınca oklar çıkar; en üstte yukarı oku, en altta aşağı oku gizlenir. Fare tekerleği ve dokunmatik kaydırma zaten çalışır. */
+(function(){const st=document.createElement('style');st.textContent=`
+.kaydir{overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(255,246,224,.85) transparent;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;touch-action:pan-y}
+.kaydir::-webkit-scrollbar{width:8px}.kaydir::-webkit-scrollbar-thumb{background:rgba(255,246,224,.85);border-radius:4px;border:1px solid var(--ink)}
+.kok{position:absolute;right:30px;width:58px;height:58px;border-radius:50%;border:3px solid var(--ink);background:#FFF6E0;box-shadow:0 4px 0 var(--ink);font-size:26px;font-weight:800;line-height:1;display:none;align-items:center;justify-content:center;z-index:6;cursor:pointer}
+.kok.on{display:flex}.kok:active{transform:translateY(3px);box-shadow:0 1px 0 var(--ink)}
+`;document.head.appendChild(st)})();
+function kaydirmaEkle(d,el){if(!el)return;el.classList.add('kaydir');
+  const yap=(ok,y)=>{const b=document.createElement('button');b.className='kok';b.type='button';b.setAttribute('aria-label',ok);b.textContent=ok==='Aşağı in'?'▼':'▲';
+    b.style[y[0]]=y[1];b.onclick=()=>el.scrollBy({top:(ok==='Aşağı in'?1:-1)*el.clientHeight*.7});d.appendChild(b);return b};
+  const top=el.getBoundingClientRect?el.offsetTop:66,yuk=yap('Yukarı çık',['top',(top+6)+'px']),asg=yap('Aşağı in',['bottom','20px']);
+  const guncel=()=>{const tas=el.scrollHeight>el.clientHeight+4;yuk.classList.toggle('on',tas&&el.scrollTop>4);asg.classList.toggle('on',tas&&el.scrollTop+el.clientHeight<el.scrollHeight-4)};
+  el.addEventListener('scroll',guncel,{passive:true});requestAnimationFrame(guncel);setTimeout(guncel,300)}
+
 /* ===== KIYAFET: SHOP verisi, karakter giydirme, kırpma önizlemeleri ===== */
 (function(){for(const k in SPR){const u=SPR[k];if(u.startsWith('data:')){const i=u.indexOf(','),mime=u.slice(5,u.indexOf(';')),bin=atob(u.slice(i+1)),a=new Uint8Array(bin.length);
   for(let j=0;j<bin.length;j++)a[j]=bin.charCodeAt(j);SPR[k]=URL.createObjectURL(new Blob([a],{type:mime}))}}})();
@@ -4861,12 +4876,12 @@ function scPuzzles(d){
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button>
    <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Bulmaca Odası</span></div>
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
-   <div style="position:absolute;left:24px;right:24px;top:66px;bottom:12px;overflow-y:auto;scrollbar-width:none">
+   <div id="pzliste" style="position:absolute;left:24px;right:96px;top:66px;bottom:12px">
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin-bottom:6px;font-weight:800">Bir konu seç, sonsuz bulmaca çöz! Konular kitaptakilerle aynı. İlk denemede bilirsen altın kazanırsın.</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${cards}</div>
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin:14px 0 6px;font-weight:800">Yeni konular geliyor</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${lock}</div></div>`;
-  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>pzStart(b.dataset.id));d.querySelector('#hunt').onclick=()=>go(scHunt);
+  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>pzStart(b.dataset.id));d.querySelector('#hunt').onclick=()=>go(scHunt);kaydirmaEkle(d,d.querySelector('#pzliste'));
 }
 
 /* ===== Müzik: Web Audio ile üretilir, harici dosya yok. Varsayılan KAPALI; ayar S.muzik ===== */
@@ -5135,9 +5150,10 @@ function scMacSec(d){
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button>
    <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Maç Salonu</span></div>
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
-   <div style="position:absolute;left:24px;right:24px;top:66px;bottom:12px;overflow-y:auto;scrollbar-width:none">
+   <div id="macliste" style="position:absolute;left:24px;right:96px;top:66px;bottom:12px">
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;font-weight:800">Bir rakip seç ve maç yap! Rakibi yenince bir sonraki açılır. Bugün maçlardan ${macKalan()} altın daha kazanabilirsin.</div>${gr}</div>`;
   d.querySelectorAll('.pzc[data-i]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;macAcik(i)?go(scMacKur,i):toast(`${macOnceki(i).ad} yenilince açılır`)});
+  kaydirmaEkle(d,d.querySelector('#macliste'));
 }
 
 function scMacKur(d,i){
