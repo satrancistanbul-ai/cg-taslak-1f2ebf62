@@ -2039,6 +2039,12 @@
   "dosya": "334954589d74e77b.mp3",
   "sure": 4.02
  },
+ "3363b933c2e2a9a9": {
+  "k": "damla",
+  "m": "Şah çekince rakip ne yapabilir hocam?",
+  "dosya": "3363b933c2e2a9a9.mp3",
+  "sure": 2.4
+ },
  "337c5e9158468621": {
   "k": "damla",
   "m": "Peki neden iki fil var?",
@@ -2981,6 +2987,12 @@
   "dosya": "498ad914f06d76d0.mp3",
   "sure": 1.49
  },
+ "49aab40ba1c36dc6": {
+  "k": "antrenor",
+  "m": "Evet Pars. Rakip şah her kaçışında yeniden tehdit altında kalıyorsa ve hiç kurtulamıyorsa, aynı konum tekrar eder ve oyun berabere biter.",
+  "dosya": "49aab40ba1c36dc6.mp3",
+  "sure": 10.71
+ },
  "49b50594a4bcca99": {
   "k": "antrenor",
   "m": "Kareyi tutan taşı alırız, yolunu keseriz ya da araya girerek kapatırız. Şah da rokla kaçabiliyorsa rok yaparız.",
@@ -3239,6 +3251,12 @@
   "dosya": "50c16ecb089613a2.mp3",
   "sure": 7.18
  },
+ "50ed85c9766220a6": {
+  "k": "antrenor",
+  "m": "Evet Damla. Şah tehdit altında kalınca rakip başka bir şey yapamaz. O sırada öndeki taşın bir taşı alabilir ya da saldırabilir.",
+  "dosya": "50ed85c9766220a6.mp3",
+  "sure": 9.46
+ },
  "50f804abfbe3442b": {
   "k": "antrenor",
   "m": "Biliyor muydun? Üç fedadan yalnız biri çalışabilir. Diğerleri taş kaybettirir. Siyahın cevabına hep bak!",
@@ -3322,6 +3340,12 @@
   "m": "{ad}, en güzel taktik matla biter. Bugün mat bulma zamanı!",
   "dosya": "5244714fe54e60c3.mp3",
   "sure": 4.26
+ },
+ "5268f8e390f72b75": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Mat olmak için şahın hem tehdit altında olması hem de kaçacak karesinin kalmaması gerekir. Önce şah çeken kareleri bul!",
+  "dosya": "5268f8e390f72b75.mp3",
+  "sure": 10.11
  },
  "527ef6e415725ac4": {
   "k": "antrenor",
@@ -4048,6 +4072,12 @@
   "m": "{ad}, son bölümdeyiz. Bu sefer taktiklerin adını söylemeyeceğim.",
   "dosya": "6893e3e003c03c15.mp3",
   "sure": 4.78
+ },
+ "68f242b4d4120368": {
+  "k": "antrenor",
+  "m": "Doğru gözlem. Fark şah tehdidinde: mat olan şah saldırı altındadır, pat olan değildir.",
+  "dosya": "68f242b4d4120368.mp3",
+  "sure": 6.3
  },
  "68f2a70c541e6376": {
   "k": "damla",
@@ -7385,6 +7415,12 @@
   "dosya": "b635aef3f4a13de6.mp3",
   "sure": 7.47
  },
+ "b65989b1ba2a45cb": {
+  "k": "damla",
+  "m": "Şah çekince ne inceleyeceğiz hocam?",
+  "dosya": "b65989b1ba2a45cb.mp3",
+  "sure": 1.93
+ },
  "b66c2c7a4418cf5f": {
   "k": "antrenor",
   "m": "İkinci savunma yolu, {ad}: saldıran taşı almak.",
@@ -7907,6 +7943,12 @@
   "dosya": "c57af9b68b77becc.mp3",
   "sure": 4.96
  },
+ "c58753a843d91de2": {
+  "k": "antrenor",
+  "m": "Doğru Pars! Şah geçeceği ve varacağı karede tehdit altında olamaz. Yalnız kale saldırı altındaysa rok yine olur.",
+  "dosya": "c58753a843d91de2.mp3",
+  "sure": 8.49
+ },
  "c59ef504086c19b8": {
   "k": "antrenor",
   "m": "Evet. Şahı sıkıştırırken ona bir kaçış karesi bırak ya da doğrudan mat yap.",
@@ -7966,6 +8008,12 @@
   "m": "{ad}, hangi taşlar şah çekebilir, bilelim.",
   "dosya": "c784e99c4045ec50.mp3",
   "sure": 3.76
+ },
+ "c7b5e43977adbc3f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kaybederken bile pat şansı vardır: şahın köşedeyse rakibe taş ver, hamlen kalmasın ama şahın tehdit altında olmasın.",
+  "dosya": "c7b5e43977adbc3f.mp3",
+  "sure": 9.87
  },
  "c7c9358629540adc": {
   "k": "damla",
@@ -9412,6 +9460,12 @@
   "m": "Biliyor muydun? Vezir çok güçlüdür ama erken çıkarsa küçük taşlar onu kovalar. Önce at ve fillerini çıkar.",
   "dosya": "eba0ac8e391c6964.mp3",
   "sure": 7.84
+ },
+ "ebb8a2d7fc4dd849": {
+  "k": "antrenor",
+  "m": "Sırası gelen tarafın şahı tehdit altında değil ama oynayacak hiçbir hamlesi yok. Oyun berabere biter.",
+  "dosya": "ebb8a2d7fc4dd849.mp3",
+  "sure": 7.13
  },
  "ebfb2ac941b9574a": {
   "k": "pars",
