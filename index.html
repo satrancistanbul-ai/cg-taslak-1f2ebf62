@@ -420,7 +420,7 @@ function scQuiz(d){
    <div class="qtop"${place?' style="padding-left:24px"':''}><div style="display:flex;align-items:center;gap:16px"><span class="title">${puz?esc(LS.topic):place?`Seviye tespiti · Bant ${LS.band}/${PLACE.bantlar.length} · ${LS.q+1}/${N}`:test?`Test · ${LS.q+1}/${N}`:hata?`Hata kutusu · ${LS.q+1}/${N}`:`${LS.q+1}. Soru`}</span>${puz?`<span class="title" style="background:#FFE9B0">Seri: <b id="stk">${LS.streak||0}</b></span>`:`<div class="dots">${dots}</div>`}</div>${place?'':goldbox()}</div>`;
   const fb=()=>d.querySelector('.feedback');
   const nb=`<button class="btn" id="nx" style="position:absolute;right:26px;bottom:18px;visibility:hidden;z-index:4" onclick="nextQ()">${puz?'Sonraki bulmaca':hata?(last?'Bitir':'Sonraki soru'):place?(last?'Sonucu gör':'Sonraki soru'):last?(test?'Testi bitir':'Bölümü bitir'):'Sonraki soru'}</button>`;
-  function win(el){if(solved)return;solved=true;let earn=0;if(tries===0)LS.ilk++;
+  function win(el){if(solved)return;solved=true;let earn=0;if(tries===0){LS.ilk++;yetKaydet(q,true)}
     if(puz){if(tries===0)earn=pzEarn();LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
     else if(hata){if(tries===0){earn=HK_ODUL;hkCikar(q);LS.duz++}}
     else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]&&!S.done[LS.i]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
@@ -430,6 +430,7 @@ function scQuiz(d){
     if(place){if(solved)return;solved=true;fb().className='feedback bad';fb().innerHTML='Bu sefer olmadı.'+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
       if(q.t==='mc'){const o=c.querySelectorAll('.opt')[q.a];if(o)o.classList.add('ok')}const n=d.querySelector('#nx');n.style.visibility='visible';n.focus();return}
     if(puz&&tries===0){LS.streak=0;const sk=d.querySelector('#stk');if(sk)sk.textContent=0}
+    if(tries===0)yetKaydet(q,false);
     if(tries===0&&!hata)hkEkle(q);
     tries++;const ht=(tries>1&&q.y)?q.y:q.h;nedenKutu(fb(),NEDEN[msg]||msg||NEDEN.olmadi,ht,true);
     if(el){el.classList.remove('shake');void el.offsetWidth;el.classList.add('shake')}}
@@ -561,7 +562,8 @@ function scPlayer(d,p,self){
        <div class="stat"><b>${p.rekor||0}</b><span>Kare avı rekoru</span></div></div>
      <div style="font-weight:800;font-size:20px">Rütbe: ${RANKS[rankOf(p.villages||1)][1]}</div>
      <div style="font-weight:700;font-size:18px;margin-top:6px">Giydikleri: <span style="font-weight:600">${worn.length?worn.join(', '):'Henüz bir şey almamış'}</span></div>
-     <div style="margin-top:14px;font-weight:800;font-size:20px;color:var(--orange-d)">${msg}</div></div>`;
+     <div style="margin-top:14px;font-weight:800;font-size:20px;color:var(--orange-d)">${msg}</div>
+     ${isMe?'<button class="btn small" style="margin-top:14px" onclick="go(scYetenek)">Yeteneklerim</button>':''}</div>`;
 }
 
 
@@ -4306,6 +4308,7 @@ function scHome(d){
     <button class="item" onclick="go(scBook)">Kitap çözümleri</button>
     <button class="item" onclick="go(scShop)">Dükkân</button>
     <button class="item" onclick="go(scDiploma)">Diplomalarım</button>
+    <button class="item" onclick="go(scYetenek)">Yeteneklerim</button>
     ${!fdone()&&S.villages===1?'<button class="item" onclick="go(scPlaceIntro)">Seviyemi ölç</button>':''}
     <button class="item mzitem" onclick="muzikDugme()">Müzik: ${S.muzik?'Açık':'Kapalı'}</button>
     <button class="item sesitem" onclick="sesDugme()">Konuşma sesi: ${S.ses?'Açık':'Kapalı'}</button>
@@ -4690,7 +4693,7 @@ function HK(){return Array.isArray(S.hk)?S.hk:(S.hk=[])}
 const hkAnahtar=q=>q.q+'|'+JSON.stringify(q.pos||{})+'|'+JSON.stringify(q.a);
 function hkEkle(q){if(!q||!q.q)return;const k=hkAnahtar(q);S.hk=[{k,q,u:CU},...HK().filter(x=>x.k!==k)].slice(0,HK_MAX);save()}
 function hkCikar(q){const k=hkAnahtar(q);S.hk=HK().filter(x=>x.k!==k);save()}
-function hataStart(){const l=HK().slice(0,HK_TUR);if(!l.length)return;LS={mode:'hata',q:0,qs:l.map(x=>x.q),ilk:0,duz:0};go(scQuiz)}
+function hataStart(){const l=HK().slice(0,HK_TUR);if(!l.length)return;LS={mode:'hata',q:0,qs:l.map(x=>({...x.q,u:x.q.u||x.u})),ilk:0,duz:0};go(scQuiz)}
 function hataBitti(){const n=LS.duz||0;go(scHata);toast(n?`${n} hatayı düzelttin!`:'Bu sefer düzelmedi. Biraz sonra yine dene!')}
 
 (function(){const st=document.createElement('style');st.textContent=`
@@ -4812,6 +4815,54 @@ function scDiploma(d){const dip=DIP();
   d.querySelectorAll('[data-pdf]').forEach(b=>b.onclick=()=>dipIndir(+b.dataset.pdf));
   if(S.dipYeni){const r=S.dipYeni;S.dipYeni=0;save();setTimeout(()=>toast(`Tebrikler! ${RANKS[r][1]} rütbesine yükseldin. Diploman hazır!`),400)}}
 
+/* ===== Yetenek radarı =====
+   Her sorunun İLK deneme sonucu ünitesinin eksenine yazılır (S.yet[eksen]={d,y}). Seviye tespiti sayılmaz.
+   Profilde 6 eksenli radar; en az 3 cevaplı eksenler arasında en zayıfı için o eksenin açık bir bulmaca konusu önerilir. */
+const YET_EKSEN=[
+  {k:'kural',ad:'Kurallar',kisa:'Kurallar',u:[1,3,5,9]},
+  {k:'savunma',ad:'Saldırı ve savunma',kisa:'Saldırı',u:[2,6,15]},
+  {k:'mat',ad:'Mat',kisa:'Mat',u:[4,7,8,16,17,22,23,28,29]},
+  {k:'taktik',ad:'Taktik',kisa:'Taktik',u:[11,12,13,14,19,20,21,24]},
+  {k:'hesap',ad:'Feda ve hesap',kisa:'Feda',u:[25,27,30,31]},
+  {k:'plan',ad:'Plan ve oyun sonu',kisa:'Plan',u:[10,18,26,32,33,34,35,36]}];
+const YET_MIN=3;
+const yetEksen=u=>(YET_EKSEN.find(e=>e.u.includes(+u))||YET_EKSEN[0]).k;
+function YET(){if(!S.yet||typeof S.yet!=='object')S.yet={};return S.yet}
+function yetKaydet(q,dogru){if(!LS||LS.mode==='place')return;const u=q&&q.u||CU,k=yetEksen(u),y=YET(),x=y[k]||(y[k]={d:0,y:0});
+  if(dogru)x.d++;else x.y++;save()}
+const yetPuan=x=>x&&x.d+x.y>=YET_MIN?Math.round(x.d/(x.d+x.y)*100):null;
+
+function yetSvg(){const R=150,cx=200,cy=190,n=YET_EKSEN.length,y=YET();
+  const nok=(i,r)=>{const a=-Math.PI/2+i*2*Math.PI/n;return[cx+r*Math.cos(a),cy+r*Math.sin(a)]};
+  let g='';[.25,.5,.75,1].forEach(f=>{g+=`<polygon points="${YET_EKSEN.map((_,i)=>nok(i,R*f).map(v=>v.toFixed(1)).join(',')).join(' ')}" fill="${f===1?'rgba(255,246,224,.6)':'none'}" stroke="rgba(59,35,20,.25)" stroke-width="2"/>`});
+  YET_EKSEN.forEach((_,i)=>{const [x,yy]=nok(i,R);g+=`<line x1="${cx}" y1="${cy}" x2="${x.toFixed(1)}" y2="${yy.toFixed(1)}" stroke="rgba(59,35,20,.25)" stroke-width="2"/>`});
+  const pts=YET_EKSEN.map((e,i)=>nok(i,R*Math.max(.04,(yetPuan(y[e.k])??0)/100)));
+  g+=`<polygon points="${pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ')}" fill="rgba(241,101,36,.35)" stroke="#E25B1B" stroke-width="4" stroke-linejoin="round"/>`;
+  pts.forEach((p,i)=>{if(yetPuan(y[YET_EKSEN[i].k])!=null)g+=`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="6" fill="#E25B1B" stroke="#3B2314" stroke-width="2"/>`});
+  YET_EKSEN.forEach((e,i)=>{const [x,yy]=nok(i,R+30),p=yetPuan(y[e.k]);
+    g+=`<text x="${x.toFixed(1)}" y="${yy.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="17" fill="${p==null?'rgba(59,35,20,.45)':'#3B2314'}">${e.kisa}</text>`});
+  return `<svg viewBox="-20 0 440 390" width="420" height="380" role="img" aria-label="Yetenek radarı">${g}</svg>`}
+
+function yetZayif(){const y=YET();const L=YET_EKSEN.map(e=>({e,p:yetPuan(y[e.k])})).filter(x=>x.p!=null).sort((a,b)=>a.p-b.p);return L.length>=2?L[0]:null}
+function yetCalis(k){const e=YET_EKSEN.find(x=>x.k===k),L=pzTopics().filter(t=>!t.mix&&e.u.includes(t.unit));
+  if(!L.length)return toast('Bu konunun üniteleri henüz açılmadı.');pzStart(L[Math.floor(Math.random()*L.length)].id)}
+
+function scYetenek(d){const y=YET(),z=yetZayif(),top=YET_EKSEN.reduce((a,e)=>a+((y[e.k]||{}).d||0)+((y[e.k]||{}).y||0),0);
+  const satir=e=>{const x=y[e.k]||{d:0,y:0},p=yetPuan(x);
+    return `<div style="display:grid;grid-template-columns:1fr 54px;gap:8px;align-items:center;margin-bottom:4px"><div><b style="font-size:16px;line-height:1.1">${e.ad}</b>
+      <div class="gbar" style="height:8px;margin-top:2px"><i style="width:${p??0}%;${z&&z.e.k===e.k?'background:#E25B45':''}"></i></div>
+      <small style="font-weight:700;opacity:.7;font-size:12px">${x.d+x.y?`${x.d} doğru, ${x.y} yanlış (ilk deneme)`:'Henüz soru çözülmedi'}</small></div>
+      <span style="font-weight:800;font-size:20px;text-align:right">${p==null?'–':'%'+p}</span></div>`};
+  d.innerHTML=vbg(.45)+`<button class="iconbtn back" onclick="go(scPlayer,myDoc(),true)">‹ Profil</button>
+  <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Yeteneklerim</span></div>
+  <div class="parch" style="position:absolute;left:24px;top:66px;width:440px;height:456px;display:flex;align-items:center;justify-content:center">${yetSvg()}</div>
+  <div class="parch" style="position:absolute;left:484px;right:24px;top:66px;bottom:18px;padding:12px 16px">
+    ${YET_EKSEN.map(satir).join('')}
+    <div style="border-top:2px dashed rgba(59,35,20,.3);margin:4px 0 6px"></div>
+    ${z?`<div style="display:flex;align-items:center;gap:10px"><div style="font-weight:800;font-size:16px;line-height:1.15;flex:1">En çok çalışman gereken konu: <span style="color:var(--orange-d)">${z.e.ad}</span></div>
+      <button class="btn small" style="font-size:16px;padding:6px 12px" onclick="yetCalis('${z.e.k}')">Bulmaca çöz</button></div>`
+     :`<div style="font-weight:700;font-size:16px;line-height:1.25">${top?'Radarın doluyor! En az iki konuda '+YET_MIN+'\'er soru çözünce en zayıf konunu gösteririm.':'Soru çözdükçe radarın dolar. Her konuda ilk denemede bildiğin sorular sayılır.'}</div>`}</div>`}
+
 /* ===== Bulmaca Odası: konu seç, rastgele sorular çöz (kitapla ortak konular) ===== */
 const todayStr=()=>{const t=new Date();return t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0')};
 function touchDay(){const t=todayStr();if(S.lastDay===t)return;const y=new Date(Date.now()-864e5),ys=y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0');
@@ -4858,10 +4909,10 @@ const pzUnits=()=>Object.keys(DATAS).map(Number).sort((a,b)=>a-b).filter(u=>u<=S
 const pzTopics=()=>[...pzUnits().flatMap(u=>DATAS[u].bolumler.map((_,i)=>{const gi=i-3,gp=u===1&&gi>=0&&gi<6?GEN_P[gi]:null;
   return{id:`u${u}-${i}`,ad:(SHORTS[u]||DATAS[u].kisa_adlar||[])[i]||DATAS[u].bolumler[i].baslik,unit:u,bank:i,gen:gp,col:PZ_COL[i%6],ic:gp?glyphIc(GLY[gp]):ico((PZ_ICO[u]||DATAS[u].ikonlar||[])[i]||'star',32)}})),
   {id:'mix',ad:'Karışık',mix:true,col:'#FFD166',ic:ico('puzzle',32)}];
-const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map(cvQ);
+const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map(x=>({...cvQ(x),u}));
 function pzPick(tid,last){const PZ=pzTopics(),t=PZ.find(x=>x.id===tid);
   const one=t=>{if(t.mix)return one(PZ[rint(PZ.length-1)]);
-    if(t.gen&&rint(2))return genQ(t.gen);
+    if(t.gen&&rint(2))return {...genQ(t.gen),u:t.unit};
     const b=pzBank(t.unit,t.bank);return b[rint(b.length)]};
   let q,g=0;do{q=one(t)}while(last&&q.q===last.q&&JSON.stringify(q.pos)===JSON.stringify(last.pos)&&g++<8);return q}
 function pzEarn(){const t=todayStr();if(!S.pzGold||S.pzGold.d!==t)S.pzGold={d:t,n:0};if(S.pzGold.n>=30)return 0;S.pzGold.n+=2;save();return 2}
@@ -5084,7 +5135,8 @@ const BotMotor=(()=>{let w=null,hazir=null,dinle=null,sira=Promise.resolve();
       let r=Math.random()*wt.reduce((a,b)=>a+b,0);for(let i=0;i<L.length;i++){r-=wt[i];if(r<=0)return L[i].m}return L[0].m}
     const {en}=await ara(fen,'go nodes '+spec.nodes,{elo:spec.tur==='uci'?Math.max(1320,spec.elo):0});return en}
   async function ipucu(fen){const {en}=await ara(fen,'go nodes 20000');return en}
-  return{yeni,hamle,ipucu,baslat}})();
+  async function analiz(fen,d){const {en,by}=await ara(fen,'go depth '+d);const x=by[1]||Object.values(by)[0];return{en,v:x?x.v:0}}
+  return{yeni,hamle,ipucu,baslat,analiz}})();
 
 /* ===== Bot kişilikleri: oyun tarzı + maç içi konuşma =====
    Zayıf botlarda (MultiPV örnekleyici) her aday hamleye tarzına göre santipiyon bonusu eklenir: Fındık taş alır, Aras at oynar,
@@ -5237,7 +5289,8 @@ function macSonuc(s){const G0=MG,M=MAC(),b=G0.bot;let earn=0,acildi=null;
   M.n++;if(uygun)gorev('mac');
   if(s==='win'){const ilk=!M.w[b.id];M.w[b.id]=(M.w[b.id]||0)+1;if(ilk&&b.id==='kapi')acildi={ad:'Final rakipleri'};else if(ilk&&G0.i+1<BOTS.length&&BOTS[G0.i+1].g!=='ant')acildi=BOTS[G0.i+1]}
   if(b.g==='ant'){M.ant.best=Math.max(M.ant.best,G0.mv);if(s==='draw')M.ant.beraber++;if(s==='win')M.ant.galip++}
-  save();return{s,earn,acildi,uygun,mv:G0.mv,i:G0.i}}
+  const hist=G0.ch.history({verbose:true}).map(m=>({before:m.before,after:m.after,from:m.from,to:m.to,san:m.san,color:m.color,captured:m.captured,piece:m.piece,promotion:m.promotion}));
+  save();return{s,earn,acildi,uygun,mv:G0.mv,i:G0.i,hist,me:G0.me}}
 
 function scMacSon(d,r){
   const b=BOTS[r.i],M=MAC(),ant=b.g==='ant';
@@ -5251,10 +5304,69 @@ function scMacSon(d,r){
     <div style="font-weight:800;font-size:22px;color:var(--orange-d);margin:8px 0">“${esc(soz)}”</div>
     <div style="font-weight:800;font-size:22px">${r.earn?`+${r.earn} altın`:r.uygun?'Bugünkü maç altını doldu':`Altın için en az ${BOT_ALTIN.min} hamle oynamalısın`}</div>
     ${r.acildi?`<div style="font-weight:800;font-size:20px;margin-top:6px;color:var(--grass-d)">Yeni rakip açıldı: ${esc(r.acildi.ad)}</div>`:''}${ek}
-    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap"><button class="btn" id="tek">Tekrar oyna</button>${onceki}<button class="btn alt" id="sec">Rakip seç</button></div></div>`;
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap"><button class="btn" id="tek">Tekrar oyna</button>${r.hist&&r.hist.filter(h=>h.color===r.me).length>=5?'<button class="btn go" id="krt">Kritik anlar</button>':''}${onceki}<button class="btn alt" id="sec">Rakip seç</button></div></div>`;
   d.querySelector('#tek').onclick=()=>go(scMacKur,r.i);d.querySelector('#sec').onclick=()=>go(scMacSec);
+  const kb=d.querySelector('#krt');if(kb)kb.onclick=()=>go(scKritik,r);
   const k=d.querySelector('#kolay');if(k)k.onclick=()=>go(scMacKur,BOTS.indexOf(macOnceki(r.i)));
 }
+
+/* ===== Maç sonrası 3 kritik an =====
+   Çocuğun her hamlesi için hamle öncesi ve sonrası Stockfish (cihazda) ile değerlendirilir; en çok kaybettiren 3 hamle
+   (en az 0,8 piyon) tahtada oynanan hamle (kırmızı) ve daha iyisi (yeşil) ile gösterilir, altında tek cümle antrenör yorumu. */
+const KR_DERINLIK=10,KR_ESIK=80,KR_EN_COK=40;
+const krKis=v=>Math.max(-2000,Math.min(2000,v));
+const krTas=p=>PN[(p||'').toUpperCase()]||'taş';
+const krTasi=p=>({kale:'kaleyi',fil:'fili',vezir:'veziri',at:'atı',piyon:'piyonu',şah:'şahı'})[krTas(p)]||'taşı';
+const KR_HARF={K:'Ş',Q:'V',R:'K',B:'F',N:'A'};
+const krTr=s=>String(s||'').replace(/^[KQRBN]/,c=>KR_HARF[c]).replace(/=([QRBN])/,(_,c)=>'='+KR_HARF[c]);
+function krSan(fen,uci){try{const c=new ChessJS.Chess(fen);return c.move({from:uci.slice(0,2),to:uci.slice(2,4),promotion:uci[4]})}catch(e){return null}}
+
+function krYorum(a){const h=a.h,en=a.enHamle,yan=a.yanit;let c;
+  if(a.mat&&!(a.oynananV>=9000))c=`Burada mat vardı: ${en?krTr(en.san):''}! Bu fırsatı kaçırdın.`;
+  else if(yan&&yan.to===h.to&&yan.captured)c=`${h.to} karesine giden ${krTas(h.piece)} korumasız kaldı; rakip onu alabilir.`;
+  else if(yan&&yan.captured&&yan.captured!=='p')c=`Bu hamleden sonra rakip ${yan.to} karesindeki ${krTasi(yan.captured)} alabilir. Önce onu korumalıydın.`;
+  else if(a.tehdit)c='Bu hamleden sonra rakibin mat tehdidi var. Şahını korumalıydın.';
+  else if(en&&en.captured)c=`Burada ${krTr(en.san)} ile rakibin ${krTasi(en.captured)} alabilirdin.`;
+  else c=`Daha iyisi ${en?krTr(en.san):'başka bir hamle'} idi.`;
+  if(a.kayip<1500)c+=` Bu hamle yaklaşık ${Math.max(1,Math.round(a.kayip/100))} piyon değeri kaybettirdi.`;
+  return c}
+
+async function krAnaliz(hist,me,ilerle){const benim=hist.map((h,i)=>({h,i})).filter(x=>x.h.color===me).slice(-KR_EN_COK),out=[];
+  for(let k=0;k<benim.length;k++){const {h,i}=benim[k];
+    const a=await BotMotor.analiz(h.before,KR_DERINLIK),b=await BotMotor.analiz(h.after,KR_DERINLIK);
+    const once=krKis(a.v),sonra=krKis(-b.v),kayip=once-sonra;
+    out.push({h,no:Math.floor(i/2)+1,kayip,mat:a.v>=9000,oynananV:-b.v,tehdit:b.v>=9000,enHamle:a.en&&a.en!==(h.from+h.to+(h.promotion||''))?krSan(h.before,a.en):null,yanit:b.en?krSan(h.after,b.en):null});
+    ilerle((k+1)/benim.length)}
+  return out.filter(x=>x.kayip>=KR_ESIK&&x.enHamle).sort((x,y)=>y.kayip-x.kayip).slice(0,3).sort((x,y)=>x.no-y.no)}
+
+function scKritik(d,r){
+  d.innerHTML=vbg(.5)+`<button class="iconbtn back" id="kg">‹ Maç sonucu</button>
+   <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Maçın kritik anları</span></div>
+   <div id="kb" style="position:absolute;left:40px;top:70px"><div class="bframe"><div id="bd"></div></div></div>
+   <div class="parch" id="kp" style="position:absolute;left:470px;right:30px;top:70px;bottom:24px;padding:18px 22px;display:flex;flex-direction:column;gap:10px">
+     <div style="font-weight:800;font-size:22px">Antrenör maçını inceliyor…</div><div class="gbar" style="height:14px"><i id="ki" style="width:0%"></i></div>
+     <div class="hint" style="font-size:17px">Her hamlene tek tek bakıyorum. Birkaç saniye sürer.</div></div>`;
+  d.querySelector('#kg').onclick=()=>go(scMacSon,r);
+  const B=makeBoard(d.querySelector('#bd'),{},{flip:r.me==='b'});B.draw();
+  const kp=d.querySelector('#kp');let iptal=false;
+  const ciz=(L,j)=>{const a=L[j],c=new ChessJS.Chess(a.h.before),pos={};c.board().forEach(rw=>rw.forEach(x=>{if(x)pos[x.square]=x.color==='w'?x.type.toUpperCase():x.type}));
+    B.pos=pos;B.flags={[a.h.from]:'wrong',[a.h.to]:'wrong'};if(a.enHamle){B.flags[a.enHamle.from]='good';B.flags[a.enHamle.to]='good'}B.draw();
+    kp.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center"><span class="title" style="font-size:20px">${j+1}. kritik an</span><span style="font-weight:800">${j+1}/${L.length}</span></div>
+      <div style="font-weight:800;font-size:20px">${a.no}. hamlede <span style="color:var(--red)">${esc(krTr(a.h.san))}</span> oynadın.</div>
+      <div style="font-weight:800;font-size:20px">Daha iyisi: <span style="color:var(--grass-d)">${esc(krTr(a.enHamle.san))}</span></div>
+      <div style="font-weight:700;font-size:18px;line-height:1.3;background:rgba(255,255,255,.55);border-radius:12px;padding:10px 12px"><b class="who" style="display:block;font-size:14px">Satranç İstanbul Antrenörü</b>${esc(krYorum(a))}</div>
+      <div class="hint" style="font-size:15px">Kırmızı kareler senin hamlen, yeşil kareler daha iyi hamle.</div>
+      <div style="flex:1"></div>
+      <div style="display:flex;gap:10px;justify-content:space-between"><button class="btn small alt" id="kö" ${j?'':'disabled'}>‹ Önceki</button><button class="btn small" id="ks">${j<L.length-1?'Sonraki ›':'Bitti'}</button></div>`;
+    kp.querySelector('#kö').onclick=()=>ciz(L,j-1);kp.querySelector('#ks').onclick=()=>j<L.length-1?ciz(L,j+1):go(scMacSon,r)};
+  d.querySelector('#kg').addEventListener('click',()=>{iptal=true});
+  const bitti=L=>{if(iptal||!stage.contains(kp))return;
+    if(!L.length){kp.innerHTML=`<div style="font-weight:800;font-size:24px">Harika!</div><div style="font-weight:700;font-size:19px;line-height:1.3">Bu maçta büyük bir hata bulamadım. Hiçbir hamlen bir piyon değerinden fazla kaybettirmedi.</div><div style="flex:1"></div><button class="btn small" id="kd">Maç sonucuna dön</button>`;
+      kp.querySelector('#kd').onclick=()=>go(scMacSon,r);return}
+    ciz(L,0)};
+  if(r.kritik)return bitti(r.kritik);
+  krAnaliz(r.hist,r.me,x=>{const i=d.querySelector('#ki');if(i)i.style.width=Math.round(x*100)+'%'}).then(L=>{r.kritik=L;bitti(L)})
+    .catch(()=>{if(stage.contains(kp))kp.innerHTML='<div style="font-weight:800;font-size:20px">İnceleme şu an yapılamadı.</div><div class="hint">Biraz sonra yeniden dene.</div>'})}
 
 /* ===== Mini oyunlar: At yolculuğu + Yıldız toplama (Kare avı ile aynı "Oyunlar" ekranında) =====
    60 saniyelik turlar, yanlış dokunuşa ceza yok (yalnız kısa kırmızı ışık). En az hamlede bitirene fazla puan.
