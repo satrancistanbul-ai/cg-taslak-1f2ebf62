@@ -1,5 +1,6 @@
-/* Chessigo service worker: uygulama kabuğu çevrimdışı açılır; video/ses ağdan gelir, ses mp3'leri bir kez alınınca önbellekte kalır. */
-const SURUM = "cg-v1";
+/* Chessigo service worker: kabuk (index) ağdan önce, a/ altındaki içerik özetli dosyalar (kod, ünite verisi, resimler) ve ses mp3'leri
+   bir kez alınınca önbellekten gelir; video ağdan. */
+const SURUM = "cg-v2";
 const KABUK = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SURUM).then((c) => c.addAll(KABUK)).then(() => self.skipWaiting()));
@@ -11,7 +12,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
   if (url.pathname.includes("/video/")) return;
-  if (url.pathname.includes("/ses/")) {
+  if (url.pathname.includes("/ses/") || url.pathname.includes("/a/")) {
     e.respondWith(caches.open(SURUM).then(async (c) => {
       const hit = await c.match(e.request);
       if (hit) return hit;
