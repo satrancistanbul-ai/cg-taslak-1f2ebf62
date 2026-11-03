@@ -1,4 +1,4 @@
-const IMG={sandik_k:"a/6b887cd75bae.webp",sandik_a:"a/9e237a82e3bc.webp",village:"a/26a1d9983f6a.jpg",classroom:"a/0f159d8ceccd.jpg",bird:"a/3e98f8de2fae.webp",ada1:"a/da0b6fe55f0e.jpg",ada2:"a/9361908b44c3.jpg",ada3:"a/29204c3d197e.jpg",ada4:"a/1e1288f5b436.jpg",logo:"a/cb48c2c39e53.webp",icon:"a/f0152eeb5b82.webp",table:"a/5c6e987032c1.webp",si_navy:"a/2beaca7a75cd.webp",si_white:"a/55c2fff72201.webp",si_emb:"a/c29fd57b49a9.webp",si_emb_w:"a/a301b57af752.webp",...{"ada5": "a/0baeb7a305b5.jpg", "ada6": "a/7c262d45481d.jpg", "ada7": "a/39b51bcf690c.jpg", "ada8": "a/52285b85103d.jpg", "ada9": "a/f540cbef3fdd.jpg", "ada10": "a/af9217357eaf.jpg", "ada11": "a/9465a1d79c76.jpg", "ada12": "a/d45585f8b9f5.jpg", "ada13": "a/bba26a472f3e.jpg", "ada14": "a/57104214f0a8.jpg", "ada15": "a/3e3ed8abb815.jpg", "ada16": "a/557f7b26b210.jpg", "ada17": "a/852308697bc5.jpg", "ada18": "a/cc2ba3fb5d45.jpg", "ada19": "a/0bcb2abd0ad4.jpg", "ada20": "a/f681930830e9.jpg", "ada21": "a/b589ec63dd12.jpg", "ada22": "a/ebc976dba914.jpg", "ada23": "a/f613c27c82ae.jpg", "ada24": "a/09dd98c0fbb0.jpg", "ada25": "a/547997c39b06.jpg", "ada26": "a/deb0e086a2c4.jpg", "ada27": "a/aa1dbdbb7a7e.jpg", "ada28": "a/e7678875a5a8.jpg", "ada29": "a/cf0fe5db1f2b.jpg", "ada30": "a/96aaa3f69f14.jpg", "ada31": "a/8f57af16b42e.jpg", "ada32": "a/7fcc7634bfe9.jpg", "ada33": "a/6650edb482e5.jpg", "ada34": "a/3c5dae9ec488.jpg", "ada35": "a/567f2c322376.jpg", "ada36": "a/0225c5ec53be.jpg"}};
+const IMG={deniz:"a/5b4dde585b38.webp",tekne:"a/df76a6f7dda8.webp",sandik_k:"a/6b887cd75bae.webp",sandik_a:"a/9e237a82e3bc.webp",village:"a/26a1d9983f6a.jpg",classroom:"a/0f159d8ceccd.jpg",bird:"a/3e98f8de2fae.webp",ada1:"a/da0b6fe55f0e.jpg",ada2:"a/9361908b44c3.jpg",ada3:"a/29204c3d197e.jpg",ada4:"a/1e1288f5b436.jpg",logo:"a/cb48c2c39e53.webp",icon:"a/f0152eeb5b82.webp",table:"a/5c6e987032c1.webp",si_navy:"a/2beaca7a75cd.webp",si_white:"a/55c2fff72201.webp",si_emb:"a/c29fd57b49a9.webp",si_emb_w:"a/a301b57af752.webp",...{"ada5": "a/0baeb7a305b5.jpg", "ada6": "a/7c262d45481d.jpg", "ada7": "a/39b51bcf690c.jpg", "ada8": "a/52285b85103d.jpg", "ada9": "a/f540cbef3fdd.jpg", "ada10": "a/af9217357eaf.jpg", "ada11": "a/9465a1d79c76.jpg", "ada12": "a/d45585f8b9f5.jpg", "ada13": "a/bba26a472f3e.jpg", "ada14": "a/57104214f0a8.jpg", "ada15": "a/3e3ed8abb815.jpg", "ada16": "a/557f7b26b210.jpg", "ada17": "a/852308697bc5.jpg", "ada18": "a/cc2ba3fb5d45.jpg", "ada19": "a/0bcb2abd0ad4.jpg", "ada20": "a/f681930830e9.jpg", "ada21": "a/b589ec63dd12.jpg", "ada22": "a/ebc976dba914.jpg", "ada23": "a/f613c27c82ae.jpg", "ada24": "a/09dd98c0fbb0.jpg", "ada25": "a/547997c39b06.jpg", "ada26": "a/deb0e086a2c4.jpg", "ada27": "a/aa1dbdbb7a7e.jpg", "ada28": "a/e7678875a5a8.jpg", "ada29": "a/cf0fe5db1f2b.jpg", "ada30": "a/96aaa3f69f14.jpg", "ada31": "a/8f57af16b42e.jpg", "ada32": "a/7fcc7634bfe9.jpg", "ada33": "a/6650edb482e5.jpg", "ada34": "a/3c5dae9ec488.jpg", "ada35": "a/567f2c322376.jpg", "ada36": "a/0225c5ec53be.jpg", "adat1": "a/8cf91ae24892.webp", "adat2": "a/41f4fe9e45d0.webp", "adat3": "a/8e9542f31df7.webp", "adat4": "a/8c037d324355.webp", "adat5": "a/41efc7805701.webp", "adat6": "a/c94753c9f421.webp", "adat7": "a/775171643d60.webp", "adat8": "a/0cc63a2f735c.webp", "adat9": "a/647726ce9bef.webp", "adat10": "a/0e95303f9124.webp", "adat11": "a/4230e440a655.webp", "adat12": "a/f11ae3b629c7.webp", "adat13": "a/957dd9894f5a.webp", "adat14": "a/8a09c10ef8b6.webp", "adat15": "a/f06b764b2734.webp", "adat16": "a/fb9c303957ea.webp", "adat17": "a/2c8b9b28d3a1.webp", "adat18": "a/50541e12dc8b.webp", "adat19": "a/b68a20906b78.webp", "adat20": "a/6b3eac1e7fcf.webp", "adat21": "a/2d7ce28b4a15.webp", "adat22": "a/b645d48ae39f.webp", "adat23": "a/7e34829a4abd.webp", "adat24": "a/28572bc6b8d3.webp", "adat25": "a/60bc5a83c27b.webp", "adat26": "a/7100093d89c6.webp", "adat27": "a/713be66dd047.webp", "adat28": "a/3714752008b1.webp", "adat29": "a/722e6b48c815.webp", "adat30": "a/0d71e64d63f2.webp", "adat31": "a/f47d5b2725ff.webp", "adat32": "a/a0bc1b60872c.webp", "adat33": "a/e6763aa372fe.webp", "adat34": "a/ec83029e9f4d.webp", "adat35": "a/24b3e30e849b.webp", "adat36": "a/cedfee717b4b.webp"}};
 
 const DATAS=window.__DATAS;const UNITS=[{"no": 1, "ad": "Satrancı Tanıyalım", "kitap": 1}, {"no": 2, "ad": "Saldırı ve Savunma", "kitap": 1}, {"no": 3, "ad": "Şah ve Şah Çekme", "kitap": 1}, {"no": 4, "ad": "Mat ve Pat", "kitap": 1}, {"no": 5, "ad": "Özel Hamleler", "kitap": 1}, {"no": 6, "ad": "Değiş-Tokuş Ustası", "kitap": 1}, {"no": 7, "ad": "1 Hamlede Mat", "kitap": 1}, {"no": 8, "ad": "İlk Mat Kalıpları", "kitap": 1}, {"no": 9, "ad": "Notasyon ve Turnuva Kuralları", "kitap": 1}, {"no": 10, "ad": "Açılışın Altın Kuralları", "kitap": 2}, {"no": 11, "ad": "Çatal", "kitap": 2}, {"no": 12, "ad": "Şiş", "kitap": 2}, {"no": 13, "ad": "Açmaz", "kitap": 2}, {"no": 14, "ad": "Açarak Saldırı, Açarak Şah, Çifte Şah", "kitap": 2}, {"no": 15, "ad": "Taşa Göre Taş Kazançları", "kitap": 2}, {"no": 16, "ad": "Vezir ve Kale ile Mat", "kitap": 2}, {"no": 17, "ad": "2 Hamlede Mat", "kitap": 2}, {"no": 18, "ad": "Piyon Oyunsonları-1", "kitap": 2}, {"no": 19, "ad": "Savunmanın Kaldırılması", "kitap": 3}, {"no": 20, "ad": "Aşırı Yükleme, Ara Hamle, Engelleme", "kitap": 3}, {"no": 21, "ad": "Hapsetme ve Pat Taktikleri", "kitap": 3}, {"no": 22, "ad": "Mat Kalıpları-1", "kitap": 3}, {"no": 23, "ad": "Mat Kalıpları-2", "kitap": 3}, {"no": 24, "ad": "Temaya Göre Taş Kazançları", "kitap": 3}, {"no": 25, "ad": "Satrançta Fedalar-1", "kitap": 3}, {"no": 26, "ad": "Piyon Oyunsonları-2", "kitap": 3}, {"no": 27, "ad": "Kombinezon Atölyesi-1", "kitap": 3}, {"no": 28, "ad": "Mat Saldırısı Planlamak", "kitap": 4}, {"no": 29, "ad": "Şaha Hücum", "kitap": 4}, {"no": 30, "ad": "Fedalar-2 ve Kombinezonlar", "kitap": 4}, {"no": 31, "ad": "Hesaplama", "kitap": 4}, {"no": 32, "ad": "Vezir ve Kale Oyunsonları", "kitap": 4}, {"no": 33, "ad": "Orta Oyunda Plan", "kitap": 4}, {"no": 34, "ad": "Açılış Rehberi: Beyaz", "kitap": 4}, {"no": 35, "ad": "Açılış Rehberi: Siyah", "kitap": 4}, {"no": 36, "ad": "Final: Kendi Partini Analiz Et", "kitap": 4}];const PLACE={"surum": "0.1", "gecme": 2, "tum_bantlar_sonrasi_unite": 12, "not": "Taslak. Bant başlangıç üniteleri müfredat v0.2'ye göre; sorular antrenör onayına açıktır.", "bantlar": [{"no": 1, "baslangic_unite": 1, "ad": "Taşlar ve tahta", "sorular": [{"tip": "mc", "soru": "Satranç tahtasında toplam kaç kare vardır?", "secenekler": ["32", "64", "100"], "dogru": 1, "aciklama": "Tahta 8 sıra ve 8 sütundan oluşur: 8 x 8 = 64."}, {"tip": "mc", "soru": "Tahtadaki bu taşın adı nedir?", "secenekler": ["Fil", "At", "Kale"], "dogru": 1, "aciklama": "L şeklinde giden ve taşların üstünden atlayabilen taş attır.", "tahta": {"taslar": {"d4": "N"}, "vurgu": []}}, {"tip": "hamle", "soru": "Beyaz kaleyi gidebileceği bir kareye götür.", "tahta": {"taslar": {"d3": "R", "d7": "p", "g3": "P"}, "vurgu": []}, "kaynak": "d3", "hedefler": ["a3", "b3", "c3", "d1", "d2", "d4", "d5", "d6", "d7", "e3", "f3"], "aciklama": "Kale düz gider: ileri, geri, sağa, sola.", "ipucu": "Önce taşa, sonra gideceği kareye dokun."}]}, {"no": 2, "baslangic_unite": 2, "ad": "Saldırı ve şah", "sorular": [{"tip": "hamle", "soru": "Atla siyah taşlardan birini al.", "tahta": {"taslar": {"d4": "N", "f5": "r", "c6": "p", "a1": "K", "h8": "k"}, "vurgu": []}, "kaynak": "d4", "hedefler": ["c6", "f5"], "aciklama": "At L çizer. Kale (f5) ve piyon (c6) atın alabileceği yerlerdeydi.", "ipucu": "Önce taşa, sonra gideceği kareye dokun."}, {"tip": "mc", "soru": "Beyaz şah şu anda ne durumda?", "secenekler": ["Şah çekilmiş: rakip kale şaha saldırıyor", "Her şey yolunda", "Şah mat oldu"], "dogru": 0, "aciklama": "Siyah kale e sütununda açık yoldan beyaz şaha saldırıyor. Buna şah çekmek denir.", "tahta": {"taslar": {"e1": "K", "e8": "r", "a2": "P", "h8": "k"}, "vurgu": []}}, {"tip": "hamle", "soru": "Beyaz şah çekilmiş! Şahı güvenli bir kareye götür.", "tahta": {"taslar": {"e1": "K", "e8": "r", "a2": "P", "h8": "k"}, "vurgu": []}, "kaynak": "e1", "hedefler": ["d1", "d2", "f1", "f2"], "aciklama": "Şah, kalenin saldırdığı e sütunundan çıkmalı.", "ipucu": "Kale e sütununa bakıyor. Şah o sütundan çıkmalı."}]}, {"no": 3, "baslangic_unite": 4, "ad": "Mat, pat ve rok", "sorular": [{"tip": "mc", "soru": "Sıra beyazda. Beyaz şahın durumu nedir?", "secenekler": ["Şah mat, oyun bitti", "Pat, oyun berabere", "Oyun devam ediyor"], "dogru": 0, "aciklama": "Şah çekilmiş ve kurtulmanın yolu yok: kendi piyonları yolunu kapatıyor. Bu şah mattır.", "tahta": {"taslar": {"g1": "K", "f2": "P", "g2": "P", "h2": "P", "a1": "r", "g8": "k"}, "vurgu": []}}, {"tip": "mc", "soru": "Sıra siyahta. Siyah şaha şah çekilmiyor ama hiçbir yere gidemiyor. Bu pozisyon nedir?", "secenekler": ["Şah mat", "Pat, oyun berabere", "Beyaz kazandı"], "dogru": 1, "aciklama": "Şah çekilmeden oynayacak hamle kalmadıysa buna pat denir ve oyun berabere biter.", "tahta": {"taslar": {"h8": "k", "f7": "Q", "a1": "K"}, "vurgu": []}}, {"tip": "mc", "soru": "Rok hamlesinde şah kaç kare yürür?", "secenekler": ["1 kare", "2 kare", "3 kare"], "dogru": 1, "aciklama": "Rokta şah iki kare yürür, kale de şahın öbür yanına geçer."}]}, {"no": 4, "baslangic_unite": 6, "ad": "Taş değerleri ve 1 hamlede mat", "sorular": [{"tip": "mc", "soru": "Şah hariç, hangi taş en değerlidir?", "secenekler": ["Piyon", "At", "Vezir"], "dogru": 2, "aciklama": "Vezir 9 puan değerindedir: en güçlü taştır."}, {"tip": "mc", "soru": "Kaleni verip karşılığında rakibin atını alırsan ne olur?", "secenekler": ["Kazanırım", "Kaybederim: kale 5, at 3 puan", "Eşit takas olur"], "dogru": 1, "aciklama": "Kale 5 puan, at 3 puandır. 5 puan verip 3 puan almış olursun."}, {"tip": "hamle", "soru": "1 hamlede mat et!", "tahta": {"taslar": {"g6": "K", "a1": "R", "h8": "k"}, "vurgu": []}, "kaynak": "a1", "hedefler": ["a8"], "aciklama": "Kale a8'e gidince şah çekilir; g7, h7 ve g8 kareleri kapalıdır. Mat!", "ipucu": "Kale, şahın olduğu sıraya gitmeli."}]}, {"no": 5, "baslangic_unite": 8, "ad": "Mat kalıpları", "sorular": [{"tip": "hamle", "soru": "Beyaz 1 hamlede mat edebilir. Mat hamlesini yap!", "tahta": {"taslar": {"h8": "r", "f8": "b", "e8": "k", "d8": "q", "c8": "b", "a8": "r", "h7": "p", "g7": "p", "f7": "p", "d7": "p", "c7": "p", "b7": "p", "a7": "p", "f6": "n", "c6": "n", "h5": "Q", "e5": "p", "e4": "P", "c4": "B", "h2": "P", "g2": "P", "f2": "P", "d2": "P", "c2": "P", "b2": "P", "a2": "P", "h1": "R", "g1": "N", "e1": "K", "c1": "B", "b1": "N", "a1": "R"}, "vurgu": []}, "kaynak": "h5", "hedefler": ["f7"], "aciklama": "Vezir f7'yi alır, fil da vezirini korur. Bu hamleye çoban matı denir.", "ipucu": "f7 karesi zayıf: iki taş ona bakıyor."}, {"tip": "mc", "soru": "Şahın kendi piyonlarıyla çevrili olduğu ve bir kalenin şah çektiği matlara ne denir?", "secenekler": ["Arka sıra matı", "Pat", "Rok"], "dogru": 0, "aciklama": "Şah arka sırada, kendi piyonlarının arkasında sıkışınca kaçamaz. Buna arka sıra matı denir."}, {"tip": "mc", "soru": "Şah hangi karelere gidemez?", "secenekler": ["Rakip taşların saldırdığı karelere", "Kenar karelere", "Hiçbir kareye"], "dogru": 0, "aciklama": "Şah, rakip taşların saldırdığı bir kareye asla gidemez."}]}, {"no": 6, "baslangic_unite": 10, "ad": "Açılış, çatal ve açmaz", "sorular": [{"tip": "mc", "soru": "Açılışta hangisi iyi bir fikirdir?", "secenekler": ["Merkezi almak ve taşları oyuna sokmak", "Vezirle tek başına saldırmak", "Hep aynı taşı oynamak"], "dogru": 0, "aciklama": "İyi bir açılışta merkez kontrol edilir ve taşlar hızla oyuna çıkarılır."}, {"tip": "hamle", "soru": "At ile şahı ve kaleyi aynı anda tehdit et!", "tahta": {"taslar": {"g5": "N", "d8": "k", "h8": "r", "e1": "K"}, "vurgu": []}, "kaynak": "g5", "hedefler": ["f7"], "aciklama": "At f7'ye gidince şaha şah çeker ve h8'deki kaleye de saldırır. Buna çatal denir.", "ipucu": "Atın L'siyle hem d8'e hem h8'e bakan kareyi ara."}, {"tip": "mc", "soru": "Açmaz nedir?", "secenekler": ["Bir taşın, arkasındaki daha değerli taşı açıkta bırakacağı için oynayamaması", "Piyonun vezir olması", "Şahın rok yapması"], "dogru": 0, "aciklama": "Açmazdaki taş yerinden oynarsa arkasındaki değerli taş (çoğu zaman şah) tehlikeye girer."}]}]};
 const VIDEOLAR=["u01_b01", "u01_b02", "u01_b03", "u01_b04", "u01_b05", "u01_b06", "u01_b07", "u01_b08", "u01_b09", "u01_b10", "u02_b01", "u02_b02", "u02_b03", "u02_b04", "u02_b05", "u02_b06", "u02_b07", "u02_b08", "u02_b09", "u02_b10", "u03_b01", "u03_b02", "u03_b03", "u03_b04", "u03_b05", "u03_b06", "u03_b07", "u03_b08", "u04_b01", "u04_b02", "u04_b03", "u04_b04", "u04_b05", "u04_b06", "u04_b07", "u04_b08", "u05_b01", "u05_b02", "u05_b03", "u05_b04", "u05_b05", "u05_b06", "u05_b07", "u05_b08", "u06_b01", "u06_b02", "u06_b03", "u06_b04", "u06_b05", "u06_b06", "u06_b07", "u06_b08", "u06_b09", "u06_b10", "u06_b11", "u07_b01", "u07_b02", "u07_b03", "u07_b04", "u07_b05", "u07_b06", "u07_b07", "u07_b08", "u07_b09", "u07_b10", "u08_b01", "u08_b02", "u08_b03", "u08_b04", "u08_b05", "u08_b06", "u08_b07", "u08_b08", "u09_b01", "u09_b02", "u09_b03", "u09_b04", "u09_b05", "u09_b06", "u09_b07", "u09_b08", "u09_b09", "u10_b01", "u10_b02", "u10_b03", "u10_b04", "u10_b05", "u10_b06", "u10_b07", "u10_b08", "u11_b01", "u11_b02", "u11_b03", "u11_b04", "u11_b05", "u11_b06", "u11_b07", "u11_b08", "u11_b09", "u11_b10", "u12_b01", "u12_b02", "u12_b03", "u12_b04", "u12_b05", "u12_b06", "u13_b01", "u13_b02", "u13_b03", "u13_b04", "u13_b05", "u13_b06", "u13_b07", "u13_b08", "u14_b01", "u14_b02", "u14_b03", "u14_b04", "u14_b05", "u14_b06", "u14_b07", "u14_b08", "u15_b01", "u15_b02", "u15_b03", "u15_b04", "u15_b05", "u15_b06", "u15_b07", "u15_b08", "u15_b09", "u15_b10", "u16_b01", "u16_b02", "u16_b03", "u16_b04", "u16_b05", "u16_b06", "u16_b07", "u16_b08", "u17_b01", "u17_b02", "u17_b03", "u17_b04", "u17_b05", "u17_b06", "u17_b07", "u17_b08", "u18_b01", "u18_b02", "u18_b03", "u18_b04", "u18_b05", "u18_b06", "u18_b07", "u18_b08", "u19_b01", "u19_b02", "u19_b03", "u19_b04", "u19_b05", "u19_b06", "u19_b07", "u19_b08", "u19_b09", "u19_b10", "u19_b11", "u20_b01", "u20_b02", "u20_b03", "u20_b04", "u20_b05", "u20_b06", "u20_b07", "u20_b08", "u20_b09", "u21_b01", "u21_b02", "u21_b03", "u21_b04", "u21_b05", "u21_b06", "u21_b07", "u22_b01", "u22_b02", "u22_b03", "u22_b04", "u22_b05", "u22_b06", "u22_b07", "u22_b08", "u23_b01", "u23_b02", "u23_b03", "u23_b04", "u23_b05", "u23_b06", "u23_b07", "u23_b08", "u24_b01", "u24_b02", "u24_b03", "u24_b04", "u24_b05", "u24_b06", "u24_b07", "u24_b08", "u24_b09", "u24_b10", "u25_b01", "u25_b02", "u25_b03", "u25_b04", "u25_b05", "u25_b06", "u25_b07", "u25_b08", "u26_b01", "u26_b02", "u26_b03", "u26_b04", "u26_b05", "u26_b06", "u26_b07", "u26_b08", "u27_b01", "u27_b02", "u27_b03", "u27_b04", "u27_b05", "u27_b06", "u27_b07", "u27_b08", "u27_b09", "u27_b10", "u28_b01", "u28_b02", "u28_b03", "u28_b04", "u28_b05", "u28_b06", "u28_b07", "u28_b08", "u29_b01", "u29_b02", "u29_b03", "u29_b04", "u29_b05", "u29_b06", "u29_b07", "u29_b08", "u29_b09", "u29_b10", "u30_b01", "u30_b02", "u30_b03", "u30_b04", "u30_b05", "u30_b06", "u30_b07", "u30_b08", "u30_b09", "u30_b10", "u31_b01", "u31_b02", "u31_b03", "u31_b04", "u31_b05", "u31_b06", "u31_b07", "u31_b08", "u32_b01", "u32_b02", "u32_b03", "u32_b04", "u32_b05", "u32_b06", "u32_b07", "u32_b08", "u32_b09", "u32_b10", "u32_b11", "u33_b01", "u33_b02", "u33_b03", "u33_b04", "u33_b05", "u33_b06", "u33_b07", "u33_b08", "u33_b09", "u33_b10", "u34_b01", "u34_b02", "u34_b03", "u34_b04", "u34_b05", "u34_b06", "u34_b07", "u34_b08", "u34_b09", "u34_b10", "u35_b01", "u35_b02", "u35_b03", "u35_b04", "u35_b05", "u35_b06", "u35_b07", "u35_b08", "u35_b09", "u35_b10", "u36_b01", "u36_b02", "u36_b03", "u36_b04", "u36_b05", "u36_b06"];const VIDEO_KOD=(u,b)=>`u${String(u).padStart(2,'0')}_b${String(b).padStart(2,'0')}`;
@@ -35,7 +35,7 @@ function tahtaDugme(){const ks=Object.keys(TAHTA_TEMA),i=(ks.indexOf(S.tahta||'s
 
 const stage=document.getElementById('stage');let SC=1;
 // geniş ekranlı telefonlarda ana/giriş ekranları yanlara yayılır (koyu kenar boşluğu kalmasın); oyun ekranları 960 genişlikte kalır
-const GENIS_EKRAN=new Set(['scHome','scSplash','scLogin','scPick']);
+const GENIS_EKRAN=new Set(['scHome','scSplash','scLogin','scPick','scMap','scUnit']);
 function fit(){const vw=innerWidth,vh=innerHeight,W=stage.classList.contains('genis')?Math.round(Math.min(1280,Math.max(960,540*vw/vh))):960;
   stage.style.width=W+'px';SC=Math.min(vw/W,vh/540);stage.style.transform=`translate(${(vw-W*SC)/2}px,${(vh-540*SC)/2}px) scale(${SC})`}
 addEventListener('resize',fit);fit();
@@ -4299,58 +4299,67 @@ const mapNode=(i,st)=>st==='done'?'✓':st==='locked'?ico('lock',30):String(i+1)
 const paintMap=(el,i,st)=>{el.className='node '+(st==='done'?'done':st==='locked'?'locked':'cur');el.innerHTML=mapNode(i,st)};
 const bookOf=i=>Math.floor(i/9);
 
+/* Ünite haritası = adalar denizi: her ünite kendi adasının jetonuyla (IMG.adatN, assets/ada_token; ada resminden çıkarılmış) denizde durur.
+   Kilitli adalar sisli; çocuk teknesiyle rota üzerinde ilerler; yeni ünite açılınca sis dağılır. */
+const ADA_X=i=>230+i*226+Math.floor(i/9)*150,ADA_Y=i=>i%2?352:212;
+const adaDurum=(i,v)=>i<v-1?'done':i===v-1?'cur':'locked';
+// sıradaki kilitli ada sisin arkasından daha belirgin görünür (merak)
+const adaYakin=(i,v)=>i===v||i===v+1;
+function adaIlerleme(n){const u=uOf(S,n);if(!u||!u.done)return 0;return u.done.filter(Boolean).length/u.done.length}
+function adaHTML(i,st){const n=i+1,p=ADA_X(i),y=ADA_Y(i),pr=st==='cur'?adaIlerleme(n):0;
+  return `<button class="ada ${st}${st==='locked'&&adaYakin(i,S.villages)?' yakin':''}" id="n${i}" style="left:${p}px;top:${y}px" aria-label="${n}. ünite: ${esc(UNITS[i].ad)}${st==='locked'?' (kilitli)':''}">
+    <span class="ada-hale"></span><span class="ada-res" style="background-image:url(${IMG['adat'+n]||IMG['ada'+n]})"></span>
+    <span class="ada-sis"><i></i><i></i><i></i><i></i></span>
+    <span class="ada-rozet">${st==='done'?'✓':st==='locked'?ico('lock',20):n}</span></button>
+  <div class="ada-tabela ${st}" id="l${i}" style="left:${p}px;top:${y+64}px"><b>${n}</b><span>${esc(UNITS[i].ad)}</span>${st==='cur'?`<i class="ada-bar"><u style="width:${Math.round(pr*100)}%"></u></i>`:''}</div>`}
+function tekneHTML(){return `<div class="tekne-kar">${me()}</div><img class="tekne-res" src="${IMG.tekne}" alt="">`}
+const tekneXY=i=>[ADA_X(i)-172,ADA_Y(i)-26];
 function scMap(d){
   const A=S.anim;S.anim=null;save();
-  const effV=A?A.from:S.villages,W=MAPX(35)+320,T=Math.ceil(W/960);let busy=!!A;
-  const pts=UNITS.map((_,i)=>({x:MAPX(i),y:MAPY(i)}));
-  let path=`M${pts[0].x-140} ${pts[0].y+20} L${pts[0].x} ${pts[0].y}`;
-  for(let i=1;i<pts.length;i++){const p=pts[i-1],q=pts[i];path+=` C${p.x+70} ${p.y} ${q.x-70} ${q.y} ${q.x} ${q.y}`}
-  let segs='',deco='';
-  for(let i=0;i<pts.length-1;i++){const p=pts[i],q=pts[i+1];
-    segs+=`<path id="sg${i}" d="M${p.x} ${p.y} C${p.x+70} ${p.y} ${q.x-70} ${q.y} ${q.x} ${q.y}" stroke="${i<effV-1?'#8BD05A':'none'}" stroke-width="12" fill="none" stroke-linecap="round" opacity=".9"/>`;
-    const mx=(p.x+q.x)/2,my=(p.y+q.y)/2;
-    deco+=flowers(mx+(i%3-1)*16,my+(i%2?-46:56),i);
-    if(i%4===1)deco+=lantern(mx-30,my-30);
-    if(i%5===2)deco+=mushroom(mx+34,my+62)}
-  const signs=[0,9,18,27].map(i=>`<div class="sign" style="left:${MAPX(i)-74+(i?0:70)}px;top:${i?36:70}px;width:148px">${bookOf(i)+1}. Kitap<small>${RANKS[bookOf(i)][1]} seviyesi</small></div>`).join('')+
-    `<div class="sign" style="left:${MAPX(35)+120}px;top:36px;width:148px">Seri 2<small>yakında</small></div>`;
-  const nodes=pts.map((p,i)=>{const st=mapSt(i,effV);
-    return `<button class="node ${st==='done'?'done':st==='locked'?'locked':'cur'}" id="n${i}" style="left:${p.x}px;top:${p.y}px" aria-label="${i+1}. ünite: ${esc(UNITS[i].ad)}">${mapNode(i,st)}</button>
-    <div class="nodelabel u ${st==='locked'?'lk':''}" id="l${i}" style="left:${p.x}px;top:${p.y+42}px"><b>${i+1}.</b> ${esc(UNITS[i].ad)}</div>`}).join('');
-  const pi=Math.min(effV-1,pts.length-1);
-  d.innerHTML=`<div class="mapscroll" id="ms"><div id="mi" style="position:relative;width:${W}px;height:540px;--v:url(${IMG.village})">
-     ${[...Array(T)].map((_,t)=>`<div style="position:absolute;left:${t*960}px;top:0;width:960px;height:540px;background:var(--v) center/cover;${t%2?'transform:scaleX(-1)':''}"></div>`).join('')}
-     <svg viewBox="0 0 ${W} 540" width="${W}" height="540" style="position:absolute;left:0;top:0" aria-hidden="true">
-       <path d="${path}" stroke="${INK}" stroke-width="34" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-       <path d="${path}" stroke="#F0DCAE" stroke-width="26" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-       <path d="${path}" stroke="#C9A870" stroke-width="3" stroke-dasharray="12 12" fill="none"/>${segs}${deco}</svg>
-     ${signs}${nodes}
-     <div class="pawn" id="pw" style="left:${pts[pi].x-42}px;top:${pts[pi].y-158}px;width:84px;height:150px">${me()}</div></div></div>
+  const effV=A?A.from:S.villages,N=UNITS.length,W=ADA_X(N-1)+360;let busy=!!A;
+  const pts=UNITS.map((_,i)=>({x:ADA_X(i),y:ADA_Y(i)}));
+  let rota='';
+  for(let i=0;i<N-1;i++){const p=pts[i],q=pts[i+1],mx=(p.x+q.x)/2;
+    rota+=`<path id="sg${i}" class="rota ${i<effV-1?'gecildi':''}" d="M${p.x} ${p.y+40} C${mx} ${p.y+40} ${mx} ${q.y+40} ${q.x} ${q.y+40}"/>`}
+  const kitaplar=[0,9,18,27].map(i=>`<div class="kitap-bayrak" style="left:${Math.max(8,(i?ADA_X(i)-188:ADA_X(0)-160)-75)}px"><b>${bookOf(i)+1}. Kitap</b><small>${RANKS[bookOf(i)][1]} seviyesi</small></div>`).join('')+
+    `<div class="kitap-bayrak yakinda" style="left:${ADA_X(N-1)+150}px"><b>Seri 2</b><small>yakında</small></div>`;
+  const adalar=pts.map((_,i)=>adaHTML(i,adaDurum(i,effV))).join('');
+  const pi=Math.min(effV-1,N-1),[tx,ty]=tekneXY(pi);
+  const dalga=[...Array(Math.ceil(W/960))].map((_,t)=>`<div class="deniz-par" style="left:${t*960}px;${t%2?'transform:scaleX(-1)':''}"></div>`).join('');
+  d.innerHTML=`<div class="mapscroll deniz" id="ms"><div id="mi" style="position:relative;width:${W}px;height:540px;--dz:url(${IMG.deniz})">${dalga}
+     <svg viewBox="0 0 ${W} 540" width="${W}" height="540" style="position:absolute;left:0;top:0;z-index:1" aria-hidden="true">${rota}</svg>
+     ${kitaplar}${adalar}
+     <div class="pawn tekne" id="pw" style="left:${tx}px;top:${ty}px">${tekneHTML()}</div></div></div>
    <button class="iconbtn back" onclick="go(scHome)">‹ Ana ekran</button>
-   <div style="position:absolute;left:0;right:0;top:12px;text-align:center;pointer-events:none"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:22px;border-radius:12px;border-width:3px">Ünite haritası</span></div>
+   <div style="position:absolute;left:0;right:0;top:12px;text-align:center;pointer-events:none"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:22px;border-radius:12px;border-width:3px">Adalar haritası</span></div>
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>`;
   const sc=d.querySelector('#ms'),inner=d.querySelector('#mi');
-  sc.scrollLeft=MAPX(pi)-480;
+  sc.scrollLeft=ADA_X(pi)-stage.offsetWidth/2+60;
   pts.forEach((_,i)=>d.querySelector('#n'+i).onclick=()=>{if(!busy)tapVillage(i)});
   if(A)setTimeout(()=>mapWalk(d,sc,inner,pts,A,()=>{busy=false}),900);
 }
+function adaBoya(d,i,st){const b=d.querySelector('#n'+i),l=d.querySelector('#l'+i);if(!b)return;
+  const yeni=document.createElement('div');yeni.innerHTML=adaHTML(i,st);const nb=yeni.querySelector('.ada'),nl=yeni.querySelector('.ada-tabela');
+  b.className=nb.className;b.querySelector('.ada-rozet').innerHTML=nb.querySelector('.ada-rozet').innerHTML;b.setAttribute('aria-label',nb.getAttribute('aria-label'));
+  if(l){l.className=nl.className;l.innerHTML=nl.innerHTML}}
 function mapWalk(d,sc,inner,pts,A,end){
-  const pw=d.querySelector('#pw'),to=A.to-1,step=A.quick?380:1500;let j=A.from-1;
+  const pw=d.querySelector('#pw'),to=A.to-1,step=A.quick?380:1700;let j=A.from-1;
   pw.style.setProperty('--wt',step/1000+'s');
-  function arrive(k){const pv=d.querySelector('#n'+(k-1)),nx=d.querySelector('#n'+k),sg=d.querySelector('#sg'+(k-1));
-    if(pv){paintMap(pv,k-1,'done');pv.classList.add('pop')}if(sg)sg.setAttribute('stroke','#8BD05A');
-    if(nx){paintMap(nx,k,'cur');nx.classList.add('pop');const l=d.querySelector('#l'+k);if(l)l.classList.remove('lk');
-      const b=document.createElement('div');b.className='burst';b.style.cssText=`left:${pts[k].x}px;top:${pts[k].y}px`;inner.appendChild(b);setTimeout(()=>b.remove(),900)}}
+  function arrive(k){const sg=d.querySelector('#sg'+(k-1));
+    adaBoya(d,k-1,'done');const pv=d.querySelector('#n'+(k-1));if(pv)pv.classList.add('pop');if(sg)sg.classList.add('gecildi');
+    const nx=d.querySelector('#n'+k);
+    if(nx){adaBoya(d,k,'cur');nx.classList.add('kesif','pop');
+      const b=document.createElement('div');b.className='burst';b.style.cssText=`left:${pts[k].x}px;top:${pts[k].y}px;z-index:9`;inner.appendChild(b);setTimeout(()=>b.remove(),900)}}
   function next(){
     if(!d.isConnected)return;
     if(j>=to){
-      pw.innerHTML=me('yay');
-      const b=document.createElement('div');b.className='bubble tail-down';b.style.cssText+=`left:${pts[j].x-60}px;top:${pts[j].y-240}px;font-size:21px;white-space:nowrap`;
-      b.textContent=A.to-A.from>1?`${A.to}. üniteye kadar tüm kilitler açıldı!`:`${A.to}. ünitenin kilidi açıldı!`;inner.appendChild(b);requestAnimationFrame(()=>b.classList.add('in'));
-      setTimeout(()=>{b.remove();end()},3000);return}
-    j++;pw.classList.add('walk');pw.style.left=(pts[j].x-42)+'px';pw.style.top=(pts[j].y-158)+'px';
-    sc.scrollTo({left:pts[j].x-480,behavior:'smooth'});
-    setTimeout(()=>{if(!d.isConnected)return;pw.classList.remove('walk');arrive(j);setTimeout(next,A.quick?60:700)},step)}
+      pw.querySelector('.tekne-kar').innerHTML=me('yay');
+      const b=document.createElement('div');b.className='bubble tail-down';b.style.cssText+=`left:${pts[j].x-120}px;top:${pts[j].y-190}px;font-size:21px;white-space:nowrap;z-index:12`;
+      b.textContent=A.to-A.from>1?`${A.to}. üniteye kadar tüm adalar açıldı!`:`Yeni ada keşfedildi: ${A.to}. ünite!`;inner.appendChild(b);requestAnimationFrame(()=>b.classList.add('in'));
+      setTimeout(()=>{b.remove();end()},3200);return}
+    j++;const [x,y]=tekneXY(j);pw.classList.add('walk','yuzer');pw.style.left=x+'px';pw.style.top=y+'px';
+    sc.scrollTo({left:pts[j].x-stage.offsetWidth/2+60,behavior:'smooth'});
+    setTimeout(()=>{if(!d.isConnected)return;pw.classList.remove('walk','yuzer');arrive(j);setTimeout(next,A.quick?60:700)},step)}
   next();
 }
 function tapVillage(i){
@@ -4363,21 +4372,23 @@ function tapVillage(i){
 function unitStates(dn,td){const nx=dn.findIndex(x=>!x);
   return [...dn.map((x,i)=>x?'done':i===nx?'cur':'locked'),td?'done':nx<0?'cur':'locked']}
 function insInner(i,st){return st==='done'?'✓':st==='locked'?ico('lock',26):i===NL?ico('star',34):String(i+1)}
-function paintIns(el,i,st,sel){el.className='ins'+(i===NL?' test':'')+(st==='locked'?' locked':st==='done'?' done':' cur')+(sel?' sel':'');el.innerHTML=insInner(i,st)}
+function paintIns(el,i,st,sel){el.className='ins'+(i===NL?' test':'')+(st==='locked'?' locked':st==='done'?' done':' cur')+(sel?' sel':'');
+  const y=st==='done'&&i<NL&&!(S.skip&&!S.st[i])?`<i class="ins-y">${'★'.repeat(S.st[i]||0)}<u>${'★'.repeat(3-(S.st[i]||0))}</u></i>`:'';el.innerHTML=insInner(i,st)+y}
 function scUnit(d){
   const ISL=ISLS[CU]||isl(DATA.ada_noktalar);
   const L=UNIT.lessons,fin=unitStates(S.done,S.testDone),curI=Math.max(0,fin.findIndex(s=>s==='cur')<0?NL:fin.findIndex(s=>s==='cur'));
   const W=WALK;WALK=null;
   const startI=W?W.from:curI;let sel=W?-1:curI,busy=!!W;
   const st0=W?unitStates(S.done.map((x,i)=>i<W.from?x:false),false):fin;
-  d.innerHTML=`<img src="${IMG['ada'+CU]}" alt="" style="position:absolute;left:0;top:2px;width:960px;height:536px">
-   <button class="iconbtn back" onclick="go(scMap)">‹ Harita</button><div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
+  // geniş ekranda 960'lık ada sahnesi ortada kalır, yanlar aynı adanın bulanık uzantısıyla dolar
+  d.innerHTML=`<div class="ada-genis" style="background-image:url(${IMG['ada'+CU]})"></div><div class="orta960"><img class="ada-sahne" src="${IMG['ada'+CU]}" alt="" style="position:absolute;left:0;top:2px;width:960px;height:536px">
    <div class="parch" style="position:absolute;left:14px;top:62px;width:250px;padding:10px 14px 10px">
      <div style="font-size:30px;font-weight:800;line-height:1">${UNIT.no}. Ünite</div><div style="font-size:20px;font-weight:800;color:var(--wood);margin:2px 0 6px;line-height:1.05">${esc(UNIT.title)}</div>
      <div class="bar"><i id="pb" style="width:${doneCount()/L.length*100}%"></i></div><div class="hint" style="margin-top:2px;font-size:14px">${doneCount()} / ${L.length} bölüm${S.testDone?` · test ${S.testBest}/10`:''}</div></div>
    ${ISL.map((p,i)=>`<button class="ins" id="i${i}" style="left:${p[0]}px;top:${p[1]}px" aria-label="${i<NL?`${i+1}. bölüm`:'Ünite testi'}"></button>`).join('')}
    <div class="pawn" id="pw" style="left:${ISL[startI][0]-22}px;top:${ISL[startI][1]-80}px;width:44px;height:72px">${me()}</div>
-   <div class="parch" id="cd" style="position:absolute;left:660px;top:318px;width:280px;padding:10px 14px;display:none"></div>`;
+   <div class="parch" id="cd" style="position:absolute;left:660px;top:318px;width:280px;padding:10px 14px;display:none"></div></div>
+   <button class="iconbtn back" onclick="go(scMap)">‹ Harita</button><div style="position:absolute;right:14px;top:10px">${goldbox()}</div>`;
   ISL.forEach((_,i)=>{const el=d.querySelector('#i'+i);paintIns(el,i,st0[i],i===sel);el.onclick=()=>{if(!busy)pick(i)}});
   function card(i){const c=d.querySelector('#cd'),st=fin[i],t=i===NL,n=t?'Ünite testi':`${i+1}. Bölüm`,name=t?DATA.unite_testi.baslik:L[i].t;
     let body='';
@@ -4418,6 +4429,79 @@ function scWin(d,info){
      <div style="display:flex;gap:10px;justify-content:center;margin-top:12px">${info.terfi?'<button class="btn go" onclick="go(scDiploma)">Diplomamı gör</button>':''}<button class="btn${info.terfi?' alt':''}" id="wb">Haritaya dön</button></div></div>`;
   const b=d.querySelector('#wb');b.onclick=()=>go(scMap);b.focus();
 }
+
+/* ===== Adalar haritası stilleri ===== */
+(function(){const st=document.createElement('style');st.textContent=`
+.mapscroll.deniz{background:#3FB6E0}
+.deniz-par{position:absolute;top:0;width:960px;height:540px;background:var(--dz) center/106% 106%;filter:saturate(.7) contrast(.74) brightness(1.1)}
+#mi::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(rgba(255,255,255,.18),rgba(20,90,140,.12))}
+.rota{fill:none;stroke:rgba(255,255,255,.8);stroke-width:5;stroke-dasharray:1 13;stroke-linecap:round}
+.rota.gecildi{stroke:#FFD34D;stroke-width:7;stroke-dasharray:1 12;filter:drop-shadow(0 1px 0 rgba(59,35,20,.6))}
+.ada{position:absolute;z-index:3;width:250px;height:152px;margin:-76px 0 0 -125px;padding:0;background:none;border:0;cursor:pointer}
+.ada-res{position:absolute;inset:-8px -6px -4px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;
+  filter:drop-shadow(0 6px 5px rgba(10,60,90,.35));transition:filter 1.2s ease,transform .25s}
+.ada::before{content:"";position:absolute;left:-2%;right:-2%;top:38%;bottom:-14%;border-radius:50%;pointer-events:none;
+  background:radial-gradient(ellipse 50% 50% at 50% 50%,rgba(190,245,250,.9) 0 40%,rgba(140,225,240,.6) 55%,rgba(140,225,240,0) 72%);animation:lagun 3.2s ease-in-out infinite}
+@keyframes lagun{50%{transform:scale(1.04)}}
+.ada.locked::before{opacity:.55}
+.ada:hover .ada-res,.ada:focus-visible .ada-res{transform:scale(1.05)}
+.ada.locked{cursor:default}
+.ada.locked .ada-res{filter:grayscale(.65) brightness(.92) saturate(.6) drop-shadow(0 6px 5px rgba(10,60,90,.3))}
+.ada-sis{position:absolute;inset:-8px;pointer-events:none;opacity:0;transition:opacity 1.4s ease}
+.ada.locked .ada-sis{opacity:1}
+.ada.locked.yakin .ada-sis{opacity:.55}
+.ada.locked.yakin .ada-res{filter:grayscale(.3) brightness(.97) saturate(.8) drop-shadow(0 6px 5px rgba(10,60,90,.3))}
+.ada-sis i{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.82),rgba(255,255,255,.55) 45%,rgba(255,255,255,0) 70%);animation:sisgez 7s ease-in-out infinite alternate}
+.ada-sis i:nth-child(1){left:2%;top:18%;width:52%;height:62%}
+.ada-sis i:nth-child(2){left:38%;top:2%;width:50%;height:58%;animation-delay:-2s}
+.ada-sis i:nth-child(3){left:46%;top:40%;width:56%;height:60%;animation-delay:-4s}
+.ada-sis i:nth-child(4){left:14%;top:46%;width:46%;height:52%;animation-delay:-5.5s}
+@keyframes sisgez{to{transform:translateX(14px) scale(1.06)}}
+.ada.kesif .ada-sis{opacity:0}
+.ada-hale{position:absolute;left:50%;top:50%;width:250px;height:170px;margin:-85px 0 0 -125px;border-radius:50%;opacity:0;pointer-events:none;
+  background:radial-gradient(ellipse,rgba(255,226,122,.85),rgba(255,226,122,0) 65%)}
+.ada.cur .ada-hale{opacity:1;animation:adahale 1.8s ease-in-out infinite}
+@keyframes adahale{50%{transform:scale(1.12);opacity:.55}}
+.ada-rozet{position:absolute;right:30px;top:6px;z-index:2;min-width:40px;height:40px;padding:0 6px;border-radius:20px;border:3px solid var(--ink);display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:21px;color:#fff;background:linear-gradient(#FFC15A,#F6A12B 55%,#E0821C);box-shadow:inset 0 2px 0 rgba(255,255,255,.55),0 3px 0 var(--ink)}
+.ada.done .ada-rozet{background:linear-gradient(#9BE15D,#4FB33A);font-size:22px}
+.ada.locked .ada-rozet{background:linear-gradient(#E9E2D2,#BDB29A);color:#6E5A43}
+.ada.cur .ada-rozet{animation:adarozet 1s ease-in-out infinite}
+@keyframes adarozet{50%{transform:translateY(-6px)}}
+.ada-tabela{position:absolute;z-index:4;transform:translateX(calc(-50% + 18px));display:grid;grid-template-columns:auto auto;align-items:center;column-gap:6px;max-width:200px;padding:3px 10px 3px 4px;border-radius:14px;
+  background:linear-gradient(#A0703F,#7A4A24);border:2.5px solid var(--ink);box-shadow:inset 0 2px 0 rgba(255,220,160,.4),0 3px 0 rgba(40,22,10,.6);color:#FFF4DC}
+.ada-tabela b{flex:none;width:26px;height:26px;border-radius:50%;background:var(--parch);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:15px;border:2px solid var(--ink)}
+.ada-tabela span{font-weight:800;font-size:14px;line-height:1.05;text-align:left;max-width:152px}
+.ada-tabela.locked{filter:grayscale(.5) brightness(.85);opacity:.9}
+.ada-tabela.cur{background:linear-gradient(#FFC15A,#E0821C);color:#fff;text-shadow:0 1px 0 var(--ink)}
+.ada-bar{grid-column:1/3;display:block;width:100%;height:7px;border-radius:4px;background:rgba(59,35,20,.45);overflow:hidden;margin:1px 0 2px}
+.ada-bar u{display:block;height:100%;background:linear-gradient(#9BE15D,#4FB33A);text-decoration:none}
+.kitap-bayrak{position:absolute;top:56px;z-index:5;width:150px;padding:4px 10px 6px;text-align:center;border-radius:12px;background:linear-gradient(#A0703F,#7A4A24);border:3px solid var(--ink);
+  box-shadow:inset 0 2px 0 rgba(255,220,160,.45),0 5px 0 rgba(40,22,10,.6);color:var(--yellow)}
+.kitap-bayrak::after{content:"";position:absolute;left:50%;top:100%;width:8px;height:150px;margin-left:-4px;background:linear-gradient(#7A4A24,#4E2E14);border:2px solid var(--ink);border-top:0;z-index:-1}
+.kitap-bayrak b{display:block;font-size:21px;line-height:1.1}
+.kitap-bayrak small{display:block;font-size:13px;color:#FFF4DC;font-weight:700}
+.kitap-bayrak.yakinda{filter:grayscale(.4)}
+.pawn.tekne{width:96px;height:122px;z-index:8;animation:tekne 2.6s ease-in-out infinite;transform-origin:50% 90%}
+.pawn.tekne::before{content:"";position:absolute;left:4px;right:-6px;bottom:-6px;height:20px;border-radius:50%;background:radial-gradient(ellipse,rgba(255,255,255,.75),rgba(255,255,255,0) 70%)}
+.pawn.tekne.yuzer{animation:tekne .9s ease-in-out infinite}
+@keyframes tekne{0%,100%{transform:rotate(-2.5deg) translateY(0)}50%{transform:rotate(2.5deg) translateY(-4px)}}
+.tekne-res{position:absolute;left:0;bottom:0;width:96px;z-index:2;pointer-events:none}
+.tekne-kar{position:absolute;left:10px;bottom:29px;width:44px;height:120px;overflow:hidden;z-index:3}
+.tekne-kar>.chr{position:absolute;left:3px;bottom:-30px;width:38px;height:auto}
+/* ada (ünite) ekranı: geniş kenarlar + 3B bölüm taşları */
+.ada-genis{position:absolute;inset:-30px;background-size:cover;background-position:center;filter:blur(14px) brightness(.92) saturate(1.1)}
+.orta960{position:absolute;left:50%;top:0;width:960px;height:540px;margin-left:-480px}
+.ada-sahne{-webkit-mask:linear-gradient(90deg,transparent,#000 46px,#000 calc(100% - 46px),transparent);mask:linear-gradient(90deg,transparent,#000 46px,#000 calc(100% - 46px),transparent)}
+.ins{width:52px;height:52px;margin:-26px 0 0 -26px;border-width:3px;
+  background:radial-gradient(circle at 50% 32%,#FFD27A,#F6A12B 55%,#D9781A);box-shadow:inset 0 3px 0 rgba(255,255,255,.55),inset 0 -4px 0 rgba(0,0,0,.18),0 6px 0 #7A4A24,0 9px 8px rgba(0,0,0,.35)}
+.ins.done{background:radial-gradient(circle at 50% 32%,#B8EE7E,#5DBB3F 55%,#3E8E2A);box-shadow:inset 0 3px 0 rgba(255,255,255,.5),inset 0 -4px 0 rgba(0,0,0,.18),0 6px 0 #2F6E22,0 9px 8px rgba(0,0,0,.35)}
+.ins.locked{background:radial-gradient(circle at 50% 32%,#F1ECE0,#CFC6B0 60%,#AFA48A);box-shadow:inset 0 3px 0 rgba(255,255,255,.6),inset 0 -4px 0 rgba(0,0,0,.12),0 6px 0 #7d6c52,0 9px 8px rgba(0,0,0,.3)}
+.ins.cur::after{content:"";position:absolute;left:50%;top:-30px;margin-left:-11px;border:11px solid transparent;border-top:16px solid #fff;filter:drop-shadow(0 2px 0 #3B2314);animation:insok .9s ease-in-out infinite}
+@keyframes insok{50%{transform:translateY(-7px)}}
+.ins-y{position:absolute;left:50%;top:100%;transform:translateX(-50%);margin-top:7px;padding:0 5px;border-radius:9px;background:rgba(59,35,20,.78);color:#FFD34D;font-style:normal;font-size:11px;line-height:15px;letter-spacing:-1px;white-space:nowrap}
+.ins-y u{text-decoration:none;color:rgba(255,255,255,.35)}
+`;document.head.appendChild(st)})();
 
 /* ===== Seviye tespiti: 6 bant x 3 soru; ilk kaçırılan bandın ünitesinden başlar ===== */
 const PLACE_BALON='Merhaba {ad}! Satrancı ne kadar biliyorsun? Birkaç kısa soruyla seviyeni ölçelim, seni doğru üniteden başlatayım. Puan yok, sadece seni tanımak istiyorum. Bilmediğin soruda üzülme!';
