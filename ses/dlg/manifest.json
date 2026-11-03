@@ -8561,6 +8561,12 @@
   "dosya": "60e812c54872e7a6.mp3",
   "sure": 7.29
  },
+ "60ec65676a46e8ea": {
+  "k": "antrenor",
+  "m": "Çaprazda bir boş kare olması yetmez; şahlar aynı sütunda ya da sırada olmalı.",
+  "dosya": "60ec65676a46e8ea.mp3",
+  "sure": 5.33
+ },
  "60f01f7999efe0bc": {
   "k": "antrenor",
   "m": "Takas, taş değiş tokuşudur; şahla ilgisi yok.",
@@ -8746,6 +8752,12 @@
   "m": "Kaçırmak istemezsem başka taşla koruyabilirim, değil mi?",
   "dosya": "628f4a2cd63a9333.mp3",
   "sure": 3.19
+ },
+ "6290f714fb8c33ed": {
+  "k": "antrenor",
+  "m": "Hayır Damla, bir durum. İki şah aynı sütunda ya da aynı sırada, aralarında bir boş kare kalarak karşı karşıya durur.",
+  "dosya": "6290f714fb8c33ed.mp3",
+  "sure": 8.18
  },
  "629f0af47193d242": {
   "k": "antrenor",
@@ -10642,6 +10654,12 @@
   "m": "b7'deki piyon a6'daki atı alır; mat olmaz.",
   "dosya": "77d7cb80a26cbe95.mp3",
   "sure": 4.21
+ },
+ "77e2fee309909dde": {
+  "k": "antrenor",
+  "m": "Neredeyse! Önünde ve yan sütunlarında rakip piyon yoksa hiçbir piyon onu durduramaz.",
+  "dosya": "77e2fee309909dde.mp3",
+  "sure": 6.16
  },
  "7806f6c8af8abaad": {
   "k": "pars",
@@ -15275,6 +15293,12 @@
   "dosya": "a900ea355e926dc0.mp3",
   "sure": 9.09
  },
+ "a916524a34d20e9a": {
+  "k": "antrenor",
+  "m": "g2'deki piyonun yan sütununda ilerde siyah piyon var (f4); bu yüzden geçer piyon değil.",
+  "dosya": "a916524a34d20e9a.mp3",
+  "sure": 7.37
+ },
  "a919127c51828b9e": {
   "k": "antrenor",
   "m": "Fil e6'ya gidince şah çekmiyor. Mat olmaz.",
@@ -17693,6 +17717,12 @@
   "dosya": "c38bbe33a9689111.mp3",
   "sure": 5.88
  },
+ "c3957ab49e52f8ed": {
+  "k": "antrenor",
+  "m": "Siyah şah ortada değil, bir kanatta. Orta sütunlardaki piyonlar kalkana saldırmaz.",
+  "dosya": "c3957ab49e52f8ed.mp3",
+  "sure": 6.27
+ },
  "c3a3f9d317b5ccd3": {
   "k": "antrenor",
   "m": "{ad}, en düşük puanlı taş da çatal yapabilir: piyon!",
@@ -19583,6 +19613,12 @@
   "dosya": "d86b1786bdc7652f.mp3",
   "sure": 7.78
  },
+ "d87741de7943103f": {
+  "k": "antrenor",
+  "m": "b5'teki piyonun yan sütununda ilerde siyah piyon var (a6); bu yüzden geçer piyon değil.",
+  "dosya": "d87741de7943103f.mp3",
+  "sure": 7.29
+ },
  "d8814dd9fbf52147": {
   "k": "antrenor",
   "m": "At ile olmaz: At olursa şah bile çekilmez.",
@@ -21124,6 +21160,12 @@
   "m": "{ad}, kazandığını bilmek yetmez, oyunu bitirmeyi de bilmelisin. Önce şah mı gitsin, önce piyon mu?",
   "dosya": "e92f5ec881590be4.mp3",
   "sure": 7.71
+ },
+ "e9387b3b11d802ca": {
+  "k": "antrenor",
+  "m": "Çaprazda durmak opozisyon değildir. Şahlar aynı sütunda ya da aynı sırada olmalıdır.",
+  "dosya": "e9387b3b11d802ca.mp3",
+  "sure": 6.35
  },
  "e949507618016656": {
   "k": "antrenor",
