@@ -4572,33 +4572,42 @@ function scCark(d){const c=CARKD();
 }
 
 /* ===== Karşılama: günün ilk açılışında antrenör selamı + günlük hediye sandığı + 7 günlük giriş serisi ===== */
-const KARSI_ODUL=[10,15,20,25,30,40,80];
+const KARSI_ODUL=[10,15,20,25,30,40,0];  // 7. gün altın yerine sürpriz kostüm (Atakan: 7 gün oynatır)
 const KARSI_SOZ='Hoş geldin {ad}! Bugün seni yeni görevler bekliyor. Önce günün hediyeni aç!';
 // giriş serisi görev serisinden ayrıdır: yalnız uygulamayı açmak sayılır; bir gün atlanırsa 1. güne döner
 function GIRIS(){const g=S.giris||(S.giris={son:'',gun:0,alindi:''}),t=gBugun();
   if(g.son!==t){g.gun=g.son===gDun()?g.gun+1:1;g.son=t;save()}
   return g}
 const karsiGunu=g=>((g.gun-1)%7)+1;
+// 7. gün sandığı: sahip olunmayan, normal hediyelerden daha değerli (300-1300 altın) bir kostüm; yoksa ucuz biri, o da yoksa 100 altın
+function surprizKostum(){const yok=SHOP.filter(x=>!S.owned[x.k]),iyi=yok.filter(x=>x.p>=300&&x.p<=1300),aday=iyi.length?iyi:yok.filter(x=>x.p<=520);
+  if(!aday.length){S.gold+=100;return null}
+  const it=aday[gRand(aday.length)];S.owned[it.k]=true;wear(it.k);return it}
 function karsilamaGoster(d){
   if(!S.av)return;const g=GIRIS();if(g.alindi===gBugun())return;
   const gun=karsiGunu(g),odul=KARSI_ODUL[gun-1];
-  const gunler=KARSI_ODUL.map((a,i)=>`<div class="kg ${i+1<gun?'tamam':i+1===gun?'bugun':''} ${i===6?'son':''}"><b>${i+1}. gün</b><span>${i+1<gun?'✓':a}</span></div>`).join('');
+  const gunler=KARSI_ODUL.map((a,i)=>`<div class="kg ${i+1<gun?'tamam':i+1===gun?'bugun':''} ${i===6?'son':''}"><b>${i+1}. gün</b><span>${i+1<gun?'✓':i===6?'Kostüm':a}</span></div>`).join('');
   const o=document.createElement('div');o.className='karsi';
   o.innerHTML=`<div class="kc"><div class="kh">${hoca('raise')}</div>
     <div class="kb">${esc(adYaz(KARSI_SOZ))}</div>
-    <div class="ks"><div class="isin"></div><img id="ksd" src="${IMG.sandik_k}" alt="Günün hediyesi"><div class="kodul" id="kod">+${odul}</div></div>
+    <div class="ks"><div class="isin"></div><img id="ksd" src="${IMG.sandik_k}" alt="Günün hediyesi"><div class="kodul" id="kod">${gun===7?'':'+'+odul}</div><div class="kkos" id="kkos"></div></div>
     <div class="kdok" id="kdok">Sandığa dokun ve aç!</div>
-    <div class="kseri"><span class="kalev">${ico('flame',26)}</span><b>${g.gun}. gün</b> giriş serisi${gun===7?' · bugün büyük sandık!':''}</div>
+    <div class="kseri"><span class="kalev">${ico('flame',26)}</span><b>${g.gun}. gün</b> giriş serisi · ${gun===7?'bugün sürpriz kostüm!':'7. gün sürpriz kostüm!'}</div>
     <div class="kgunler">${gunler}</div>
     <button class="btn go kbtn" id="kbt" disabled>Hadi oynayalım!</button></div>`;
   d.appendChild(o);requestAnimationFrame(()=>o.classList.add('ac'));
   setTimeout(()=>sesCal('antrenor',KARSI_SOZ),450);
   const sd=o.querySelector('#ksd'),bt=o.querySelector('#kbt');let acildi=false;
   const ac=()=>{if(acildi)return;acildi=true;sd.src=IMG.sandik_a;o.querySelector('.ks').classList.add('acik');
-    o.querySelector('#kdok').textContent=`${odul} altın kazandın!`;S.gold+=odul;g.alindi=gBugun();save();
-    altinUcur(sd,odul);bt.disabled=false;bt.focus()};
+    if(gun===7){const it=surprizKostum();g.alindi=gBugun();save();
+      if(it){o.querySelector('#kkos').innerHTML=kidCrop(S.av,{[it.k]:true},cropFor(it,S.av),120,120);o.querySelector('.ks').classList.add('kostum');
+        o.querySelector('#kdok').textContent=`Sürpriz! ${it.n} senin oldu!`}
+      else{o.querySelector('#kdok').textContent='100 altın kazandın!';altinUcur(sd,100)}}
+    else{o.querySelector('#kdok').textContent=`${odul} altın kazandın!`;S.gold+=odul;g.alindi=gBugun();save();altinUcur(sd,odul)}
+    bt.disabled=false;bt.focus()};
   sd.onclick=ac;o.querySelector('#kdok').onclick=ac;
-  bt.onclick=()=>{o.classList.remove('ac');o.classList.add('kapan');setTimeout(()=>o.remove(),380)};
+  // kostüm giyildiyse ana ekrandaki karakter de yenilensin
+  bt.onclick=()=>{o.classList.remove('ac');o.classList.add('kapan');setTimeout(()=>{o.remove();if(gun===7)go(scHome)},380)};
 }
 function altinUcur(kaynak,n){const st=stage.getBoundingClientRect(),s=kaynak.getBoundingClientRect(),gb=stage.querySelector('#gold'),h=gb?gb.getBoundingClientRect():{left:st.right-80,top:st.top+20,width:40,height:40};
   const sx=(s.left+s.width/2-st.left)/SC,sy=(s.top+s.height*.4-st.top)/SC,hx=(h.left+h.width*.25-st.left)/SC,hy=(h.top+h.height/2-st.top)/SC;
@@ -4628,7 +4637,7 @@ function altinUcur(kaynak,n){const st=stage.getBoundingClientRect(),s=kaynak.get
 .karsi .ks.acik .kodul{animation:kodul .6s .15s cubic-bezier(.2,1.6,.4,1) forwards}
 @keyframes kodul{to{opacity:1;transform:scale(1) rotate(-8deg)}}
 .karsi .kdok{text-align:center;font-weight:800;font-size:18px;color:#7A4A24;margin-top:2px;cursor:pointer}
-.karsi .kseri{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;font-weight:700;font-size:16px;color:#3B2314}
+.karsi .kseri b{white-space:nowrap}.karsi .kseri{white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;font-weight:700;font-size:16px;color:#3B2314}
 .karsi .kalev{display:inline-flex;animation:kalev 1s ease-in-out infinite}
 @keyframes kalev{50%{transform:scale(1.18) rotate(-6deg)}}
 .karsi .kgunler{display:flex;gap:5px;justify-content:center;margin-top:6px}
@@ -4642,6 +4651,12 @@ function altinUcur(kaynak,n){const st=stage.getBoundingClientRect(),s=kaynak.get
 .karsi .kbtn:disabled{filter:grayscale(.6) brightness(.9);opacity:.75}
 .kcoin{position:absolute;z-index:70;width:30px;height:30px;pointer-events:none;animation:kucus 1.3s cubic-bezier(.3,.1,.3,1) both}
 @keyframes kucus{0%{transform:translate(0,0) scale(.4);opacity:0}25%{transform:translate(var(--dx),var(--dy)) scale(1.15);opacity:1}100%{transform:translate(var(--hx),var(--hy)) scale(.6);opacity:.9}}
+.karsi .kkos{position:absolute;left:100%;top:8px;width:120px;height:120px;margin-left:4px;border-radius:50%;overflow:hidden;border:4px solid #fff;
+  background:radial-gradient(circle,#F3E1FF,#C79BEA);box-shadow:0 0 0 3px #3B2314,0 0 24px 8px rgba(190,120,255,.8);opacity:0;transform:scale(.3) translateX(-90px);z-index:3}
+.karsi .ks.kostum .kkos{animation:kkos .8s .2s cubic-bezier(.2,1.5,.4,1) forwards}
+@keyframes kkos{to{opacity:1;transform:none}}
+.karsi .kg.son span{font-size:12px;color:#7B3FB0}
+.karsi .kg.son.bugun{background:linear-gradient(#E7C6FF,#B97BE8)}
 `;document.head.appendChild(st)})();
 
 /* ===== "Neden olmadı?" açıklaması + Hata kutusu =====
