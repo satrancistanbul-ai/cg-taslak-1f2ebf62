@@ -4014,7 +4014,7 @@ const ico=(n,sz=30,c)=>`<svg viewBox="0 0 32 32" width="${sz}" height="${sz}" fi
 .scard .own.on::before{content:"✓ "}
 .scard .own:not(.on){background:#6E7F8D}
 /* Giriş ekranı: ahşap tabela, ikonlu alanlar, parlak geniş butonlar */
-.btn.go{position:relative;background:linear-gradient(#FFC15A,#F6A12B 50%,#E0821C);box-shadow:inset 0 -5px 0 #C46A12,inset 0 3px 0 rgba(255,255,255,.6),0 5px 0 var(--ink);animation:gnabiz 2.2s ease-in-out infinite}
+.btn.go{background:linear-gradient(#FFC15A,#F6A12B 50%,#E0821C);box-shadow:inset 0 -5px 0 #C46A12,inset 0 3px 0 rgba(255,255,255,.6),0 5px 0 var(--ink);animation:gnabiz 2.2s ease-in-out infinite}
 .btn.go::before{content:"";position:absolute;left:10px;right:10px;top:5px;height:40%;border-radius:12px 12px 22px 22px;background:linear-gradient(rgba(255,255,255,.6),rgba(255,255,255,0));pointer-events:none}
 .tabela{border-radius:24px;padding:0 10px 12px;background:linear-gradient(90deg,#5E3A1C,#8A5A2E 12%,#7A4A24 50%,#8A5A2E 88%,#5E3A1C);border:3px solid var(--ink);
   box-shadow:inset 0 2px 0 rgba(255,220,160,.4),0 8px 0 rgba(40,22,10,.6),0 14px 24px rgba(0,0,0,.3)}
