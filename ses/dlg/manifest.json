@@ -197,6 +197,12 @@
   "dosya": "0216ed2d58d80114.mp3",
   "sure": 2.64
  },
+ "022e68300a2da285": {
+  "k": "antrenor",
+  "m": "e8'deki siyah at kalksa bile beyaz mat yapamaz; asıl engel başka bir taş.",
+  "dosya": "022e68300a2da285.mp3",
+  "sure": 6.35
+ },
  "023c6499b15d0daa": {
   "k": "antrenor",
   "m": "{ad}, şimdi koruyucu taşlara bakıyoruz. Rakibin bir taşını hangi taş koruyor?",
@@ -7895,6 +7901,12 @@
   "dosya": "58e4ccd3398a0cb4.mp3",
   "sure": 2.82
  },
+ "58ffacb883a44234": {
+  "k": "antrenor",
+  "m": "{ad}, oyun ortasında en önemli sorulardan biri: taşlarım nereye gitsin? Bugün kaleye yol açan sütunları öğreniyoruz.",
+  "dosya": "58ffacb883a44234.mp3",
+  "sure": 8.2
+ },
  "5931220c536fbb6d": {
   "k": "antrenor",
   "m": "8. sırada siyahın kale, at, fil, şah ve veziri vardır.",
@@ -13066,6 +13078,12 @@
   "m": "Piyonlarını mı alırız hocam?",
   "dosya": "9052e281cf779314.mp3",
   "sure": 1.2
+ },
+ "905335800334ce7c": {
+  "k": "antrenor",
+  "m": "Vezirle erken saldırmak listede yok; vezir oyun ortasında daha etkilidir. Liste: merkez, geliştirme ve şah güvenliği.",
+  "dosya": "905335800334ce7c.mp3",
+  "sure": 8.91
  },
  "90641219fe066717": {
   "k": "antrenor",
@@ -18557,6 +18575,12 @@
   "dosya": "ccc6d0f0865f9ba9.mp3",
   "sure": 4.83
  },
+ "ccdb7a4ea4a648f6": {
+  "k": "antrenor",
+  "m": "Bu hamle mat getirmez: siyah e6'daki atla c7'deki beyaz veziri alır ve şahı tehlikeden kurtulur.",
+  "dosya": "ccdb7a4ea4a648f6.mp3",
+  "sure": 8.59
+ },
  "ccdb8e0eeb8f508a": {
   "k": "antrenor",
   "m": "Şah, korunan taşı alamaz.",
@@ -20231,6 +20255,12 @@
   "dosya": "de230c3237120dd7.mp3",
   "sure": 2.93
  },
+ "de393e22539c5640": {
+  "k": "antrenor",
+  "m": "At ve filler oyuna girdikten sonra. Vezir oyun ortasında çok daha etkili olur.",
+  "dosya": "de393e22539c5640.mp3",
+  "sure": 5.09
+ },
  "de3c7cb31af0eb04": {
   "k": "antrenor",
   "m": "Siyah d8'deki fil a5'e oynarsa beyaz f8'deki at h7'deki siyah piyonu alarak mat yapar; bu cevap kurtarmaz.",
@@ -20308,6 +20338,12 @@
   "m": "Çok doğru Pars. Geçer piyon güçlü bir hedeftir. İzole, çifte ve geri piyonlar ise rakibin saldırı hedefi olur.",
   "dosya": "df0602ecdc948a3e.mp3",
   "sure": 8.31
+ },
+ "df0c8a523df5dd21": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Oyun Ortasında Plan Testi seni bekliyor.",
+  "dosya": "df0c8a523df5dd21.mp3",
+  "sure": 7.29
  },
  "df12d0aadebd7f05": {
   "k": "antrenor",
@@ -21064,6 +21100,12 @@
   "m": "Bu hamle şah çekmiyor; şah çekmeyen hamle mat olamaz.",
   "dosya": "e81d351a33f81ca8.mp3",
   "sure": 3.94
+ },
+ "e8278ca23eb02343": {
+  "k": "antrenor",
+  "m": "Oyun Ortasında Plan Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "e8278ca23eb02343.mp3",
+  "sure": 9.61
  },
  "e83da5a098dcd36a": {
   "k": "antrenor",
@@ -22396,6 +22438,12 @@
   "m": "Aynı atı iki kez oynasak?",
   "dosya": "f61bafa10ece716c.mp3",
   "sure": 1.67
+ },
+ "f620effb868a927a": {
+  "k": "antrenor",
+  "m": "b5'teki fil c6'ya oynanırsa şah çekilmez: siyah şaha bakmıyor.",
+  "dosya": "f620effb868a927a.mp3",
+  "sure": 5.75
  },
  "f63582e681abe9ff": {
   "k": "antrenor",
