@@ -5197,7 +5197,7 @@ const BOTS=[
  {id:'kapi',ad:'Son Kapı Bekçisi',g:'usta',lv:'2900',k:'Antrenör\'e giden yolun son engeli.',sel:'Son kapıya hoş geldin.',kaz:'Kapı kapalı kaldı.',kay:'Son kapıyı açtın!',spec:{tur:'tam',nodes:300000}},
  {id:'antrenor',ad:'Satranç İstanbul Antrenörü',g:'ant',lv:'3000',k:'Yenilmez. Sert değil, sıcak. Maç sonunda hatanı gösterir.',sel:'Hoş geldin. Birlikte oynayalım, hatalarını sonra konuşuruz.',kaz:'İyi dayandın. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Bu maçı benimle incele.',spec:{tur:'tam',nodes:1000000}},
  {id:'alikaan',ad:'Ali Kaan Özçelik',g:'ant',ro:'Antrenörümüz',lv:'3000',k:'Satranç İstanbul Antrenörü. Yenilmez, hataları sakin sakin gösterir.',sel:'Hazırsan başlayalım. Sakin ve dikkatli oyna.',kaz:'Güzel mücadeleydi. Hatalarına birlikte bakalım.',kay:'Bu mümkün değil! Çok iyi oynadın.',spec:{tur:'tam',nodes:1000000}},
- {id:'atakan',ad:'Atakan Eken',g:'ant',ro:'Kurucumuz',lv:'3000',k:'Satranç İstanbul Kurucusu. Yenilmez, sıcak ve sabırlı.',sel:'Hoş geldin. Güzel bir oyun olsun.',kaz:'İyi dayandın. Birlikte bakalım, nerede geliştirebilirsin?',kay:'Bu mümkün değil! Harika oynadın.',spec:{tur:'tam',nodes:1000000}}
+ {id:'atakan',ad:'CM Atakan Eken',g:'ant',ro:'Kurucumuz',lv:'3000',k:'Satranç İstanbul Kurucusu. Yenilmez, sıcak ve sabırlı.',sel:'Hoş geldin. Güzel bir oyun olsun.',kaz:'İyi dayandın. Birlikte bakalım, nerede geliştirebilirsin?',kay:'Bu mümkün değil! Harika oynadın.',spec:{tur:'tam',nodes:1000000}}
 ];
 const BOT_BY=Object.fromEntries(BOTS.map(b=>[b.id,b]));
 const BOT_ALTIN={win:20,draw:10,loss:3,gun:60,min:10};
