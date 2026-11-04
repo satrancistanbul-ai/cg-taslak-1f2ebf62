@@ -4698,7 +4698,7 @@ function altinUcur(kaynak,n){const st=stage.getBoundingClientRect(),s=kaynak.get
   for(let i=0;i<Math.min(12,4+Math.round(n/8));i++){const c=document.createElement('span');c.className='coin kcoin';
     c.style.cssText=`left:${sx}px;top:${sy}px;--dx:${(Math.random()-.5)*160}px;--dy:${-60-Math.random()*90}px;--hx:${hx-sx}px;--hy:${hy-sy}px;animation-delay:${i*60}ms`;
     stage.appendChild(c);setTimeout(()=>c.remove(),1500+i*60)}
-  setTimeout(()=>{const t=stage.querySelector('#gold span');if(t){t.textContent=S.gold;const b=stage.querySelector('#gold');b.classList.remove('bump');void b.offsetWidth;b.classList.add('bump')}},1150)}
+  setTimeout(()=>{const t=stage.querySelector('#gold span:last-child');if(t){t.textContent=S.gold;const b=stage.querySelector('#gold');b.classList.remove('bump');void b.offsetWidth;b.classList.add('bump')}},1150)}
 (function(){const st=document.createElement('style');st.textContent=`
 .karsi{position:absolute;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;background:rgba(30,18,8,0);transition:background .35s}
 .karsi.ac{background:rgba(30,18,8,.55)}.karsi.kapan{background:rgba(30,18,8,0)}
