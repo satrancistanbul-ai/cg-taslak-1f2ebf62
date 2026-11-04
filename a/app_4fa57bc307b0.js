@@ -465,8 +465,14 @@ function rookOk(pos,a,b){if(a[0]!==b[0]&&a[1]!==b[1])return false;const F='abcde
   while(F[f]+r!==b){if(pos[F[f]+r])return false;f+=df;r+=dr}
   const p=pos[b];return !p||p!==p.toUpperCase()}
 
-/* QR / derin bağlantı: #bolum-4, #kitap, #kitap-A */
-function route(){const h=location.hash;const kb=h.match(/kitap-([ABC])/);if(kb){S.logged=true;if(!S.av)S.av='e';save();go(scBookPage,kb[1]);return true}
+/* QR / derin bağlantı: #bolum-4, #kitap, #kitap-A; basılı kitap: #k/u03-b05 (bölüm videosu+soruları), #u/03 (ada), #t/03 (ada testi) */
+function kitapGiris(){S.logged=true;if(!S.av)S.av='e';if(!S.nick)S.nick='Misafir';save()}
+function route(){const h=location.hash;
+  const kq=h.match(/^#([kut])\/u?(\d{1,2})(?:-b(\d{1,2}))?$/);
+  if(kq){const u=+kq[2];if(DATAS[u]){kitapGiris();setUnit(u);
+    if(kq[1]==='k'){const i=+(kq[3]||1)-1;if(i>=0&&i<NL){startLesson(i);return true}}
+    else if(kq[1]==='t'){startTest();return true}
+    else{go(scUnit);return true}}}const kb=h.match(/kitap-([ABC])/);if(kb){S.logged=true;if(!S.av)S.av='e';save();go(scBookPage,kb[1]);return true}
   if(/#kitap-video/.test(h)){S.logged=true;if(!S.av)S.av='e';save();go(scBookVideo);return true}
   if(/#kitap/.test(h)){S.logged=true;if(!S.av)S.av='e';save();go(scBook);return true}
   const m=h.match(/bolum-(\d+)/);if(m){const i=+m[1]-1;if(i>=0&&i<NL){S.logged=true;if(!S.av)S.av='e';if(!S.nick)S.nick='Misafir';save();startLesson(i);return true}}return false}
