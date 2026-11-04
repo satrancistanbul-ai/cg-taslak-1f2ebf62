@@ -226,15 +226,16 @@ function applyMove(B,f,t,q){const p=B.pos[f],F='abcdefgh';
   if(p==='P'&&t[0]!==f[0]&&!B.pos[t])delete B.pos[t[0]+f[1]];
   B.pos[t]=(p==='P'&&t[1]==='8')?(q.pr||'Q'):p;delete B.pos[f]}
 function scQuiz(d){
-  const q=LS.qs[LS.q],test=LS.mode==='test',place=LS.mode==='place',puz=LS.mode==='puzzle',hata=LS.mode==='hata',N=LS.qs.length,last=LS.q===N-1;let tries=0,solved=false;
+  const q=LS.qs[LS.q],test=LS.mode==='test',place=LS.mode==='place',puz=LS.mode==='puzzle',tkr=LS.mode==='tekrar',hata=LS.mode==='hata'||tkr,N=LS.qs.length,last=LS.q===N-1;let tries=0,solved=false;
   const dots=LS.qs.map((_,k)=>`<i class="${k<LS.q?'ok':k===LS.q?'on':''}"></i>`).join('');
   const hl=()=>Object.fromEntries((q.hl||[]).map(s=>[s,'goalsq']));
-  d.innerHTML=vbg(.4)+`${place?'':`<button class="iconbtn back" onclick="${puz?'go(scPuzzles)':hata?'go(scHata)':'go(scUnit)'}">‹ ${puz?'Bulmacalar':hata?'Hata kutusu':'Ünite'}</button>`}
-   <div class="qtop"${place?' style="padding-left:24px"':''}><div style="display:flex;align-items:center;gap:16px"><span class="title">${puz?esc(LS.topic):place?`Seviye tespiti · Bant ${LS.band}/${PLACE.bantlar.length} · ${LS.q+1}/${N}`:test?`Test · ${LS.q+1}/${N}`:hata?`Hata kutusu · ${LS.q+1}/${N}`:`${LS.q+1}. Soru`}</span>${puz?`<span class="title" style="background:#FFE9B0">Seri: <b id="stk">${LS.streak||0}</b></span>`:`<div class="dots">${dots}</div>`}</div>${place?'':goldbox()}</div>`;
+  d.innerHTML=vbg(.4)+`${place?'':`<button class="iconbtn back" onclick="${puz?'go(scPuzzles)':tkr?'go(scHome)':hata?'go(scHata)':'go(scUnit)'}">‹ ${puz?'Bulmacalar':tkr?'Ana ekran':hata?'Hata kutusu':'Ünite'}</button>`}
+   <div class="qtop"${place?' style="padding-left:24px"':''}><div style="display:flex;align-items:center;gap:16px"><span class="title">${puz?esc(LS.topic):place?`Seviye tespiti · Bant ${LS.band}/${PLACE.bantlar.length} · ${LS.q+1}/${N}`:test?`Test · ${LS.q+1}/${N}`:tkr?`Günün tekrarı · ${LS.q+1}/${N}`:hata?`Hata kutusu · ${LS.q+1}/${N}`:`${LS.q+1}. Soru`}</span>${puz?`<span class="title" style="background:#FFE9B0">Seri: <b id="stk">${LS.streak||0}</b></span>`:`<div class="dots">${dots}</div>`}</div>${place?'':goldbox()}</div>`;
   const fb=()=>d.querySelector('.feedback');
   const nb=`<button class="btn" id="nx" style="position:absolute;right:26px;bottom:18px;visibility:hidden;z-index:4" onclick="nextQ()">${puz?'Sonraki bulmaca':hata?(last?'Bitir':'Sonraki soru'):place?(last?'Sonucu gör':'Sonraki soru'):last?(test?'Testi bitir':'Bölümü bitir'):'Sonraki soru'}</button>`;
   function win(el){if(solved)return;solved=true;let earn=0;if(tries===0){LS.ilk++;yetKaydet(q,true)}
     if(puz){if(tries===0)earn=pzEarn();LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
+    else if(tkr){if(tries===0){earn=TKR_ODUL;LS.duz++;if(q.hk)hkCikar(q)}}
     else if(hata){if(tries===0){earn=HK_ODUL;hkCikar(q);LS.duz++}}
     else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]&&!S.done[LS.i]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
     if(!place){gorev('soru');if(puz)gorev('bulmaca')}fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
@@ -244,7 +245,7 @@ function scQuiz(d){
       if(q.t==='mc'){const o=c.querySelectorAll('.opt')[q.a];if(o)o.classList.add('ok')}const n=d.querySelector('#nx');n.style.visibility='visible';n.focus();return}
     if(puz&&tries===0){LS.streak=0;const sk=d.querySelector('#stk');if(sk)sk.textContent=0}
     if(tries===0)yetKaydet(q,false);
-    if(tries===0&&!hata)hkEkle(q);
+    if(tries===0&&(!hata||tkr))hkEkle(q);
     tries++;const ht=(tries>1&&q.y)?q.y:q.h;nedenKutu(fb(),NEDEN[msg]||msg||NEDEN.olmadi,ht,true);
     if(el){el.classList.remove('shake');void el.offsetWidth;el.classList.add('shake')}}
   const hasBoard=!!q.pos;let wrap=null;
@@ -279,7 +280,7 @@ function scQuiz(d){
     if(ok){B.flags=hl();q.a.forEach(s=>B.flags[s]='good');B.draw();win(c.querySelector('#ck'))}
     else{B.flags=hl();[...B.marks].forEach(s=>{if(!q.a.includes(s))B.flags[s]='wrong'});B.draw();lose(wrap,[...B.marks].some(s=>!q.a.includes(s))?'fazla':'eksik')}};
 }
-function nextQ(){if(LS.mode==='puzzle')return pzNext();LS.q++;if(LS.q<LS.qs.length)return go(scQuiz);LS.mode==='hata'?hataBitti():LS.mode==='place'?placeBandEnd():LS.mode==='test'?finishTest():finishLesson()}
+function nextQ(){if(LS.mode==='puzzle')return pzNext();LS.q++;if(LS.q<LS.qs.length)return go(scQuiz);LS.mode==='tekrar'?tekrarBitti():LS.mode==='hata'?hataBitti():LS.mode==='place'?placeBandEnd():LS.mode==='test'?finishTest():finishLesson()}
 function finishLesson(){const i=LS.i,first=!S.done[i];S.done[i]=true;S.st[i]=Math.max(S.st[i]||0,LS.ilk);save();
   if(first){const nx=nextLesson();WALK={from:i,to:nx<0?NL:nx}}
   const lines=doneCount()===NL&&first
@@ -4225,6 +4226,7 @@ function scHome(d){
       <span style="display:flex;align-items:center;gap:6px"><span class="chip ink">${RANKS[ri][0]}${G} ${RANKS[ri][1]}</span><span class="chip">Sv ${level(S.villages)}</span></span></span></button>
   <button class="flame" style="left:${74+66+Math.min(150,8*Math.max(3,(S.nick||'Oyuncu').length))+150}px;cursor:pointer" title="Günlük seri" onclick="go(scGorev)" aria-label="Günlük seri ve görevler">${ico('flame',30)}<span>${seriGoster()}</span></button>
   ${gold}${rbtn(76,'#F6A12B',ico('shop',30),'Dükkân','go(scShop)')}${rbtn(12,'#7BC0E8',ico('closet',30),'Dolabım','shopView=\'closet\';go(scShop)')}
+  ${tekrarHazir()?`<button class="tekrarbtn" onclick="tekrarStart()"><span class="tk">${ico('star',20)}</span>Günün tekrarı · ${TKR_N} soru</button>`:''}
   <div class="platform"><div class="disc"></div><div class="disc2"></div><button class="btn go" onclick="continueGame()">${fdone()||S.villages>1?'Devam et':'Oyuna başla'}</button></div>
   <div style="position:absolute;left:calc(50% - 85px);top:140px;width:170px;height:280px"><div class="zemgolge"></div><div class="float" style="position:absolute;inset:0">${me()}</div></div>
   <div class="yanpanel">
@@ -4248,6 +4250,7 @@ function scHome(d){
     <button class="item" onclick="go(scBoard)">Liderlik tablosu</button>
     <button class="item" onclick="go(scSearch)">Oyuncu ara</button>
     <button class="item" onclick="go(scOyunlar)">Oyunlar</button>
+    <button class="item" onclick="veliKapisi(()=>go(scVeli))">Veli köşesi</button>
     <button class="item" onclick="go(scBook)">Kitap çözümleri</button>
     <button class="item" onclick="go(scShop)">Dükkân</button>
     <button class="item" onclick="go(scDiploma)">Diplomalarım</button>
@@ -4606,7 +4609,7 @@ function seriIsle(){const s=SERI(),t=gBugun();if(s.son===t)return;
   if(s.n===3)kutla('seri3');else if(s.n>=7&&s.n%7===0)kutla('seri7');
   if(seriHediyeGunu(s.n)){const h=hediyeKostum();setTimeout(()=>toast(`${s.n} günlük seri! Hediye: ${h}`),1900)}}
 
-function gorev(k,m=1){const g=GN(),x=g.g.find(z=>z.k===k);if(!x)return;const h=GRV[k].h;if(x.n>=h)return;
+function gorev(k,m=1){gunlukKaydet(k,m);const g=GN(),x=g.g.find(z=>z.k===k);if(!x)return;const h=GRV[k].h;if(x.n>=h)return;
   x.n=Math.min(h,x.n+m);if(x.n>=h){seriIsle();toast(`Görev tamam: ${GRV[k].t}`)}save();gorevRozet()}
 const gorevBitti=()=>GN().g.filter(x=>x.n>=GRV[x.k].h).length;
 const gorevAlinacak=()=>GN().g.filter(x=>x.n>=GRV[x.k].h&&!x.al).length+(gorevBitti()===3&&!GN().sandik?1:0);
@@ -4887,6 +4890,37 @@ function scHata(d){const l=HK();
     <button class="btn go" style="margin-top:16px" ${l.length?'':'disabled'} onclick="hataStart()">Düzeltmeye başla</button>
     <div style="font-weight:700;font-size:14px;opacity:.7;margin-top:8px">Her turda en fazla ${HK_TUR} soru</div></div>`}
 
+/* ===== Günün tekrarı (konsey önerisi 4, Atakan 4 Kas): günde bir kez 4 soru =====
+   2 soru hata kutusundan (en eskiler), 1 soru en son çalışılan üniteden, 1 soru yetenek radarındaki en zayıf eksenden;
+   eksik kalırsa daha önce bitirilmiş bölümlerden rastgele. İlk denemede doğru +5 altın, tamamlayınca +10. */
+const TKR_N=4,TKR_ODUL=5,TKR_BONUS=10;
+function TKR(){return S.tekrar&&typeof S.tekrar==='object'?S.tekrar:(S.tekrar={d:'',bitti:false})}
+const tkrBugunBitti=()=>TKR().d===gBugun()&&TKR().bitti;
+// bitirilmiş bölümler: önceki ünitelerin hepsi + şimdiki ünitede done olanlar
+function tkrBolumler(){const out=[];for(const u of Object.keys(DATAS).map(Number).sort((a,b)=>a-b)){if(u>S.villages)break;
+  const n=DATAS[u].bolumler.length,us=S.us&&S.us[u];
+  for(let i=0;i<n;i++)if(u<S.villages||(us&&us.done&&us.done[i]))out.push([u,i])}return out}
+const tkrRast=a=>a[Math.floor(Math.random()*a.length)];
+function tkrSoru([u,i],kullan){const L=pzBank(u,i).filter(q=>!kullan.has(hkAnahtar(q)));return L.length?tkrRast(L):null}
+function tekrarSorulari(){const kullan=new Set(),out=[],ekle=q=>{if(q&&!kullan.has(hkAnahtar(q))){kullan.add(hkAnahtar(q));out.push(q)}};
+  HK().slice(-2).reverse().forEach(x=>ekle({...x.q,u:x.q.u||x.u,hk:1}));
+  const B=tkrBolumler();if(!B.length&&!out.length)return [];
+  const son=B.filter(([u])=>u===Math.max(...B.map(b=>b[0])));if(son.length)ekle(tkrSoru(tkrRast(son),kullan));
+  const z=yetZayif();if(z){const zb=B.filter(([u])=>z.e.u.includes(u));if(zb.length)ekle(tkrSoru(tkrRast(zb),kullan))}
+  for(let g=0;out.length<TKR_N&&g<20&&B.length;g++)ekle(tkrSoru(tkrRast(B),kullan));
+  return out.slice(0,TKR_N)}
+const tekrarHazir=()=>!tkrBugunBitti()&&(HK().length>0||tkrBolumler().length>0);
+function tekrarStart(){const qs=tekrarSorulari();if(!qs.length)return toast('Önce bir bölüm bitir, sonra tekrar yapalım!');
+  LS={mode:'tekrar',q:0,qs,ilk:0,duz:0};go(scQuiz)}
+function tekrarBitti(){const t=TKR();t.d=gBugun();t.bitti=true;S.gold+=TKR_BONUS;save();go(scHome);
+  setTimeout(()=>toast(`Günün tekrarı tamam! ${LS.duz||0}/${LS.qs.length} ilk denemede doğru · +${TKR_BONUS} altın`),400)}
+(function(){const st=document.createElement('style');st.textContent=`
+.tekrarbtn{position:absolute;left:58px;bottom:178px;z-index:3;display:flex;align-items:center;gap:8px;padding:6px 16px 6px 8px;border-radius:22px;
+  background:linear-gradient(#2C4A86,#1D3466);border:3px solid #0E1A33;color:#fff;font-weight:800;font-size:17px;box-shadow:inset 0 2px 0 rgba(170,200,255,.45),0 4px 0 rgba(10,18,40,.6);animation:tkrnefes 2.4s ease-in-out infinite}
+.tekrarbtn .tk{width:30px;height:30px;border-radius:50%;background:#FCC73C;display:grid;place-items:center;border:2px solid #0E1A33}
+@keyframes tkrnefes{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+`;document.head.appendChild(st)})();
+
 /* ===== Rütbe diploması =====
    Her 6 ünitede bir (ünite 6i testi geçilince) RANKS[i] rütbesine terfi edilir ve diploma kazanılır (S.dip[i] = tarih); 30. ünite sonrası Şah.
    Seviye tespitiyle atlanan kitaplar diploma vermez. Diploma tamamen cihazda çizilir (canvas) ve tek sayfalık A4 PDF olarak
@@ -4986,6 +5020,47 @@ function scDiploma(d){const dip=DIP();
   d.querySelectorAll('[data-gor]').forEach(b=>b.onclick=()=>dipGoster(+b.dataset.gor));
   d.querySelectorAll('[data-pdf]').forEach(b=>b.onclick=()=>dipIndir(+b.dataset.pdf));
   if(S.dipYeni){const r=S.dipYeni;S.dipYeni=0;save();setTimeout(()=>toast(`Tebrikler! ${RANKS[r][1]} rütbesine yükseldin. Diploman hazır!`),400)}}
+
+/* ===== Veli köşesi: veli kapısı + haftalık karne (konsey önerisi 6, Atakan 4 Kas) =====
+   Etkinlik günlüğü S.log[gün][görev] (video, soru, maç, bulmaca…) gorev() içinden yazılır, 60 gün tutulur.
+   Veli kapısı: yazıyla sorulan iki basamaklı toplama; çocuk tek başına geçemesin diye (Apple Kids "parental gate"). */
+const LOG_GUN=60;
+function gunlukKaydet(k,m){const t=gBugun(),L=S.log&&typeof S.log==='object'?S.log:(S.log={});const g=L[t]||(L[t]={});g[k]=(g[k]||0)+m;
+  const gunler=Object.keys(L).sort();if(gunler.length>LOG_GUN)gunler.slice(0,gunler.length-LOG_GUN).forEach(d=>delete L[d])}
+function haftaOzet(){const L=S.log||{},o={gun:0,video:0,soru:0,mac:0,bulmaca:0};
+  for(let i=0;i<7;i++){const g=L[gOnceki(i)];if(!g)continue;o.gun++;for(const k of ['video','soru','mac','bulmaca'])o[k]+=g[k]||0}return o}
+const SAYI_AD=['','bir','iki','üç','dört','beş','altı','yedi','sekiz','dokuz'],ONLAR=['','on','yirmi','otuz','kırk','elli','altmış','yetmiş','seksen','doksan'];
+const sayiYazi=n=>[ONLAR[Math.floor(n/10)],SAYI_AD[n%10]].filter(Boolean).join(' ');
+function veliKapisi(sonra){const a=21+Math.floor(Math.random()*50),b=11+Math.floor(Math.random()*30),o=document.createElement('div');o.className='kutla ac';
+  o.innerHTML=`<div class="kk" style="padding:22px 26px;width:520px;text-align:center"><div style="font-weight:800;font-size:24px;margin-bottom:6px">Veli köşesi</div>
+    <div style="font-weight:700;font-size:17px;margin-bottom:12px">Devam etmek için bir yetişkin cevaplasın:<br><b>${sayiYazi(a)} artı ${sayiYazi(b)}</b> kaç eder?</div>
+    <input id="vk" inputmode="numeric" maxlength="3" class="dipad" style="width:140px;text-align:center" aria-label="Cevap">
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:14px"><button class="btn alt" id="vkv">Vazgeç</button><button class="btn go" id="vko">Aç</button></div>
+    <div class="hint" id="vkh" style="margin-top:8px"></div></div>`;
+  stage.appendChild(o);const inp=o.querySelector('#vk');inp.focus();
+  const tamam=()=>{if(+inp.value===a+b){o.remove();sonra()}else{o.querySelector('#vkh').textContent='Cevap doğru değil.';inp.value=''}};
+  o.querySelector('#vko').onclick=tamam;inp.onkeydown=e=>{if(e.key==='Enter')tamam()};o.querySelector('#vkv').onclick=()=>o.remove()}
+function karneMetni(){const h=haftaOzet(),y=YET(),pu=YET_EKSEN.map(e=>({e,p:yetPuan(y[e.k])})).filter(x=>x.p!=null).sort((a,b)=>b.p-a.p);
+  const guclu=pu[0],zayif=pu.length>1?pu[pu.length-1]:null,ad=S.nick||'Çocuğunuz';
+  return {h,guclu,zayif,ad,satirlar:[`${ad} · Chessigo haftalık karnesi`,
+    `Bu hafta ${h.gun} gün çalıştı: ${h.video} ders videosu, ${h.soru} doğru soru, ${h.mac} maç, ${h.bulmaca} bulmaca.`,
+    `Seviye ${level(S.villages)}/36 · ${RANKS[rankIdx()][1]} rütbesi · ${seriGoster()} günlük seri.`,
+    guclu?`En güçlü konusu: ${guclu.e.ad} (%${guclu.p}).`:'',
+    zayif&&zayif!==guclu?`Biraz daha çalışmalı: ${zayif.e.ad} (%${zayif.p}). Antrenörüne bu konuyu sorabilirsiniz.`:'',
+    HK().length?`Hata kutusunda tekrar edilecek ${HK().length} soru var.`:''].filter(Boolean)}}
+function scVeli(d){const k=karneMetni(),h=k.h;
+  const kutu=(n,t)=>`<div class="stat" style="min-width:120px"><b>${n}</b><span>${t}</span></div>`;
+  d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Ana ekran</button>
+  <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Veli köşesi · Haftalık karne</span></div>
+  <div class="parch" style="position:absolute;left:70px;right:70px;top:66px;bottom:20px;padding:16px 22px;display:flex;flex-direction:column;gap:10px;color:#2B1B10;opacity:1">
+    <div style="font-weight:800;font-size:20px">${esc(k.ad)} · son 7 gün</div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">${kutu(h.gun,'çalıştığı gün')}${kutu(h.video,'ders videosu')}${kutu(h.soru,'doğru soru')}${kutu(h.mac,'maç')}${kutu(h.bulmaca,'bulmaca')}</div>
+    <div style="font-weight:700;font-size:17px;line-height:1.45">${k.satirlar.slice(2).map(esc).join('<br>')}</div>
+    <div class="hint">Karne bu cihazdaki ilerlemeden hazırlanır. Hesap sistemi açılınca tüm cihazlarda aynı olacak.</div>
+    <div style="display:flex;gap:10px;margin-top:auto"><button class="btn go" id="vpay">Karneyi paylaş</button><button class="btn alt" onclick="go(scYetenek)">Yetenek radarı</button></div></div>`;
+  d.querySelector('#vpay').onclick=async()=>{const m=k.satirlar.join('\n');
+    try{if(navigator.share){await navigator.share({title:'Chessigo karnesi',text:m});return}}catch(e){return}
+    try{await navigator.clipboard.writeText(m);toast('Karne kopyalandı; WhatsApp\'a yapıştırabilirsiniz.')}catch(e){toast('Paylaşım bu cihazda açılamadı.')}}}
 
 /* ===== Yetenek radarı =====
    Her sorunun İLK deneme sonucu ünitesinin eksenine yazılır (S.yet[eksen]={d,y}). Seviye tespiti sayılmaz.
