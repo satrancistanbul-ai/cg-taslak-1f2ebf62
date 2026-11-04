@@ -455,6 +455,12 @@
   "dosya": "060a905aca3ee43f.mp3",
   "sure": 4.0
  },
+ "060ef32970845d68": {
+  "k": "antrenor",
+  "m": "Üç gündür buradasın {ad}, harika gidiyorsun!",
+  "dosya": "060ef32970845d68.mp3",
+  "sure": 3.16
+ },
  "06150d2c6fa63a20": {
   "k": "antrenor",
   "m": "c3'e gidince beyazın mat tehdidi kalmıyor; taş şaha yeterince yaklaşmıyor.",
@@ -1708,6 +1714,12 @@
   "m": "Bu hamleden sonra siyah beraberliği kurtarır.",
   "dosya": "13835d604b416c32.mp3",
   "sure": 3.11
+ },
+ "138fa04399fa3140": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Kale rütbesindesin. Sağlam ve güçlü oynuyorsun.",
+  "dosya": "138fa04399fa3140.mp3",
+  "sure": 4.13
  },
  "13a686ce686823a1": {
   "k": "antrenor",
@@ -2968,6 +2980,12 @@
   "m": "Biliyor muydun? Bir saldırıya karşı bazen yalnızca tek yol işe yarar; bu yüzden dört yola da bakmak gerekir.",
   "dosya": "21618e0461858925.mp3",
   "sure": 7.47
+ },
+ "2165a2e0ee62e00c": {
+  "k": "antrenor",
+  "m": "Muhteşem {ad}! Şah rütbesine ulaştın. Seninle gurur duyuyorum!",
+  "dosya": "2165a2e0ee62e00c.mp3",
+  "sure": 5.09
  },
  "21660730231bc282": {
   "k": "antrenor",
@@ -5872,6 +5890,12 @@
   "m": "Aynen Pars. Rakip değişse de bu üç işi unutma. Artık beyaz taşlarla ne oynayacağını biliyorsun.",
   "dosya": "430112de6f6f97ce.mp3",
   "sure": 6.4
+ },
+ "4306f92acd36f182": {
+  "k": "antrenor",
+  "m": "Dün gelemedin ama dert etme {ad}, seri kalkanın serini korudu!",
+  "dosya": "4306f92acd36f182.mp3",
+  "sure": 4.62
  },
  "431874e04f5a08d0": {
   "k": "antrenor",
@@ -14567,6 +14591,12 @@
   "dosya": "a0a242111df88669.mp3",
   "sure": 2.4
  },
+ "a0adb2f9334c02bc": {
+  "k": "antrenor",
+  "m": "Harikasın {ad}! Fil rütbesine yükseldin. Artık çaprazları da çok iyi görüyorsun.",
+  "dosya": "a0adb2f9334c02bc.mp3",
+  "sure": 5.98
+ },
  "a0bfd037dd2b5352": {
   "k": "antrenor",
   "m": "Şah çekmek için tek bir taş oynar.",
@@ -15304,6 +15334,12 @@
   "m": "Düğmeye basmazsan süren akmaya devam eder ve rakibinin saati çalışmaz.",
   "dosya": "a8cf3960635f6168.mp3",
   "sure": 5.51
+ },
+ "a8d7193ad10b36c2": {
+  "k": "antrenor",
+  "m": "İnanılmaz {ad}! Vezir rütbesine yükseldin. Tahtanın en güçlü taşı gibi oynuyorsun.",
+  "dosya": "a8d7193ad10b36c2.mp3",
+  "sure": 6.09
  },
  "a900ea355e926dc0": {
   "k": "antrenor",
@@ -16235,6 +16271,12 @@
   "dosya": "b260181152947ea3.mp3",
   "sure": 2.59
  },
+ "b2732a3e325fb1e0": {
+  "k": "antrenor",
+  "m": "İlk maçını kazandın {ad}! Tebrikler, böyle devam!",
+  "dosya": "b2732a3e325fb1e0.mp3",
+  "sure": 3.19
+ },
  "b29bd941779493fc": {
   "k": "antrenor",
   "m": "Biliyor muydun? Oyunsonunda şah güçlü bir taştır! Şahını piyonuna eşlik ettir ve rakip şahı sıkıştırıp mat yap.",
@@ -17027,6 +17069,12 @@
   "dosya": "bb08ad3837a500ae.mp3",
   "sure": 6.4
  },
+ "bb21784fa0653df2": {
+  "k": "antrenor",
+  "m": "Tebrikler {ad}! Piyon adalarını bitirdin, artık At rütbesindesin. Atlar gibi çevik ol!",
+  "dosya": "bb21784fa0653df2.mp3",
+  "sure": 6.27
+ },
  "bb28011f0be5a802": {
   "k": "antrenor",
   "m": "Evet. e3 piyonu hem d4'ü hem de f4'teki fili korur. Londra'nın ilk fikri bu.",
@@ -17236,6 +17284,12 @@
   "m": "Piyon düz gider, çapraz alır. Önü kapalıysa hiç ilerleyemez.",
   "dosya": "bd9a1489376edcfa.mp3",
   "sure": 4.78
+ },
+ "bd9b2c426773fdf9": {
+  "k": "antrenor",
+  "m": "Yedi gün üst üste çalıştın {ad}! Gerçek bir satranççı böyle olur.",
+  "dosya": "bd9b2c426773fdf9.mp3",
+  "sure": 4.73
  },
  "bdbff2d7612b8432": {
   "k": "damla",
@@ -21046,6 +21100,12 @@
   "m": "Biliyor muydun? Matta taşın puanı önemli değildir. Şahı yakalarsan oyun biter, verdiğin vezir bile fark etmez!",
   "dosya": "e791c2e5d839bf6e.mp3",
   "sure": 7.78
+ },
+ "e7a433767800576c": {
+  "k": "antrenor",
+  "m": "Kusursuz {ad}! On sorunun onunu da ilk denemede bildin.",
+  "dosya": "e7a433767800576c.mp3",
+  "sure": 4.73
  },
  "e7c59c405978bb67": {
   "k": "damla",
