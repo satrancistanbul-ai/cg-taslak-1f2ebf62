@@ -521,6 +521,12 @@
   "dosya": "042f423ab1852bea.mp3",
   "sure": 4.83
  },
+ "0446d61f8def841d": {
+  "k": "antrenor",
+  "m": "Koruyanı olan taş boşta değildir. Piyonların çapraz koruduğunu unutma.",
+  "dosya": "0446d61f8def841d.mp3",
+  "sure": 4.86
+ },
  "0451dc392f938ffe": {
   "k": "pars",
   "m": "At L şeklinde zıpladığı için mi?",
@@ -3785,6 +3791,12 @@
   "dosya": "1d8e87799e8ed7c1.mp3",
   "sure": 5.43
  },
+ "1d9c33e60a4b92d4": {
+  "k": "antrenor",
+  "m": "e7'deki fil (boşta): 3 puan kazanç. Bu, en iyi seçim değil.",
+  "dosya": "1d9c33e60a4b92d4.mp3",
+  "sure": 5.46
+ },
  "1d9f815b072fbb7b": {
   "k": "antrenor",
   "m": "Önce piyona bak: ortada mı, kenarda mı? Sonra şahlar nerede, sıra kimde diye sor.",
@@ -5411,6 +5423,12 @@
   "dosya": "29d56ebe29f421af.mp3",
   "sure": 7.42
  },
+ "29d6df72dc5f7aee": {
+  "k": "antrenor",
+  "m": "Bu hamle taşı korumuyor ya da yeni bir taşı boşta bırakıyor.",
+  "dosya": "29d6df72dc5f7aee.mp3",
+  "sure": 3.89
+ },
  "29d901b94441a375": {
   "k": "pars",
   "m": "Koruyucu birini geri alır ama öbürünü bırakmış olur!",
@@ -5633,6 +5651,12 @@
   "dosya": "2bbd8f00403e9664.mp3",
   "sure": 4.21
  },
+ "2bd88d192012ddd2": {
+  "k": "damla",
+  "m": "Boştaki taş, oyunda olmayan taş mı hocam?",
+  "dosya": "2bd88d192012ddd2.mp3",
+  "sure": 3.06
+ },
  "2bdb6f5068acebd2": {
   "k": "antrenor",
   "m": "Alınan karenin koruyucularını ara; kareyi gören siyah taşlar.",
@@ -5842,6 +5866,12 @@
   "m": "Düz ve çapraz saldırdığı için mi?",
   "dosya": "2dbb0ce2cc778ea7.mp3",
   "sure": 2.22
+ },
+ "2dcf565ce7b4586d": {
+  "k": "antrenor",
+  "m": "Neredeyse Pars. Yanında durması yetmez; dostun o kareye gidebiliyorsa taşını korur. Koruyanı olan taş boşta değildir. Her hamleden önce taşlarına bak: kimin koruyanı yok?",
+  "dosya": "2dcf565ce7b4586d.mp3",
+  "sure": 12.38
  },
  "2dd1d4d8f1c636ac": {
   "k": "antrenor",
@@ -7012,6 +7042,12 @@
   "m": "Şah c8'de. Bir fil kaçış karelerini tutuyor; öbür fil hangi çaprazdan şah çekebilir?",
   "dosya": "355772ba14d4ed15.mp3",
   "sure": 6.92
+ },
+ "35628558edc4d065": {
+  "k": "antrenor",
+  "m": "{ad}, boştaki taşı bulduk. Peki şimdi ne yapacağız?",
+  "dosya": "35628558edc4d065.mp3",
+  "sure": 3.79
  },
  "35634064a2d91d70": {
   "k": "antrenor",
@@ -8212,6 +8248,12 @@
   "m": "Siyahın bir taşını seç; kendi filinin durduğu kareyi değil.",
   "dosya": "3ec2f2e5e9069dc6.mp3",
   "sure": 4.18
+ },
+ "3ed32df4b3f7f4dc": {
+  "k": "antrenor",
+  "m": "Boştaki taş vezir olmak zorunda değil; korumasız her taş boştadır.",
+  "dosya": "3ed32df4b3f7f4dc.mp3",
+  "sure": 5.04
  },
  "3ee40652d31f5837": {
   "k": "pars",
@@ -10793,6 +10835,12 @@
   "dosya": "50fcdf03cbf6d1dd.mp3",
   "sure": 5.69
  },
+ "50fd6dd83e95c8d1": {
+  "k": "antrenor",
+  "m": "Değeri önemli değil. Koruyanı olmayan her taş boştadır; bu taş ise korunuyor.",
+  "dosya": "50fd6dd83e95c8d1.mp3",
+  "sure": 5.62
+ },
  "51028509f08218b3": {
   "k": "antrenor",
   "m": "Şah tehdit edilen kareye gidemez. Gidebileceği güvenli kareleri işaretle.",
@@ -13163,6 +13211,12 @@
   "dosya": "6290f714fb8c33ed.mp3",
   "sure": 8.18
  },
+ "6295960bc684be05": {
+  "k": "antrenor",
+  "m": "Boştaki taş, hiçbir taşın korumadığı taştır. Her taşın yanına bak: onu koruyan var mı?",
+  "dosya": "6295960bc684be05.mp3",
+  "sure": 6.16
+ },
  "629f0af47193d242": {
   "k": "antrenor",
   "m": "Olur Pars. Taşımızı alırlarsa biz de onların taşını geri alacaksak, taş korumalıdır. Yeter ki saldıran taş, korunan taştan değerli olsun.",
@@ -13624,6 +13678,12 @@
   "m": "İki taşı birden işaretlemelisin; çatal, aynı anda iki taşa saldırmaktır.",
   "dosya": "66e4fdd3a0963815.mp3",
   "sure": 5.02
+ },
+ "66fa5010c4785028": {
+  "k": "antrenor",
+  "m": "Bu taşı a5'teki kale ve a6'daki at koruyor; boşta değil.",
+  "dosya": "66fa5010c4785028.mp3",
+  "sure": 5.56
  },
  "6701069cfac132c7": {
   "k": "antrenor",
@@ -16223,6 +16283,12 @@
   "dosya": "79c4846e1cc7e120.mp3",
   "sure": 5.98
  },
+ "79c8fd97d71440c4": {
+  "k": "antrenor",
+  "m": "{ad}, bugün tahtadaki en tehlikeli şeye bakıyoruz: boştaki taşlar.",
+  "dosya": "79c8fd97d71440c4.mp3",
+  "sure": 5.75
+ },
  "79ca00219c7bdcad": {
   "k": "antrenor",
   "m": "Şahı öne sürmek kaçış karelerini kapatmaz; tehlikeli de olabilir.",
@@ -18623,6 +18689,12 @@
   "dosya": "8c194f2f7ce81167.mp3",
   "sure": 2.59
  },
+ "8c20c4f4309bf63f": {
+  "k": "antrenor",
+  "m": "Bu taşı a5'teki kale ve c5'teki at koruyor; boşta değil.",
+  "dosya": "8c20c4f4309bf63f.mp3",
+  "sure": 4.68
+ },
  "8c22f00ecb304f31": {
   "k": "antrenor",
   "m": "Şah, korunan bir taşı alamaz; çünkü alınca rakip şahın karşısında şah çekilen kareye girer.",
@@ -18941,6 +19013,12 @@
   "dosya": "8e626bb7d122e8e5.mp3",
   "sure": 4.91
  },
+ "8e63605960871f38": {
+  "k": "antrenor",
+  "m": "Kendi taşların için de aynı kural geçerli: koruyanı olmayan taş boştadır.",
+  "dosya": "8e63605960871f38.mp3",
+  "sure": 5.51
+ },
  "8e6c58d3e3714695": {
   "k": "antrenor",
   "m": "Aynen öyle. Açmazdaki taş kaçamaz ve savunması da zordur. Ona saldırmak çoğu zaman taş kazandırır.",
@@ -19114,6 +19192,12 @@
   "m": "{ad}, a, c, f ve h piyonlarına karşı vezirle kazanmak daha zor. Çünkü savunan taraf pat tuzağına sığınır.",
   "dosya": "8f30db19fb41c7cf.mp3",
   "sure": 9.01
+ },
+ "8f3bc8418e2766c7": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Boştaki taş, hiçbir taşın korumadığı taştır. Vezir bile korumasız kalırsa boşta kalır.",
+  "dosya": "8f3bc8418e2766c7.mp3",
+  "sure": 7.97
  },
  "8f4bd5a0bdb1e185": {
   "k": "antrenor",
@@ -19739,6 +19823,12 @@
   "dosya": "93a63d6607982d2b.mp3",
   "sure": 4.86
  },
+ "93b2b0a4c5e3b7a6": {
+  "k": "antrenor",
+  "m": "Bu taş da boşta ama daha az değerli. Daha değerli olanı seç.",
+  "dosya": "93b2b0a4c5e3b7a6.mp3",
+  "sure": 4.6
+ },
  "93b7c42a4db17744": {
   "k": "pars",
   "m": "Hazırım!",
@@ -20032,6 +20122,12 @@
   "m": "Önce şah çeken ilk hamleyi bul, siyahın cevabını düşün, sonra matın karesini ara.",
   "dosya": "96d86c9a95c11a6b.mp3",
   "sure": 5.93
+ },
+ "96e57bd5f14fece0": {
+  "k": "antrenor",
+  "m": "Koruyanı olan taş boşta değildir. Piyonun çapraz ileri baktığını unutma.",
+  "dosya": "96e57bd5f14fece0.mp3",
+  "sure": 5.2
  },
  "96e8482a58d1c39d": {
   "k": "antrenor",
@@ -20572,6 +20668,12 @@
   "m": "Mat olmaz: siyah at şah çeken veziri alabilir.",
   "dosya": "9b1f284ca8dc6325.mp3",
   "sure": 4.18
+ },
+ "9b4d754c4cb72f46": {
+  "k": "antrenor",
+  "m": "Her almada karşılığında ne kaybedeceğini de hesapla. Korunan taşı almak puan kaybettirebilir; boştaki taşlardan en değerlisini seç.",
+  "dosya": "9b4d754c4cb72f46.mp3",
+  "sure": 9.87
  },
  "9b4f1d23efa966aa": {
   "k": "antrenor",
@@ -21172,6 +21274,12 @@
   "m": "Siyah şahın piyona yetişip yetişemeyeceğini kare kuralıyla hesapla.",
   "dosya": "9ef498fcd3e64784.mp3",
   "sure": 4.91
+ },
+ "9f0ec6e0d64d1dab": {
+  "k": "antrenor",
+  "m": "Bu taşı bir siyah taş koruyor; alırsan taşını kaybedersin. Boşta olanı bul.",
+  "dosya": "9f0ec6e0d64d1dab.mp3",
+  "sure": 5.62
  },
  "9f10272be2a23bc4": {
   "k": "antrenor",
@@ -21929,6 +22037,12 @@
   "dosya": "a4c542a21e330962.mp3",
   "sure": 2.27
  },
+ "a4cdd3f7c041ded3": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Boştaki taşı almak bedavadır: rakibin geri alacak taşı yoktur. Korunan taşı almadan önce hesap yap.",
+  "dosya": "a4cdd3f7c041ded3.mp3",
+  "sure": 8.31
+ },
  "a4d283bf39966caf": {
   "k": "antrenor",
   "m": "Kale yalnız düz gider. Kalenin yatay yolu açıksa o sütunun karesini işaretleyebilirsin.",
@@ -22199,6 +22313,12 @@
   "dosya": "a6ca1bfa5fef6e45.mp3",
   "sure": 11.23
  },
+ "a6e0fef3e3f97cab": {
+  "k": "antrenor",
+  "m": "Hayır, taş oyunda ama yalnız kalmış. Boştaki taş, hiçbir taşın korumadığı taştır. Rakip alırsa geri alamayız.",
+  "dosya": "a6e0fef3e3f97cab.mp3",
+  "sure": 7.84
+ },
  "a707cf64b86279eb": {
   "k": "antrenor",
   "m": "Yalnız f7'yi savunan siyah taşları seç; piyonun kendisini seçme.",
@@ -22240,6 +22360,12 @@
   "m": "Yani önce şah, sonra alış, sonra tehdit!",
   "dosya": "a74c37b546a1ab51.mp3",
   "sure": 2.4
+ },
+ "a74d485ec36730d1": {
+  "k": "antrenor",
+  "m": "Bu sayı fazla; korunan bir taşı da boşta saymışsın.",
+  "dosya": "a74d485ec36730d1.mp3",
+  "sure": 3.71
  },
  "a75a04c4406fa9c6": {
   "k": "antrenor",
@@ -22612,6 +22738,12 @@
   "m": "Biliyor muydun? Her pozisyona aynı sırayla bak: şah çekme, alma, tehdit. Acele etmeden say, sonra oyna!",
   "dosya": "aa03aac64be61de2.mp3",
   "sure": 8.54
+ },
+ "aa0d1e4d1d5b9ac7": {
+  "k": "antrenor",
+  "m": "Doğru, ama iki şeye dikkat: alacağın taş gerçekten koruyanı olmayan bir taş olsun ve boşta birden çok taş varsa en değerlisini seç.",
+  "dosya": "aa0d1e4d1d5b9ac7.mp3",
+  "sure": 10.03
  },
  "aa2ca8bf26fa7147": {
   "k": "antrenor",
@@ -24953,6 +25085,12 @@
   "dosya": "bab43364d8a3d7d4.mp3",
   "sure": 9.2
  },
+ "bab99fc585184b52": {
+  "k": "antrenor",
+  "m": "Saldırı altında olmak boşta olmak demek değil. Boştaki taş, koruyanı olmayan taştır.",
+  "dosya": "bab99fc585184b52.mp3",
+  "sure": 6.03
+ },
  "bac138ee2c5f50bc": {
   "k": "antrenor",
   "m": "İki filin çaprazlarına bak. Biri şah çekerken öbürü yandaki kaçış karesini tutmalı.",
@@ -25402,6 +25540,12 @@
   "m": "Bu hamle mat etmiyor; siyahın hamlesi kalıyor ya da oyun pat oluyor. Şahı tehdit et.",
   "dosya": "be59a72dfaa135e2.mp3",
   "sure": 5.69
+ },
+ "be63406f4c2b5eec": {
+  "k": "antrenor",
+  "m": "Bu taşı almak dışında bir hamle puan kazandırmaz; boştaki taşa saldır.",
+  "dosya": "be63406f4c2b5eec.mp3",
+  "sure": 5.04
  },
  "be7269b6719fdd47": {
   "k": "antrenor",
@@ -28247,6 +28391,12 @@
   "dosya": "d3f7d955b3dc56ca.mp3",
   "sure": 4.73
  },
+ "d3fd6984c47a8959": {
+  "k": "antrenor",
+  "m": "İki rengin taşlarına da bak; koruyanı olmayan her taş boştadır.",
+  "dosya": "d3fd6984c47a8959.mp3",
+  "sure": 4.96
+ },
  "d401c327b0f1f2a0": {
   "k": "antrenor",
   "m": "Biliyor muydun? Üç kural: kaçış karelerini say, aldığın taşın hapsolup hapsolmadığına bak, patı hem kullan hem kaçır.",
@@ -30478,6 +30628,12 @@
   "m": "Şahı tehdit etmen gerekir. Şahın kaçabileceği kare kalmamalı.",
   "dosya": "e40dd3402145faad.mp3",
   "sure": 4.78
+ },
+ "e42f5e2d0ef5c371": {
+  "k": "antrenor",
+  "m": "Boştaki taşlar arasından en değerlisini seç; korunan taşa dokunma.",
+  "dosya": "e42f5e2d0ef5c371.mp3",
+  "sure": 5.28
  },
  "e43d7343c928d5e5": {
   "k": "antrenor",
@@ -33364,6 +33520,12 @@
   "m": "Kenar piyonu e4'ü korumaz.",
   "dosya": "f9c6f8f85e9dcdc7.mp3",
   "sure": 2.4
+ },
+ "f9cd85b67955f910": {
+  "k": "antrenor",
+  "m": "Boştaki taşı koruyan yoktur. Her siyah taşın yanında onu koruyan başka bir siyah taş var mı?",
+  "dosya": "f9cd85b67955f910.mp3",
+  "sure": 6.5
  },
  "f9dd021baf62c410": {
   "k": "antrenor",
