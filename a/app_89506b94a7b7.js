@@ -235,11 +235,11 @@ function scQuiz(d){
   const fb=()=>d.querySelector('.feedback');
   const nb=`<button class="btn" id="nx" style="position:absolute;right:26px;bottom:18px;visibility:hidden;z-index:4" onclick="nextQ()">${puz?'Sonraki bulmaca':hata?(last?'Bitir':'Sonraki soru'):place?(last?'Sonucu gör':'Sonraki soru'):last?(test?'Testi bitir':'Bölümü bitir'):'Sonraki soru'}</button>`;
   function win(el){if(solved)return;solved=true;let earn=0;if(tries===0){LS.ilk++;yetKaydet(q,true)}
-    if(puz){if(tries===0)earn=pzEarn();LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
+    if(puz){if(tries===0)earn=pzEarn(q);LS.streak=tries===0?(LS.streak||0)+1:0;pzRecord(tries===0);const sk=d.querySelector('#stk');if(sk)sk.textContent=LS.streak}
     else if(tkr){if(tries===0){earn=TKR_ODUL;LS.duz++;if(q.hk)hkCikar(q)}}
     else if(hata){if(tries===0){earn=HK_ODUL;hkCikar(q);LS.duz++}}
     else if(!test&&!place){const key=LS.i+'-'+LS.q;if(!S.paid[key]&&!S.done[LS.i]){earn=tries===0?10:5;S.paid[key]=1;S.correct++}}
-    if(!place){gorev('soru');if(puz)gorev('bulmaca')}fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
+    if(!place){gorev('soru');if(puz)gorev('bulmaca')}fb().className='feedback ok';fb().innerHTML=(earn?`Doğru! +${earn} altın`:'Doğru!')+(puz&&tries===0&&LS.pzNot?`<div class="hint" style="font-weight:700;margin-top:2px">${esc(LS.pzNot)}</div>`:'')+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
     if(earn)flyCoin(el,earn);save();const n=d.querySelector('#nx');n.style.visibility='visible';n.focus()}
   function lose(el,msg){
     if(place){if(solved)return;solved=true;fb().className='feedback bad';fb().innerHTML='Bu sefer olmadı.'+(q.e?`<div class="hint" style="font-weight:600;margin-top:2px">${esc(q.e)}</div>`:'');
@@ -5156,26 +5156,34 @@ const pzUnits=()=>Object.keys(DATAS).map(Number).sort((a,b)=>a-b).filter(u=>u<=S
 const pzTopics=()=>[...pzUnits().flatMap(u=>DATAS[u].bolumler.map((_,i)=>{const gi=i-3,gp=u===1&&gi>=0&&gi<6?GEN_P[gi]:null;
   return{id:`u${u}-${i}`,ad:(SHORTS[u]||DATAS[u].kisa_adlar||[])[i]||DATAS[u].bolumler[i].baslik,unit:u,bank:i,gen:gp,col:PZ_COL[i%6],ic:gp?glyphIc(GLY[gp]):ico((PZ_ICO[u]||DATAS[u].ikonlar||[])[i]||'star',32)}})),
   {id:'mix',ad:'Karışık',mix:true,col:'#FFD166',ic:ico('puzzle',32)}];
-const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map(x=>({...cvQ(x),u}));
-function pzPick(tid,last){const PZ=pzTopics(),t=PZ.find(x=>x.id===tid);
-  const one=t=>{if(t.mix)return one(PZ[rint(PZ.length-1)]);
-    if(t.gen&&rint(2))return {...genQ(t.gen),u:t.unit};
-    const b=pzBank(t.unit,t.bank);return b[rint(b.length)]};
-  let q,g=0;do{q=one(t)}while(last&&q.q===last.q&&JSON.stringify(q.pos)===JSON.stringify(last.pos)&&g++<8);return q}
-function pzEarn(){const t=todayStr();if(!S.pzGold||S.pzGold.d!==t)S.pzGold={d:t,n:0};if(S.pzGold.n>=30)return 0;S.pzGold.n+=2;save();return 2}
+const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map((x,j)=>({...cvQ(x),u,pid:`${u}.${i}.${j}`}));
+// Altın yalnız bir bulmacanın İLK doğru çözümünde (Atakan 6 Kas): çözülenler S.pzCoz[pid]; havuz bitene kadar çözülmemişler önce gelir
+const PZC=()=>S.pzCoz&&typeof S.pzCoz==='object'?S.pzCoz:(S.pzCoz={});
+const pzHavuz=t=>t.mix?pzTopics().filter(x=>!x.mix).flatMap(x=>pzBank(x.unit,x.bank)):pzBank(t.unit,t.bank);
+const pzSayac=t=>{const h=pzHavuz(t);return{n:h.length,c:h.filter(q=>PZC()[q.pid]).length}};
+function pzPick(tid){const t=pzTopics().find(x=>x.id===tid);
+  if(t.gen&&rint(2))return {...genQ(t.gen),u:t.unit,gen:1};
+  const h=pzHavuz(t),son=LS.son||[],taze=h.filter(q=>!son.includes(q.pid));
+  const coz=taze.filter(q=>!PZC()[q.pid]),L=coz.length?coz:taze.length?taze:h;return L[rint(L.length)]}
+function pzEarn(q){LS.pzNot='';if(q&&q.pid&&PZC()[q.pid]){LS.pzNot='Bu bulmacayı daha önce çözmüştün; altın yalnız ilk çözümde verilir.';return 0}
+  if(q&&q.pid)PZC()[q.pid]=1;const t=todayStr();if(!S.pzGold||S.pzGold.d!==t)S.pzGold={d:t,n:0};
+  if(S.pzGold.n>=30){LS.pzNot='Bugünkü bulmaca altını doldu; yarın yine kazanırsın.';save();return 0}S.pzGold.n+=2;save();return 2}
 function pzRecord(ok){if(!ok)return;const r=S.pz[LS.tid]||(S.pz[LS.tid]={solved:0,best:0});r.solved++;r.best=Math.max(r.best,LS.streak||0);save()}
-function pzNext(){LS.qs=[pzPick(LS.tid,LS.qs[0])];LS.q=0;go(scQuiz)}
-function pzStart(id){const t=pzTopics().find(x=>x.id===id);LS={mode:'puzzle',tid:id,topic:t.ad,q:0,qs:[pzPick(id)],streak:0,ilk:0};go(scQuiz)}
+function pzNext(){const q0=LS.qs[0];if(q0&&q0.pid){const t=pzTopics().find(x=>x.id===LS.tid),n=pzHavuz(t).length;LS.son=[q0.pid,...(LS.son||[]).filter(k=>k!==q0.pid)].slice(0,Math.max(0,Math.min(6,n-1)))}
+  const once=pzSayac(pzTopics().find(x=>x.id===LS.tid));LS.qs=[pzPick(LS.tid)];LS.q=0;go(scQuiz);
+  if(once.n&&once.c===once.n&&!LS.bitti){LS.bitti=1;setTimeout(()=>toast(`Bu konudaki ${once.n} bulmacanın hepsini çözdün! Tekrar edebilirsin ama altın vermez.`),300)}}
+function pzStart(id){const t=pzTopics().find(x=>x.id===id),k=pzSayac(t);LS={mode:'puzzle',tid:id,topic:t.ad,q:0,qs:[],son:[],streak:0,ilk:0,bitti:k.n&&k.c===k.n?1:0};LS.qs=[pzPick(id)];go(scQuiz);
+  if(LS.bitti)setTimeout(()=>toast(`Bu konudaki ${k.n} bulmacanın hepsini çözdün. Tekrar edebilirsin ama altın vermez.`),300)}
 function scPuzzles(d){
-  const cards=pzTopics().map(t=>{const r=S.pz[t.id]||{solved:0,best:0};
-    return `<button class="pzc" data-id="${t.id}"><span class="ic" style="background:${t.col}">${t.ic}</span><b>${esc(t.ad)}</b><small>${r.solved?`${r.solved} çözüldü · en iyi seri ${r.best}`:'Henüz çözmedin'}</small></button>`}).join('')+
+  const cards=pzTopics().map(t=>{const r=S.pz[t.id]||{solved:0,best:0},k=pzSayac(t);
+    return `<button class="pzc" data-id="${t.id}"><span class="ic" style="background:${t.col}">${t.ic}</span><b>${esc(t.ad)}</b><small>${k.c?(k.c===k.n?`${k.n}/${k.n} hepsi çözüldü`:`${k.c}/${k.n} çözüldü`)+(r.best?` · en iyi seri ${r.best}`:''):t.gen?'Sınırsız bulmaca':`${k.n} bulmaca · henüz çözmedin`}</small></button>`}).join('')+
     `<button class="pzc" id="hunt"><span class="ic" style="background:#7BC0E8">${ico('grid',32)}</span><b>Kare avı</b><small>Rekor: ${S.rekor}</small></button>`;
   const have=Object.keys(DATAS).length,lock=UNITS.slice(have,have+4).map((u,i)=>`<div class="pzc lk"><span class="ic" style="background:#dcd6c6">${ico('lock',28)}</span><b>${esc(u.ad)}</b><small>${have+i+1}. ünite · yakında</small></div>`).join('');
   d.innerHTML=vbg(.5)+`<button class="iconbtn back" onclick="go(scHome)">‹ Geri</button>
    <div style="position:absolute;left:0;right:0;top:12px;text-align:center"><span class="parch" style="padding:2px 18px;font-weight:800;font-size:24px;border-radius:12px;border-width:3px">Bulmaca Odası</span></div>
    <div style="position:absolute;right:14px;top:10px">${goldbox()}</div>
    <div id="pzliste" style="position:absolute;left:24px;right:96px;top:66px;bottom:12px">
-     <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin-bottom:6px;font-weight:800">Bir konu seç, sonsuz bulmaca çöz! Konular kitaptakilerle aynı. İlk denemede bilirsen altın kazanırsın.</div>
+     <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin-bottom:6px;font-weight:800">Bir konu seç, bulmaca çöz! Konular kitaptakilerle aynı. Bir bulmacayı ilk kez ve ilk denemede bilirsen altın kazanırsın.</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${cards}</div>
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin:14px 0 6px;font-weight:800">Yeni konular geliyor</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${lock}</div></div>`;
