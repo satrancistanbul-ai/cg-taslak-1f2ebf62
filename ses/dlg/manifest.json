@@ -14657,6 +14657,12 @@
   "dosya": "6d2fbb1fc652de2b.mp3",
   "sure": 5.38
  },
+ "6d3607da26465098": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Boştaki Taş ve Takas Testi seni bekliyor.",
+  "dosya": "6d3607da26465098.mp3",
+  "sure": 7.05
+ },
  "6d3e7fbabaa84f41": {
   "k": "antrenor",
   "m": "Rok yapılabiliyor. Şahın geçmediği bir kare saldırı altında olabilir.",
@@ -33412,6 +33418,12 @@
   "m": "Bir taş aynı anda birçok taşa saldırabilir. Bu yüzden iki hedefe birden saldırmak işe yarar.",
   "dosya": "f8b4cf019262e23b.mp3",
   "sure": 6.27
+ },
+ "f8bf2ff7da5e8154": {
+  "k": "antrenor",
+  "m": "Boştaki Taş ve Takas Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "f8bf2ff7da5e8154.mp3",
+  "sure": 10.45
  },
  "f8c43670f21d51fc": {
   "k": "damla",
