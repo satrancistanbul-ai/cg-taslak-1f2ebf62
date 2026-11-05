@@ -4115,23 +4115,16 @@ const SHOP=[
  S_('gozGunes','glass','aksesuar','Güneş gözlüğü',350,{art:'gGunes'}),
  S_('gozSatranc','glass','aksesuar','Satranç tahtası gözlük',900,{art:'gSatranc'}),
  S_('papyon','neck','aksesuar','Kırmızı papyon',350,{art:'papyon',c:'#D7261E'}),
- S_('atki','neck','aksesuar','Turuncu atkı',450,{art:'atki',c:'#F6883B'}),
- S_('madBronz','neck','aksesuar','Bronz madalya',1200,{art:'madalya',c:'#C98A4B',medal:1}),
- S_('madAltin','neck','aksesuar','Altın şampiyon madalyası',2800,{art:'madalya',c:'#FCC73C',medal:1}),
  S_('kalem','hand','esya','Satranç kalemi',250,{art:'kalem',rot:16,w:8}),
  S_('notasyon','hand','esya','Notasyon altlığı',400,{art:'notasyon'}),
  S_('kitap','hand','esya','Satranç kitabı',500,{art:'kitap'}),
  S_('bayrak','hand','esya','Chessigo bayrağı',700,{art:'bayrak',w:46}),
  S_('miniTahta','hand','esya','Mini satranç tahtası',900,{art:'miniTahta'}),
- S_('bere','hat','sapka','Lacivert bere',180,{art:'beanie',c:'#294B9C',dy:-5,kz:{dy:-6,w:160,rot:4}}),
  S_('sapkaC','hat','sapka','Chessigo şapkası',250,{img:'hatC'}),
  S_('sapkaS','hat','sapka','Satranç İstanbul şapkası',250,{img:'hatS'}),
  S_('kasketSari','hat','sapka','Sarı kasket',320,{img:'hatC',f:HUE.sari}),
  S_('kasketKir','hat','sapka','Kırmızı kasket',380,{img:'hatS',f:HUE.kir}),
  S_('kasketYes','hat','sapka','Yeşil kasket',380,{img:'hatS',f:HUE.yes}),
- S_('sihirbaz','hat','sapka','Sihirbaz şapkası',1100,{art:'sihirbaz'}),
- S_('tacVezir','hat','sapka','Vezir tacı',3200,{art:'tacVezir',dy:-7}),
- S_('tacSah','hat','sapka','Şah tacı',6500,{art:'tacSah',dy:-7}),
  S_('tisortC','shirt','tisort','Chessigo tişörtü',400,{base:'C'}),
  S_('tisortS','shirt','tisort','Satranç İstanbul tişörtü',400,{base:'S'}),
  TIS('tPlayLac','Play Chess tişörtü (lacivert)',450,'#294B9C','play_b',.62),
@@ -4208,8 +4201,11 @@ function cropFor(it,g){const k=g==='k'?'kiz':'erkek',A=LAY.anchors[k],N=ANX[k],c
   return partOf(it)}
 const partOf=it=>({hat:'head',glass:'head',neck:'neck',shirt:'torso',band:'low',watch:'low',cup:'low',hand:'low',cape:'full',pants:'full'}[it.slot]);
 function headAv(g,eq,size=60){return `<div style="width:${size}px;height:${size}px;border-radius:50%;overflow:hidden;position:relative;background:linear-gradient(#BFE7F7,#8FD0EE);flex:none">${kidCrop(g,eq,[size/195,g==='k'?133:127,116],size,size).replace(/;overflow:hidden/,'')}</div>`}
-/* Şövalye miğferi dükkândan kaldırıldı (karaktere oturmuyordu): sahibine 1500 altın iade, giyiliyse çıkarılır. */
-(function(){if(S.owned&&S.owned.migfer){delete S.owned.migfer;if(S.eq)delete S.eq.migfer;S.gold=(S.gold||0)+1500;save()}})();
+/* Karaktere oturmadığı için dükkândan kaldırılanlar: miğfer; taçlar, sihirbaz şapkası, bere, atkı, madalyalar (Atakan 6 Kas).
+   Sahibine ödediği altın iade edilir, giyiliyse çıkarılır. */
+const KALDIRILAN={migfer:1500,bere:180,sihirbaz:1100,tacVezir:3200,tacSah:6500,atki:450,madBronz:1200,madAltin:2800};
+(function(){let iade=0;for(const[k,p]of Object.entries(KALDIRILAN)){if(S.owned&&S.owned[k]){delete S.owned[k];iade+=p}if(S.eq)delete S.eq[k]}
+  if(iade){S.gold=(S.gold||0)+iade;save();setTimeout(()=>toast(`Bazı eşyalar dükkândan kalktı; ${iade} altının geri verildi.`),1500)}})();
 
 /* ===== Ana ekran (HUD) ve dükkân ===== */
 const RCOL=['#9AA3AD','#4F86D9','#6DAA3F','#C0392B','#A15FD6','#E0A82E'];
@@ -5152,14 +5148,18 @@ const GEN_P=['R','B','Q','N','P','K'];
 const PZ_COL=['#7BC0E8','#9BD07A','#FFB84D','#FF8FB1','#B06AD9','#FCC73C'];
 const glyphIc=g=>`<span style="font-size:32px">${g}${G}</span>`;
 const PZ_ICO={1:['grid','search','book',0,0,0,0,0,0,'star'],2:['target','target','search','shield','shield','shield','shield','shield','shield','star'],3:['target','search','shield','shield','shield','grid','book','star'],4:['flame','shield','search','lock','target','trophy','shield','star']};
+// Lichess (CC0) ek mat havuzu: yalnız Bulmaca Odası'nda; ders, test ve kitapta kullanılmaz. Puan 400–1000 (tools/lichess_aktar.py)
+const EK_KONU=[{ek:'mat1',ad:'Ekstra: 1 hamlede mat'},{ek:'mat2',ad:'Ekstra: 2 hamlede mat'}];
 const pzUnits=()=>Object.keys(DATAS).map(Number).sort((a,b)=>a-b).filter(u=>u<=S.villages);
 const pzTopics=()=>[...pzUnits().flatMap(u=>DATAS[u].bolumler.map((_,i)=>{const gi=i-3,gp=u===1&&gi>=0&&gi<6?GEN_P[gi]:null;
   return{id:`u${u}-${i}`,ad:(SHORTS[u]||DATAS[u].kisa_adlar||[])[i]||DATAS[u].bolumler[i].baslik,unit:u,bank:i,gen:gp,col:PZ_COL[i%6],ic:gp?glyphIc(GLY[gp]):ico((PZ_ICO[u]||DATAS[u].ikonlar||[])[i]||'star',32)}})),
+  ...EK_KONU.filter(e=>(window.__EK||{})[e.ek]).map(e=>({...e,id:'ek-'+e.ek,col:'#F16524',ic:ico('target',32)})),
   {id:'mix',ad:'Karışık',mix:true,col:'#FFD166',ic:ico('puzzle',32)}];
 const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map((x,j)=>({...cvQ(x),u,pid:`${u}.${i}.${j}`}));
 // Altın yalnız bir bulmacanın İLK doğru çözümünde (Atakan 6 Kas): çözülenler S.pzCoz[pid]; havuz bitene kadar çözülmemişler önce gelir
 const PZC=()=>S.pzCoz&&typeof S.pzCoz==='object'?S.pzCoz:(S.pzCoz={});
-const pzHavuz=t=>t.mix?pzTopics().filter(x=>!x.mix).flatMap(x=>pzBank(x.unit,x.bank)):pzBank(t.unit,t.bank);
+const ekBank=k=>((window.__EK||{})[k]||[]).map((x,j)=>({...cvQ(x),u:k==='mat1'?7:17,pid:`ek.${k}.${j}`}));
+const pzHavuz=t=>t.ek?ekBank(t.ek):t.mix?pzTopics().filter(x=>!x.mix&&!x.ek).flatMap(x=>pzBank(x.unit,x.bank)):pzBank(t.unit,t.bank);
 const pzSayac=t=>{const h=pzHavuz(t);return{n:h.length,c:h.filter(q=>PZC()[q.pid]).length}};
 function pzPick(tid){const t=pzTopics().find(x=>x.id===tid);
   if(t.gen&&rint(2))return {...genQ(t.gen),u:t.unit,gen:1};
