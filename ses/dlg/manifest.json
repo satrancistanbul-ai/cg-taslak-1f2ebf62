@@ -47,6 +47,12 @@
   "dosya": "0046003db646ad3f.mp3",
   "sure": 4.36
  },
+ "00485d6676691183": {
+  "k": "antrenor",
+  "m": "Siyah kale 4. yataydan saldırıyor. Beyaz kale hangi kareyle bu yatayı kesebilir?",
+  "dosya": "00485d6676691183.mp3",
+  "sure": 5.85
+ },
  "0055b1debf41f490": {
   "k": "antrenor",
   "m": "Bu hamlede: Şah çekilir ama siyah şah a7 karesine kaçabilir; mat değil.",
@@ -94,6 +100,12 @@
   "m": "At yalnızca şah çeker. Kaçış karelerini kapatan şeyin kendi taşları olduğuna bak.",
   "dosya": "00918924b5af6d43.mp3",
   "sure": 5.38
+ },
+ "00964c98ef0d5044": {
+  "k": "antrenor",
+  "m": "g3 aynı yatayda; fil yana doğru gitmez.",
+  "dosya": "00964c98ef0d5044.mp3",
+  "sure": 3.76
  },
  "009b6748cabd6703": {
   "k": "antrenor",
@@ -227,6 +239,12 @@
   "dosya": "0173413898d7e794.mp3",
   "sure": 10.87
  },
+ "0178a1a276f03342": {
+  "k": "antrenor",
+  "m": "Piyon yalnız ileri gider; 8. yatayda vezir olur.",
+  "dosya": "0178a1a276f03342.mp3",
+  "sure": 4.08
+ },
  "01a3c961f6c50009": {
   "k": "antrenor",
   "m": "Fil güçlü görünse de puan tablosunda at ile aynıdır: 3 puan.",
@@ -256,6 +274,12 @@
   "m": "Şah çeken hamlelerin çoğunda siyah şah kaçabilir. Mat yapanı bul.",
   "dosya": "01d3a8259095cb11.mp3",
   "sure": 5.04
+ },
+ "01d3f45963902086": {
+  "k": "antrenor",
+  "m": "Kale düz gider. Dikeyinde ve yatayında ilk siyah taşı ara.",
+  "dosya": "01d3f45963902086.mp3",
+  "sure": 4.44
  },
  "01ddb89137c7be74": {
   "k": "antrenor",
@@ -323,6 +347,12 @@
   "dosya": "026b433eda597fc3.mp3",
   "sure": 3.37
  },
+ "0283f04069be9731": {
+  "k": "antrenor",
+  "m": "a8 ile h8 aynı yatayda. Kale bir hamlede bütün sırayı geçebilir.",
+  "dosya": "0283f04069be9731.mp3",
+  "sure": 5.15
+ },
  "028b347b43d27155": {
   "k": "antrenor",
   "m": "At a6'dan d8'i korumaz. Kd8 yine mat olur.",
@@ -389,11 +419,23 @@
   "dosya": "02fe3496cfc7c0cb.mp3",
   "sure": 1.44
  },
+ "0300b6989b3cc6ac": {
+  "k": "antrenor",
+  "m": "Çaprazda durmak opozisyon değildir. Şahlar aynı dikeyde ya da aynı yatayda olmalıdır.",
+  "dosya": "0300b6989b3cc6ac.mp3",
+  "sure": 5.93
+ },
  "030780f14be0e8b5": {
   "k": "antrenor",
   "m": "Önce sakin ol {ad}. Açmazdan çıkmanın üç yolu var: açmaz yapan taşı almak, araya bir taş koymak ya da şahı hattın dışına götürmek.",
   "dosya": "030780f14be0e8b5.mp3",
   "sure": 10.4
+ },
+ "0308eddfe21a26ec": {
+  "k": "antrenor",
+  "m": "Şah çeken ama şahı kaçıran hamle mat değildir. Kenar yatayına çeken kaleyi seç.",
+  "dosya": "0308eddfe21a26ec.mp3",
+  "sure": 6.5
  },
  "032d7bfd7d1370e1": {
   "k": "antrenor",
@@ -497,11 +539,23 @@
   "dosya": "03e5c7517cc3afd9.mp3",
   "sure": 5.09
  },
+ "03f124264a332639": {
+  "k": "antrenor",
+  "m": "Vezir siyah şahı aynı yataydan, dikeyden ya da çaprazdan görürse şah olur. Araya başka taş girerse saldırı kesilir.",
+  "dosya": "03f124264a332639.mp3",
+  "sure": 8.39
+ },
  "03fa19f6049a0338": {
   "k": "antrenor",
   "m": "Evet. Şahın önündeki taşı bir fedayla alırız, şah alırsa ya da kaçarsa yuvasından çıkar.",
   "dosya": "03fa19f6049a0338.mp3",
   "sure": 6.69
+ },
+ "0406190b23e35602": {
+  "k": "antrenor",
+  "m": "Kalenin siyah piyonların başladığı yataya, yani 7. yataya çıkabileceği kareyi ara.",
+  "dosya": "0406190b23e35602.mp3",
+  "sure": 6.09
  },
  "0406fa4c9fc4b9fa": {
   "k": "antrenor",
@@ -514,6 +568,12 @@
   "m": "Bu taş daha değerli; puanı en az olan saldırganı bul.",
   "dosya": "041163819eb421f5.mp3",
   "sure": 3.79
+ },
+ "04137f64d67c0ad0": {
+  "k": "antrenor",
+  "m": "Beyaz şah bir yatay geride değil; anahtar kareler 6. yatayda, şah ise bir yatay ileride, 7. yatayda.",
+  "dosya": "04137f64d67c0ad0.mp3",
+  "sure": 7.84
  },
  "041733d12c706243": {
   "k": "antrenor",
@@ -598,6 +658,12 @@
   "m": "c4 beyazın doğru yazılmış piyon hamlesi.",
   "dosya": "04ae15afd345f6db.mp3",
   "sure": 3.16
+ },
+ "04af43432a599119": {
+  "k": "antrenor",
+  "m": "Rakip kalenin şah çekebileceği son yataydaki kareyi ara.",
+  "dosya": "04af43432a599119.mp3",
+  "sure": 4.08
  },
  "04afaa1a5f88df7c": {
   "k": "antrenor",
@@ -707,6 +773,12 @@
   "dosya": "05b4b923d99aa554.mp3",
   "sure": 1.85
  },
+ "05b6f2d57b14717c": {
+  "k": "antrenor",
+  "m": "Terfi karesi 1. yataydır; kalan kare sayısını yeniden say.",
+  "dosya": "05b6f2d57b14717c.mp3",
+  "sure": 4.96
+ },
  "05bf1d71f1b6b524": {
   "k": "antrenor",
   "m": "Bu hamleyle ikinci taş gelmez. Hangi siyah hafif taşı alabileceğine bak.",
@@ -796,6 +868,12 @@
   "m": "Karışmasın diye ipuçlarını hatırla. Bir taş iki taşa saldırıyorsa çatal, arka arkaya iki taş varsa şiş.",
   "dosya": "066fd514fda04f0f.mp3",
   "sure": 7.89
+ },
+ "0671076d2dc8cea7": {
+  "k": "antrenor",
+  "m": "Atın L hamlelerinden hangileri kaleyi alır ya da e-dikeyinde araya girer?",
+  "dosya": "0671076d2dc8cea7.mp3",
+  "sure": 5.15
  },
  "0672911227aa20d0": {
   "k": "antrenor",
@@ -935,11 +1013,23 @@
   "dosya": "076f56721e84b9c8.mp3",
   "sure": 1.67
  },
+ "0774140f27c92489": {
+  "k": "antrenor",
+  "m": "Şah kendi piyonlarının arkasında sıkışmış. Kalenin şah çekebileceği son yataydaki kareyi ara.",
+  "dosya": "0774140f27c92489.mp3",
+  "sure": 6.95
+ },
  "077e59e4d568f762": {
   "k": "antrenor",
   "m": "9 puan vezirindir; kale vezirden daha az değerlidir.",
   "dosya": "077e59e4d568f762.mp3",
   "sure": 4.02
+ },
+ "077f3963eeaeec54": {
+  "k": "antrenor",
+  "m": "Şahın önü kendi taşlarıyla kapalı. Kale ya da vezirle son yataya şah çek.",
+  "dosya": "077f3963eeaeec54.mp3",
+  "sure": 5.51
  },
  "07847d8ed8732693": {
   "k": "antrenor",
@@ -1067,6 +1157,12 @@
   "dosya": "08334eb6ac4b3dfa.mp3",
   "sure": 3.94
  },
+ "08415b895bcdf7ec": {
+  "k": "antrenor",
+  "m": "Beyaz piyon 8. yataya, siyah piyon 1. yataya varınca terfi eder.",
+  "dosya": "08415b895bcdf7ec.mp3",
+  "sure": 5.43
+ },
  "0851d07d6c629192": {
   "k": "antrenor",
   "m": "Biliyor muydun? Araya girmek, şahın önüne bir kalkan koymak gibidir.",
@@ -1102,6 +1198,18 @@
   "m": "Evet Damla! Ama önce bak: o taşı biri koruyor mu? Koruyorsa alınca geri alınabilirsin.",
   "dosya": "0874d326df8b5a26.mp3",
   "sure": 6.11
+ },
+ "08842e02085675bd": {
+  "k": "antrenor",
+  "m": "a5 aynı yatayda ama uzakta; at düz saldırmaz.",
+  "dosya": "08842e02085675bd.mp3",
+  "sure": 3.89
+ },
+ "088d7a7b23812a25": {
+  "k": "antrenor",
+  "m": "a ve h dikeyleri tahtanın en kenarındaki iki dikeydir.",
+  "dosya": "088d7a7b23812a25.mp3",
+  "sure": 4.41
  },
  "089a3dcac65abab5": {
   "k": "antrenor",
@@ -1289,6 +1397,12 @@
   "dosya": "09e7a6d665d96ffd.mp3",
   "sure": 1.99
  },
+ "09ee3db4c719adb2": {
+  "k": "antrenor",
+  "m": "a2 piyonu izole değil: b2'deki beyaz piyon yan dikeyde duruyor, bu yüzden izole değil.",
+  "dosya": "09ee3db4c719adb2.mp3",
+  "sure": 7.24
+ },
  "09f945c2c6fd4906": {
   "k": "antrenor",
   "m": "Şahın yanındaki fili şaha çapraz yoldan yolla. Yol açık mı, bak.",
@@ -1306,6 +1420,12 @@
   "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Notasyon ve Turnuva Kuralları Testi seni bekliyor.",
   "dosya": "0a0088b014e437ea.mp3",
   "sure": 7.47
+ },
+ "0a0fc7c812de6b76": {
+  "k": "antrenor",
+  "m": "4., 5. ya da 6. yatayda olacak. Kendi piyonun onu koruyacak. Rakibin hiçbir piyonu oraya saldıramayacak.",
+  "dosya": "0a0fc7c812de6b76.mp3",
+  "sure": 8.36
  },
  "0a14c5f668be01a2": {
   "k": "antrenor",
@@ -1432,6 +1552,12 @@
   "m": "Kaçmak, saldırıdan uzaklaşmaktır; burada anlatılan durum başka.",
   "dosya": "0b27bf25dfa7654e.mp3",
   "sure": 5.09
+ },
+ "0b34fcfde3e78fce": {
+  "k": "antrenor",
+  "m": "Lucena'da piyon terfiye yakındır; 2. yatayda değildir.",
+  "dosya": "0b34fcfde3e78fce.mp3",
+  "sure": 3.89
  },
  "0b3c93de73284c19": {
   "k": "antrenor",
@@ -1655,6 +1781,12 @@
   "dosya": "0d2ce7bf91371555.mp3",
   "sure": 3.11
  },
+ "0d3038b81737b333": {
+  "k": "antrenor",
+  "m": "Şah çeken kalenin şahı kaçamamalı. Son yataydaki kareleri dene.",
+  "dosya": "0d3038b81737b333.mp3",
+  "sure": 5.04
+ },
  "0d39684fef6b47d9": {
   "k": "antrenor",
   "m": "Piyon son sıraya gidince en güçlü taşla mat vurabilirsin.",
@@ -1666,6 +1798,12 @@
   "m": "Fil a5'e gidince değerli hiçbir taşa saldırmaz; şiş olmaz.",
   "dosya": "0d5623b9253cd6fe.mp3",
   "sure": 4.83
+ },
+ "0d5bd6fd128c0321": {
+  "k": "antrenor",
+  "m": "Beyaz yukarı, siyah aşağı gider; terfi karesi aynı dikeyin son karesidir.",
+  "dosya": "0d5bd6fd128c0321.mp3",
+  "sure": 5.46
  },
  "0d63674d2cc39750": {
   "k": "antrenor",
@@ -1745,6 +1883,12 @@
   "dosya": "0e6763f0a416fd99.mp3",
   "sure": 3.11
  },
+ "0e778feb4ddca859": {
+  "k": "antrenor",
+  "m": "Yukarı doğru gidersen dikey işaretlemiş olursun.",
+  "dosya": "0e778feb4ddca859.mp3",
+  "sure": 3.47
+ },
  "0e8251938e03d225": {
   "k": "antrenor",
   "m": "Bu alış kaybettirir: alış-verişin sonunda beyaz 4 puan geride kalır.",
@@ -1756,6 +1900,12 @@
   "m": "Bu hamle olmaz: siyah d4'teki vezirle a1'e gider. Beyaz 3 puan kaybeder.",
   "dosya": "0e8d9dc23a15c462.mp3",
   "sure": 6.5
+ },
+ "0e9464e5c8ade42a": {
+  "k": "antrenor",
+  "m": "Dikey dizi aşağıdan yukarı gider; soruda soldan sağa giden dizi soruluyor.",
+  "dosya": "0e9464e5c8ade42a.mp3",
+  "sure": 5.38
  },
  "0e9a293c5a3977be": {
   "k": "antrenor",
@@ -1780,6 +1930,12 @@
   "m": "Kalmıyor Pars. Bir de şahın yanında kendi taşı varsa iş daha da kolaylaşır. Hazırsan mat yapalım!",
   "dosya": "0eb1916ee8b0f65c.mp3",
   "sure": 7.42
+ },
+ "0ebedac5995b60f7": {
+  "k": "antrenor",
+  "m": "Terfiye en çok 3 hamle kalan piyonlar 5., 6. ve 7. yataydadır.",
+  "dosya": "0ebedac5995b60f7.mp3",
+  "sure": 6.09
  },
  "0ec111f89c526ac4": {
   "k": "antrenor",
@@ -1834,6 +1990,12 @@
   "m": "3. sıra, tahtanın alttan üçüncü sırasıdır. Kale oraya kendi sütunu ya da sırası boyunca gidebilir.",
   "dosya": "0ef208a0420759e1.mp3",
   "sure": 8.25
+ },
+ "0ef4eaf6132c0f68": {
+  "k": "antrenor",
+  "m": "Fazla az saydın: 2. yataydan 8. yataya 5 hamle gerekir.",
+  "dosya": "0ef4eaf6132c0f68.mp3",
+  "sure": 5.38
  },
  "0ef7c02037f43f43": {
   "k": "antrenor",
@@ -2009,6 +2171,12 @@
   "dosya": "1017689f18730622.mp3",
   "sure": 8.54
  },
+ "10232ac6dbb6981a": {
+  "k": "antrenor",
+  "m": "{ad}, geçer piyonun asıl amacı 8. yataya koşup terfi etmek.",
+  "dosya": "10232ac6dbb6981a.mp3",
+  "sure": 5.33
+ },
  "1038a502ebd57f93": {
   "k": "antrenor",
   "m": "Yasak olan mutlak açmazdır (arkada şah varsa). Burada arkada şah yok.",
@@ -2087,6 +2255,12 @@
   "dosya": "10b1a08fe71dd6e2.mp3",
   "sure": 3.89
  },
+ "10b99c93ac654c96": {
+  "k": "antrenor",
+  "m": "Beyaz için 7. yatay, siyah piyonların durduğu yataydır. Kale oraya çıkınca bu piyonlara saldırır.",
+  "dosya": "10b99c93ac654c96.mp3",
+  "sure": 7.76
+ },
  "10d0ccbed7300cee": {
   "k": "antrenor",
   "m": "İki engel taşı bulmalısın. Biri kalksa beyaz mat yapabiliyorsa o taş engeldir.",
@@ -2110,6 +2284,12 @@
   "m": "Biliyor muydun? Rok yapmış şahın önündeki üç piyon kalkan gibidir. Bir piyon ilerlerse kalkanda delik açılır!",
   "dosya": "10f73acc9751e923.mp3",
   "sure": 8.07
+ },
+ "10fa9d53764e9e0e": {
+  "k": "antrenor",
+  "m": "Kale g7'den 7. yatay boyunca sola gider; önüne çıkan her taşı sırayla alır.",
+  "dosya": "10fa9d53764e9e0e.mp3",
+  "sure": 6.22
  },
  "110191b5ffe32319": {
   "k": "antrenor",
@@ -2225,6 +2405,12 @@
   "dosya": "11c79cdc4d1604f2.mp3",
   "sure": 6.64
  },
+ "11caaa18d97e10eb": {
+  "k": "antrenor",
+  "m": "Şahla veziri karıştırmak yaygındır: vezir d dikeyinde, şah e dikeyinde.",
+  "dosya": "11caaa18d97e10eb.mp3",
+  "sure": 6.3
+ },
  "11e9da1c8958c8c2": {
   "k": "antrenor",
   "m": "Koruma kendi taşımıza aittir; rakip taşa saldırı ise başka bir şeydir.",
@@ -2332,6 +2518,12 @@
   "m": "Biliyor muydun? Şah çeken hamlenin cevabı azdır ve zorunludur. Rakip başka bir şey yapamaz, sen de bundan yararlanırsın!",
   "dosya": "127e483fa38826e6.mp3",
   "sure": 8.02
+ },
+ "1282ab58491c5ab3": {
+  "k": "antrenor",
+  "m": "Beyazın ilk yatayının hemen önündeki sıraya bak.",
+  "dosya": "1282ab58491c5ab3.mp3",
+  "sure": 3.58
  },
  "1292f42f19cea9fc": {
   "k": "damla",
@@ -2512,6 +2704,18 @@
   "m": "Şah çekmek, şahı doğrudan tehdit etmek demek. Vezirin gidebileceği ve h8'e baktığı kareleri ara.",
   "dosya": "139cd55d726464be.mp3",
   "sure": 8.02
+ },
+ "139d482db1c4d086": {
+  "k": "antrenor",
+  "m": "Vezir f3'ten f dikeyinden f7'ye bakıyor. Atı yolun üstüne koyabilir misin?",
+  "dosya": "139d482db1c4d086.mp3",
+  "sure": 5.56
+ },
+ "13a2f02ae816ddd3": {
+  "k": "antrenor",
+  "m": "Neredeyse Damla! Piyonun iki yatay ilerisindeki üç kare anahtar karedir: piyonun tam önü ve iki yanı.",
+  "dosya": "13a2f02ae816ddd3.mp3",
+  "sure": 8.07
  },
  "13a686ce686823a1": {
   "k": "antrenor",
@@ -2705,6 +2909,12 @@
   "dosya": "14e8a6b9875923f2.mp3",
   "sure": 6.53
  },
+ "14e8db6821b89165": {
+  "k": "antrenor",
+  "m": "Lucena'da şah piyonun önünde, 8. yataydadır; ortada değil.",
+  "dosya": "14e8db6821b89165.mp3",
+  "sure": 4.73
+ },
  "14f33a57d73d0f2c": {
   "k": "antrenor",
   "m": "Bu feda değil: piyon orada güvende, siyah onu kazançla alamaz.",
@@ -2717,11 +2927,23 @@
   "dosya": "14f6e45895198100.mp3",
   "sure": 10.34
  },
+ "14f7933a5a09b7b5": {
+  "k": "antrenor",
+  "m": "İzole: yanında kendi piyonu yok. Çifte: aynı dikeyde iki piyon. Geçer: önünde rakip piyon yok. Geri: yanındakiler ondan ileride ve ilerleyemiyor.",
+  "dosya": "14f7933a5a09b7b5.mp3",
+  "sure": 11.36
+ },
  "151e6bcce3d11921": {
   "k": "antrenor",
   "m": "Rakip şahın olduğu kanatta piyonlarını ileri sürmek. Amaç kalkan piyonlarına saldırıp kalkanı bozmak.",
   "dosya": "151e6bcce3d11921.mp3",
   "sure": 6.82
+ },
+ "15392e0aaa226ccf": {
+  "k": "antrenor",
+  "m": "1 değil, bir tane eksik saymışsın: a ve d dikeyleri siyah için yarı açık.",
+  "dosya": "15392e0aaa226ccf.mp3",
+  "sure": 5.15
  },
  "153b4de6117647fb": {
   "k": "antrenor",
@@ -2734,6 +2956,12 @@
   "m": "Bu hamle mat tehdidini durdurmaz: beyaz f6'daki kale f8'e oynar ve mat yapar.",
   "dosya": "1540a6c4f5c6d2c7.mp3",
   "sure": 6.69
+ },
+ "1543587d4056dfc0": {
+  "k": "antrenor",
+  "m": "Başlangıçta yalnızca 1., 2., 7. ve 8. yataylarda taş olur.",
+  "dosya": "1543587d4056dfc0.mp3",
+  "sure": 6.16
  },
  "1550c650e4d7946b": {
   "k": "antrenor",
@@ -2843,6 +3071,12 @@
   "dosya": "15da88939c03741e.mp3",
   "sure": 4.36
  },
+ "15dac4855d0bee9c": {
+  "k": "antrenor",
+  "m": "Piyonla korunan kareleri bul, sonra siyah piyonun yan dikeyden oraya saldırabileceği kareleri ayır.",
+  "dosya": "15dac4855d0bee9c.mp3",
+  "sure": 7.52
+ },
  "15dc6a5069b84d5e": {
   "k": "antrenor",
   "m": "Aldığın taş, geri verebileceğin attan (3 puan) daha değerli mi ya da hiç korunmuyor mu diye bak.",
@@ -2866,6 +3100,12 @@
   "m": "Biliyor muydun? Kale çok değerli ama bazen bir kale fedası maçı kazandırır: siyah alırsa mat olur ya da büyük taş kaybeder!",
   "dosya": "15fbd48ea69dcf49.mp3",
   "sure": 7.97
+ },
+ "1612dbf02c7c1293": {
+  "k": "antrenor",
+  "m": "Başladığı kare sayılmaz; 1. yataydaki terfi karesi sayılır.",
+  "dosya": "1612dbf02c7c1293.mp3",
+  "sure": 4.86
  },
  "1613aeb603b8910c": {
   "k": "antrenor",
@@ -3005,6 +3245,12 @@
   "dosya": "171fc37042076071.mp3",
   "sure": 3.58
  },
+ "174a2f98db2fc4df": {
+  "k": "antrenor",
+  "m": "Geçer piyon, önünde ya da yan dikeylerde ilerisinde siyah piyon olmayan piyondur. Onu ilerlet.",
+  "dosya": "174a2f98db2fc4df.mp3",
+  "sure": 7.05
+ },
  "1752d890d22c8eda": {
   "k": "antrenor",
   "m": "Şah ortada yürürse saldırıya hedef olur.",
@@ -3040,6 +3286,18 @@
   "m": "Biliyor muydun? Kanat saldırısında piyonlar yalnız yürümez. Yanındaki piyonla korunan piyon, kalkana güvenle saldırır!",
   "dosya": "177adf52eb3d99f8.mp3",
   "sure": 7.97
+ },
+ "179fb74283ab0368": {
+  "k": "antrenor",
+  "m": "Terfi edecek piyon 7. yatayda; onu bir kare ilerlet.",
+  "dosya": "179fb74283ab0368.mp3",
+  "sure": 3.94
+ },
+ "17a695b743b0e8d8": {
+  "k": "antrenor",
+  "m": "f4 bir dikey sağda kalıyor.",
+  "dosya": "17a695b743b0e8d8.mp3",
+  "sure": 2.32
  },
  "17aacd59b8576f0d": {
   "k": "pars",
@@ -3413,6 +3671,12 @@
   "dosya": "1a58cb4324b704dd.mp3",
   "sure": 2.4
  },
+ "1a5cce4634cf467c": {
+  "k": "antrenor",
+  "m": "Güçlenecek Damla! Piyon rakibin son yatayına ulaşınca başka bir taşa dönüşür. Buna terfi denir.",
+  "dosya": "1a5cce4634cf467c.mp3",
+  "sure": 7.24
+ },
  "1a5d4977abe5f0c9": {
   "k": "antrenor",
   "m": "Buna açarak şah diyoruz Pars. Rakip önce şahını kurtarır, biz de öbür taşı alırız.",
@@ -3586,6 +3850,12 @@
   "m": "Önce kalenin düz hatlarını, sonra filin çaprazlarını tara.",
   "dosya": "1be150d1b2f373ca.mp3",
   "sure": 4.18
+ },
+ "1be74c9ad395917d": {
+  "k": "antrenor",
+  "m": "Piyon dikeyinden çıkarsa şah açıkta kalır. Hangi kareler kurallara uygun?",
+  "dosya": "1be74c9ad395917d.mp3",
+  "sure": 5.69
  },
  "1bebe90d4baf4b0a": {
   "k": "antrenor",
@@ -3827,6 +4097,12 @@
   "dosya": "1d9f815b072fbb7b.mp3",
   "sure": 5.2
  },
+ "1dae2b7e20edc8d4": {
+  "k": "antrenor",
+  "m": "Merkez, tahtanın hem ortasındaki dikeylerde hem ortasındaki yataylardadır.",
+  "dosya": "1dae2b7e20edc8d4.mp3",
+  "sure": 5.85
+ },
  "1db52f189feda67b": {
   "k": "antrenor",
   "m": "Aynen. Sırayı da unutma: bir hamlelik fark sonucu değiştirir.",
@@ -3856,6 +4132,12 @@
   "m": "Değirmen kalenin 7. sırada taş almasıyla başlar; başka hamlede açılan şah yok.",
   "dosya": "1dbdae776890b0c9.mp3",
   "sure": 5.67
+ },
+ "1dc49bde71179934": {
+  "k": "antrenor",
+  "m": "Kale 7. yataya çıkmadı. Hamleden sonra kalenin yatay numarası 7 olmalı.",
+  "dosya": "1dc49bde71179934.mp3",
+  "sure": 5.8
  },
  "1dd6267ddaad75a2": {
   "k": "antrenor",
@@ -4127,6 +4409,12 @@
   "dosya": "20198c6131c7c7f6.mp3",
   "sure": 3.47
  },
+ "201b2578c8e9c6d6": {
+  "k": "antrenor",
+  "m": "Siyah piyon aşağı doğru, aynı dikeyde 1. yataya kadar ilerler.",
+  "dosya": "201b2578c8e9c6d6.mp3",
+  "sure": 4.83
+ },
  "2027d076f45f9f9c": {
   "k": "antrenor",
   "m": "Bu hamlede at kenara gitmiyor.",
@@ -4138,6 +4426,12 @@
   "m": "Taşlar çıkmadıysa ne olur?",
   "dosya": "202a13934ca204bb.mp3",
   "sure": 1.57
+ },
+ "2030ea22a4e749f8": {
+  "k": "antrenor",
+  "m": "Yalnız beyaz piyonlara ve yalnız a ile h dikeyine bak.",
+  "dosya": "2030ea22a4e749f8.mp3",
+  "sure": 4.91
  },
  "203b3e834cce74db": {
   "k": "antrenor",
@@ -4162,6 +4456,12 @@
   "m": "Kalenin karesine saldıran üç beyaz taş var.",
   "dosya": "205cbabea10a63b4.mp3",
   "sure": 3.34
+ },
+ "20632d6702c4f4f6": {
+  "k": "antrenor",
+  "m": "Dikeyle karıştırma: yatay yana, dikey yukarı gider.",
+  "dosya": "20632d6702c4f4f6.mp3",
+  "sure": 4.13
  },
  "2078f863980e6842": {
   "k": "antrenor",
@@ -4193,6 +4493,12 @@
   "dosya": "208b77263c3f62d6.mp3",
   "sure": 4.36
  },
+ "20abec2c101cb531": {
+  "k": "antrenor",
+  "m": "c4 ve e4 aynı yatayda; kale oraları da görüyor.",
+  "dosya": "20abec2c101cb531.mp3",
+  "sure": 4.44
+ },
  "20b15c9c3496a19d": {
   "k": "antrenor",
   "m": "Önce siyahın ne yapmak istediğine bak. Tehdit edilen taşı kurtar, yolu kes ya da karşı tehdit yap.",
@@ -4204,6 +4510,12 @@
   "m": "Atın gidebildiği her kare güvenli değil; siyah piyonun saldırdığı kareleri ele.",
   "dosya": "20c1c3128c6ebfb2.mp3",
   "sure": 5.43
+ },
+ "20c1e4b6ab3179b0": {
+  "k": "antrenor",
+  "m": "Kale f dikeyinden saldırıyor. Atın e6'dan gidebileceği yerler arasında saldıran kaleyi alan ya da saldırı altındaki atı koruyan kareler var.",
+  "dosya": "20c1e4b6ab3179b0.mp3",
+  "sure": 10.48
  },
  "20c91de753502f90": {
   "k": "antrenor",
@@ -4247,6 +4559,12 @@
   "dosya": "20f92103bc8e4166.mp3",
   "sure": 6.58
  },
+ "2100521fd1d877ad": {
+  "k": "antrenor",
+  "m": "Açık dikeylerde ya da yataylarda özgürce gezen, rakibe şah çeken kale. Pasif kale bir köşede bekler.",
+  "dosya": "2100521fd1d877ad.mp3",
+  "sure": 8.18
+ },
  "2106253393f0b165": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah kendi taşının olduğu ya da rakip taşın saldırdığı kareye gidemez. Mat için hepsi kapalı olmalı!",
@@ -4259,6 +4577,12 @@
   "dosya": "2106eb6caf171026.mp3",
   "sure": 7.65
  },
+ "2107fd21041e1fd2": {
+  "k": "antrenor",
+  "m": "H dikeyinde yalnız bir beyaz piyon var; çifte piyon yok.",
+  "dosya": "2107fd21041e1fd2.mp3",
+  "sure": 4.68
+ },
  "210b5e65c141a76f": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah ya da kale bir kez oynadıysa o yana bir daha rok yapılamaz. Şah şahtayken de rok yoktur!",
@@ -4270,6 +4594,12 @@
   "m": "Her hamlede bir kare mi gidiyor?",
   "dosya": "2121e017397d5d75.mp3",
   "sure": 2.12
+ },
+ "2123a9e9f5298a47": {
+  "k": "antrenor",
+  "m": "Kale d dikeyinden saldırıyor. Filin gidebileceği karelerden hangisi d dikeyinde?",
+  "dosya": "2123a9e9f5298a47.mp3",
+  "sure": 5.98
  },
  "2128cf38ed95f7fe": {
   "k": "pars",
@@ -4372,6 +4702,12 @@
   "m": "Beyaz uzun menzilli bir taşın çizgisinde, arkasında şah ya da değerli taş olan siyah taşı ara.",
   "dosya": "21c8d78b59a3f3a9.mp3",
   "sure": 7.65
+ },
+ "21d9ffc50c4ede07": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Beyaz kale 7. yataya çıkınca siyahın piyonlarına yan yan saldırır. Siyah taşlar sıkışır!",
+  "dosya": "21d9ffc50c4ede07.mp3",
+  "sure": 8.12
  },
  "21e590a720d38305": {
   "k": "pars",
@@ -4505,6 +4841,12 @@
   "dosya": "22cb7bd1ebf23be0.mp3",
   "sure": 3.71
  },
+ "22d493420222851c": {
+  "k": "antrenor",
+  "m": "Şahın önündeki yatayı öbür kale kapatıyor.",
+  "dosya": "22d493420222851c.mp3",
+  "sure": 3.29
+ },
  "22feda9987916361": {
   "k": "antrenor",
   "m": "Biliyor muydun? Korumasız taşa saldırılırsa rakip onu bedavaya alabilir. Hamle yapmadan önce taşlarını say ve kontrol et!",
@@ -4607,6 +4949,12 @@
   "dosya": "2393f75757a32397.mp3",
   "sure": 5.51
  },
+ "23a0b9affb1bf74f": {
+  "k": "antrenor",
+  "m": "Her beyaz piyon için sağ ve sol dikeye bak. İkisinde de beyaz piyon yoksa o piyon izoledir.",
+  "dosya": "23a0b9affb1bf74f.mp3",
+  "sure": 6.87
+ },
  "23a58107b6e006fd": {
   "k": "antrenor",
   "m": "At f2 karesini koruyabilir ya da vezirin yoluna girebilir. Beyaz at g1'de.",
@@ -4637,6 +4985,12 @@
   "dosya": "23d7badc2823260e.mp3",
   "sure": 5.67
  },
+ "23db8f3401feea30": {
+  "k": "damla",
+  "m": "Arka sıra derken şahın durduğu son yatay mı?",
+  "dosya": "23db8f3401feea30.mp3",
+  "sure": 2.69
+ },
  "23ed368460d2adc0": {
   "k": "antrenor",
   "m": "Bu hamle en iyisi değil: siyah f6'daki vezir g6'ya giderek cevap verir ve beyaz çok daha az kazanır.",
@@ -4654,6 +5008,12 @@
   "m": "Dört taşın puanını karşılaştır; en yüksek olanı seç.",
   "dosya": "23fb12a0e521d9cf.mp3",
   "sure": 4.0
+ },
+ "24007bd772c4b3c7": {
+  "k": "antrenor",
+  "m": "Siyah şahtan iki kare uzaktaki, aynı dikey ya da aynı yataydaki kareleri düşün.",
+  "dosya": "24007bd772c4b3c7.mp3",
+  "sure": 6.3
  },
  "2408b65b5947fa7a": {
   "k": "antrenor",
@@ -4690,6 +5050,12 @@
   "m": "Şahın önü kendi piyonlarıyla kapalı. Vezirle son sırada şah çekmeyi dene.",
   "dosya": "242d71032f72f909.mp3",
   "sure": 5.33
+ },
+ "242da411558dfe99": {
+  "k": "antrenor",
+  "m": "h dikeyi açık, en az bir taş alınabilir.",
+  "dosya": "242da411558dfe99.mp3",
+  "sure": 2.82
  },
  "2432f8d1b618a65b": {
   "k": "antrenor",
@@ -4757,11 +5123,23 @@
   "dosya": "2495ca8246f2e159.mp3",
   "sure": 2.04
  },
+ "24a7f41a513b7365": {
+  "k": "antrenor",
+  "m": "b4 karesi 4. yatayda, yani 4-6. yatay arasında; sorun bu değil.",
+  "dosya": "24a7f41a513b7365.mp3",
+  "sure": 5.85
+ },
  "24aba4fee9420913": {
   "k": "antrenor",
   "m": "{ad}, her konumda 1 hamlelik mat bulunmaz. Önce karar vereceğiz: mat var mı?",
   "dosya": "24aba4fee9420913.mp3",
   "sure": 6.27
+ },
+ "24ac1dd3e33ef654": {
+  "k": "antrenor",
+  "m": "Alt yatayda tek bir boş kare kaldı. Vezir kendi rengini sever.",
+  "dosya": "24ac1dd3e33ef654.mp3",
+  "sure": 4.62
  },
  "24c8f6356954e487": {
   "k": "antrenor",
@@ -4954,6 +5332,12 @@
   "m": "Beyaz kurban karesine geri alıyor; taşını geri almış ve mat etmiş oluyor.",
   "dosya": "261d8f2632e8ce53.mp3",
   "sure": 5.15
+ },
+ "262a9298be76f88d": {
+  "k": "antrenor",
+  "m": "g2'deki piyonun yan dikeyinde ilerde siyah piyon var (f4); bu yüzden geçer piyon değil.",
+  "dosya": "262a9298be76f88d.mp3",
+  "sure": 6.95
  },
  "262db27b8234422c": {
   "k": "antrenor",
@@ -5207,6 +5591,12 @@
   "dosya": "27fa6093a7070f9b.mp3",
   "sure": 4.6
  },
+ "27fb7c817aed6184": {
+  "k": "antrenor",
+  "m": "c ve f piyonları pat tuzakları kurabilir; kolay kazanılan dikeyler b, d, e ve g'dir.",
+  "dosya": "27fb7c817aed6184.mp3",
+  "sure": 7.37
+ },
  "280c417559fbbd68": {
   "k": "damla",
   "m": "Yani 1 - 9 = eksi 8. Büyük zarar!",
@@ -5266,6 +5656,12 @@
   "m": "Beyaz şah piyona yetişiyor; berabere değil.",
   "dosya": "2871266000e05ca2.mp3",
   "sure": 3.16
+ },
+ "2876aa884f8ced17": {
+  "k": "antrenor",
+  "m": "Siyah şahı köşeye sıkıştıran beyaz şahtan yararlan; kale hangi yataydan şah çekerse siyah şah kaçamaz?",
+  "dosya": "2876aa884f8ced17.mp3",
+  "sure": 8.59
  },
  "28790b3717305b99": {
   "k": "antrenor",
@@ -5332,6 +5728,12 @@
   "m": "Kareler boş olmadığı için rok yapılamaz. Şahla kale arasına bak.",
   "dosya": "290d629f86e2fd02.mp3",
   "sure": 4.83
+ },
+ "293210ec8b9e3156": {
+  "k": "antrenor",
+  "m": "e5 bir yatay yukarıda kalıyor.",
+  "dosya": "293210ec8b9e3156.mp3",
+  "sure": 2.32
  },
  "293317048e9ef34a": {
   "k": "antrenor",
@@ -5417,6 +5819,12 @@
   "dosya": "299cc8907f012f93.mp3",
   "sure": 4.31
  },
+ "299f9b475b2ae221": {
+  "k": "antrenor",
+  "m": "Şah uzun tarafta. Kale hangi açık dikeyden son yataya gidebilir, bak.",
+  "dosya": "299f9b475b2ae221.mp3",
+  "sure": 5.62
+ },
  "29a443015d8ed7d3": {
   "k": "antrenor",
   "m": "X-ışınında saldıran taşla karşı taş arasında bir taş durur; bu taş kendi taşındır.",
@@ -5488,6 +5896,12 @@
   "m": "Şah tehdit altındayken başka bir taşı oynayamaz; önce şahı kurtarması gerekir.",
   "dosya": "29febe048cd47139.mp3",
   "sure": 5.62
+ },
+ "2a12eb3e3351fa13": {
+  "k": "antrenor",
+  "m": "Kalelerden biri kenar yatayına şah çekecek.",
+  "dosya": "2a12eb3e3351fa13.mp3",
+  "sure": 3.06
  },
  "2a2ad1e8f244f69a": {
   "k": "antrenor",
@@ -5573,6 +5987,12 @@
   "dosya": "2acde7b889e1991b.mp3",
   "sure": 5.62
  },
+ "2ada2a4410deb5ab": {
+  "k": "antrenor",
+  "m": "2 değil, bir tane eksik saymışsın: piyonsuz dikeyler b, e ve g, yani 3 tane.",
+  "dosya": "2ada2a4410deb5ab.mp3",
+  "sure": 6.27
+ },
  "2aeb6ba8b1978b8e": {
   "k": "antrenor",
   "m": "Şah çekilmiş; patta şah çekilmez.",
@@ -5608,6 +6028,12 @@
   "m": "Sütun dikeydir, yukarıdan aşağıya gider.",
   "dosya": "2b310e9e1e1f3eb3.mp3",
   "sure": 3.16
+ },
+ "2b31677d409361d1": {
+  "k": "antrenor",
+  "m": "Her iki piyonun kendi dikeyindeki ileri kareleri işaretle.",
+  "dosya": "2b31677d409361d1.mp3",
+  "sure": 3.94
  },
  "2b3eedc381bc7878": {
   "k": "antrenor",
@@ -5723,6 +6149,12 @@
   "dosya": "2c03250b3b8a37f3.mp3",
   "sure": 3.71
  },
+ "2c14f387ae6bf463": {
+  "k": "antrenor",
+  "m": "Her dikeye yukarıdan aşağıya bak. Hiç piyon olmayan dikey hangisi?",
+  "dosya": "2c14f387ae6bf463.mp3",
+  "sure": 5.09
+ },
  "2c170ad9aa97fdbc": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah asla alınmaz. Şahı tehdit eden taş sadece “Şah!” uyarısı yapar.",
@@ -5752,6 +6184,18 @@
   "m": "Nereden başlayacağım hocam?",
   "dosya": "2c4c2101f554e429.mp3",
   "sure": 1.75
+ },
+ "2c4f9e8e82e81ef3": {
+  "k": "antrenor",
+  "m": "Yazıyı parça parça oku: dikey, alma, kare, terfi, şah.",
+  "dosya": "2c4f9e8e82e81ef3.mp3",
+  "sure": 4.26
+ },
+ "2c5bf97b3c998844": {
+  "k": "antrenor",
+  "m": "{ad}, bu ünitede siyah taşlarla oynuyoruz. Siyah ikinci yatayda başlar ama hedefleri beyazla aynıdır.",
+  "dosya": "2c5bf97b3c998844.mp3",
+  "sure": 8.07
  },
  "2c6a6ceb82650c9b": {
   "k": "antrenor",
@@ -5789,6 +6233,12 @@
   "dosya": "2cb987eebaddf889.mp3",
   "sure": 2.93
  },
+ "2cd570a6b9308dbb": {
+  "k": "antrenor",
+  "m": "Neredeyse! Önünde ve yan dikeylerinde rakip piyon yoksa hiçbir piyon onu durduramaz.",
+  "dosya": "2cd570a6b9308dbb.mp3",
+  "sure": 5.85
+ },
  "2cdb3f9fa2f28bdc": {
   "k": "antrenor",
   "m": "Beyaz piyonun olmadığı, siyah piyonun durduğu sütunu bul.",
@@ -5800,6 +6250,12 @@
   "m": "Bu hamle mat yapmaz; beyaz kurtulur. Mat g2'de bekliyor.",
   "dosya": "2cdb84eaf50b2b04.mp3",
   "sure": 4.18
+ },
+ "2cde21f65284fea1": {
+  "k": "antrenor",
+  "m": "Terfi karesi 1. yataydır; başlangıç karesi sayılmaz, yalnız g3, g2 ve g1 karelerini say.",
+  "dosya": "2cde21f65284fea1.mp3",
+  "sure": 8.62
  },
  "2ce50e1455977428": {
   "k": "antrenor",
@@ -5963,6 +6419,12 @@
   "dosya": "2e6357b766273d4b.mp3",
   "sure": 9.61
  },
+ "2e8bca5b4b7ac6dd": {
+  "k": "antrenor",
+  "m": "7. yatay, beyaz için siyah piyonların durduğu yataydır. Kaleni o yataya ulaştır.",
+  "dosya": "2e8bca5b4b7ac6dd.mp3",
+  "sure": 6.22
+ },
  "2e8f3f50f8ac4607": {
   "k": "antrenor",
   "m": "Şah, korumasız bir taşı alabilir; yasak olan yalnız şah çekilen kareye gitmektir.",
@@ -6004,6 +6466,12 @@
   "m": "Gideceğin karede fil iki siyah taşa aynı anda saldırmalı. Fil çapraz çizgide, önünde engel yoksa saldırır.",
   "dosya": "2ee3f92e466e145a.mp3",
   "sure": 7.94
+ },
+ "2ee5f82989792249": {
+  "k": "antrenor",
+  "m": "Piyon 7. yatayda; bir kare ilerisi son yatay.",
+  "dosya": "2ee5f82989792249.mp3",
+  "sure": 4.08
  },
  "2ee6c902150dd189": {
   "k": "antrenor",
@@ -6196,6 +6664,12 @@
   "m": "e5'e L biçiminde ya da çaprazdan bakan beyaz taşı bul. Siyah taşları işaretleme.",
   "dosya": "2fd608f9ef068e29.mp3",
   "sure": 5.69
+ },
+ "2fe8df55cc66aaac": {
+  "k": "antrenor",
+  "m": "{ad}, bir kaleyi tahtanın neresine koyarsak en çok iş görür? Çoğu zaman 7. yataya.",
+  "dosya": "2fe8df55cc66aaac.mp3",
+  "sure": 7.05
  },
  "2fec9375ad4caebb": {
   "k": "antrenor",
@@ -6689,6 +7163,12 @@
   "dosya": "32e323b74862680e.mp3",
   "sure": 5.56
  },
+ "32f8f77d2795122a": {
+  "k": "antrenor",
+  "m": "Bu sefer siyahın gözünden bak: siyah piyonu olmayan ama beyaz piyonu olan dikeyleri ara.",
+  "dosya": "32f8f77d2795122a.mp3",
+  "sure": 7.24
+ },
  "33083b4f655d9e59": {
   "k": "antrenor",
   "m": "Biliyor muydun? Kenardaki uzak geçer piyon rakip şahı kendine çeker; şahın uzaklaşınca diğer piyonlar korumasız kalır.",
@@ -7037,6 +7517,12 @@
   "dosya": "350596ea9b98af0a.mp3",
   "sure": 2.59
  },
+ "350bcefc809d5e60": {
+  "k": "antrenor",
+  "m": "Kale yedinci yatayda sağa kayabilir. Yol açık mı, bak.",
+  "dosya": "350bcefc809d5e60.mp3",
+  "sure": 4.02
+ },
  "3516e6f1a35ce83a": {
   "k": "pars",
   "m": "Yani önce şah, sonra çatal. Bunu sevdim!",
@@ -7235,6 +7721,12 @@
   "dosya": "364d42d9305630fa.mp3",
   "sure": 5.33
  },
+ "365d5fd782ccb36e": {
+  "k": "antrenor",
+  "m": "Kare 4-6. yatayda olmalı, beyaz piyon korumalı ve yan dikeylerde daha ileride siyah piyon bulunmamalı.",
+  "dosya": "365d5fd782ccb36e.mp3",
+  "sure": 7.71
+ },
  "365dbda65981a88b": {
   "k": "antrenor",
   "m": "e2'ye hangi beyaz taşlar gidebilir? Her taşın hareket yolunu ayrı ayrı kontrol et.",
@@ -7379,6 +7871,12 @@
   "dosya": "37b64b4d7e028a38.mp3",
   "sure": 5.38
  },
+ "37c4ab214b26f389": {
+  "k": "antrenor",
+  "m": "Terfi, piyonun son yataya ulaşıp taş olmasıdır.",
+  "dosya": "37c4ab214b26f389.mp3",
+  "sure": 3.71
+ },
  "37d4f7ec971149e9": {
   "k": "antrenor",
   "m": "Koruyanları ararken at ve piyonun nasıl saldırdığını düşün: piyon çapraz, at L biçiminde bakar.",
@@ -7420,6 +7918,12 @@
   "m": "Şahın kaçabileceği kareleri say, sonra onları kapat.",
   "dosya": "3811418bdfced907.mp3",
   "sure": 4.26
+ },
+ "382920a7a98aa0b9": {
+  "k": "antrenor",
+  "m": "O dikeyde bir piyon görüyorsan dikey açık değildir. Baştan başa boş, piyonsuz dikeyi ara.",
+  "dosya": "382920a7a98aa0b9.mp3",
+  "sure": 6.58
  },
  "3830c0a401f0124e": {
   "k": "antrenor",
@@ -7583,6 +8087,12 @@
   "dosya": "3960064a05d20981.mp3",
   "sure": 5.88
  },
+ "3967ea791207b6d7": {
+  "k": "antrenor",
+  "m": "Şah çeken ve iki kalenin birlikte kapattığı kareyi bul. Kaleler yan yana çalışınca şahın kaçacağı yatay ya da dizi kapanır.",
+  "dosya": "3967ea791207b6d7.mp3",
+  "sure": 9.43
+ },
  "397005d2b7ee81f7": {
   "k": "damla",
   "m": "Üçünü karıştırırsam ne olur?",
@@ -7702,6 +8212,12 @@
   "m": "Yalnız açmazdaki taş tarafından korunan taş, gerçekte korumasızdır.",
   "dosya": "3a225cbef1f783b2.mp3",
   "sure": 5.38
+ },
+ "3a2685a3bea593d6": {
+  "k": "antrenor",
+  "m": "Önce hiç piyon olmayan dikeyi bul. Sonra kalenin tek hamlede o dikeye girip giremeyeceğine bak.",
+  "dosya": "3a2685a3bea593d6.mp3",
+  "sure": 6.82
  },
  "3a336047302a0052": {
   "k": "antrenor",
@@ -7967,6 +8483,12 @@
   "dosya": "3bee5a53058d8a17.mp3",
   "sure": 5.09
  },
+ "3c05686092cadc9d": {
+  "k": "antrenor",
+  "m": "Vezir siyah şahı aynı yataydan, aynı dikeyden ya da aynı çaprazdan görürse şah olur.",
+  "dosya": "3c05686092cadc9d.mp3",
+  "sure": 6.53
+ },
  "3c0cd6abd4858e6a": {
   "k": "antrenor",
   "m": "Fil çaprazda gider. Kendi piyonlarının arkasında kalmayan bir kareyi seç.",
@@ -8033,6 +8555,12 @@
   "dosya": "3ca103ddb7f6e269.mp3",
   "sure": 5.62
  },
+ "3ca6ae4413d31797": {
+  "k": "antrenor",
+  "m": "Açık dikeyde hiç piyon olmaz; f dikeyinde ise siyahın piyonu var.",
+  "dosya": "3ca6ae4413d31797.mp3",
+  "sure": 5.09
+ },
  "3ca99bbd032414e8": {
   "k": "antrenor",
   "m": "Ortada şahın çok kaçış karesi olur; bu yüzden şah önce kenara sürülür.",
@@ -8087,6 +8615,12 @@
   "dosya": "3cefd209be41c443.mp3",
   "sure": 10.21
  },
+ "3cfe8662031e1618": {
+  "k": "antrenor",
+  "m": "7. yataydaki piyon bir kare ilerler.",
+  "dosya": "3cfe8662031e1618.mp3",
+  "sure": 2.82
+ },
  "3d1b0a4928f203fb": {
   "k": "antrenor",
   "m": "Biliyor muydun? Piyonlar bir takım gibi: yalnız kalan izole, üst üste binen çifte, yolu açık olan geçer piyondur!",
@@ -8134,6 +8668,12 @@
   "m": "Piyon taş alırken çapraz gider. Terfi karesini rakip alabiliyor mu, bak.",
   "dosya": "3d78e302bb7d1494.mp3",
   "sure": 5.2
+ },
+ "3d872f3781c394a9": {
+  "k": "antrenor",
+  "m": "Siyah at ve filler 8. yatayda başlar.",
+  "dosya": "3d872f3781c394a9.mp3",
+  "sure": 3.42
  },
  "3d8b8b7d02008703": {
   "k": "antrenor",
@@ -8255,6 +8795,12 @@
   "dosya": "3e953243b0ce1d45.mp3",
   "sure": 6.3
  },
+ "3e9618efdfe76dff": {
+  "k": "antrenor",
+  "m": "Önce 4-6. yataydaki, beyaz piyonla korunan boş kareleri say. Sonra her birine siyah piyonun saldırabilip saldıramayacağını kontrol et.",
+  "dosya": "3e9618efdfe76dff.mp3",
+  "sure": 10.29
+ },
  "3eaaa114aa4133b7": {
   "k": "antrenor",
   "m": "Biliyor muydun? Şah saldırı altında ve kaçamıyorsa mat. Şah saldırı altında değil ama hamle yoksa pat: oyun berabere.",
@@ -8272,6 +8818,12 @@
   "m": "{ad}, şahın kaçış karelerini saymayı öğrendin. Şimdi son kareyi kapatma zamanı.",
   "dosya": "3eae3df40c857e11.mp3",
   "sure": 6.3
+ },
+ "3eb12c8ef03e9d8c": {
+  "k": "antrenor",
+  "m": "Arka sıra matında kale ya da vezir son yatayda şah çeker. Burada şah çeken taş fil.",
+  "dosya": "3eb12c8ef03e9d8c.mp3",
+  "sure": 5.75
  },
  "3eb82dc10e6254db": {
   "k": "antrenor",
@@ -8411,6 +8963,12 @@
   "dosya": "3fb0567e8a0fc475.mp3",
   "sure": 5.75
  },
+ "3fbaf6b8831f0def": {
+  "k": "antrenor",
+  "m": "Kenar dikeylerdeki (a ve h) kareleri seçme.",
+  "dosya": "3fbaf6b8831f0def.mp3",
+  "sure": 4.26
+ },
  "3fbb8e985a83af1e": {
   "k": "antrenor",
   "m": "Terfiye en çok 3 hamle kalan piyonlar 5., 6. ve 7. sıradadır.",
@@ -8471,6 +9029,12 @@
   "dosya": "400be560755b9768.mp3",
   "sure": 7.29
  },
+ "4027d849fb02bc87": {
+  "k": "antrenor",
+  "m": "Şah kalenin dikeyinden çıkmalı.",
+  "dosya": "4027d849fb02bc87.mp3",
+  "sure": 2.46
+ },
  "4033287c9669b7f6": {
   "k": "antrenor",
   "m": "Şahın varacağı kare saldırı altında değil.",
@@ -8530,6 +9094,18 @@
   "m": "Hangi taşlar şah hattının üstüne girebilir?",
   "dosya": "40d8b710fd0f97af.mp3",
   "sure": 2.69
+ },
+ "40e0f790dd122e53": {
+  "k": "antrenor",
+  "m": "Kaleyi öyle bir dikeye götür ki beyazın piyonu olmasın ama siyahın piyonu olsun.",
+  "dosya": "40e0f790dd122e53.mp3",
+  "sure": 5.98
+ },
+ "40e2468a93c69fc4": {
+  "k": "antrenor",
+  "m": "Piyon 3. yataya geçince beklemek yetmez; şah çekmek gerekir.",
+  "dosya": "40e2468a93c69fc4.mp3",
+  "sure": 5.2
  },
  "40f808d620f93359": {
   "k": "antrenor",
@@ -8596,6 +9172,12 @@
   "m": "Beyaz vezir d1'den çapraz hattına bakabilir. Hedefe kadar boş mu?",
   "dosya": "414cd08b86e568f4.mp3",
   "sure": 4.62
+ },
+ "414ed343ec94ce5e": {
+  "k": "antrenor",
+  "m": "Çünkü kale düz gider ve piyonlar yolunu kapatır. Hiç piyon olmayan dikeye açık dikey diyoruz.",
+  "dosya": "414ed343ec94ce5e.mp3",
+  "sure": 6.5
  },
  "41561b768256f1b1": {
   "k": "antrenor",
@@ -8699,6 +9281,24 @@
   "dosya": "41c88cdf9ec650eb.mp3",
   "sure": 7.97
  },
+ "41ce6caf4960b238": {
+  "k": "antrenor",
+  "m": "Yarı açık ya da kapalı dikeye gitmişsin. Hiç piyon olmayan dikeyi seç.",
+  "dosya": "41ce6caf4960b238.mp3",
+  "sure": 5.25
+ },
+ "41cfff727b334aea": {
+  "k": "antrenor",
+  "m": "3 değil, bir tane fazla saymışsın: siyah için yarı açık dikey 2 tane.",
+  "dosya": "41cfff727b334aea.mp3",
+  "sure": 5.28
+ },
+ "41d5fdce26f46405": {
+  "k": "antrenor",
+  "m": "Önce şah çeken taşa bak. Son yatayda kale ya da vezir varsa arka sıra matı. Şah çeken ve kaçışı tutan iki fil varsa Boden.",
+  "dosya": "41d5fdce26f46405.mp3",
+  "sure": 9.8
+ },
  "41dbcf06478f187b": {
   "k": "antrenor",
   "m": "Önce şah çek ve siyahı zorla. Siyahın yapabileceği her cevabı düşün: hepsinden sonra mat gelmeli.",
@@ -8723,6 +9323,12 @@
   "dosya": "41e88d46325a8a6a.mp3",
   "sure": 7.84
  },
+ "41ea92b357e645b5": {
+  "k": "antrenor",
+  "m": "h7 bir dikey sağda kalıyor.",
+  "dosya": "41ea92b357e645b5.mp3",
+  "sure": 2.46
+ },
  "4210aee516a8b0ad": {
   "k": "antrenor",
   "m": "Piyondan uzaklaşan kareler kaybettirir. Piyona yaklaşan kareleri dene.",
@@ -8734,6 +9340,12 @@
   "m": "Bazen bedava görünen bir taş tuzaktır. Almadan önce siyahın cevabını düşün, sonra en iyi hamleyi seç.",
   "dosya": "4212e70c4549abe0.mp3",
   "sure": 8.07
+ },
+ "422fff43958b3596": {
+  "k": "antrenor",
+  "m": "Piyonu son yataya götür, sonra veziri seç.",
+  "dosya": "422fff43958b3596.mp3",
+  "sure": 3.34
  },
  "423107bf4dcc835c": {
   "k": "antrenor",
@@ -9053,6 +9665,12 @@
   "dosya": "4437380840902eab.mp3",
   "sure": 4.68
  },
+ "444d381409f980bd": {
+  "k": "antrenor",
+  "m": "Bu hamlede siyah şah 3. yataya inebilir ve piyonuyla ilerler; siyah kazanır.",
+  "dosya": "444d381409f980bd.mp3",
+  "sure": 6.3
+ },
  "445a2ffea23c377d": {
   "k": "antrenor",
   "m": "Tahtadaki beyaz taşların puanlarını düşün; hangi ikisinin toplamı 8 ediyor?",
@@ -9173,6 +9791,12 @@
   "dosya": "450032dcfe3f5170.mp3",
   "sure": 6.64
  },
+ "450410b0ad1f95b2": {
+  "k": "antrenor",
+  "m": "Kalenin yatayına ve dikeyine bak. Hangi siyah taş o hatlarda?",
+  "dosya": "450410b0ad1f95b2.mp3",
+  "sure": 4.6
+ },
  "451eea1777559d7c": {
   "k": "antrenor",
   "m": "Bu karede siyahın bir hamlesi kalıyor ya da şah çekiliyor. Pat tam olarak şah çekmeden hamlesiz bırakmaktır.",
@@ -9292,6 +9916,12 @@
   "m": "Atın L hamlelerinden hangileri kaleyi alır ya da e-sütununda araya girer?",
   "dosya": "459bc72132160d84.mp3",
   "sure": 5.04
+ },
+ "45a95e6f2521f267": {
+  "k": "antrenor",
+  "m": "Beyaz piyonun olmadığı ama siyah piyonun durduğu dikeyi ara.",
+  "dosya": "45a95e6f2521f267.mp3",
+  "sure": 4.18
  },
  "45b2674dd7e5ddea": {
   "k": "antrenor",
@@ -9725,6 +10355,12 @@
   "dosya": "48ea494b7c81d5bd.mp3",
   "sure": 7.65
  },
+ "48ed32c2243b1843": {
+  "k": "antrenor",
+  "m": "Evet Damla. Bir kale bir yatayı kapatır, öbür kale şah çeker. Sonra roller değişir.",
+  "dosya": "48ed32c2243b1843.mp3",
+  "sure": 6.22
+ },
  "48f617c486a02a42": {
   "k": "antrenor",
   "m": "Siyahın her hamlesini dene: beyazın şah çekerek mat yapabildiği hamleler işe yaramaz.",
@@ -9863,6 +10499,12 @@
   "dosya": "49d867ad3435e339.mp3",
   "sure": 5.85
  },
+ "49dfe132f371d834": {
+  "k": "antrenor",
+  "m": "Piyon bir kare ileri gider; son yataya gelince terfi taşı seçilir.",
+  "dosya": "49dfe132f371d834.mp3",
+  "sure": 5.51
+ },
  "49e120862ec7b4a8": {
   "k": "antrenor",
   "m": "Bu hamle olmaz: siyah c2'deki vezirle a2'deki beyaz atı alır. Beyaz 3 puan kaybeder.",
@@ -9910,6 +10552,12 @@
   "m": "{ad}, rakip şah yetişebiliyorsa geçer piyonu yalnız bırakmayız: şahımızı yardıma çağırırız.",
   "dosya": "4a163077b7e8dafd.mp3",
   "sure": 6.58
+ },
+ "4a1a54d90348365d": {
+  "k": "antrenor",
+  "m": "c dikeyi boş, kale c8'e kadar gidebilir.",
+  "dosya": "4a1a54d90348365d.mp3",
+  "sure": 3.6
  },
  "4a26e90e33d3e685": {
   "k": "antrenor",
@@ -10109,6 +10757,12 @@
   "dosya": "4bbba10a76877351.mp3",
   "sure": 8.25
  },
+ "4bcb262478544c27": {
+  "k": "antrenor",
+  "m": "a4 aynı yatayda, kale oraya gidebilir.",
+  "dosya": "4bcb262478544c27.mp3",
+  "sure": 3.29
+ },
  "4bd4de1c42338928": {
   "k": "antrenor",
   "m": "Ş şahın harfidir.",
@@ -10151,6 +10805,12 @@
   "dosya": "4bfc3c7920f59709.mp3",
   "sure": 3.84
  },
+ "4bfc4317e0a1050f": {
+  "k": "antrenor",
+  "m": "Her dikeye bak: beyaz piyon yoksa (siyah piyon olsun ya da olmasın) o dikey kalenin işine yarar.",
+  "dosya": "4bfc4317e0a1050f.mp3",
+  "sure": 7.84
+ },
  "4c0608774aefed83": {
   "k": "pars",
   "m": "Hangisi daha kolay hocam?",
@@ -10168,6 +10828,12 @@
   "m": "Piyon nasıl şah çeker?",
   "dosya": "4c0fb9cfbabbcf83.mp3",
   "sure": 1.28
+ },
+ "4c1a53a915bc04ab": {
+  "k": "antrenor",
+  "m": "Bu Kanca matı değil: şah son yatayda ve önündeki kareler kendi taşlarıyla dolu. Bu, arka sıra matı.",
+  "dosya": "4c1a53a915bc04ab.mp3",
+  "sure": 7.42
  },
  "4c1d496cb403c616": {
   "k": "antrenor",
@@ -10192,6 +10858,12 @@
   "m": "Altı kare, kenara yakın bir atın sayısıdır. Tam ortadaki at sekiz kareye bakar.",
   "dosya": "4c3f3be7a85e4fcd.mp3",
   "sure": 5.33
+ },
+ "4c40f08e41442ac2": {
+  "k": "antrenor",
+  "m": "Piyon düz ileri bir kare gidince son yataya varıp varmadığına bak.",
+  "dosya": "4c40f08e41442ac2.mp3",
+  "sure": 4.96
  },
  "4c425e5c22d93acb": {
   "k": "antrenor",
@@ -10367,6 +11039,12 @@
   "dosya": "4d6bf501844fe0cf.mp3",
   "sure": 5.93
  },
+ "4d6bf83e062fa1f6": {
+  "k": "antrenor",
+  "m": "Kale siyah şahı aynı yataydan ya da aynı dikeyden görürse şah olur. Çaprazlara bakma.",
+  "dosya": "4d6bf83e062fa1f6.mp3",
+  "sure": 6.64
+ },
  "4d7576be570ea49b": {
   "k": "antrenor",
   "m": "Bu hamleden sonra siyah şahın 8 karesi kalır; daha geniş bir alan bırakıyor.",
@@ -10408,6 +11086,12 @@
   "m": "Biliyor muydun? Şah çekilince rakip yalnız şahını kurtarabilir; bu sırada öndeki taşın serbestçe iş görür.",
   "dosya": "4db77fe973dd225b.mp3",
   "sure": 7.55
+ },
+ "4dbe8f45c70b6da1": {
+  "k": "antrenor",
+  "m": "Kale d dikeyinde, at ise başka karelere saldırıyor; şaha değil.",
+  "dosya": "4dbe8f45c70b6da1.mp3",
+  "sure": 4.62
  },
  "4dc21bf51a8dda65": {
   "k": "antrenor",
@@ -10462,6 +11146,12 @@
   "m": "Şah kaleye doğru iki kare gider ve kale yanına gelir.",
   "dosya": "4e19d90953863c1e.mp3",
   "sure": 3.71
+ },
+ "4e1c9a79716fb94c": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon 8. yataya gelince vezir olur. Ama siyah şaha hamle bırakmazsan oyun pat olur!",
+  "dosya": "4e1c9a79716fb94c.mp3",
+  "sure": 7.47
  },
  "4e1cb401b86a0544": {
   "k": "antrenor",
@@ -10577,6 +11267,12 @@
   "dosya": "4ebfbd1bf49ff7c4.mp3",
   "sure": 2.95
  },
+ "4ed325e331a62ab6": {
+  "k": "antrenor",
+  "m": "Siyah piyon ile aynı yatayda, yan yana olan beyaz piyonu bul.",
+  "dosya": "4ed325e331a62ab6.mp3",
+  "sure": 4.83
+ },
  "4eee2a119fb68321": {
   "k": "antrenor",
   "m": "Yanlış saymışsın: şahın gidebileceği kareler, şah çeken taşı alan ve araya giren hamleler hepsi ayrı hamledir.",
@@ -10612,6 +11308,12 @@
   "m": "Taşın gidebildiği karelere bak. Şah çeken kareleri bul, sonra siyahın kurtulup kurtulamadığını kontrol et.",
   "dosya": "4f2e716e204fe257.mp3",
   "sure": 7.78
+ },
+ "4f311267ce2acdc8": {
+  "k": "antrenor",
+  "m": "Önünde ve yan dikeylerinde ilerisinde siyah piyon olmayan piyonu bul.",
+  "dosya": "4f311267ce2acdc8.mp3",
+  "sure": 5.38
  },
  "4f31ec1656e2253c": {
   "k": "antrenor",
@@ -10678,6 +11380,12 @@
   "m": "Korumasız bir taş ara; alırsan karşılığında bir şey vermezsin.",
   "dosya": "4f9aaa590d1aa791.mp3",
   "sure": 4.62
+ },
+ "4f9e85ab192ae806": {
+  "k": "antrenor",
+  "m": "Beyaz şahın dikeyine ve yatayına bak. Hangi siyah taş o hatta?",
+  "dosya": "4f9e85ab192ae806.mp3",
+  "sure": 4.49
  },
  "4fb7a187b117d464": {
   "k": "antrenor",
@@ -10751,11 +11459,29 @@
   "dosya": "50105dc3e8d7591c.mp3",
   "sure": 1.57
  },
+ "5010c753958ec7a1": {
+  "k": "pars",
+  "m": "Mat, pat tuzağı, 3. yatay, Philidor, Lucena... hepsi aklımda!",
+  "dosya": "5010c753958ec7a1.mp3",
+  "sure": 4.31
+ },
  "5012e1403ca8884c": {
   "k": "antrenor",
   "m": "Korumasız değil: şah f7'ye yakın, onu koruyor.",
   "dosya": "5012e1403ca8884c.mp3",
   "sure": 3.84
+ },
+ "502102de86956155": {
+  "k": "antrenor",
+  "m": "O dikeyde beyazın kendi piyonu var ya da hiç piyon yok. Yalnız siyahın piyonu olan dikeyi seç.",
+  "dosya": "502102de86956155.mp3",
+  "sure": 7.05
+ },
+ "504fa231459bf9ac": {
+  "k": "antrenor",
+  "m": "Çaprazda bir boş kare olması yetmez; şahlar aynı dikeyde ya da yatayda olmalı.",
+  "dosya": "504fa231459bf9ac.mp3",
+  "sure": 5.46
  },
  "5052619d5e13cab9": {
   "k": "antrenor",
@@ -10835,6 +11561,12 @@
   "dosya": "50c16ecb089613a2.mp3",
   "sure": 7.18
  },
+ "50ceaff0818e7eb0": {
+  "k": "antrenor",
+  "m": "Anahtar kareler piyonun iki yatay ilerisindedir. Şahını o kareler arasında bir yere götür.",
+  "dosya": "50ceaff0818e7eb0.mp3",
+  "sure": 6.58
+ },
  "50d987fcbbff9e4a": {
   "k": "antrenor",
   "m": "Önce siyah şahın kaçış karelerinden birini kapat.",
@@ -10894,6 +11626,12 @@
   "m": "Şah tehdit edilen kareye gidemez. Gidebileceği güvenli kareleri işaretle.",
   "dosya": "51028509f08218b3.mp3",
   "sure": 5.62
+ },
+ "510852c4077600ca": {
+  "k": "antrenor",
+  "m": "Çok doğru Pars. Yarı açık dikey kaleye hedef verir. Kendi piyonun yoksa kalenin yolu da açıktır.",
+  "dosya": "510852c4077600ca.mp3",
+  "sure": 6.82
  },
  "511b03cc02e0d93d": {
   "k": "antrenor",
@@ -11273,6 +12011,12 @@
   "dosya": "53a0611f69436927.mp3",
   "sure": 2.59
  },
+ "53aa3f225f9477c0": {
+  "k": "antrenor",
+  "m": "Kale 3. yatayda rahatça hareket edebilir, mat tehlikesi yoktur.",
+  "dosya": "53aa3f225f9477c0.mp3",
+  "sure": 4.83
+ },
  "53b4f813f75d9f53": {
   "k": "antrenor",
   "m": "Bu hamleden sonra taşın hâlâ kaçış karesi var.",
@@ -11393,6 +12137,12 @@
   "dosya": "548ec7b0001c422f.mp3",
   "sure": 2.46
  },
+ "54a1be6a65143983": {
+  "k": "antrenor",
+  "m": "Atı f3'e götürmek için g1'den bir L çiz: bir dikey yana, iki yatay ileri.",
+  "dosya": "54a1be6a65143983.mp3",
+  "sure": 6.09
+ },
  "54b0b8900f592535": {
   "k": "antrenor",
   "m": "d5 karesindeki at b8'deki taşa L çizerek ulaşamaz; oraya saldırmaz.",
@@ -11477,6 +12227,18 @@
   "dosya": "5551fea936b9114e.mp3",
   "sure": 2.12
  },
+ "5567b51408df3dc4": {
+  "k": "antrenor",
+  "m": "Yalnız 7. yatayda kalenin ulaşabildiği taşları işaretle; f8 ve uzaktaki taşlar döngüye girmez.",
+  "dosya": "5567b51408df3dc4.mp3",
+  "sure": 7.94
+ },
+ "55737672d0df2292": {
+  "k": "antrenor",
+  "m": "Beyaz piyonlar arasında önünde rakip piyon olmayan, yan dikeylerde da ilerisinde siyah piyonu bulunmayan piyonu bul.",
+  "dosya": "55737672d0df2292.mp3",
+  "sure": 8.31
+ },
  "55914b7c9e5c2d69": {
   "k": "damla",
   "m": "Kendi taşının arkasını mı hocam?",
@@ -11494,6 +12256,12 @@
   "m": "At kenara değil, ortaya doğru gitmeli.",
   "dosya": "559ec4049fcdd66a.mp3",
   "sure": 2.87
+ },
+ "55a40b4ab0d7cb4c": {
+  "k": "antrenor",
+  "m": "Kalelerin açık dikeyleri var. Son yatayda şah çekebilecekleri kareleri ara.",
+  "dosya": "55a40b4ab0d7cb4c.mp3",
+  "sure": 5.56
  },
  "55a74c601b66fed2": {
   "k": "antrenor",
@@ -11537,6 +12305,12 @@
   "dosya": "56015a153c3d8565.mp3",
   "sure": 8.59
  },
+ "560b098b2dd7758b": {
+  "k": "antrenor",
+  "m": "Siyah piyonların durduğu yataya, yani 7. yataya çıkabileceğin bir kare bul.",
+  "dosya": "560b098b2dd7758b.mp3",
+  "sure": 5.43
+ },
  "5611fb6710ebbbab": {
   "k": "antrenor",
   "m": "Biliyor muydun? Karakol: piyonunun koruduğu, rakip piyonun atamadığı ileri bir kare. Taşların orada rahat durur!",
@@ -11566,6 +12340,12 @@
   "m": "Önce kontrol et. Alınca karşılık gelecek mi? İyi plan: taşı al, tehdit et ya da vezirini korumaya hazır ol.",
   "dosya": "563982c3969ee4bd.mp3",
   "sure": 8.31
+ },
+ "563ab17b43e89290": {
+  "k": "antrenor",
+  "m": "b4 aynı yatayda ama arada kendi piyonumuz c4 var; kale onun üzerinden geçemez.",
+  "dosya": "563ab17b43e89290.mp3",
+  "sure": 6.58
  },
  "564ac8f9212ac10b": {
   "k": "antrenor",
@@ -11633,6 +12413,12 @@
   "dosya": "56bf190c2bb905b3.mp3",
   "sure": 8.36
  },
+ "56df40c3fd088f65": {
+  "k": "antrenor",
+  "m": "d4'teki kale ne e dikeyinde ne 7. yatayda; oraya bir hamlede gidemez.",
+  "dosya": "56df40c3fd088f65.mp3",
+  "sure": 5.69
+ },
  "56ec97e519f7c9af": {
   "k": "antrenor",
   "m": "Doğru. Ayıran tek soru şu: şah çekiliyor mu?",
@@ -11681,6 +12467,12 @@
   "dosya": "572bbe53cb2995f5.mp3",
   "sure": 5.93
  },
+ "5734791e8bdb0803": {
+  "k": "antrenor",
+  "m": "Piyonun iki yatay ilerisindeki üç kareye doğru yürü.",
+  "dosya": "5734791e8bdb0803.mp3",
+  "sure": 4.0
+ },
  "574a3a1a88df445f": {
   "k": "antrenor",
   "m": "Şah çeken kurbanı alınca siyahın şahı kaçmıyor, çünkü beyaz aynı hamlede mat ediyor.",
@@ -11728,6 +12520,12 @@
   "m": "Bu hamle taş kazandırmaz: siyah c8'deki vezirle d7'ye gider. Beyaz bir şey kazanamaz.",
   "dosya": "57a3bff060ed02ca.mp3",
   "sure": 7.24
+ },
+ "57a721220f5b5bce": {
+  "k": "antrenor",
+  "m": "Şahın önü kendi piyonlarıyla kapalı. Vezirle son yatayda şah çekmeyi dene.",
+  "dosya": "57a721220f5b5bce.mp3",
+  "sure": 5.62
  },
  "57b81bdb82180611": {
   "k": "pars",
@@ -12005,6 +12803,12 @@
   "dosya": "59691ebed1f8507f.mp3",
   "sure": 4.78
  },
+ "597cedc474ede17b": {
+  "k": "antrenor",
+  "m": "Alabilir: g1'deki at, kalenin yatayında ve yol açık.",
+  "dosya": "597cedc474ede17b.mp3",
+  "sure": 4.0
+ },
  "598d99578ef78417": {
   "k": "antrenor",
   "m": "Kendi taşımızı yaklaştırmak değil; rakibin taşını bir yere çekiyoruz.",
@@ -12215,6 +13019,12 @@
   "dosya": "5aca56a0c149bb73.mp3",
   "sure": 3.53
  },
+ "5ad9a2e2c1147848": {
+  "k": "antrenor",
+  "m": "Şahın yatayı, çaprazı ve dikeyi üzerindeki kareleri düşün.",
+  "dosya": "5ad9a2e2c1147848.mp3",
+  "sure": 4.68
+ },
  "5aee8e48cabac031": {
   "k": "antrenor",
   "m": "Filinle siyahın korunan bir fil ya da atını al: siyah geri alınca bir takas olur.",
@@ -12274,6 +13084,12 @@
   "m": "Fili c4'e oyna; e2'ye değil.",
   "dosya": "5b43d02bf1407d9c.mp3",
   "sure": 2.74
+ },
+ "5b467903cc768e2a": {
+  "k": "antrenor",
+  "m": "Yalnız bir tarafın piyonu varsa bile dikey açık sayılmaz. İki taraftan da piyon olmamalı.",
+  "dosya": "5b467903cc768e2a.mp3",
+  "sure": 5.67
  },
  "5b470db27e7133fb": {
   "k": "antrenor",
@@ -12353,6 +13169,12 @@
   "dosya": "5bf18d7bc5579833.mp3",
   "sure": 4.41
  },
+ "5bf453cbb87fe6ef": {
+  "k": "antrenor",
+  "m": "Siyah şah kendi piyonlarının arkasında sıkışmış; hangi yataydan şah çekilir?",
+  "dosya": "5bf453cbb87fe6ef.mp3",
+  "sure": 5.56
+ },
  "5bf6a9ac314a5af0": {
   "k": "antrenor",
   "m": "Önce beyaz taşların saldırılarını, sonra siyah taşların saldırılarını ayrı ayrı bul.",
@@ -12413,6 +13235,12 @@
   "dosya": "5c47ad60424042e6.mp3",
   "sure": 6.16
  },
+ "5c4b875d56ed07ab": {
+  "k": "antrenor",
+  "m": "Kale yedinci yatayda şahın yanına kayabilir. Sıra sende, önce sen mat yap!",
+  "dosya": "5c4b875d56ed07ab.mp3",
+  "sure": 5.98
+ },
  "5c5aa570d94ba384": {
   "k": "antrenor",
   "m": "Evet. Bir de rakibin şahına bak: hamle kalıyor mu, kalmıyor mu?",
@@ -12442,6 +13270,12 @@
   "m": "Kale verip hafif taş alırsan kaliteyi kaybedersin. Beyaz fil ile kaleyi alır (5 puan). Siyah piyon ile fili alır (3 puan). Beyaz 2 puan kazanır.",
   "dosya": "5c79acf08ab10b26.mp3",
   "sure": 11.18
+ },
+ "5c98de9974cfb5c0": {
+  "k": "antrenor",
+  "m": "Piyonun iki yatay önüne bak: tam önündeki kare ve iki yanındaki kareler.",
+  "dosya": "5c98de9974cfb5c0.mp3",
+  "sure": 5.25
  },
  "5ca660a91e2801ab": {
   "k": "antrenor",
@@ -12598,6 +13432,12 @@
   "m": "Oynamış taşlar artık ilk karelerinde durmuyor.",
   "dosya": "5e162d8bd6a6dbcd.mp3",
   "sure": 3.11
+ },
+ "5e1c731836576a48": {
+  "k": "antrenor",
+  "m": "Kale 7. yatayda uzakta; şah ona ulaşamaz, şahtan da kurtulmaz.",
+  "dosya": "5e1c731836576a48.mp3",
+  "sure": 5.85
  },
  "5e2222bc57df8227": {
   "k": "antrenor",
@@ -12827,6 +13667,12 @@
   "dosya": "5f8c593b4011643c.mp3",
   "sure": 4.91
  },
+ "5f9b621c5dd0ca29": {
+  "k": "antrenor",
+  "m": "Bir dikeyde tek bir piyon bile varsa o dikey açık değildir.",
+  "dosya": "5f9b621c5dd0ca29.mp3",
+  "sure": 4.44
+ },
  "5fb03d3dffa9092b": {
   "k": "antrenor",
   "m": "Kalen uzaktan şah çekebiliyor mu? Siyah şahın kaçışlarını kapatan şah çekme karesini ara.",
@@ -12929,6 +13775,12 @@
   "dosya": "6067159d12fbd1ed.mp3",
   "sure": 7.52
  },
+ "606e6ff827b45b10": {
+  "k": "antrenor",
+  "m": "Kalenin bulunduğu dikeye baştan sona bak. Hiç piyon (ne beyaz ne siyah) yoksa dikey açıktır.",
+  "dosya": "606e6ff827b45b10.mp3",
+  "sure": 7.13
+ },
  "607a2173986ad59b": {
   "k": "antrenor",
   "m": "H sütununda yalnız bir beyaz piyon var; çifte piyon yok.",
@@ -12940,6 +13792,12 @@
   "m": "Vezir b7'ye gelince şah çekmiyor. Mat olmaz.",
   "dosya": "60936a71da1e0d41.mp3",
   "sure": 3.76
+ },
+ "60958aad739446a0": {
+  "k": "pars",
+  "m": "Şah her seferinde bir yatay geriye itiliyor ve sonunda kaçamıyor.",
+  "dosya": "60958aad739446a0.mp3",
+  "sure": 4.02
  },
  "609ac330626d1357": {
   "k": "damla",
@@ -13007,6 +13865,12 @@
   "dosya": "611681b8c48e6d70.mp3",
   "sure": 4.78
  },
+ "611814dc0468cda3": {
+  "k": "antrenor",
+  "m": "Sık hata: 6. dikey ile 6. yatay karıştırılır. Rakam her zaman yatayı gösterir.",
+  "dosya": "611814dc0468cda3.mp3",
+  "sure": 6.69
+ },
  "611ed9ddbe6ce1c3": {
   "k": "antrenor",
   "m": "Bir taş değil; ata saldıran ikinci bir beyaz taş daha var.",
@@ -13055,6 +13919,12 @@
   "dosya": "6173d4c14ae1ddc3.mp3",
   "sure": 4.86
  },
+ "617fe1f43a99684c": {
+  "k": "antrenor",
+  "m": "Kale h5, 1. yataya giremez; onu işaretleme.",
+  "dosya": "617fe1f43a99684c.mp3",
+  "sure": 3.47
+ },
  "618e8a98931b8b6e": {
   "k": "antrenor",
   "m": "Koruyanı olan taşı alırsan rakip geri alır; bedava olanları seç.",
@@ -13102,6 +13972,12 @@
   "m": "Biliyor muydun? Taşların görevlerini bulmak, hamleyi bulmanın yarısıdır. Önce şah, sonra koruyucular, sonra yollar.",
   "dosya": "61cf68ab2d1c19d8.mp3",
   "sure": 7.6
+ },
+ "61d7638a743cb785": {
+  "k": "antrenor",
+  "m": "Vezir piyonu almak için onunla aynı yataya, aynı dikeye ya da aynı çapraza girmeli.",
+  "dosya": "61d7638a743cb785.mp3",
+  "sure": 6.64
  },
  "61d8de1551cfd148": {
   "k": "antrenor",
@@ -13180,6 +14056,12 @@
   "m": "{ad}, çatalın en ünlü ustası attır.",
   "dosya": "6227c75588e5b2f2.mp3",
   "sure": 2.82
+ },
+ "622b7cd2617b6ec9": {
+  "k": "antrenor",
+  "m": "Siyah taşlar 8. yatayda başlar: atlar b8 ve g8, filler c8 ve f8.",
+  "dosya": "622b7cd2617b6ec9.mp3",
+  "sure": 7.37
  },
  "62386d23cc931828": {
   "k": "antrenor",
@@ -13331,6 +14213,12 @@
   "dosya": "63343ed2a4ee0078.mp3",
   "sure": 3.37
  },
+ "6335d5b882f6bb94": {
+  "k": "antrenor",
+  "m": "D dikeyinde hiç piyon yok; bu dikey açık dikeydir, aranan cevap değil.",
+  "dosya": "6335d5b882f6bb94.mp3",
+  "sure": 5.46
+ },
  "634f3a38469883de": {
   "k": "antrenor",
   "m": "C sütununda beyaz piyon var; o yüzden açık değil.",
@@ -13378,6 +14266,12 @@
   "m": "Evet Pars! Rakibin hiç hamlesi kalmaz ve şah çekilmezse oyun berabere biter. Son hamleden önce hep kontrol et.",
   "dosya": "637ee638d12cf0ad.mp3",
   "sure": 7.84
+ },
+ "63aeba1ec507cb25": {
+  "k": "antrenor",
+  "m": "Kale şahla aynı kenar dikeyinde uzaktan şah çekmeli. Atın tuttuğu kareleri say.",
+  "dosya": "63aeba1ec507cb25.mp3",
+  "sure": 5.67
  },
  "63b0b25095a5db32": {
   "k": "antrenor",
@@ -13589,6 +14483,12 @@
   "dosya": "6596665546f2f479.mp3",
   "sure": 1.99
  },
+ "65a4416ab0305625": {
+  "k": "antrenor",
+  "m": "Piyon yalnız ileri gider; 8. yataydaki kare terfi karesidir.",
+  "dosya": "65a4416ab0305625.mp3",
+  "sure": 5.15
+ },
  "65ab66d06aa748ea": {
   "k": "antrenor",
   "m": "Pat oyunu berabere bitirir.",
@@ -13733,6 +14633,12 @@
   "dosya": "66fa5010c4785028.mp3",
   "sure": 5.56
  },
+ "670022781eb9bbc3": {
+  "k": "antrenor",
+  "m": "Kısa rokta kale şahın öbür yanına geçer. Şah çekilen şah hangi dikeyde?",
+  "dosya": "670022781eb9bbc3.mp3",
+  "sure": 5.62
+ },
  "6701069cfac132c7": {
   "k": "antrenor",
   "m": "Evet, buna zorla mat diyoruz. İlk hamlen siyahın bütün cevaplarını kapatmalı.",
@@ -13798,6 +14704,12 @@
   "m": "Vezir kaleyle takas olunca kaleye karşı vezir kalmaz; asıl plan çatal kurmaktır.",
   "dosya": "6749c562f1d3315c.mp3",
   "sure": 5.67
+ },
+ "674e32ed2befd3c5": {
+  "k": "antrenor",
+  "m": "Siyah şahın dikeyini ve onun iki yanındaki dikeyleri bul. Orada başlangıç karesinden ilerlemiş (2. yataydan çıkmış) beyaz piyonları işaretle.",
+  "dosya": "674e32ed2befd3c5.mp3",
+  "sure": 11.0
  },
  "675018b5359d56e5": {
   "k": "antrenor",
@@ -13985,6 +14897,12 @@
   "dosya": "685d32e913af0536.mp3",
   "sure": 3.84
  },
+ "686197e524dccb7a": {
+  "k": "antrenor",
+  "m": "Kaleyi 7. yataya çıkarman gerekiyor. Gittiğin karenin yatay numarası 7 mi diye bak.",
+  "dosya": "686197e524dccb7a.mp3",
+  "sure": 6.69
+ },
  "686773f866896726": {
   "k": "damla",
   "m": "At olur mu hocam?",
@@ -14099,6 +15017,12 @@
   "dosya": "692456cc6e829f36.mp3",
   "sure": 2.64
  },
+ "6928e2ff5bc54632": {
+  "k": "antrenor",
+  "m": "Yanlış piyonu oynadın. Geçer piyon, ilerisinde yan ya da aynı dikeyde siyah piyon olmayan piyondur.",
+  "dosya": "6928e2ff5bc54632.mp3",
+  "sure": 7.6
+ },
  "693834e931deda06": {
   "k": "antrenor",
   "m": "Şahın, alan piyonun ve terfi eden piyonun varış karelerine bak.",
@@ -14110,6 +15034,18 @@
   "m": "Asılı taşı koruyan yoktur. Her siyah taşın yanında onu koruyan başka bir siyah taş var mı?",
   "dosya": "693fb67de723d382.mp3",
   "sure": 6.3
+ },
+ "695153b7ce516bd4": {
+  "k": "antrenor",
+  "m": "Bu sefer siyah piyonlara bak. Her birinin iki yanındaki dikeyde siyah piyon var mı?",
+  "dosya": "695153b7ce516bd4.mp3",
+  "sure": 5.51
+ },
+ "698446d0cf4f525e": {
+  "k": "antrenor",
+  "m": "Önce c dikeyini bul, sonra o dikeyde 6. yataya kadar çık.",
+  "dosya": "698446d0cf4f525e.mp3",
+  "sure": 4.21
  },
  "699bd7d39d561af6": {
   "k": "antrenor",
@@ -14296,6 +15232,12 @@
   "m": "O zaman başka taşımın da hamlesi kalmazsa pat olur!",
   "dosya": "6a74535c1344a212.mp3",
   "sure": 3.66
+ },
+ "6a77e86e692ebc04": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Lucena: piyon 7. yatayda, şah onun önünde. Kaleyi 4. yataya koyarak köprü kurarsan şah çekmeler biter ve kazanırsın!",
+  "dosya": "6a77e86e692ebc04.mp3",
+  "sure": 10.34
  },
  "6a7dec86d8abf07b": {
   "k": "antrenor",
@@ -14567,6 +15509,12 @@
   "dosya": "6c2bd130a2c5db20.mp3",
   "sure": 3.19
  },
+ "6c3e7056e05e3712": {
+  "k": "antrenor",
+  "m": "Yatay aynı rakamla biten karelerden oluşur.",
+  "dosya": "6c3e7056e05e3712.mp3",
+  "sure": 3.24
+ },
  "6c46505d70349b0b": {
   "k": "damla",
   "m": "Nasıl gider?",
@@ -14669,6 +15617,12 @@
   "dosya": "6cc0acae2509f38c.mp3",
   "sure": 6.16
  },
+ "6cc6dfed559a1ef6": {
+  "k": "antrenor",
+  "m": "Son yatayda duran siyah taşa bak. Kale onu alarak şah çekebilir.",
+  "dosya": "6cc6dfed559a1ef6.mp3",
+  "sure": 4.68
+ },
  "6cc9d23129628252": {
   "k": "antrenor",
   "m": "Şah çevresindeki bütün karelere saldırır.",
@@ -14734,6 +15688,12 @@
   "m": "Çıkmış taşları değil, hâlâ ilk karesinde bekleyen hafif taşları seç.",
   "dosya": "6d629a2a7ff51bac.mp3",
   "sure": 5.33
+ },
+ "6d6644ce3760fe2b": {
+  "k": "pars",
+  "m": "Yani dikeyde beyaz ya da siyah, tek bir piyon bile varsa açık sayılmaz, değil mi?",
+  "dosya": "6d6644ce3760fe2b.mp3",
+  "sure": 4.78
  },
  "6d72480464260f0d": {
   "k": "damla",
@@ -14830,6 +15790,12 @@
   "m": "Arap matında kale ve at vardır. Burada şah çeken taş vezir.",
   "dosya": "6e3786b3f9571b1b.mp3",
   "sure": 4.31
+ },
+ "6e43b8e49057837a": {
+  "k": "antrenor",
+  "m": "Siyah şahla aynı dikeyde ya da yatayda, arada bir boş kare bırakacak bir kare bul.",
+  "dosya": "6e43b8e49057837a.mp3",
+  "sure": 6.11
  },
  "6e598c407c450d65": {
   "k": "antrenor",
@@ -14980,6 +15946,12 @@
   "m": "Şah çeker ama siyah kolayca kurtulur; matı zorlayan bir tehdit yok.",
   "dosya": "6f6ce9df48476b78.mp3",
   "sure": 5.09
+ },
+ "6f763ae6742ce830": {
+  "k": "antrenor",
+  "m": "Kale bütün yatayı tutuyor.",
+  "dosya": "6f763ae6742ce830.mp3",
+  "sure": 1.91
  },
  "6f87d96965cd87ba": {
   "k": "antrenor",
@@ -15149,6 +16121,12 @@
   "dosya": "707001167d5acddd.mp3",
   "sure": 2.59
  },
+ "7073474ca12f6fac": {
+  "k": "antrenor",
+  "m": "e4 karesi 4. yatayda, 7. yatayda değil.",
+  "dosya": "7073474ca12f6fac.mp3",
+  "sure": 4.6
+ },
  "70a3f09a837c0f91": {
   "k": "antrenor",
   "m": "Yanındaki taşlara piyon saldırmaz.",
@@ -15214,6 +16192,12 @@
   "m": "Aldığın at 3 puan, verdiğin kale 5 puan; kazanç değil kayıp.",
   "dosya": "71028fd4640e34c9.mp3",
   "sure": 5.09
+ },
+ "71096977d64516fd": {
+  "k": "antrenor",
+  "m": "Üç yatay ilerisi çok uzak; anahtar kareler iki yatay ilerisindedir.",
+  "dosya": "71096977d64516fd.mp3",
+  "sure": 5.33
  },
  "710f501ba81effdd": {
   "k": "antrenor",
@@ -15329,6 +16313,12 @@
   "dosya": "720d9bf60349a41f.mp3",
   "sure": 7.05
  },
+ "72208bcd4a4f0407": {
+  "k": "antrenor",
+  "m": "Hiç piyonu olmayan dikey açık dikeydir; yarı açık dikeyde siyahın piyonu durur, beyazın piyonu yoktur.",
+  "dosya": "72208bcd4a4f0407.mp3",
+  "sure": 7.29
+ },
  "724029fc0899b179": {
   "k": "antrenor",
   "m": "Bu hamle olmaz: siyah h5'teki vezirle h4'teki beyaz veziri alır. Beyaz yaklaşık 4 puan kaybeder.",
@@ -15401,6 +16391,12 @@
   "dosya": "72a9d67b6b79a1bf.mp3",
   "sure": 4.68
  },
+ "72b9b84572036bb7": {
+  "k": "antrenor",
+  "m": "d1 aynı dikeyde, kale oraya gidebilir.",
+  "dosya": "72b9b84572036bb7.mp3",
+  "sure": 3.19
+ },
  "72be3da7667d9b0e": {
   "k": "antrenor",
   "m": "b1'den iki kare yukarı, bir kare sağa. Aradaki taşlara bakma.",
@@ -15412,6 +16408,12 @@
   "m": "Şahın hemen önündeki piyonlardan hangisi oynarsa şah kaçacak kare bulur?",
   "dosya": "72c7898dcd89fd5d.mp3",
   "sure": 5.43
+ },
+ "72d4941bfe1e5584": {
+  "k": "antrenor",
+  "m": "Şahın iki kare gideceği kareyi ve piyonun son yataydaki karesini bul.",
+  "dosya": "72d4941bfe1e5584.mp3",
+  "sure": 5.15
  },
  "72de69316c6f2313": {
   "k": "antrenor",
@@ -15497,6 +16499,18 @@
   "dosya": "735f53a0aab4548a.mp3",
   "sure": 4.49
  },
+ "73616590c355c895": {
+  "k": "antrenor",
+  "m": "H dikeyinde siyahın piyonu yok, beyazın piyonu var. Bu dikey siyah için yarı açık; beyaz için değil.",
+  "dosya": "73616590c355c895.mp3",
+  "sure": 7.05
+ },
+ "737e0cebcc07d9b1": {
+  "k": "antrenor",
+  "m": "e dikeyindeki karelere hangi taşlar gidebilir? Kale, fil ve at hatlarına bak.",
+  "dosya": "737e0cebcc07d9b1.mp3",
+  "sure": 5.38
+ },
  "739128a3cad99f1d": {
   "k": "antrenor",
   "m": "Her adımda bir kare sağa, bir kare yukarı. Bu çapraz g6'ya çıkar mı?",
@@ -15532,6 +16546,12 @@
   "m": "e6'daki at (korunuyor): 6 puan kayıp. Bu, en iyi seçim değil.",
   "dosya": "73b72707366a69fd.mp3",
   "sure": 5.02
+ },
+ "73c7c8d3ff46ac90": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon son yataya ulaşınca vezir olur. Sen de bu ünitenin sonunda Kale'den Vezir'e terfi ediyorsun!",
+  "dosya": "73c7c8d3ff46ac90.mp3",
+  "sure": 8.44
  },
  "73cb1252df3c2601": {
   "k": "damla",
@@ -15605,11 +16625,23 @@
   "dosya": "741d039f2f75330f.mp3",
   "sure": 7.94
  },
+ "741e91a4c4e2138d": {
+  "k": "antrenor",
+  "m": "Kale şah çektiğinde şah kaçamamalı. Son yataydaki kareleri dene.",
+  "dosya": "741e91a4c4e2138d.mp3",
+  "sure": 5.02
+ },
  "7424e3678cae6955": {
   "k": "antrenor",
   "m": "Atlayarak taş alınmaz. Taşı almak için onun karesine gidilir.",
   "dosya": "7424e3678cae6955.mp3",
   "sure": 4.31
+ },
+ "743ac9fe77058e2a": {
+  "k": "antrenor",
+  "m": "{ad}, adı Philidor olan bir savunma daha var. Rakip piyon 3. yataya ilerleyince kale uzağa gider.",
+  "dosya": "743ac9fe77058e2a.mp3",
+  "sure": 7.47
  },
  "74402877f26d692c": {
   "k": "antrenor",
@@ -15688,6 +16720,12 @@
   "m": "{ad}, atölyenin son günü! Bugün hepsini karıştırıyoruz.",
   "dosya": "74d6f039d7339fad.mp3",
   "sure": 4.08
+ },
+ "74daa9999f8fad71": {
+  "k": "antrenor",
+  "m": "Siyah kale b dikeyini, siyah at da bazı kareleri koruyor. Veziri onların dışına götür.",
+  "dosya": "74daa9999f8fad71.mp3",
+  "sure": 7.29
  },
  "74dfc6d48c39e039": {
   "k": "antrenor",
@@ -15791,6 +16829,12 @@
   "dosya": "75a2e50551c177df.mp3",
   "sure": 5.02
  },
+ "75a950bd13aaba5f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Savunan taraf kalesini 3. yataya koyarsa rakip şah ileri gelemez. Böylece oyun çoğu zaman berabere biter.",
+  "dosya": "75a950bd13aaba5f.mp3",
+  "sure": 8.96
+ },
  "75ab05f5027156a7": {
   "k": "antrenor",
   "m": "Kale e7'ye gidince şah çekmez; mat yapan hamle e8'e gitmek.",
@@ -15808,6 +16852,12 @@
   "m": "Bu hamle taşın kaçış karesini bırakıyor. Taşı hapsetmek için hepsini kes.",
   "dosya": "75ad1f6ecd74af42.mp3",
   "sure": 5.56
+ },
+ "75c9e1939f5fafb0": {
+  "k": "antrenor",
+  "m": "Beyaz piyonun durduğu dikey kalene yer bırakmaz. Beyaz piyonu olmayan dikeyleri seç.",
+  "dosya": "75c9e1939f5fafb0.mp3",
+  "sure": 5.93
  },
  "760be1239e3568e2": {
   "k": "pars",
@@ -15844,6 +16894,12 @@
   "m": "3 değil: kalenin önüne başka taşlar çıkıyor, yalnız 1 piyona doğrudan saldırıyor.",
   "dosya": "76344581c39fb795.mp3",
   "sure": 5.62
+ },
+ "7638eecceef36e8f": {
+  "k": "antrenor",
+  "m": "Şah çekmeler yüzünden zor. Önce kaleyi 4. yataya götürüp bir köprü kurarız.",
+  "dosya": "7638eecceef36e8f.mp3",
+  "sure": 5.8
  },
  "765bf0d347b3de9e": {
   "k": "antrenor",
@@ -15922,6 +16978,12 @@
   "m": "Yani rakibin kendi taşları ona engel oluyor!",
   "dosya": "76d53ee45369a3b0.mp3",
   "sure": 2.59
+ },
+ "76d626b8b232e91d": {
+  "k": "antrenor",
+  "m": "Bu dikeyde piyon var. Dikeyin tamamı boş olmalı: ne beyaz ne siyah piyon.",
+  "dosya": "76d626b8b232e91d.mp3",
+  "sure": 5.93
  },
  "76ed6463a74509c4": {
   "k": "antrenor",
@@ -16144,6 +17206,12 @@
   "m": "Şahın sırası, çaprazı ve sütunu üzerindeki kareleri düşün.",
   "dosya": "78760a7b3dcf6339.mp3",
   "sure": 4.31
+ },
+ "7893acd85440142d": {
+  "k": "antrenor",
+  "m": "7. yataydaki taşları say; fil ve kale almaz, yalnız kalenin ulaştığı taşlar.",
+  "dosya": "7893acd85440142d.mp3",
+  "sure": 6.35
  },
  "789aafac56dac821": {
   "k": "antrenor",
@@ -16397,11 +17465,23 @@
   "dosya": "7a1701fe841a7413.mp3",
   "sure": 2.59
  },
+ "7a199309e43afe93": {
+  "k": "antrenor",
+  "m": "d4 bir dikey solda kalıyor.",
+  "dosya": "7a199309e43afe93.mp3",
+  "sure": 2.04
+ },
  "7a1e68015448a333": {
   "k": "damla",
   "m": "O zaman hangisini kullanacağımızı biz bulacağız!",
   "dosya": "7a1e68015448a333.mp3",
   "sure": 3.16
+ },
+ "7a1f7def647675cf": {
+  "k": "antrenor",
+  "m": "Alma hamlesinden sonra piyonun önüne ve yan dikeylerine bak.",
+  "dosya": "7a1f7def647675cf.mp3",
+  "sure": 4.02
  },
  "7a21d3865dbea366": {
   "k": "antrenor",
@@ -16523,6 +17603,12 @@
   "dosya": "7b4da9b3ba9bc13c.mp3",
   "sure": 6.22
  },
+ "7b6c83b52b8720f0": {
+  "k": "antrenor",
+  "m": "Şahın yatayını bir kale kapatıyor. Öbür kalenin şah çekebileceği kareyi ara.",
+  "dosya": "7b6c83b52b8720f0.mp3",
+  "sure": 5.85
+ },
  "7b6f393d2e32c798": {
   "k": "antrenor",
   "m": "Final: Kendi Partini Analiz Et Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
@@ -16534,6 +17620,12 @@
   "m": "Araya girebilecek siyah taş yok.",
   "dosya": "7b791215ff982638.mp3",
   "sure": 2.53
+ },
+ "7b897f8739381d76": {
+  "k": "antrenor",
+  "m": "Bu kareler piyonun üç yatay ilerisinde; anahtar kareler iki yatay ilerisindedir.",
+  "dosya": "7b897f8739381d76.mp3",
+  "sure": 5.93
  },
  "7b977007c2d0f93d": {
   "k": "antrenor",
@@ -16552,6 +17644,12 @@
   "m": "Aldığın taş da verdiğin taş kadar değerli; zarar yok.",
   "dosya": "7ba93a7cf9672306.mp3",
   "sure": 4.02
+ },
+ "7bae0b41912230f4": {
+  "k": "antrenor",
+  "m": "Berabere değil: piyon 7. yatayda ve şah önünde, beyaz köprü kurup kazanır.",
+  "dosya": "7bae0b41912230f4.mp3",
+  "sure": 5.98
  },
  "7bbedf1cfa031b98": {
   "k": "antrenor",
@@ -16643,6 +17741,12 @@
   "dosya": "7c7384a226c7c08c.mp3",
   "sure": 6.87
  },
+ "7c7b3f0e62c12789": {
+  "k": "antrenor",
+  "m": "Siyah şahla aynı dikeyde, arada bir boş kare kalacak kareyi ara.",
+  "dosya": "7c7b3f0e62c12789.mp3",
+  "sure": 5.09
+ },
  "7c8669917f97daf5": {
   "k": "antrenor",
   "m": "Siyah taşların her birinin hangi karelere saldırdığına bak. Şahın yanındaki karelerden hangisi onların yolunda?",
@@ -16654,6 +17758,12 @@
   "m": "Siyah piyonlar aşağıya doğru çapraz saldırır. Her piyon için iki çapraz kareye bak.",
   "dosya": "7c8c6301cba55c45.mp3",
   "sure": 6.4
+ },
+ "7ca112b886aeed28": {
+  "k": "antrenor",
+  "m": "Kale piyonu alabilmek için onunla aynı yataya veya aynı dikeye girmeli.",
+  "dosya": "7ca112b886aeed28.mp3",
+  "sure": 5.33
  },
  "7ca8748552b9aff2": {
   "k": "pars",
@@ -16853,6 +17963,12 @@
   "dosya": "7dec69415814be7a.mp3",
   "sure": 7.76
  },
+ "7df34ecca06be3d6": {
+  "k": "antrenor",
+  "m": "Şaha bakan çaprazı, yatayı ve dikeyi kontrol et.",
+  "dosya": "7df34ecca06be3d6.mp3",
+  "sure": 3.66
+ },
  "7df8e44524e58f27": {
   "k": "antrenor",
   "m": "Piyonlar atlayamaz; yalnız at atlayabilir.",
@@ -16876,6 +17992,12 @@
   "m": "Evet Pars. Piyon 1 puan, kale 5 puan. Piyonu geri alsalar bile 5 - 1 = 4 puan kâr edersin.",
   "dosya": "7e0f8685fa7d4301.mp3",
   "sure": 10.53
+ },
+ "7e12571ba5819cbf": {
+  "k": "antrenor",
+  "m": "Yine kenara giden bir kare seçtin. At a ya da h dikeyinde kalmamalı.",
+  "dosya": "7e12571ba5819cbf.mp3",
+  "sure": 4.86
  },
  "7e1c5c807b528144": {
   "k": "antrenor",
@@ -16973,6 +18095,12 @@
   "dosya": "7ecceb9fe3c2a760.mp3",
   "sure": 4.83
  },
+ "7ed3ea03b1c9588b": {
+  "k": "antrenor",
+  "m": "Siyah şahla aynı dikeyde, arada bir boş kare bırakacak şekilde karşısına geç.",
+  "dosya": "7ed3ea03b1c9588b.mp3",
+  "sure": 5.56
+ },
  "7ed53febfa5be58c": {
   "k": "damla",
   "m": "Mat ne demek hocam?",
@@ -17009,6 +18137,12 @@
   "dosya": "7efdd916f6b6305f.mp3",
   "sure": 3.71
  },
+ "7f0591245f9a4808": {
+  "k": "antrenor",
+  "m": "Kale 7. yataya çıkmadı. Siyah piyonların başlangıç yatayı 7. yataydır.",
+  "dosya": "7f0591245f9a4808.mp3",
+  "sure": 5.93
+ },
  "7f08b74ff1c7723a": {
   "k": "antrenor",
   "m": "Biliyor muydun? Terfi eden piyon vezir, kale, fil ya da at olabilir; şah ya da piyon olamaz.",
@@ -17026,6 +18160,12 @@
   "m": "Hangi taşın çatal yapacağını nasıl seçeceğim?",
   "dosya": "7f10123b53f08b68.mp3",
   "sure": 3.06
+ },
+ "7f24415060ed1292": {
+  "k": "antrenor",
+  "m": "Kale yalnız düz saldırır. Kalenin dikeyinde yukarı bak; kalenin gördüğü ilk siyah piyonu seç.",
+  "dosya": "7f24415060ed1292.mp3",
+  "sure": 6.95
  },
  "7f27fc1cf4d7aaf5": {
   "k": "antrenor",
@@ -17092,6 +18232,12 @@
   "m": "Her sütuna bak: beyaz piyon yoksa (siyah piyon olsun ya da olmasın) o sütun kalenin işine yarar.",
   "dosya": "7fd8ae48175b342b.mp3",
   "sure": 7.76
+ },
+ "7ffdc8e0abb4032c": {
+  "k": "antrenor",
+  "m": "Tahtada açık ya da yarı açık dikey var mı, ona. Varsa kaleni oraya götür. Yoksa 7. yatay yolunu ara.",
+  "dosya": "7ffdc8e0abb4032c.mp3",
+  "sure": 8.39
  },
  "7ffebf568e49d3d7": {
   "k": "damla",
@@ -17308,6 +18454,12 @@
   "m": "Bu taş o kareye gidemiyor. Yalnız saldıran taş alabilir.",
   "dosya": "817f880af5df0a55.mp3",
   "sure": 4.08
+ },
+ "818483248036ec18": {
+  "k": "antrenor",
+  "m": "A dikeyinde hem beyaz hem siyah piyon var; kapalı dikey, yarı açık değil.",
+  "dosya": "818483248036ec18.mp3",
+  "sure": 6.27
  },
  "818c0b170681b1d0": {
   "k": "antrenor",
@@ -17537,6 +18689,12 @@
   "dosya": "82fd80f39c5a891f.mp3",
   "sure": 5.67
  },
+ "8308624e37d584b6": {
+  "k": "antrenor",
+  "m": "Yatay soldan sağa gider. Bütün kareleri say.",
+  "dosya": "8308624e37d584b6.mp3",
+  "sure": 3.34
+ },
  "831994e1140d657b": {
   "k": "antrenor",
   "m": "Şah oynadıysa hem kısa hem uzun rok hakkı biter.",
@@ -17644,6 +18802,12 @@
   "m": "Siyah şahla aynı sütunda ya da sırada, arada bir boş kare bırakacak bir kare bul.",
   "dosya": "8391049e73da3020.mp3",
   "sure": 5.88
+ },
+ "8396dbe089b672fc": {
+  "k": "antrenor",
+  "m": "Siyah için yarı açık dikeyde siyahın piyonu olmaz; f dikeyinde siyahın piyonu var.",
+  "dosya": "8396dbe089b672fc.mp3",
+  "sure": 5.98
  },
  "83a2b6ba30f88bd7": {
   "k": "antrenor",
@@ -17903,6 +19067,12 @@
   "dosya": "85320e57ad792d88.mp3",
   "sure": 4.36
  },
+ "853c9be5bc6ebf4c": {
+  "k": "antrenor",
+  "m": "c2 piyonu izole değil: b2'deki beyaz piyon yan dikeyde duruyor, bu yüzden izole değil.",
+  "dosya": "853c9be5bc6ebf4c.mp3",
+  "sure": 6.95
+ },
  "853fee4aa128ba02": {
   "k": "antrenor",
   "m": "Diğer taşlar zaten çok yönlüdür; geçerken alma piyonlara özel bir hamledir.",
@@ -18125,6 +19295,12 @@
   "dosya": "871b3e2539573d9d.mp3",
   "sure": 2.87
  },
+ "8722acecc34077ff": {
+  "k": "antrenor",
+  "m": "Dikey yukarı doğru gider. Alt yataydan başla, üst yataya kadar çık.",
+  "dosya": "8722acecc34077ff.mp3",
+  "sure": 5.25
+ },
  "87471b69d0f2c6a9": {
   "k": "antrenor",
   "m": "Evet Damla. Şimdi bildiklerini karıştırıp deneyelim, {ad}.",
@@ -18226,6 +19402,12 @@
   "m": "Sıra beyazta. Sırası gelen taraf oynamak zorunda kalır, opozisyon rakipte olur.",
   "dosya": "881985b259ce83ff.mp3",
   "sure": 5.51
+ },
+ "881a4aa2cc8d0b84": {
+  "k": "antrenor",
+  "m": "Kalenin dikeyine ve yatayına bak. Hangi siyah taş o hatlarda?",
+  "dosya": "881a4aa2cc8d0b84.mp3",
+  "sure": 4.6
  },
  "8821db218d59dbe3": {
   "k": "antrenor",
@@ -18389,6 +19571,12 @@
   "dosya": "89100f83c7a02423.mp3",
   "sure": 7.94
  },
+ "8913dda531b22750": {
+  "k": "antrenor",
+  "m": "Kalenin önünde ya da arkasında tek bir piyon bile varsa dikey açık sayılmaz.",
+  "dosya": "8913dda531b22750.mp3",
+  "sure": 5.46
+ },
  "891a4cf0d246975f": {
   "k": "antrenor",
   "m": "{ad}, bugün öğrendiklerimizi birleştiriyoruz. Her takasta aynı hesabı yapacağız.",
@@ -18424,6 +19612,12 @@
   "m": "Bir değil: hem at hem fil çıktı, yani iki taş oyunda.",
   "dosya": "89514f4f918acb8c.mp3",
   "sure": 4.41
+ },
+ "8969ce9d0be20e19": {
+  "k": "antrenor",
+  "m": "İkinci yatayda piyonlar vardır.",
+  "dosya": "8969ce9d0be20e19.mp3",
+  "sure": 2.35
  },
  "896ba71b48e47b05": {
   "k": "antrenor",
@@ -18473,6 +19667,12 @@
   "dosya": "89a363ae46605a4c.mp3",
   "sure": 9.33
  },
+ "89b4c64977fc71cc": {
+  "k": "antrenor",
+  "m": "Tek harf bütün bir dikeyi gösterir, tek kareyi değil.",
+  "dosya": "89b4c64977fc71cc.mp3",
+  "sure": 3.6
+ },
  "89c535732dc82304": {
   "k": "antrenor",
   "m": "Siyahın kıpırdayamayan bir taşı var. Ona saldır ya da onu al.",
@@ -18508,6 +19708,12 @@
   "m": "Biliyor muydun? Her konumda mat yoktur! Önce şah çeken hamleleri say, hiçbirinde mat yoksa başka plan ara.",
   "dosya": "8a1ea8503f195fc0.mp3",
   "sure": 7.94
+ },
+ "8a2e44bcd41b8abc": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon 8. yataya varınca vezir olur. Bu yüzden geçer piyon çok değerlidir.",
+  "dosya": "8a2e44bcd41b8abc.mp3",
+  "sure": 6.4
  },
  "8a3edc9b41160177": {
   "k": "antrenor",
@@ -18575,6 +19781,12 @@
   "dosya": "8acbfbde3a8b6c34.mp3",
   "sure": 6.92
  },
+ "8acf0cf003a83d0e": {
+  "k": "antrenor",
+  "m": "Vezir 4. yatayı, at e3'ü tutuyor. Her komşu kareyi kontrol et.",
+  "dosya": "8acf0cf003a83d0e.mp3",
+  "sure": 5.46
+ },
  "8ad323eca908aae0": {
   "k": "antrenor",
   "m": "Şah saldırı altında ve kurtulamıyorsa bu mattır ve oyun kaybedilir.",
@@ -18634,6 +19846,12 @@
   "m": "Aynen Pars. Rakip şah hep mecbur hamle yapar, kale her turda bir taş daha alır.",
   "dosya": "8b57048b583203ea.mp3",
   "sure": 5.38
+ },
+ "8b6028db2c944fd8": {
+  "k": "antrenor",
+  "m": "İkinci altın kural: taşlarını geliştir. Yani at ve fillerini ilk yataylarından çıkarıp oyuna sok.",
+  "dosya": "8b6028db2c944fd8.mp3",
+  "sure": 7.11
  },
  "8b76ef0d5f7e3b62": {
   "k": "antrenor",
@@ -18779,6 +19997,12 @@
   "dosya": "8c2c8f5d8b822543.mp3",
   "sure": 7.65
  },
+ "8c2da06346271a8f": {
+  "k": "antrenor",
+  "m": "{ad}, adı Lucena olan ünlü bir konum var. Piyon 7. yatayda, şahımız onun önünde, kalemiz yanda.",
+  "dosya": "8c2da06346271a8f.mp3",
+  "sure": 8.39
+ },
  "8c2dc98635bd9d59": {
   "k": "antrenor",
   "m": "Şahların birbirine göre durduğu kareye dikkat et. Her hamleyi tek tek dene.",
@@ -18910,6 +20134,12 @@
   "m": "Biliyor muydun? Arap matı çok eski bir kalıptır. Kale ile at birlikte köşedeki şahı mat eder!",
   "dosya": "8d17c4705a5a2c54.mp3",
   "sure": 6.71
+ },
+ "8d41e8f3daf5956f": {
+  "k": "antrenor",
+  "m": "Son yatayda duran siyah taşa bak. Onu alarak şah çekebilirsin.",
+  "dosya": "8d41e8f3daf5956f.mp3",
+  "sure": 4.21
  },
  "8d452b3d55516c69": {
   "k": "damla",
@@ -19319,6 +20549,12 @@
   "dosya": "8f804d892a645a7e.mp3",
   "sure": 6.92
  },
+ "8f85df343742d68e": {
+  "k": "damla",
+  "m": "Kale neden piyonlarla dolu dikeyde rahat edemez hocam?",
+  "dosya": "8f85df343742d68e.mp3",
+  "sure": 3.24
+ },
  "8fc3b1b801bf7bb3": {
   "k": "antrenor",
   "m": "Tehdit var: beyaz f6'daki kale f8'e oynayıp mat yapar.",
@@ -19367,6 +20603,12 @@
   "dosya": "8ff3b339cb8094af.mp3",
   "sure": 8.44
  },
+ "8ff4f803848c1945": {
+  "k": "antrenor",
+  "m": "Piyonu olmayan tarafa göre. Beyazın piyonu yok, siyahın piyonu varsa o dikey beyaz için yarı açıktır.",
+  "dosya": "8ff4f803848c1945.mp3",
+  "sure": 7.78
+ },
  "8ffaf68e1d02609e": {
   "k": "antrenor",
   "m": "Savunmanın Kaldırılması Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
@@ -19396,6 +20638,12 @@
   "m": "Hangi hatalar hocam?",
   "dosya": "90188af38c60edaf.mp3",
   "sure": 1.38
+ },
+ "9023d8a6fe3faad9": {
+  "k": "antrenor",
+  "m": "e dikeyi açık olduğu için en az bir taş alabilir.",
+  "dosya": "9023d8a6fe3faad9.mp3",
+  "sure": 3.76
  },
  "9025171d817ee283": {
   "k": "antrenor",
@@ -19444,6 +20692,12 @@
   "m": "Sıra rakibe geçse h5'teki vezir f7'ye mat eder; yani tehdit var.",
   "dosya": "90641219fe066717.mp3",
   "sure": 5.38
+ },
+ "9064de3bad7de6fe": {
+  "k": "pars",
+  "m": "Piyon son yataya gidip vezir olursa nasıl yazarız?",
+  "dosya": "9064de3bad7de6fe.mp3",
+  "sure": 2.93
  },
  "90670aa8b1a9d38b": {
   "k": "antrenor",
@@ -19661,6 +20915,12 @@
   "dosya": "91e4fbc20bf04fc4.mp3",
   "sure": 7.37
  },
+ "91e9ae76bc727b14": {
+  "k": "antrenor",
+  "m": "Her kale için yukarıya bak. Yolu açık olan ve 7. yataya ulaşan kale hangisi?",
+  "dosya": "91e9ae76bc727b14.mp3",
+  "sure": 5.8
+ },
  "91f0619e00bbd510": {
   "k": "antrenor",
   "m": "Yalnız çıkmış hafif taşları seç; piyonları ve kaleyi seçme.",
@@ -19805,6 +21065,12 @@
   "dosya": "92bb89a3fb6831fa.mp3",
   "sure": 6.87
  },
+ "92c7116c93ae23ef": {
+  "k": "antrenor",
+  "m": "Bir kare gidersen 3. yatayda kalırsın; iki kare gitmek istiyorsun.",
+  "dosya": "92c7116c93ae23ef.mp3",
+  "sure": 5.33
+ },
  "92d7f215fbc52b21": {
   "k": "antrenor",
   "m": "Çatal, bir taşın aynı anda iki taşa saldırmasıdır.",
@@ -19828,6 +21094,12 @@
   "m": "Fili d3 ya da e2'ye çek; c4'e gitmesi piyona çarpar.",
   "dosya": "932aba28ea833abe.mp3",
   "sure": 4.55
+ },
+ "93377210a8716b89": {
+  "k": "antrenor",
+  "m": "Evet Pars. Kale kenar dikeyinde uzaktan şah çeker. Şah kaçacak yer bulamaz. Mat!",
+  "dosya": "93377210a8716b89.mp3",
+  "sure": 6.77
  },
  "93393081fbed9aca": {
   "k": "antrenor",
@@ -19925,6 +21197,18 @@
   "dosya": "93df5c32f94df5c8.mp3",
   "sure": 8.2
  },
+ "93e89fe3ecf370f9": {
+  "k": "antrenor",
+  "m": "Aynen Pars. Açık dikeyi bulunca kaleni oraya götür: kale hem rahat gezer hem rakibe baskı yapar.",
+  "dosya": "93e89fe3ecf370f9.mp3",
+  "sure": 7.76
+ },
+ "93e8df71a15df3c5": {
+  "k": "antrenor",
+  "m": "Piyon aynı dikeyde, 8. yataya kadar ileri gider.",
+  "dosya": "93e8df71a15df3c5.mp3",
+  "sure": 4.08
+ },
  "93f343f1d798c6b4": {
   "k": "antrenor",
   "m": "İki değil; kareyi gören siyah taşları say, yalnız biri var.",
@@ -19966,6 +21250,18 @@
   "m": "d2'deki vezir e4'e ulaşamaz.",
   "dosya": "9424b306ec47373e.mp3",
   "sure": 2.59
+ },
+ "9444367801e33da4": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Hiç piyon olmayan dikeye açık dikey denir. Kale açık dikeyde sonuna kadar yürüyebilir!",
+  "dosya": "9444367801e33da4.mp3",
+  "sure": 7.65
+ },
+ "94481519d6e01856": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kale kenardaki şahı çizgi boyunca hapseder; kaçış yatayı da kapalıysa mat olur!",
+  "dosya": "94481519d6e01856.mp3",
+  "sure": 7.0
  },
  "946213ddda8be28d": {
   "k": "antrenor",
@@ -20009,6 +21305,12 @@
   "dosya": "949e6fe1d314602a.mp3",
   "sure": 5.09
  },
+ "94c3e1f1985975b5": {
+  "k": "damla",
+  "m": "Peki piyon 2. yataydaysa?",
+  "dosya": "94c3e1f1985975b5.mp3",
+  "sure": 1.99
+ },
  "94c7564af0a8c8ab": {
   "k": "antrenor",
   "m": "4., 5. ya da 6. sırada olacak. Kendi piyonun onu koruyacak. Rakibin hiçbir piyonu oraya saldıramayacak.",
@@ -20033,6 +21335,12 @@
   "dosya": "94f6c35260305456.mp3",
   "sure": 6.58
  },
+ "95080796fd1f9dec": {
+  "k": "antrenor",
+  "m": "Şah ile vezir aynı yatayda duruyor. Vezirini o yataya götürmek ikisine birden saldırır.",
+  "dosya": "95080796fd1f9dec.mp3",
+  "sure": 6.35
+ },
  "955479ee0ca14650": {
   "k": "antrenor",
   "m": "Bu hamle vezire saldırmıyor ve f2'yi de korumuyor.",
@@ -20044,6 +21352,12 @@
   "m": "Olur Damla. Arkada vezir ya da kale gibi değerli bir taş varsa, buna göreli açmaz deriz.",
   "dosya": "9554fa91303a8a90.mp3",
   "sure": 5.85
+ },
+ "955f82d5a23033b7": {
+  "k": "antrenor",
+  "m": "Alt yatayın iki ucuna bak.",
+  "dosya": "955f82d5a23033b7.mp3",
+  "sure": 1.8
  },
  "956858aff7bb707b": {
   "k": "damla",
@@ -20152,6 +21466,12 @@
   "m": "Evet. Ara hamle iyiyse aradaki fark hemen ortaya çıkar.",
   "dosya": "9675ac6285cb8024.mp3",
   "sure": 4.21
+ },
+ "968b72952e5c2ac8": {
+  "k": "antrenor",
+  "m": "Kalenin şah çekmesi yetmez; şahın kaçacak yeri de kalmamalı. Son yataya bak.",
+  "dosya": "968b72952e5c2ac8.mp3",
+  "sure": 5.88
  },
  "969c576f1a666ad5": {
   "k": "antrenor",
@@ -20375,6 +21695,12 @@
   "dosya": "987b50528058856c.mp3",
   "sure": 6.53
  },
+ "987c49e171497fb3": {
+  "k": "antrenor",
+  "m": "Şahın önü kendi piyonlarıyla kapalı. Vezir son yataya gelip şah çekebilir mi, bak.",
+  "dosya": "987c49e171497fb3.mp3",
+  "sure": 5.75
+ },
  "988a2d75fdf4ea4e": {
   "k": "damla",
   "m": "Yani vezir şaha yanaşınca şahımız onu koruyor.",
@@ -20464,6 +21790,12 @@
   "m": "Siyah değil: siyahın yalnız bir taşı oyunda, beyazın üç taşı.",
   "dosya": "992167d16011b3ef.mp3",
   "sure": 5.33
+ },
+ "9925610804ae545b": {
+  "k": "antrenor",
+  "m": "Aynen öyle. Piyonla alırken piyonun dikeyi yazılır: exd5.",
+  "dosya": "9925610804ae545b.mp3",
+  "sure": 5.85
  },
  "9931eef7c1a9283b": {
   "k": "antrenor",
@@ -20657,6 +21989,12 @@
   "dosya": "9a4cc3e9e46c1d14.mp3",
   "sure": 7.6
  },
+ "9a5562d2ac9c43e5": {
+  "k": "antrenor",
+  "m": "Kale yedinci yatayda sola kayabilir. Atın koruduğu kareye bak.",
+  "dosya": "9a5562d2ac9c43e5.mp3",
+  "sure": 4.44
+ },
  "9a7b82e99cc6e64a": {
   "k": "pars",
   "m": "Yani piyon, at, fil, kale, vezir sırasıyla mı?",
@@ -20680,6 +22018,12 @@
   "m": "Piyon bu hamleden sonra hâlâ korumasız; siyah şah onu alır.",
   "dosya": "9a947f4ca40c6dea.mp3",
   "sure": 4.55
+ },
+ "9aab5cd1705bd8b9": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kale tek piyona karşı çoğu zaman kazanır: kaleyi piyonun dikeyine koy, şahını yaklaştır. Ama şahın çok uzaksa piyon vezir olabilir!",
+  "dosya": "9aab5cd1705bd8b9.mp3",
+  "sure": 11.1
  },
  "9ab7d1bd6c0b01ad": {
   "k": "antrenor",
@@ -20867,6 +22211,12 @@
   "dosya": "9c1130e1b5b70fdb.mp3",
   "sure": 1.7
  },
+ "9c133c6e7abdf4ff": {
+  "k": "antrenor",
+  "m": "Dikey aynı harfle başlayan karelerden oluşur.",
+  "dosya": "9c133c6e7abdf4ff.mp3",
+  "sure": 3.29
+ },
  "9c1533f41bf45dbf": {
   "k": "antrenor",
   "m": "Vezir, siyah veziri alabilir; vezirin karesini ara.",
@@ -21011,6 +22361,12 @@
   "dosya": "9cf70dac2effdd9e.mp3",
   "sure": 4.62
  },
+ "9cffe2a4951b33e3": {
+  "k": "antrenor",
+  "m": "Bazen Pars. Kuralımız: kale piyonu uzaktan durdurur, en iyi yeri piyonun dikeyidir; sonra şah yaklaşır ve piyon düşer.",
+  "dosya": "9cffe2a4951b33e3.mp3",
+  "sure": 9.43
+ },
  "9d0672b6f4c7be24": {
   "k": "antrenor",
   "m": "Durmadan şah çekmek şahı sıkıştırmaz; şah her seferinde kaçar.",
@@ -21083,6 +22439,12 @@
   "dosya": "9d7d6ea74b641932.mp3",
   "sure": 2.77
  },
+ "9d83f21a0e6d5f43": {
+  "k": "antrenor",
+  "m": "Yarı açık dikey, kalene rakip piyonu hedef gösterir. Bu dikeye giren hamleyi bul.",
+  "dosya": "9d83f21a0e6d5f43.mp3",
+  "sure": 5.75
+ },
  "9d965fe122ddf5c6": {
   "k": "antrenor",
   "m": "h5 karesindeki siyah piyon açılan hattın üzerinde değil; arkadaki taş oraya bakmıyor.",
@@ -21094,6 +22456,12 @@
   "m": "Siyah cevabını 3. hamlede yazacak; beyaz zaten oynadı.",
   "dosya": "9d9cfbbc70603396.mp3",
   "sure": 4.41
+ },
+ "9da49543e632aef3": {
+  "k": "antrenor",
+  "m": "Yana doğru gidenler yatayı işaretlemiş olur; dikey yukarı doğru gider.",
+  "dosya": "9da49543e632aef3.mp3",
+  "sure": 5.28
  },
  "9da924058df27c90": {
   "k": "antrenor",
@@ -21191,11 +22559,29 @@
   "dosya": "9e21ded0b3b9d25f.mp3",
   "sure": 4.49
  },
+ "9e26646835b932e4": {
+  "k": "antrenor",
+  "m": "b5'teki piyonun yan dikeyinde ilerde siyah piyon var (a6); bu yüzden geçer piyon değil.",
+  "dosya": "9e26646835b932e4.mp3",
+  "sure": 7.11
+ },
  "9e268d8da14fbc2a": {
   "k": "antrenor",
   "m": "{ad}, satrançta en hızlı mat 2 hamlede olur ve adı tembel mat.",
   "dosya": "9e268d8da14fbc2a.mp3",
   "sure": 5.75
+ },
+ "9e293383b0a50dfa": {
+  "k": "antrenor",
+  "m": "Beyaz için yarı açık dikeyle karıştırma. Burada siyahın piyonu olmamalı, beyazın piyonu olmalı.",
+  "dosya": "9e293383b0a50dfa.mp3",
+  "sure": 7.18
+ },
+ "9e2cb3f346e14620": {
+  "k": "antrenor",
+  "m": "Piyon yalnız ileri gider; başladığı kare sayılmaz, 8. yataydaki terfi karesi sayılır.",
+  "dosya": "9e2cb3f346e14620.mp3",
+  "sure": 6.87
  },
  "9e2f605fb081cb4d": {
   "k": "antrenor",
@@ -21232,6 +22618,12 @@
   "m": "Beyaz taşların gidebildiği karelerde siyah taşlar ara.",
   "dosya": "9e539c16bcbd190a.mp3",
   "sure": 3.89
+ },
+ "9e5ad92d8fa8dc32": {
+  "k": "antrenor",
+  "m": "Şahlar aynı dikeyde ya da aynı yatayda olmalı ve arada tam bir boş kare kalmalı.",
+  "dosya": "9e5ad92d8fa8dc32.mp3",
+  "sure": 5.98
  },
  "9e601fad77c4a8c7": {
   "k": "antrenor",
@@ -21400,6 +22792,12 @@
   "m": "At şah çekince kaçacak yer kalmıyor mu?",
   "dosya": "9f67bd4b9911f6ef.mp3",
   "sure": 2.4
+ },
+ "9f769742e9d9e1e0": {
+  "k": "antrenor",
+  "m": "Kale hangi yatayı tutuyor? Şah o yataydaki karelere gidemez.",
+  "dosya": "9f769742e9d9e1e0.mp3",
+  "sure": 4.31
  },
  "9f80bff866cfba48": {
   "k": "antrenor",
@@ -21587,6 +22985,12 @@
   "dosya": "a0d46bf62441f40c.mp3",
   "sure": 3.06
  },
+ "a0d5a19b1fa720e2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Anastasia matında at kaçış karelerini keser, kale de kenar dikeyinden şah çekip mat eder. Kenardaki şaha dikkat!",
+  "dosya": "a0d5a19b1fa720e2.mp3",
+  "sure": 10.27
+ },
  "a0e3a754ec7eadbd": {
   "k": "antrenor",
   "m": "e5 bir sıra yukarıda kalıyor.",
@@ -21646,6 +23050,12 @@
   "m": "Biliyor muydun? Oyun sonunda önce konumu tanı: vezirle mi, kaleyle mi? Sonra planını seç: mat, pat tuzağı, 3. sıra ya da Philidor!",
   "dosya": "a180457cd7ccfe5d.mp3",
   "sure": 9.85
+ },
+ "a188c4d0598edea9": {
+  "k": "antrenor",
+  "m": "Önünde ya da yan dikeyde ileride rakip piyon olan piyon geçer değildir.",
+  "dosya": "a188c4d0598edea9.mp3",
+  "sure": 5.15
  },
  "a18938fc6cc4f20e": {
   "k": "antrenor",
@@ -21718,6 +23128,12 @@
   "m": "Aynen Pars. İkisinde de korunan taş açıkta kalır ve onu kazanırız.",
   "dosya": "a1f023cee90553f7.mp3",
   "sure": 4.55
+ },
+ "a2069e869a5edf3e": {
+  "k": "antrenor",
+  "m": "Kale siyah şahı aynı dikeyden ya da aynı yataydan görürse şah olur. Çaprazlara bakma.",
+  "dosya": "a2069e869a5edf3e.mp3",
+  "sure": 6.16
  },
  "a213d5af57c21a39": {
   "k": "antrenor",
@@ -21911,6 +23327,12 @@
   "dosya": "a3349e6fb8d20d68.mp3",
   "sure": 5.15
  },
+ "a342354aecd67b5b": {
+  "k": "antrenor",
+  "m": "Açık dikey, ne beyaz ne siyah piyonun bulunduğu dikeydir. Kaleni oraya götür.",
+  "dosya": "a342354aecd67b5b.mp3",
+  "sure": 6.3
+ },
  "a34c86c0f9aecddf": {
   "k": "antrenor",
   "m": "Kalelerden biri kenar sırasına şah çekecek.",
@@ -22085,6 +23507,12 @@
   "dosya": "a486b5a3abf96c45.mp3",
   "sure": 5.51
  },
+ "a49339279b17d1d6": {
+  "k": "antrenor",
+  "m": "Kalenin son yataya ulaşıp şah çekebileceği kareyi ara. Şah kaçabilir mi, bak.",
+  "dosya": "a49339279b17d1d6.mp3",
+  "sure": 5.93
+ },
  "a499142641dfae73": {
   "k": "antrenor",
   "m": "Vezir şah çekmiyor: Vezir olursa şah bile çekilmez.",
@@ -22181,6 +23609,12 @@
   "dosya": "a51c6008ee65f417.mp3",
   "sure": 4.36
  },
+ "a53823df191744a5": {
+  "k": "antrenor",
+  "m": "Yalnız atlara bak ve a ya da h dikeyinde duranları seç.",
+  "dosya": "a53823df191744a5.mp3",
+  "sure": 4.49
+ },
  "a53f2cd5b1275f10": {
   "k": "antrenor",
   "m": "Kurbanı koruyucunun alabileceği bir yere sür.",
@@ -22276,6 +23710,18 @@
   "m": "Bu, beyazın aldığı puan; verdiği taşı da düşmek gerekir.",
   "dosya": "a6004ff878ea7ab0.mp3",
   "sure": 4.08
+ },
+ "a609ee1be9e3bb35": {
+  "k": "antrenor",
+  "m": "Piyon son yataya gidince en güçlü taşla mat vurabilirsin.",
+  "dosya": "a609ee1be9e3bb35.mp3",
+  "sure": 4.08
+ },
+ "a60c093a4559fdbe": {
+  "k": "antrenor",
+  "m": "Kale yedinci yatayda şahın yanına kayabilir. Atın koruduğu kareye bak.",
+  "dosya": "a60c093a4559fdbe.mp3",
+  "sure": 5.2
  },
  "a61a30d6034f3ce8": {
   "k": "antrenor",
@@ -22427,6 +23873,12 @@
   "dosya": "a73bd90079fb884a.mp3",
   "sure": 7.84
  },
+ "a74a51627821ce77": {
+  "k": "antrenor",
+  "m": "Beyaz şah bir yatayı kapatır, kale de kenar yatayına şah çeker. Şahın gidecek yeri kalmaz.",
+  "dosya": "a74a51627821ce77.mp3",
+  "sure": 6.5
+ },
  "a74c37b546a1ab51": {
   "k": "pars",
   "m": "Yani önce şah, sonra alış, sonra tehdit!",
@@ -22462,6 +23914,12 @@
   "m": "{ad}, bugün öğrendiklerimizi bir araya getiriyoruz. İlk taktiğimiz çatal.",
   "dosya": "a76814b69d7611c8.mp3",
   "sure": 5.2
+ },
+ "a78011953c3e25ac": {
+  "k": "antrenor",
+  "m": "f7 bir dikey solda kalıyor.",
+  "dosya": "a78011953c3e25ac.mp3",
+  "sure": 2.35
  },
  "a78bb40bae615e0a": {
   "k": "antrenor",
@@ -22613,6 +24071,12 @@
   "dosya": "a86aa2a3a6885f69.mp3",
   "sure": 2.95
  },
+ "a86e184daff9f9b4": {
+  "k": "antrenor",
+  "m": "Kale, siyahın kenar yatayına şah çekecek. Şahın kaçış karesi kalmamalı.",
+  "dosya": "a86e184daff9f9b4.mp3",
+  "sure": 5.38
+ },
  "a875402abf8f1a42": {
   "k": "antrenor",
   "m": "Biliyor muydun? Açarak şahta çekilen taş bir tehdit daha yapar. Rakip iki tehdide birden yetişemez!",
@@ -22630,6 +24094,12 @@
   "m": "Şah c8'de. b5'teki filin çaprazlarına bak; hangi kareden şah çekebilir?",
   "dosya": "a8941d6eaee7c90a.mp3",
   "sure": 5.98
+ },
+ "a89fb29ce503c350": {
+  "k": "antrenor",
+  "m": "c6, filin bulunduğu dikeyde; fil düz gitmez.",
+  "dosya": "a89fb29ce503c350.mp3",
+  "sure": 4.21
  },
  "a8a7b9c1ba9b97e8": {
   "k": "antrenor",
@@ -22727,6 +24197,12 @@
   "dosya": "a9354f136d4b2409.mp3",
   "sure": 5.67
  },
+ "a93b5158c3374efe": {
+  "k": "antrenor",
+  "m": "8. yatayda siyahın kale, at, fil, şah ve veziri vardır.",
+  "dosya": "a93b5158c3374efe.mp3",
+  "sure": 5.02
+ },
  "a9547d722647db5e": {
   "k": "damla",
   "m": "Piyon bedava gibi duruyor, alırım!",
@@ -22780,6 +24256,12 @@
   "m": "Ama bu taş bedava görünüyor hocam!",
   "dosya": "a97bc8554eb104f4.mp3",
   "sure": 1.99
+ },
+ "a9884f1a45f4ec1b": {
+  "k": "antrenor",
+  "m": "e1 karesi 4-6. yatayın dışında; karakol değil.",
+  "dosya": "a9884f1a45f4ec1b.mp3",
+  "sure": 4.21
  },
  "a9940dea39f98087": {
   "k": "antrenor",
@@ -22901,6 +24383,12 @@
   "dosya": "aaa265c0dbe0a3c1.mp3",
   "sure": 6.03
  },
+ "aaa28d49665318ed": {
+  "k": "antrenor",
+  "m": "Siyah piyonun sağında ve solunda aynı yatayda duran beyaz piyonlar.",
+  "dosya": "aaa28d49665318ed.mp3",
+  "sure": 5.09
+ },
  "aaa66d8b2a9d106d": {
   "k": "antrenor",
   "m": "Fil e3'e gidemez; şahı açığa çıkarır.",
@@ -22924,6 +24412,12 @@
   "m": "Bu hamle taş kazandırmaz: siyah f6'daki kaleyle f2'deki beyaz piyonu alır. Beyaz bir şey kazanamaz.",
   "dosya": "aad27e4e9d239e73.mp3",
   "sure": 7.94
+ },
+ "aad325bbd4ed739d": {
+  "k": "antrenor",
+  "m": "Kale siyah şahı aynı yataydan ya da dikeyden görürse şah olur.",
+  "dosya": "aad325bbd4ed739d.mp3",
+  "sure": 4.83
  },
  "ab00c7d5e82b2dc7": {
   "k": "pars",
@@ -22966,6 +24460,12 @@
   "m": "Korunan taşı hemen alamıyoruz. Peki koruyucuyu almayı denesek?",
   "dosya": "ab27d943e404e2b9.mp3",
   "sure": 4.41
+ },
+ "ab2deebd08c5ecea": {
+  "k": "antrenor",
+  "m": "Kenar piyonları a ve h dikeyindedir. İlk karelerinde (a2 ve h2) durmayanları ara.",
+  "dosya": "ab2deebd08c5ecea.mp3",
+  "sure": 7.76
  },
  "ab32738de86e2b3f": {
   "k": "antrenor",
@@ -23309,6 +24809,12 @@
   "dosya": "ad56012658f22b73.mp3",
   "sure": 5.38
  },
+ "ad5ca066ba2524d4": {
+  "k": "antrenor",
+  "m": "d5 aynı yatayda ama arada kendi piyonumuz f5 var.",
+  "dosya": "ad5ca066ba2524d4.mp3",
+  "sure": 4.21
+ },
  "ad5df85e8adbb073": {
   "k": "damla",
   "m": "Çekiliyorsa mat, çekilmiyorsa pat!",
@@ -23608,6 +25114,18 @@
   "m": "Aynen {ad}. Şah da kaçacak yer bulamaz: mat.",
   "dosya": "af05a10db4c6484f.mp3",
   "sure": 3.94
+ },
+ "af11fbcbc9bb3de6": {
+  "k": "antrenor",
+  "m": "g6 bir yatay aşağıda kalıyor.",
+  "dosya": "af11fbcbc9bb3de6.mp3",
+  "sure": 2.46
+ },
+ "af2064516d270114": {
+  "k": "antrenor",
+  "m": "Siyahın piyonları 7. yataydadır; beyazla karıştırma.",
+  "dosya": "af2064516d270114.mp3",
+  "sure": 4.55
  },
  "af2536502e4b563c": {
   "k": "antrenor",
@@ -23999,6 +25517,12 @@
   "dosya": "b232c3d0929e051e.mp3",
   "sure": 2.64
  },
+ "b23f6181c4e8a953": {
+  "k": "antrenor",
+  "m": "Yalnız kalenin gidebildiği 3. yataydaki kareleri işaretle. Kale çaprazdan gitmez.",
+  "dosya": "b23f6181c4e8a953.mp3",
+  "sure": 6.09
+ },
  "b248af91dd93690a": {
   "k": "antrenor",
   "m": "Mat olması için önce şah çekilmesi gerekir; şah çeken hamle yok.",
@@ -24028,6 +25552,12 @@
   "m": "Böylece yanlış hamleleri eleyebilirim.",
   "dosya": "b260181152947ea3.mp3",
   "sure": 2.59
+ },
+ "b26cba2b59c3869e": {
+  "k": "antrenor",
+  "m": "Şahın önü kendi piyonlarıyla dolu. Kaleyi son yataya götür.",
+  "dosya": "b26cba2b59c3869e.mp3",
+  "sure": 4.08
  },
  "b2732a3e325fb1e0": {
   "k": "antrenor",
@@ -24071,6 +25601,18 @@
   "dosya": "b2b2b6cd3553263c.mp3",
   "sure": 5.09
  },
+ "b2b3d4787713f7a1": {
+  "k": "antrenor",
+  "m": "Kale hâlâ piyonların arkasında. Hiç piyonu olmayan dikeyi seç.",
+  "dosya": "b2b3d4787713f7a1.mp3",
+  "sure": 5.56
+ },
+ "b2b544607e2ca188": {
+  "k": "antrenor",
+  "m": "Mat için kale şahın kenar yatayına şah çekmeli.",
+  "dosya": "b2b544607e2ca188.mp3",
+  "sure": 3.53
+ },
  "b2b54edc8d024933": {
   "k": "antrenor",
   "m": "Bu hamlede at şah çekildiğinde araya giremez.",
@@ -24106,6 +25648,12 @@
   "m": "Sayı 0 değil; güvenli kareler: a5 ve c5.",
   "dosya": "b2d6578403030075.mp3",
   "sure": 4.08
+ },
+ "b2e887b8594b93cc": {
+  "k": "antrenor",
+  "m": "Şah kaleyle aynı yatayda ama a1'e uzak; alamaz.",
+  "dosya": "b2e887b8594b93cc.mp3",
+  "sure": 4.31
  },
  "b2f295066381ac2a": {
   "k": "antrenor",
@@ -24154,6 +25702,12 @@
   "m": "Şah çekince rakip cevap vermek zorunda, değil mi?",
   "dosya": "b32a44a455a0ec19.mp3",
   "sure": 2.59
+ },
+ "b32ace7c9d299985": {
+  "k": "antrenor",
+  "m": "Gittiğin dikeyde hâlâ piyon var mı? Hiç piyon olmayan dikeyi seç.",
+  "dosya": "b32ace7c9d299985.mp3",
+  "sure": 4.96
  },
  "b33f8a168d7d11e2": {
   "k": "damla",
@@ -24341,6 +25895,12 @@
   "dosya": "b4816977c6b00906.mp3",
   "sure": 3.58
  },
+ "b488a698f30c3528": {
+  "k": "antrenor",
+  "m": "Vezir hangi dikeyde ilerleyip son yataya gidebilir? Şah çekerken şahın kaçış karesi var mı, bak.",
+  "dosya": "b488a698f30c3528.mp3",
+  "sure": 6.82
+ },
  "b48fd44df29b5e57": {
   "k": "antrenor",
   "m": "Bu kareden sonra mat tehdidi doğmuyor. Bir sonraki hamlede mat yapabileceğin kareyi ara.",
@@ -24437,6 +25997,12 @@
   "dosya": "b552c1183da600ef.mp3",
   "sure": 3.71
  },
+ "b55f6aba114f652a": {
+  "k": "antrenor",
+  "m": "Beyaz taşlar 1. yatayda, siyah taşlar 8. yatayda başlar.",
+  "dosya": "b55f6aba114f652a.mp3",
+  "sure": 5.2
+ },
  "b5799865a7d8f000": {
   "k": "antrenor",
   "m": "h4'teki piyon (korunuyor): 2 puan kayıp. Bu, en iyi seçim değil.",
@@ -24466,6 +26032,12 @@
   "m": "Fark eder: arkada duran kale hem piyonu destekler hem uzaktan şah çeker.",
   "dosya": "b5962ba247264326.mp3",
   "sure": 5.8
+ },
+ "b5a6facff2141b7c": {
+  "k": "antrenor",
+  "m": "Siyah şah h8'de. Kalenin gidebileceği karelerden hangileri şahın dikeyinde ya da yatayında?",
+  "dosya": "b5a6facff2141b7c.mp3",
+  "sure": 7.29
  },
  "b5ad6825b86d9fbe": {
   "k": "antrenor",
@@ -24509,6 +26081,12 @@
   "dosya": "b5ce1c17b49f2bdf.mp3",
   "sure": 6.53
  },
+ "b5cf2662bfef67e0": {
+  "k": "antrenor",
+  "m": "Kale kenar yatayına şah çekmeli.",
+  "dosya": "b5cf2662bfef67e0.mp3",
+  "sure": 2.4
+ },
  "b5d421f99027413f": {
   "k": "antrenor",
   "m": "Fazla saydın; şahı kurtaran bütün hamleleri tek tek say.",
@@ -24520,6 +26098,12 @@
   "m": "Siyahın cevaplarına da bak: hangi hamle onlara rağmen mat kurar?",
   "dosya": "b5d5f8f7383349ef.mp3",
   "sure": 4.68
+ },
+ "b5d8e81eaa897586": {
+  "k": "antrenor",
+  "m": "Son yatayda şah çekebilecek bir taşın var mı? Şah kaçabilir mi, bak.",
+  "dosya": "b5d8e81eaa897586.mp3",
+  "sure": 4.96
  },
  "b5dd63fd528f8177": {
   "k": "antrenor",
@@ -24563,6 +26147,12 @@
   "dosya": "b605597a2d21ffa4.mp3",
   "sure": 8.12
  },
+ "b60a77ef76496a56": {
+  "k": "antrenor",
+  "m": "Siyah şah piyonuna destek olmak için aşağı inmek istiyor. Kaleni, şahın inemeyeceği yatayı kapatacak şekilde koy.",
+  "dosya": "b60a77ef76496a56.mp3",
+  "sure": 8.12
+ },
  "b619ac1a47464dd5": {
   "k": "damla",
   "m": "Yetişip yetişemeyeceğini yine sayarak mı bulacağız?",
@@ -24586,6 +26176,18 @@
   "m": "Biliyor muydun? Engelleme yalnız savunma değildir. Rakibin koruma yoluna girmek güçlü bir saldırı da olabilir.",
   "dosya": "b635aef3f4a13de6.mp3",
   "sure": 7.47
+ },
+ "b638aced5f676572": {
+  "k": "antrenor",
+  "m": "Bu hamlede siyah şah 3. yataya inebiliyor ya da kale yerini kaybediyor. 3. yatayı kapatan kareyi ara.",
+  "dosya": "b638aced5f676572.mp3",
+  "sure": 8.54
+ },
+ "b64161b80aeabfa4": {
+  "k": "antrenor",
+  "m": "Dikey harfi piyonu, x almayı, son kısım kareyi anlatır.",
+  "dosya": "b64161b80aeabfa4.mp3",
+  "sure": 4.26
  },
  "b64224a164200994": {
   "k": "antrenor",
@@ -24676,6 +26278,12 @@
   "m": "{ad}, takas hesabı yapmadan önce sayı sayacağız. Bir taşa kaç taş saldırıyor?",
   "dosya": "b6cd447e4e8af350.mp3",
   "sure": 5.51
+ },
+ "b6f1e095df0f8754": {
+  "k": "antrenor",
+  "m": "Tam öyle. Rakip piyonu 3. yataya sürerse bu kez başka bir plan kullanırız. Bunu sonraki bölümde göreceğiz.",
+  "dosya": "b6f1e095df0f8754.mp3",
+  "sure": 7.71
  },
  "b6f9e701bd4b54f7": {
   "k": "damla",
@@ -24797,11 +26405,23 @@
   "dosya": "b7ce54ac624d025d.mp3",
   "sure": 4.73
  },
+ "b7d59a22a1ecb7e8": {
+  "k": "antrenor",
+  "m": "Değirmen kalenin 7. yatayda taş almasıyla başlar; başka hamlede açılan şah yok.",
+  "dosya": "b7d59a22a1ecb7e8.mp3",
+  "sure": 5.93
+ },
  "b7e59b0e6aaffa4f": {
   "k": "antrenor",
   "m": "Burada tek bir taş şah çekiyor ya da hiç şah yok. İki taşın birden şah çekmesi gerekir.",
   "dosya": "b7e59b0e6aaffa4f.mp3",
   "sure": 6.03
+ },
+ "b7f851718be1249f": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Senin piyonun yok, rakibin piyonu var: yarı açık dikey! Kalen oradan rakip piyona baskı yapar.",
+  "dosya": "b7f851718be1249f.mp3",
+  "sure": 8.36
  },
  "b80423c86df455dd": {
   "k": "antrenor",
@@ -24862,6 +26482,12 @@
   "m": "b5 ve h6'daki piyonlar kaleye saldırmıyor; siyah piyonlar aşağı doğru çapraz alır.",
   "dosya": "b85ae9c7ea2a36ea.mp3",
   "sure": 6.4
+ },
+ "b868ad2a1c96cbbe": {
+  "k": "antrenor",
+  "m": "Aynı dikeyde ya da yan dikeylerde ilerisinde bir siyah piyon varsa o beyaz piyon geçer değildir.",
+  "dosya": "b868ad2a1c96cbbe.mp3",
+  "sure": 6.69
  },
  "b86d6666147aa1e7": {
   "k": "antrenor",
@@ -24953,11 +26579,23 @@
   "dosya": "b8ee2941e567a9d1.mp3",
   "sure": 5.2
  },
+ "b8efe42a5d02d21e": {
+  "k": "damla",
+  "m": "Rokta şah ve kale, terfide piyon son yataya, geçerken almada iki kare giden piyon.",
+  "dosya": "b8efe42a5d02d21e.mp3",
+  "sure": 5.28
+ },
  "b8f55af867aea986": {
   "k": "antrenor",
   "m": "c7'ye çaprazdan bakan beyaz taşı bul. Aradaki kareler boş mu?",
   "dosya": "b8f55af867aea986.mp3",
   "sure": 5.02
+ },
+ "b8fb7b7deae22e14": {
+  "k": "antrenor",
+  "m": "Kale hangi karelerden d4'e ulaşabilir? Dikeyine ve yatayına bak.",
+  "dosya": "b8fb7b7deae22e14.mp3",
+  "sure": 4.83
  },
  "b9135d13fe11acc1": {
   "k": "antrenor",
@@ -25115,6 +26753,12 @@
   "dosya": "ba1fae1c1e846319.mp3",
   "sure": 4.02
  },
+ "ba22639031270273": {
+  "k": "antrenor",
+  "m": "Olmaz Pars. Yan dikeylerde ilerisinde rakip piyon varsa o kareye bir gün saldırır. Karakol yalnız hiç tehlike yoksa karakoldur.",
+  "dosya": "ba22639031270273.mp3",
+  "sure": 9.27
+ },
  "ba35501dc1781ceb": {
   "k": "antrenor",
   "m": "Bir taşın geri alabilmesi için o kareye saldırması gerekir. Piyon çapraz, at L, kale düz saldırır.",
@@ -25132,6 +26776,12 @@
   "m": "Oyuncuların yeri değil, tahtanın yönü yanlış.",
   "dosya": "ba4a83417ed663a8.mp3",
   "sure": 3.06
+ },
+ "ba4e9c405b8b4871": {
+  "k": "antrenor",
+  "m": "Yan dikeyde bir siyah piyon görüyorsan o piyon izole değildir. Beyaz piyonları işaretleme.",
+  "dosya": "ba4e9c405b8b4871.mp3",
+  "sure": 6.77
  },
  "ba5f372917d78688": {
   "k": "antrenor",
@@ -25240,6 +26890,18 @@
   "m": "Evet. e3 piyonu hem d4'ü hem de f4'teki fili korur. Londra'nın ilk fikri bu.",
   "dosya": "bb28011f0be5a802.mp3",
   "sure": 6.82
+ },
+ "bb2b1f1fc5f5d2a0": {
+  "k": "antrenor",
+  "m": "Köşe karesiyle birlikte yanındaki üç kareyi işaretle: köşe, yanındaki kare ve bir alt yataydaki iki kare.",
+  "dosya": "bb2b1f1fc5f5d2a0.mp3",
+  "sure": 7.94
+ },
+ "bb2d55dd7b9c7444": {
+  "k": "antrenor",
+  "m": "Düz gidenler yatay ya da dikey işaretler; çapraz eğik gider.",
+  "dosya": "bb2d55dd7b9c7444.mp3",
+  "sure": 4.78
  },
  "bb2d759819ad3453": {
   "k": "antrenor",
@@ -25439,11 +27101,23 @@
   "dosya": "bd3c15ade2cf576b.mp3",
   "sure": 1.75
  },
+ "bd400f07861a3db9": {
+  "k": "antrenor",
+  "m": "{ad}, oyun ortasında en önemli sorulardan biri: taşlarım nereye gitsin? Bugün kaleye yol açan dikeyleri öğreniyoruz.",
+  "dosya": "bd400f07861a3db9.mp3",
+  "sure": 8.12
+ },
  "bd45e012face7219": {
   "k": "antrenor",
   "m": "a2 piyonu d5'e ulaşamaz.",
   "dosya": "bd45e012face7219.mp3",
   "sure": 2.27
+ },
+ "bd4972ce43ffe994": {
+  "k": "antrenor",
+  "m": "Dikeyin tamamı boşsa açık dikey, kendi piyonun varsa kapalı dikeydir. Yalnız siyahın piyonu olan dikeyi seç.",
+  "dosya": "bd4972ce43ffe994.mp3",
+  "sure": 8.67
  },
  "bd4d3f059ed2510a": {
   "k": "antrenor",
@@ -25589,11 +27263,23 @@
   "dosya": "bdee6c1c8af116f7.mp3",
   "sure": 5.2
  },
+ "bdf9ea9f2d794882": {
+  "k": "antrenor",
+  "m": "F dikeyinde hem beyaz hem siyah piyon var; o yüzden açık değil.",
+  "dosya": "bdf9ea9f2d794882.mp3",
+  "sure": 4.78
+ },
  "bdfe7821c615f7d5": {
   "k": "antrenor",
   "m": "Eşitlik yok: iki tarafın verdiği puanlar farklı. Beyaz kale ile atı alır (3 puan). Siyah piyon ile kaleyi alır (5 puan). Beyaz 2 puan kaybeder.",
   "dosya": "bdfe7821c615f7d5.mp3",
   "sure": 11.52
+ },
+ "be0f7d0508cbc33b": {
+  "k": "antrenor",
+  "m": "Tahtanın kenarında, mesela h dikeyinde. Yanında kendi piyonu var. Bir at şahın yanındaki iki kaçış karesini tutar.",
+  "dosya": "be0f7d0508cbc33b.mp3",
+  "sure": 8.25
  },
  "be1361f27f9857a8": {
   "k": "pars",
@@ -25606,6 +27292,12 @@
   "m": "Dur bakalım {ad}. Diğer taşların hâlâ uykuda. Aynı taşla iki kez oynarsan rakibin bir hamle öne geçer.",
   "dosya": "be22bdda58efcc14.mp3",
   "sure": 8.36
+ },
+ "be3780143c99e05e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Merdiven matında iki kale sırayla şah çeker; şah her seferinde bir yatay geri itilir ve sonunda mat olur.",
+  "dosya": "be3780143c99e05e.mp3",
+  "sure": 8.8
  },
  "be3c2bf11f9ceecd": {
   "k": "antrenor",
@@ -25697,6 +27389,12 @@
   "dosya": "bec9c3c85f0abff3.mp3",
   "sure": 4.86
  },
+ "bed1cf32455d48f6": {
+  "k": "antrenor",
+  "m": "Kale yalnız düz gider. Kalenin yatay yolu açıksa o dikeyin karesini işaretleyebilirsin.",
+  "dosya": "bed1cf32455d48f6.mp3",
+  "sure": 6.53
+ },
  "bed7a2756486312f": {
   "k": "antrenor",
   "m": "Vezir düz ve çapraz gider, ama L çizmez.",
@@ -25762,6 +27460,12 @@
   "m": "Veziri şahtan bir at sıçrayışı uzağa koyup şahı yavaşça kenara iteriz. Sonra şahımızı yaklaştırırız.",
   "dosya": "bf2f5c94c6ae4087.mp3",
   "sure": 7.34
+ },
+ "bf35272112c14182": {
+  "k": "antrenor",
+  "m": "Yalnız kare yazılıyor; oynayan bir piyon. Piyon hangi dikeyde?",
+  "dosya": "bf35272112c14182.mp3",
+  "sure": 5.28
  },
  "bf455657b770f1be": {
   "k": "antrenor",
@@ -25925,6 +27629,12 @@
   "dosya": "c0964a37b77b5276.mp3",
   "sure": 4.78
  },
+ "c09fbc7f7a8fb8bc": {
+  "k": "antrenor",
+  "m": "4. yataydaki piyon siyah piyonun yanında değil, bir yatay altında kalır.",
+  "dosya": "c09fbc7f7a8fb8bc.mp3",
+  "sure": 5.43
+ },
  "c0a184e9e2f44377": {
   "k": "antrenor",
   "m": "Açmaz yapan taş, hat üzerinde ve açmazdaki taşın gidebileceği bir karede.",
@@ -25942,6 +27652,12 @@
   "m": "Biliyor muydun? Rakibin üç cevabı varsa üç dalı da incelersin. Hepsinde işe yarayan hamle güvenli hamledir!",
   "dosya": "c0af4dc217af0e5c.mp3",
   "sure": 7.76
+ },
+ "c0da5724ebddb4e7": {
+  "k": "antrenor",
+  "m": "Piyon 2. yatayda ve önü boş, iki kare gidebilir.",
+  "dosya": "c0da5724ebddb4e7.mp3",
+  "sure": 4.18
  },
  "c0da9a752476231d": {
   "k": "antrenor",
@@ -25990,6 +27706,12 @@
   "m": "Şahın önündeki bir piyonu oynatıp şaha kaçış karesi aç.",
   "dosya": "c128aa0eed41bbfc.mp3",
   "sure": 4.18
+ },
+ "c12b1864497be2ef": {
+  "k": "antrenor",
+  "m": "Yana doğru gidersen yatay işaretlemiş olursun.",
+  "dosya": "c12b1864497be2ef.mp3",
+  "sure": 3.16
  },
  "c13aa350edc584e6": {
   "k": "antrenor",
@@ -26219,6 +27941,12 @@
   "dosya": "c2bea20648272ae1.mp3",
   "sure": 7.34
  },
+ "c2c7fd4b1a18af7e": {
+  "k": "antrenor",
+  "m": "Kale yalnız düz çizgide saldırır; önüne başka taş çıkarsa ötesini göremez. 7. yatayda kalenin doğrudan gördüğü piyonları seç.",
+  "dosya": "c2c7fd4b1a18af7e.mp3",
+  "sure": 10.45
+ },
  "c2cea8e8e27491bb": {
   "k": "antrenor",
   "m": "Dur ve bak: Aldıktan sonra rakibin cevabı ne? Bazen taşı doğru taşla almak gerekir.",
@@ -26242,6 +27970,12 @@
   "m": "{ad}, dört kalıbı öğrendik: çoban, tembel, merdiven ve koridor matı. Bugün onları ayırt edeceğiz.",
   "dosya": "c2e97122420d76f9.mp3",
   "sure": 7.42
+ },
+ "c2ed14552a805f2c": {
+  "k": "antrenor",
+  "m": "a8 ile a1'i karıştırmak yaygındır: 8. yatay siyahın tarafındadır.",
+  "dosya": "c2ed14552a805f2c.mp3",
+  "sure": 6.03
  },
  "c2f3151742cc5c7e": {
   "k": "antrenor",
@@ -26272,6 +28006,12 @@
   "m": "Korumasız taşı bulmak için siyah taşların birbirini kontrol edişine bak. Vezir kenardaki bir kaleyi alabilir.",
   "dosya": "c322d4c376111a67.mp3",
   "sure": 7.6
+ },
+ "c327dbbf704be93b": {
+  "k": "antrenor",
+  "m": "Harf dikeyi, rakam sırayı söyler. İkisini birlikte oku.",
+  "dosya": "c327dbbf704be93b.mp3",
+  "sure": 4.26
  },
  "c329cd8a465614de": {
   "k": "antrenor",
@@ -26369,11 +28109,23 @@
   "dosya": "c3bb0cf30e2dfbdb.mp3",
   "sure": 4.78
  },
+ "c3c1c71e17a0d827": {
+  "k": "antrenor",
+  "m": "Evet. Ama önce tehdidi görmelisin: rakip kalesini son yataya getirirse mat olur mu, her hamlede bunu kontrol et.",
+  "dosya": "c3c1c71e17a0d827.mp3",
+  "sure": 7.97
+ },
  "c3cc8a017405fe6a": {
   "k": "antrenor",
   "m": "Biliyor muydun? e4 piyonunun anahtar kareleri d6, e6 ve f6'dır. Şahın oraya girerse piyon terfiye ulaşır!",
   "dosya": "c3cc8a017405fe6a.mp3",
   "sure": 9.33
+ },
+ "c3cdb6377b935512": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Oyun sonunda önce konumu tanı: vezirle mi, kaleyle mi? Sonra planını seç: mat, pat tuzağı, 3. yatay ya da Philidor!",
+  "dosya": "c3cdb6377b935512.mp3",
+  "sure": 10.71
  },
  "c3cfb7acffe56321": {
   "k": "antrenor",
@@ -26386,6 +28138,12 @@
   "m": "Şahlar aynı kanatta değil, karşı kanatlarda.",
   "dosya": "c3e1b542af024875.mp3",
   "sure": 3.66
+ },
+ "c3ef0acbffcc8885": {
+  "k": "antrenor",
+  "m": "E dikeyinde hiç piyon yok; bu dikey açık dikeydir, aranan cevap değil.",
+  "dosya": "c3ef0acbffcc8885.mp3",
+  "sure": 5.38
  },
  "c3f582f73d426347": {
   "k": "pars",
@@ -26735,6 +28493,12 @@
   "dosya": "c62a6a79db0a4b33.mp3",
   "sure": 8.49
  },
+ "c62c37888e0ff6b7": {
+  "k": "antrenor",
+  "m": "Piyon 8. yataya bir kare ilerleyince terfi eder.",
+  "dosya": "c62c37888e0ff6b7.mp3",
+  "sure": 3.79
+ },
  "c6340556612c578a": {
   "k": "antrenor",
   "m": "{ad}, şimdi daha büyük bir feda: mat için feda. Burada puan saymayız, şahı mat ederiz.",
@@ -26758,6 +28522,12 @@
   "m": "Hayır Pars. Planı bilirsen hamleyi sen bulursun. Artık hangi tarafta oturursan otur ne yapacağını biliyorsun.",
   "dosya": "c65bfbbcb933ae4f.mp3",
   "sure": 8.02
+ },
+ "c65f7dcecc836ece": {
+  "k": "antrenor",
+  "m": "Piyon yalnız ileri gider. 8. yataya gelince vezir seç.",
+  "dosya": "c65f7dcecc836ece.mp3",
+  "sure": 5.2
  },
  "c6622483b01a05b8": {
   "k": "antrenor",
@@ -26801,6 +28571,12 @@
   "dosya": "c6880cffad1b0bd0.mp3",
   "sure": 8.44
  },
+ "c6883ef1f5bbf5ab": {
+  "k": "antrenor",
+  "m": "Siyah kale e dikeyini tutuyor. Şahın gideceği kare o dikeyde olmamalı.",
+  "dosya": "c6883ef1f5bbf5ab.mp3",
+  "sure": 5.88
+ },
  "c68a2108357f4bc0": {
   "k": "antrenor",
   "m": "Beyazın korumasız taşını bul. Atın o kareye gidip gidemeyeceğine bak.",
@@ -26830,6 +28606,12 @@
   "m": "İkinci altın kural: taşlarını geliştir. Yani at ve fillerini ilk sıralarından çıkarıp oyuna sok.",
   "dosya": "c6ed81509cf30cc5.mp3",
   "sure": 7.47
+ },
+ "c7007e5ba5987d0f": {
+  "k": "antrenor",
+  "m": "Hiç piyonu olmayan dikeyi bul; kaleni o dikeyin karelerinden birine oynat.",
+  "dosya": "c7007e5ba5987d0f.mp3",
+  "sure": 5.75
  },
  "c70e9573cac15a19": {
   "k": "antrenor",
@@ -27059,6 +28841,12 @@
   "dosya": "c873827f70f5ed20.mp3",
   "sure": 3.24
  },
+ "c87a0a23a7488fb6": {
+  "k": "antrenor",
+  "m": "e5 karesi 5. yatayda, 7. yatayda değil.",
+  "dosya": "c87a0a23a7488fb6.mp3",
+  "sure": 4.18
+ },
  "c88db2781541a701": {
   "k": "antrenor",
   "m": "Gideceğin karede vezir iki siyah taşa aynı anda saldırmalı; siyah taşların yerine bak. Vezir düz ve çapraz yolda, önünde engel yoksa saldırır.",
@@ -27137,6 +28925,12 @@
   "dosya": "c8c3d79be3956015.mp3",
   "sure": 4.21
  },
+ "c8cbe38c57c2f774": {
+  "k": "antrenor",
+  "m": "1. yatay beyazın diğer taşlarının yatayıdır.",
+  "dosya": "c8cbe38c57c2f774.mp3",
+  "sure": 3.16
+ },
  "c8e144ffdb91ee83": {
   "k": "antrenor",
   "m": "Filin iki çaprazını ayrı ayrı düşün; kendi taşına ve rakibin taşına gelince ne olur?",
@@ -27191,6 +28985,18 @@
   "dosya": "c9600f407b6b9dcb.mp3",
   "sure": 6.5
  },
+ "c96174e14fbe1758": {
+  "k": "antrenor",
+  "m": "Şah h8'de; hangi yataydan şah çekilirse kaçamaz?",
+  "dosya": "c96174e14fbe1758.mp3",
+  "sure": 3.94
+ },
+ "c975912bb4574c49": {
+  "k": "antrenor",
+  "m": "Son yataya şah çekebilecek taşlara bak. İkisinin de yolu açık.",
+  "dosya": "c975912bb4574c49.mp3",
+  "sure": 4.62
+ },
  "c97c79a670ac9590": {
   "k": "antrenor",
   "m": "Hedef karede taşın alınmamalı; siyah taşla arkasındaki değerli taş aynı hatta olmalı.",
@@ -27220,6 +29026,12 @@
   "m": "Çapraz kareleri işaretlemek sık yapılan hatadır: çapraz yalnızca taş alırken.",
   "dosya": "c9a1b6eeb37ac46e.mp3",
   "sure": 5.8
+ },
+ "c9beaa5e36ae337c": {
+  "k": "damla",
+  "m": "Neden 7. yatay hocam?",
+  "dosya": "c9beaa5e36ae337c.mp3",
+  "sure": 1.67
  },
  "c9c1e08e9f9ca76f": {
   "k": "antrenor",
@@ -27263,6 +29075,12 @@
   "dosya": "ca1338cd6143c7ec.mp3",
   "sure": 5.75
  },
+ "ca1d0a543b4ca10f": {
+  "k": "antrenor",
+  "m": "Hiç piyon olmayan dikeyi bul ve kaleni oraya getir.",
+  "dosya": "ca1d0a543b4ca10f.mp3",
+  "sure": 3.79
+ },
  "ca2a33b4288ff68e": {
   "k": "antrenor",
   "m": "{ad}, bugün hapsetmenin ilk sırrını öğreniyoruz: kaçış karesi. Bir taş saldırı altında kalınca ne yapar?",
@@ -27274,6 +29092,12 @@
   "m": "Haklısın. O yüzden matı önceden görmen gerek. Siyah alınca şah ya da taş yerinden oynar, sonra mat.",
   "dosya": "ca2c81e599e0a0a5.mp3",
   "sure": 7.89
+ },
+ "ca2ca752f3029a12": {
+  "k": "antrenor",
+  "m": "Piyonun hemen önü anahtar kare değildir; bir yatay daha ileri gitmek gerekir.",
+  "dosya": "ca2ca752f3029a12.mp3",
+  "sure": 5.62
  },
  "ca6432d9bec4894e": {
   "k": "pars",
@@ -27395,6 +29219,12 @@
   "dosya": "cb2bcbf47f326cb5.mp3",
   "sure": 5.38
  },
+ "cb308145fa1f79ab": {
+  "k": "antrenor",
+  "m": "Alt yatayda eksik olan taşı aramak yerine, fazladan duran taşı ara.",
+  "dosya": "cb308145fa1f79ab.mp3",
+  "sure": 5.02
+ },
  "cb355883b8d177c8": {
   "k": "antrenor",
   "m": "Korunan taşı kaleyle almak kaliteyi kaybettirir. Korumasız hedef ara.",
@@ -27478,6 +29308,12 @@
   "m": "Şah ve Şah Çekme Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
   "dosya": "cbd897ab63bbcdb9.mp3",
   "sure": 10.58
+ },
+ "cbde5aa00e27f87b": {
+  "k": "antrenor",
+  "m": "{ad}, bazı dikeylerde yalnız bir tarafın piyonu durur. Bunlara yarı açık dikey diyoruz.",
+  "dosya": "cbde5aa00e27f87b.mp3",
+  "sure": 6.53
  },
  "cbe0fa2423eaf553": {
   "k": "antrenor",
@@ -27683,11 +29519,23 @@
   "dosya": "cdc51068f8ab9070.mp3",
   "sure": 4.31
  },
+ "cdd3d138ef40a176": {
+  "k": "antrenor",
+  "m": "Bir kale şah çeker. Şah kenara kaçınca öbür kale bir yatay ilerleyip şah çeker. Her kale ötekini korur.",
+  "dosya": "cdd3d138ef40a176.mp3",
+  "sure": 8.59
+ },
  "ce0fb65834596910": {
   "k": "damla",
   "m": "Ya şahımız çok uzaktaysa?",
   "dosya": "ce0fb65834596910.mp3",
   "sure": 1.57
+ },
+ "ce1ebc3b64169c27": {
+  "k": "antrenor",
+  "m": "Kale e dikeyinde kalmalı ama gittiği kare korunmalı. Piyonların hangi kareyi koruyor?",
+  "dosya": "ce1ebc3b64169c27.mp3",
+  "sure": 5.67
  },
  "ce29f20970d85d33": {
   "k": "antrenor",
@@ -27922,6 +29770,12 @@
   "m": "Piyon bir ileri gidince hangi iki çaprazı tehdit eder? Şah o karelerden birinde mi?",
   "dosya": "cfc5a7f270fe709a.mp3",
   "sure": 6.11
+ },
+ "cfdee9b7f9d20e47": {
+  "k": "antrenor",
+  "m": "Arka sıra matında şah son yatayda, önü kendi taşlarıyla kapalıdır ve kale ya da vezir son yatayda şah çeker. Bu pozisyondaki mat böyle bir düzen değil.",
+  "dosya": "cfdee9b7f9d20e47.mp3",
+  "sure": 11.18
  },
  "cfe3e07ad48aa318": {
   "k": "antrenor",
@@ -28228,6 +30082,12 @@
   "m": "Burada öndeki taş kaçınca arkada kalan taşı almış olmuyorsun. Aynı hatta iki taşı ara.",
   "dosya": "d1d2a024818b1186.mp3",
   "sure": 5.93
+ },
+ "d1e718b66c0736d3": {
+  "k": "antrenor",
+  "m": "d8 aynı dikeyde: vezir kale gibi gider.",
+  "dosya": "d1e718b66c0736d3.mp3",
+  "sure": 3.6
  },
  "d1e7cd8bbb5bc5fd": {
   "k": "antrenor",
@@ -28541,6 +30401,12 @@
   "dosya": "d41ec1e1a03bcc18.mp3",
   "sure": 5.88
  },
+ "d43499f455019877": {
+  "k": "antrenor",
+  "m": "Kale d dikeyi boyunca, at L çizerek saldırır. Şahın komşu karelerini kontrol et.",
+  "dosya": "d43499f455019877.mp3",
+  "sure": 6.09
+ },
  "d43521287540f32f": {
   "k": "antrenor",
   "m": "Hoş geldin {ad}! Bugün seni yeni görevler bekliyor. Önce günün hediyesini aç!",
@@ -28588,6 +30454,12 @@
   "m": "Piyon d4'ün yanına, çaprazdan koruyacak bir kareye gitsin.",
   "dosya": "d4901b613a7ba0f0.mp3",
   "sure": 4.41
+ },
+ "d4a0a7e6547aad52": {
+  "k": "pars",
+  "m": "O zaman beyaz kale o dikeyde siyah piyona saldırabilir!",
+  "dosya": "d4a0a7e6547aad52.mp3",
+  "sure": 3.06
  },
  "d4aab9390e71148e": {
   "k": "antrenor",
@@ -28787,6 +30659,12 @@
   "dosya": "d60d18fad3d5ce78.mp3",
   "sure": 1.7
  },
+ "d62d19b432cfb455": {
+  "k": "antrenor",
+  "m": "Tek rakam bütün bir yatayı gösterir, tek kareyi değil.",
+  "dosya": "d62d19b432cfb455.mp3",
+  "sure": 3.79
+ },
  "d62ec9cb38fcc01a": {
   "k": "antrenor",
   "m": "Beyaz vezir d1'de, siyah vezir d8'de başlar. Orada olmayanı bul.",
@@ -28948,6 +30826,12 @@
   "m": "Sunulan taşı alabilen taşlara bak. Bu taşla alınca siyahın bir hamlesi var mı, hesapla.",
   "dosya": "d6f29e0466fd4602.mp3",
   "sure": 5.88
+ },
+ "d6fd98116169240e": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Kale için üç plan var: açık dikey, yarı açık dikey, 7. yatay. Hamle yapmadan önce hangisi uygun, bak!",
+  "dosya": "d6fd98116169240e.mp3",
+  "sure": 8.86
  },
  "d7010930aec1d34b": {
   "k": "antrenor",
@@ -29219,6 +31103,12 @@
   "dosya": "d9101c174fedd706.mp3",
   "sure": 8.02
  },
+ "d915e9584329cc05": {
+  "k": "antrenor",
+  "m": "Kale 5. yataydan saldırıyor. Filin çaprazı bu yatayı hangi karelerde kesiyor?",
+  "dosya": "d915e9584329cc05.mp3",
+  "sure": 5.69
+ },
  "d91b037219ecd6af": {
   "k": "antrenor",
   "m": "Önce şahın kaçış karelerini say. Hepsini kapatan şah çekişini ara.",
@@ -29297,11 +31187,23 @@
   "dosya": "d9937835d5796b73.mp3",
   "sure": 4.68
  },
+ "d99435c770c2d4a9": {
+  "k": "antrenor",
+  "m": "Şahlar aynı yatayda değil, çaprazda duruyor.",
+  "dosya": "d99435c770c2d4a9.mp3",
+  "sure": 3.58
+ },
  "d9ae875ac2f2a7d5": {
   "k": "antrenor",
   "m": "Her satırda ilk hamle beyazındır.",
   "dosya": "d9ae875ac2f2a7d5.mp3",
   "sure": 2.69
+ },
+ "d9aef8429324a3d5": {
+  "k": "antrenor",
+  "m": "Aynen. Son yatayda şahımız karşısında dururken kaleyle şah çeker ve mat ederiz.",
+  "dosya": "d9aef8429324a3d5.mp3",
+  "sure": 5.93
  },
  "d9c264b23957c428": {
   "k": "pars",
@@ -29422,6 +31324,12 @@
   "m": "Rakip en kolay cevabı vermek zorunda değil; en güçlüsünü de incele.",
   "dosya": "da9fe502dc8a2b05.mp3",
   "sure": 4.73
+ },
+ "daa2d3dda2429ade": {
+  "k": "antrenor",
+  "m": "İzole piyonun iki yanındaki dikeylerde kendi piyonu bulunmaz. Yan dikeyde bir beyaz piyon görüyorsan o piyon izole değildir.",
+  "dosya": "daa2d3dda2429ade.mp3",
+  "sure": 9.43
  },
  "dab329a9501b0fd9": {
   "k": "antrenor",
@@ -29555,6 +31463,12 @@
   "dosya": "db3e76e0cf158b87.mp3",
   "sure": 1.91
  },
+ "db47b8175cff6faf": {
+  "k": "antrenor",
+  "m": "Siyah şaha nasıl saldırılır? Şahın olduğu yataya, dikeye ya da çaprazlara bak.",
+  "dosya": "db47b8175cff6faf.mp3",
+  "sure": 6.35
+ },
  "db512de351dcff0f": {
   "k": "antrenor",
   "m": "Bu taşı bir siyah taş koruyor; alırsan taşını kaybedersin.",
@@ -29608,6 +31522,12 @@
   "m": "Kazandıran ya da kaybettiren almayı değil, tam eşit olanı seç.",
   "dosya": "db94a4f63876bdc3.mp3",
   "sure": 4.78
+ },
+ "dbab1131f845af9f": {
+  "k": "antrenor",
+  "m": "Önce şah çeken bir kale hamlesi ara. Şah çekince bir yatay kapanır; sonra öbür kale mat eder.",
+  "dosya": "dbab1131f845af9f.mp3",
+  "sure": 6.92
  },
  "dbb60a4eecd78458": {
   "k": "antrenor",
@@ -29765,6 +31685,12 @@
   "dosya": "dc9afea788ef22f0.mp3",
   "sure": 5.67
  },
+ "dca29fc1b6c5f447": {
+  "k": "antrenor",
+  "m": "Kale yedinci yatayda şahın yanına kayabilir.",
+  "dosya": "dca29fc1b6c5f447.mp3",
+  "sure": 3.37
+ },
  "dcd1e5a93c2564f2": {
   "k": "antrenor",
   "m": "Şg1 şahın g1'e gittiğini anlatırdı; rok için özel yazı kullanılır.",
@@ -29812,6 +31738,12 @@
   "m": "Mat tehdidini nasıl durdururuz?",
   "dosya": "dd19afda99eb316d.mp3",
   "sure": 2.32
+ },
+ "dd1bcbed801f56d5": {
+  "k": "antrenor",
+  "m": "Renk yatayda ve dikeyde değişir, çaprazda değişmez.",
+  "dosya": "dd1bcbed801f56d5.mp3",
+  "sure": 4.0
  },
  "dd41e75e965122c7": {
   "k": "antrenor",
@@ -30059,6 +31991,12 @@
   "dosya": "de8874dd4d05e77b.mp3",
   "sure": 2.53
  },
+ "de95ae39bc65b77e": {
+  "k": "antrenor",
+  "m": "7. yataya çıkan kale siyahın piyonlarını sıkıştırır. Böyle bir kare ara.",
+  "dosya": "de95ae39bc65b77e.mp3",
+  "sure": 5.2
+ },
  "de99b8f03e036c33": {
   "k": "pars",
   "m": "Köprü şahımızı şah çekmelerden saklıyor!",
@@ -30155,11 +32093,29 @@
   "dosya": "df4a26285f034cb0.mp3",
   "sure": 3.6
  },
+ "df6a0b6933552e68": {
+  "k": "antrenor",
+  "m": "Beyaz piyonun olmadığı ama siyah piyonun durduğu dikeyi bul.",
+  "dosya": "df6a0b6933552e68.mp3",
+  "sure": 4.08
+ },
+ "df722ea663c67c33": {
+  "k": "antrenor",
+  "m": "C dikeyinde beyaz piyon var; o yüzden açık değil.",
+  "dosya": "df722ea663c67c33.mp3",
+  "sure": 3.58
+ },
  "df7fd6111b160c6e": {
   "k": "antrenor",
   "m": "3 değil: at orada yalnız 1 siyah taşa saldırır.",
   "dosya": "df7fd6111b160c6e.mp3",
   "sure": 4.0
+ },
+ "df86c445539cc1a2": {
+  "k": "antrenor",
+  "m": "2. yatay beyaz piyonların yatayıdır.",
+  "dosya": "df86c445539cc1a2.mp3",
+  "sure": 2.64
  },
  "dfe06a4214f9eaf8": {
   "k": "antrenor",
@@ -30178,6 +32134,12 @@
   "m": "a7'deki piyon kalenin düz çizgisinde değil ya da önü kapalı; doğrudan saldırı altında değil.",
   "dosya": "dff722e0ecfcd03b.mp3",
   "sure": 7.0
+ },
+ "dff89ca102569e06": {
+  "k": "antrenor",
+  "m": "Yalnız at ve fillere bak; hâlâ 8. yatayda duranları işaretle.",
+  "dosya": "dff89ca102569e06.mp3",
+  "sure": 6.03
  },
  "e01e70826604b3a3": {
   "k": "antrenor",
@@ -30287,6 +32249,12 @@
   "dosya": "e0cb09a1e5673bc4.mp3",
   "sure": 4.31
  },
+ "e0d13c4c55d549f1": {
+  "k": "antrenor",
+  "m": "Hiç piyon olmayan dikey açık dikeydir; onu işaretleme. Burada yalnız beyazın piyonu olan dikey aranıyor.",
+  "dosya": "e0d13c4c55d549f1.mp3",
+  "sure": 8.07
+ },
  "e0e5a4ef2146f85c": {
   "k": "pars",
   "m": "Korunan taşı alamazsın, hocam hatırlattı!",
@@ -30328,6 +32296,12 @@
   "m": "Sonuçta taşları sayıyoruz değil mi?",
   "dosya": "e0faa537dc073197.mp3",
   "sure": 2.4
+ },
+ "e1025484c9f027ee": {
+  "k": "antrenor",
+  "m": "Bu, rakibi hesaba katmayan bir yatay; rakip de hamle yapacak.",
+  "dosya": "e1025484c9f027ee.mp3",
+  "sure": 4.62
  },
  "e10badde68e3c55a": {
   "k": "damla",
@@ -30401,6 +32375,12 @@
   "dosya": "e18eb3c1a41d7633.mp3",
   "sure": 2.27
  },
+ "e19009577577e0be": {
+  "k": "antrenor",
+  "m": "Aynı dikeyde üst üste duran iki beyaz piyon var mı? Hepsini işaretle.",
+  "dosya": "e19009577577e0be.mp3",
+  "sure": 4.83
+ },
  "e190dad650f16018": {
   "k": "damla",
   "m": "Hangi konuları hatırlamalıyım?",
@@ -30431,6 +32411,12 @@
   "dosya": "e19ee77f5420fb62.mp3",
   "sure": 4.26
  },
+ "e19ffaf22eee11b9": {
+  "k": "antrenor",
+  "m": "Şah çekmeyen ya da şahı kaçıran hamle mat değildir. Kenar yatayına bak.",
+  "dosya": "e19ffaf22eee11b9.mp3",
+  "sure": 5.46
+ },
  "e1a269b35140fb88": {
   "k": "antrenor",
   "m": "Siyah fil ve vezir aynı kareye bakıyor. Beyazın en zayıf karesi hangisi?",
@@ -30454,6 +32440,12 @@
   "m": "Korunan taşı önce alırsan koruyucu geri alır; kazanç kaybolur.",
   "dosya": "e1b1a731ae0d0d16.mp3",
   "sure": 4.55
+ },
+ "e1dccf77bb634320": {
+  "k": "antrenor",
+  "m": "Kaleyi 3. yataya koyuyoruz. Rakip şah o yataydan aşağı inemez.",
+  "dosya": "e1dccf77bb634320.mp3",
+  "sure": 5.25
  },
  "e1df68118d21ecee": {
   "k": "damla",
@@ -30520,6 +32512,12 @@
   "m": "At L ile, fil çaprazla saldırır. Şahın komşu karelerini sırayla kontrol et.",
   "dosya": "e24dbe3d7ac9e53f.mp3",
   "sure": 5.69
+ },
+ "e26274cd7b249ac2": {
+  "k": "antrenor",
+  "m": "Piyonun bir değil iki yatay ilerisine bak; ortadaki kareyle iki yanındaki kareleri işaretle.",
+  "dosya": "e26274cd7b249ac2.mp3",
+  "sure": 7.0
  },
  "e267a0fecbc55158": {
   "k": "antrenor",
@@ -30611,6 +32609,12 @@
   "dosya": "e30e2831a1b80f8e.mp3",
   "sure": 4.49
  },
+ "e318c826767387cf": {
+  "k": "antrenor",
+  "m": "Bu Boden matı değil: şah son yatayda ve önündeki kareler kendi taşlarıyla dolu. Bu, arka sıra matı.",
+  "dosya": "e318c826767387cf.mp3",
+  "sure": 7.84
+ },
  "e325387e72981ba5": {
   "k": "antrenor",
   "m": "Bu hamle pat yapar: siyahın yapacak hamlesi kalmaz ama şah çekilmediği için oyun berabere biter.",
@@ -30628,6 +32632,12 @@
   "m": "Şah kendi taşının üstüne gidemez ve beyazın taradığı kareye de gidemez.",
   "dosya": "e33e705c21baec02.mp3",
   "sure": 5.43
+ },
+ "e33fca56929eb13c": {
+  "k": "antrenor",
+  "m": "Sağa giderken yatay rakamı değişmez, yalnızca harf ilerler.",
+  "dosya": "e33fca56929eb13c.mp3",
+  "sure": 4.26
  },
  "e348df61f796804e": {
   "k": "antrenor",
@@ -30670,6 +32680,12 @@
   "m": "Biliyor muydun? Opozisyonda sırası gelen şah geri çekilmek zorunda kalır. Bu yüzden sırayı sayan kazanır!",
   "dosya": "e38bd7f22ece1dea.mp3",
   "sure": 7.05
+ },
+ "e3a1b0987c0cb8be": {
+  "k": "antrenor",
+  "m": "3. yataydaki piyon siyah piyonun yanında olamaz; çünkü siyah piyon 5. yatayda durur.",
+  "dosya": "e3a1b0987c0cb8be.mp3",
+  "sure": 7.34
  },
  "e3a7c84ab24afa7d": {
   "k": "antrenor",
@@ -30767,6 +32783,12 @@
   "dosya": "e4428c987d49921e.mp3",
   "sure": 6.09
  },
+ "e449fa2d75261dcf": {
+  "k": "antrenor",
+  "m": "Piyon 8. yataya ne kadar yakınsa o kadar az hamle kalır.",
+  "dosya": "e449fa2d75261dcf.mp3",
+  "sure": 4.68
+ },
  "e4658a3c40b2864a": {
   "k": "antrenor",
   "m": "Boğma matta şahı bir at çeker. Burada ise şahı kale ya da vezir arka sırada çekiyor.",
@@ -30820,6 +32842,12 @@
   "m": "Piyonun iki sıra önüne bak: tam önündeki kare ve iki yanındaki kareler.",
   "dosya": "e4dc3ab16921fd6f.mp3",
   "sure": 5.25
+ },
+ "e4f64848ccc80e24": {
+  "k": "antrenor",
+  "m": "Çoban matı f7 karesinde vezirle yapılır. Burada son yatayda bir kale var.",
+  "dosya": "e4f64848ccc80e24.mp3",
+  "sure": 5.88
  },
  "e5261f32e1a1107d": {
   "k": "antrenor",
@@ -30886,6 +32914,12 @@
   "m": "{ad}, kazanırken yapılan en meşhur hata pat tuzağı.",
   "dosya": "e59b8a1e81f9e582.mp3",
   "sure": 4.02
+ },
+ "e5a0fcca5f2c9db9": {
+  "k": "antrenor",
+  "m": "Siyah kale e dikeyinden saldırıyor. Bu dikeye hangi beyaz taşlar bir hamlede girebilir?",
+  "dosya": "e5a0fcca5f2c9db9.mp3",
+  "sure": 5.93
  },
  "e5a993d20da2efc1": {
   "k": "antrenor",
@@ -31073,6 +33107,12 @@
   "dosya": "e6c9484c319e8e0e.mp3",
   "sure": 2.95
  },
+ "e6c9d7502283d183": {
+  "k": "antrenor",
+  "m": "Önce piyonsuz dikeyi bul. Sonra kalenin bulunduğu yatay boyunca ona ulaşıp ulaşamadığına bak.",
+  "dosya": "e6c9d7502283d183.mp3",
+  "sure": 6.77
+ },
  "e6caf18a5a7097b2": {
   "k": "antrenor",
   "m": "3 puandan büyük değerleri ara: kale ve vezir gibi.",
@@ -31090,6 +33130,12 @@
   "m": "D sütununda hiç piyon yok; bu sütun açık sütundur, aranan cevap değil.",
   "dosya": "e6dc93f058ea1013.mp3",
   "sure": 5.46
+ },
+ "e6df02690f61c173": {
+  "k": "antrenor",
+  "m": "O dikeyde beyazın piyonu duruyor ya da hiç piyon yok. Yarı açık dikey, yalnız siyahın piyonu olan dikeydir.",
+  "dosya": "e6df02690f61c173.mp3",
+  "sure": 7.78
  },
  "e6e5cbafab4ec92c": {
   "k": "antrenor",
@@ -31132,6 +33178,12 @@
   "m": "Üç siyah hamle var: iki taş hamlesi ve bir piyon hamlesi.",
   "dosya": "e7086826eefb2188.mp3",
   "sure": 4.21
+ },
+ "e709536ddbdc73c6": {
+  "k": "antrenor",
+  "m": "Arka sıra matında kale son yatayda şah çeker. Burada kale a7'de.",
+  "dosya": "e709536ddbdc73c6.mp3",
+  "sure": 5.51
  },
  "e70c7e7748a302ba": {
   "k": "antrenor",
@@ -31313,6 +33365,12 @@
   "dosya": "e895fed95946a914.mp3",
   "sure": 3.11
  },
+ "e8b520e66bfdeff1": {
+  "k": "antrenor",
+  "m": "Şah piyonun iki yatay önündeki üç kareden birine gitmeli.",
+  "dosya": "e8b520e66bfdeff1.mp3",
+  "sure": 4.49
+ },
  "e8b9ea4df6d4dae0": {
   "k": "antrenor",
   "m": "Mutlak açmazdaki taş, hattın dışına çıkamaz. Çıkarsa kendi şahını tehdit altında bırakırsın; bu hamle yasaktır.",
@@ -31415,6 +33473,12 @@
   "dosya": "e9387b3b11d802ca.mp3",
   "sure": 6.35
  },
+ "e93ce6179c1eebd7": {
+  "k": "antrenor",
+  "m": "3. yatay, tahtanın alttan üçüncü yatayıdır. Kale oraya kendi dikeyi ya da yatayı boyunca gidebilir.",
+  "dosya": "e93ce6179c1eebd7.mp3",
+  "sure": 9.01
+ },
  "e949507618016656": {
   "k": "antrenor",
   "m": "At b8'deki kaleyi alınca şah çekmiyor. Mat olmaz.",
@@ -31439,6 +33503,12 @@
   "dosya": "e9610d114b5ba20c.mp3",
   "sure": 4.21
  },
+ "e9618aca1f4f3f73": {
+  "k": "antrenor",
+  "m": "4 değil, bir tane fazla saymışsın: yalnız 3 dikeyde hiç piyon yok.",
+  "dosya": "e9618aca1f4f3f73.mp3",
+  "sure": 5.02
+ },
  "e961ab1dd50debb2": {
   "k": "damla",
   "m": "Her hamleden önce siyahın hamlesi kalıyor mu diye bakacağım.",
@@ -31462,6 +33532,12 @@
   "m": "Araya girmek saldıran taşla fil arasına taş koymaktır.",
   "dosya": "e9842362b2646951.mp3",
   "sure": 4.0
+ },
+ "e984cc6e63ef1b42": {
+  "k": "antrenor",
+  "m": "Kalelerden biri kenar yatayına şah çekecek. Öbür kale yandaki yatayı kapatıyor.",
+  "dosya": "e984cc6e63ef1b42.mp3",
+  "sure": 5.43
  },
  "e99173c8bd2ec21c": {
   "k": "antrenor",
@@ -31607,6 +33683,12 @@
   "dosya": "ea593b92fb9e88eb.mp3",
   "sure": 4.02
  },
+ "ea5a563db26e49f5": {
+  "k": "antrenor",
+  "m": "Hayır Damla, bir durum. İki şah aynı dikeyde ya da aynı yatayda, aralarında bir boş kare kalarak karşı karşıya durur.",
+  "dosya": "ea5a563db26e49f5.mp3",
+  "sure": 8.59
+ },
  "ea7340a5d725191e": {
   "k": "antrenor",
   "m": "Bu kareden yalnız bir taşa saldırıyorsun ya da kare güvenli değil. İki taşı birden gören kareyi ara.",
@@ -31733,6 +33815,12 @@
   "dosya": "eb35f780cef25313.mp3",
   "sure": 6.82
  },
+ "eb38f22de2433c9a": {
+  "k": "antrenor",
+  "m": "Opozisyon: şahlar aynı dikeyde, aralarında tam bir boş kare. Sıranın siyahta kalacağı hamleyi bul.",
+  "dosya": "eb38f22de2433c9a.mp3",
+  "sure": 7.84
+ },
  "eb3fe760ab2d2988": {
   "k": "antrenor",
   "m": "Şu an beyazın 1 hamlede matı yok.",
@@ -31786,6 +33874,12 @@
   "m": "Biliyor muydun? Anastasia matında at kaçış karelerini keser, kale de kenar sütunundan şah çekip mat eder. Kenardaki şaha dikkat!",
   "dosya": "eb6b57c2505f14a9.mp3",
   "sure": 9.64
+ },
+ "eb8118e3aad487f2": {
+  "k": "antrenor",
+  "m": "Siyah şah ortada değil, bir kanatta. Orta dikeylerdeki piyonlar kalkana saldırmaz.",
+  "dosya": "eb8118e3aad487f2.mp3",
+  "sure": 5.93
  },
  "eb82b96a0129254e": {
   "k": "pars",
@@ -32075,6 +34169,12 @@
   "dosya": "ed6fe84da0c1381b.mp3",
   "sure": 5.85
  },
+ "ed7802d50274f40a": {
+  "k": "antrenor",
+  "m": "Piyonu son yataya, yani 8. yataya götür. Orada vezir olacak.",
+  "dosya": "ed7802d50274f40a.mp3",
+  "sure": 5.38
+ },
  "ed883b41afc6cf46": {
   "k": "antrenor",
   "m": "Korumasız taşı alırsan hiçbir şey vermezsin.",
@@ -32104,6 +34204,18 @@
   "m": "Biliyor muydun? Her hamlede önce rakibin mat tehdidine, sonra kendi mat fırsatına bak. Önce kim mat yaparsa o kazanır!",
   "dosya": "edb4c92cbbfaf311.mp3",
   "sure": 9.04
+ },
+ "edb6e65a628672a5": {
+  "k": "antrenor",
+  "m": "Her beyaz piyon için yukarıya, sağ ve sol dikeylerde siyah piyon var mı bak. Hiçbiri yoksa geçer piyondur.",
+  "dosya": "edb6e65a628672a5.mp3",
+  "sure": 7.97
+ },
+ "edb8b7e3453f0730": {
+  "k": "antrenor",
+  "m": "Önünde taş bulunan kale 7. yataya ulaşamaz. Yolu açık olan kaleyi seç.",
+  "dosya": "edb8b7e3453f0730.mp3",
+  "sure": 5.93
  },
  "edb9cbdd26cca3e1": {
   "k": "antrenor",
@@ -32332,6 +34444,12 @@
   "m": "Bu, taş açmazda olmasaydı yapabileceği hamle sayısı. Açmaz hattı dışındaki kareler yasak.",
   "dosya": "efd6fe59b16323f2.mp3",
   "sure": 6.69
+ },
+ "efda0ff6dc3dce3e": {
+  "k": "antrenor",
+  "m": "Her piyonun önüne ve iki yan dikeyine bak: rakip piyon var mı?",
+  "dosya": "efda0ff6dc3dce3e.mp3",
+  "sure": 4.36
  },
  "efdce3b8e4ee749c": {
   "k": "antrenor",
@@ -32609,6 +34727,12 @@
   "dosya": "f18f352a3efe4fe4.mp3",
   "sure": 3.76
  },
+ "f19d2fc8f3bdb672": {
+  "k": "antrenor",
+  "m": "Yalnız at ve fillere bak; hâlâ 8. yatayda olanları işaretle.",
+  "dosya": "f19d2fc8f3bdb672.mp3",
+  "sure": 5.67
+ },
  "f19f7b7223c1de11": {
   "k": "antrenor",
   "m": "Şah çekmenin yetmediğini unutma: siyah şahın kaçacak hiçbir karesi kalmamalı.",
@@ -32620,6 +34744,12 @@
   "m": "Piyonlar küçük ama çok önemli, {ad}. Ordunun asker çocukları.",
   "dosya": "f1af2a069f4075ab.mp3",
   "sure": 4.91
+ },
+ "f1b0fca44affa9ac": {
+  "k": "antrenor",
+  "m": "B dikeyinde yalnız bir beyaz piyon var; çifte piyon yok.",
+  "dosya": "f1b0fca44affa9ac.mp3",
+  "sure": 3.94
  },
  "f1c0ad1581b1ad6f": {
   "k": "antrenor",
@@ -32681,6 +34811,12 @@
   "dosya": "f24529df78951543.mp3",
   "sure": 6.69
  },
+ "f249625999f7855c": {
+  "k": "antrenor",
+  "m": "Siyah piyonun olmadığı ama beyaz piyonun durduğu dikeylere bak.",
+  "dosya": "f249625999f7855c.mp3",
+  "sure": 4.73
+ },
  "f253196880a8cb2e": {
   "k": "antrenor",
   "m": "Biliyor muydun? Koridor matında şah kendi piyonlarının arkasında sıkışır; bir piyonu bir kare oynatmak bu matı önler.",
@@ -32705,6 +34841,12 @@
   "dosya": "f26b0fde0a52b464.mp3",
   "sure": 8.25
  },
+ "f274b73de96b4203": {
+  "k": "antrenor",
+  "m": "Piyon çapraz alacak ve son yataya varınca vezir olacak.",
+  "dosya": "f274b73de96b4203.mp3",
+  "sure": 4.08
+ },
  "f296ed1721687350": {
   "k": "antrenor",
   "m": "Taş korunuyor; b6 karesindeki kale onu görüyor.",
@@ -32722,6 +34864,12 @@
   "m": "Biliyor muydun? Piyon oyun sonunda kazanmanın sırrı: say, karşılaştır, şahını yardıma getir.",
   "dosya": "f2c2a3f673e125f9.mp3",
   "sure": 6.92
+ },
+ "f2c34bd536933494": {
+  "k": "antrenor",
+  "m": "Vezir b dikeyinde yukarı gidecek; + işareti şah demek.",
+  "dosya": "f2c34bd536933494.mp3",
+  "sure": 4.21
  },
  "f2c7f8724a436fab": {
   "k": "antrenor",
@@ -32819,6 +34967,12 @@
   "dosya": "f347e25613eb679c.mp3",
   "sure": 4.0
  },
+ "f3482bb85c9964ae": {
+  "k": "antrenor",
+  "m": "Çifte piyonlar aynı dikeydedir. Farklı dikeylerdeki piyonları işaretleme; dikeydeki her iki piyon da çifte sayılır.",
+  "dosya": "f3482bb85c9964ae.mp3",
+  "sure": 8.39
+ },
  "f3483b7b399de846": {
   "k": "antrenor",
   "m": "Beyaz kazanamaz: opozisyon siyahta olduğu için beyaz şah yol bulamaz.",
@@ -32842,6 +34996,12 @@
   "m": "Bu hamlede siyah hâlâ şahını kurtarabiliyor. Şah çekilirken kaçış karelerinin hepsinin kapandığından emin ol.",
   "dosya": "f35f6f2da33bf252.mp3",
   "sure": 7.97
+ },
+ "f361f24fd3214c14": {
+  "k": "antrenor",
+  "m": "Bu mat arka sıra matı değil. Arka sıra matında şah son yatayda, önü kendi taşlarıyla kapalıdır ve kale ya da vezir son yatayda şah çeker.",
+  "dosya": "f361f24fd3214c14.mp3",
+  "sure": 10.21
  },
  "f3667a398aea530d": {
   "k": "antrenor",
@@ -32915,6 +35075,12 @@
   "dosya": "f42d59076b4ea517.mp3",
   "sure": 3.94
  },
+ "f43f4ec63e192525": {
+  "k": "antrenor",
+  "m": "Beyaz piyonun olmadığı, siyah piyonun durduğu dikeyi bul.",
+  "dosya": "f43f4ec63e192525.mp3",
+  "sure": 4.31
+ },
  "f43fab52cd59ff7e": {
   "k": "antrenor",
   "m": "Bu hamle taş kazandırmaz: siyah e5'teki şahla e6'ya gider. Beyaz bir şey kazanamaz.",
@@ -32938,6 +35104,12 @@
   "m": "Hat kurulmadı; önünde kendi taşı ve hattın ucunda siyah şah, vezir ya da kale bulunmalı.",
   "dosya": "f46e01add6f455bb.mp3",
   "sure": 7.13
+ },
+ "f475205a751d8eaf": {
+  "k": "antrenor",
+  "m": "Piyonlar hiç geri gidemez; son yataya ulaşan piyon geri dönmez.",
+  "dosya": "f475205a751d8eaf.mp3",
+  "sure": 4.83
  },
  "f48af0e533ff41f0": {
   "k": "pars",
@@ -32968,6 +35140,12 @@
   "m": "Açarak saldırının şahlısı var mı hocam?",
   "dosya": "f4c04bd75048eff2.mp3",
   "sure": 2.27
+ },
+ "f4c87232a839bad0": {
+  "k": "antrenor",
+  "m": "Evet. Şah son yatayda durur, önünde kendi piyonları vardır. Kale ya da vezir son yataya gelip şah çekince şah kaçamaz.",
+  "dosya": "f4c87232a839bad0.mp3",
+  "sure": 9.33
  },
  "f4ca2565484ae376": {
   "k": "antrenor",
@@ -33095,6 +35273,12 @@
   "dosya": "f5be030fe8d8b654.mp3",
   "sure": 6.87
  },
+ "f5c4a679ac5bc661": {
+  "k": "antrenor",
+  "m": "Beyaz piyon, siyah piyonun yanında ve aynı yatayda olmalı.",
+  "dosya": "f5c4a679ac5bc661.mp3",
+  "sure": 4.41
+ },
  "f5e0e6f13b93de96": {
   "k": "antrenor",
   "m": "Hayır Pars! Yeni taş gelince bir sonraki hamlede mat yapmayı tehdit ederiz. Siyah bu tehdide karşı hazırlık yapmak zorunda kalır.",
@@ -33130,6 +35314,12 @@
   "m": "Her iki piyonun kendi sütunundaki ileri kareleri işaretle.",
   "dosya": "f614bf81db4247e0.mp3",
   "sure": 4.26
+ },
+ "f619c34ed03cbb34": {
+  "k": "antrenor",
+  "m": "Kale dönüp dönüp taş alıyor Damla, tıpkı değirmen kanadı gibi. Sırrı açılan şah: kale 7. yatayda taş alınca arkadaki filin çaprazı açılır ve şah çeker.",
+  "dosya": "f619c34ed03cbb34.mp3",
+  "sure": 11.65
  },
  "f61bafa10ece716c": {
   "k": "pars",
@@ -33449,6 +35639,12 @@
   "dosya": "f8497916551f13aa.mp3",
   "sure": 6.82
  },
+ "f854a2da1f0b35e1": {
+  "k": "antrenor",
+  "m": "Aynen Pars! Siyahın gidecek karesi kalmazsa pat olur ve oyun berabere biter. Sonra piyon 8. yataya ulaşınca vezir olur.",
+  "dosya": "f854a2da1f0b35e1.mp3",
+  "sure": 9.74
+ },
  "f857195cc57c5257": {
   "k": "antrenor",
   "m": "Yalnız beyaz piyonlar sayılır ve yalnız merkez karelerinde durmaları gerekir.",
@@ -33521,6 +35717,12 @@
   "dosya": "f89ca68c60e45f04.mp3",
   "sure": 5.62
  },
+ "f89cc8000297e136": {
+  "k": "antrenor",
+  "m": "Kale taşların üzerinden atlayamaz. Yol açıksa ve kare 7. yataydaysa işaretle.",
+  "dosya": "f89cc8000297e136.mp3",
+  "sure": 5.88
+ },
  "f8b4cf019262e23b": {
   "k": "antrenor",
   "m": "Bir taş aynı anda birçok taşa saldırabilir. Bu yüzden iki hedefe birden saldırmak işe yarar.",
@@ -33568,6 +35770,24 @@
   "m": "Biliyor muydun? Tek taş çoğu zaman mat edemez. İki taş birlikte çalışınca şah kaçamaz: biri şah çeker, biri kareleri kapatır!",
   "dosya": "f8e8903240da80da.mp3",
   "sure": 8.96
+ },
+ "f9014ae42156992a": {
+  "k": "antrenor",
+  "m": "Siyah piyonla aynı yatayda olan komşu beyaz piyonlara bak.",
+  "dosya": "f9014ae42156992a.mp3",
+  "sure": 4.91
+ },
+ "f905655eb37cc227": {
+  "k": "antrenor",
+  "m": "Bu kareler piyonun yalnız bir yatay ilerisinde; anahtar kareler bir yatay daha ileridedir.",
+  "dosya": "f905655eb37cc227.mp3",
+  "sure": 6.5
+ },
+ "f9102bc66c5c5253": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Philidor savunması: rakip piyon 3. yataya inince kaleni uzaklara götür ve arkadan şah çek. Oyun berabere biter!",
+  "dosya": "f9102bc66c5c5253.mp3",
+  "sure": 9.56
  },
  "f91f180feedbf0c5": {
   "k": "antrenor",
@@ -33628,6 +35848,12 @@
   "m": "Sonunda daha çok kazanıyorsak kaybetmeyiz. Ama hesabı iyi yapmalıyız: benim hamlem, rakibin cevabı, benim ikinci hamlem.",
   "dosya": "f999a5634ceb6e95.mp3",
   "sure": 8.78
+ },
+ "f9a5557d6e07f3af": {
+  "k": "antrenor",
+  "m": "d dikeyi boş; vezir piyonu alabilir, ama bu iyi bir fikir değil.",
+  "dosya": "f9a5557d6e07f3af.mp3",
+  "sure": 4.41
  },
  "f9c2fe51efd6b671": {
   "k": "antrenor",
@@ -33701,11 +35927,23 @@
   "dosya": "fa5ffd95db678b87.mp3",
   "sure": 5.67
  },
+ "fa6b5b184b6ad8c0": {
+  "k": "pars",
+  "m": "Rakibin piyonu yan dikeyden ilerleyip saldırabilirse karakol olmaz mı?",
+  "dosya": "fa6b5b184b6ad8c0.mp3",
+  "sure": 4.41
+ },
  "fa7b68da53e76d4c": {
   "k": "pars",
   "m": "Sonra o taşı alıyoruz, değil mi?",
   "dosya": "fa7b68da53e76d4c.mp3",
   "sure": 2.27
+ },
+ "fa81f6fa75620f33": {
+  "k": "antrenor",
+  "m": "Kale 7. yataya ulaşmalı: karenin yatay numarası 7 olmalı.",
+  "dosya": "fa81f6fa75620f33.mp3",
+  "sure": 4.86
  },
  "fa82e54315a67fbc": {
   "k": "antrenor",
@@ -33755,6 +35993,12 @@
   "dosya": "fad95368d672f924.mp3",
   "sure": 4.0
  },
+ "fad986ead9bfaeba": {
+  "k": "antrenor",
+  "m": "Piyonun ilerleyeceği kenarın 8. yatayındaki köşeye ve ona komşu karelere bak.",
+  "dosya": "fad986ead9bfaeba.mp3",
+  "sure": 6.27
+ },
  "faf4d29f8375495f": {
   "k": "antrenor",
   "m": "Bu hamle olmaz: siyah g8'deki şahla g7'deki beyaz fili alır. Beyaz yaklaşık 2 puan kaybeder.",
@@ -33766,6 +36010,12 @@
   "m": "İlk taşımız kale. Kale, satrançta bir kule gibi düz ilerler.",
   "dosya": "faf60816dbf5147a.mp3",
   "sure": 4.36
+ },
+ "fb1877d36f2916a6": {
+  "k": "antrenor",
+  "m": "d8 aynı dikeyde, kale oraya gidebilir.",
+  "dosya": "fb1877d36f2916a6.mp3",
+  "sure": 3.66
  },
  "fb23a368891853de": {
   "k": "antrenor",
@@ -34157,6 +36407,18 @@
   "dosya": "fdbf64fb99302c7e.mp3",
   "sure": 4.18
  },
+ "fdd2302f3c931f9d": {
+  "k": "antrenor",
+  "m": "Alt yataya bak ve en sağa kadar git.",
+  "dosya": "fdd2302f3c931f9d.mp3",
+  "sure": 2.74
+ },
+ "fdd5a17ffaff02f3": {
+  "k": "antrenor",
+  "m": "Yalnız siyah şahın dikeyindeki ve yanındaki iki dikeydeki, başlangıç karesinden ilerlemiş beyaz piyonları işaretle.",
+  "dosya": "fdd5a17ffaff02f3.mp3",
+  "sure": 8.49
+ },
  "fddc76d3a3cc2462": {
   "k": "antrenor",
   "m": "Filinle bir fil ya da at almadın ya da takas olmadı. Filinin bir fil ya da atı alıp geri alınacağı hamleyi bul.",
@@ -34217,6 +36479,12 @@
   "dosya": "fe970ec69d8c94d8.mp3",
   "sure": 2.93
  },
+ "fea3805c1564379d": {
+  "k": "antrenor",
+  "m": "Yarı açık dikeyde yalnız karşı tarafın piyonu durur. Kalenin ulaşabildiği böyle bir dikey var mı?",
+  "dosya": "fea3805c1564379d.mp3",
+  "sure": 5.98
+ },
  "fea7f78f16942db4": {
   "k": "antrenor",
   "m": "Yalnızca ileri L'leri saymak yarısını atlar; at geri de gider.",
@@ -34258,6 +36526,12 @@
   "m": "Şah iki kare gider, kale de onun hemen yanına geçer.",
   "dosya": "fedb338fe2f75089.mp3",
   "sure": 4.08
+ },
+ "fef41cb3423b4202": {
+  "k": "antrenor",
+  "m": "2. yatayda olmayan bir piyon artık iki kare gidemez.",
+  "dosya": "fef41cb3423b4202.mp3",
+  "sure": 3.66
  },
  "fefb276d36648e71": {
   "k": "antrenor",
@@ -34342,6 +36616,12 @@
   "m": "d sütunu boş; vezir piyonu alabilir, ama bu iyi bir fikir değil.",
   "dosya": "ff995143fdebeff2.mp3",
   "sure": 4.86
+ },
+ "ff9a02865fd2d4b6": {
+  "k": "antrenor",
+  "m": "Siyah şahla aynı dikeyde ya da aynı yatayda, arada bir boş kare kalacak kareyi ara.",
+  "dosya": "ff9a02865fd2d4b6.mp3",
+  "sure": 5.98
  },
  "ff9c75ecdbb4628d": {
   "k": "damla",
