@@ -23,6 +23,12 @@
   "dosya": "002a883d460bb256.mp3",
   "sure": 5.38
  },
+ "003f867651aedc66": {
+  "k": "antrenor",
+  "m": "{ad}, kale oyun sonunda rakibin piyonu bir ilerlemiş. Biz savunuyoruz. İlk işimiz ne olmalı?",
+  "dosya": "003f867651aedc66.mp3",
+  "sure": 6.64
+ },
  "0040e867e834f512": {
   "k": "pars",
   "m": "Açmazdaki taşım hiç hareket edemez mi hocam?",
@@ -196,6 +202,12 @@
   "m": "Vezir çok değerli; onu tehlikeye atma. Korumasız taş alırsan bedava olur.",
   "dosya": "0159b7281e49c04f.mp3",
   "sure": 5.62
+ },
+ "01649e2f2220e0b8": {
+  "k": "antrenor",
+  "m": "Piyon Oyun Sonları-1 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "01649e2f2220e0b8.mp3",
+  "sure": 9.46
  },
  "016b368b15e72fdd": {
   "k": "antrenor",
@@ -880,6 +892,12 @@
   "m": "Son bölüm {ad}. Tahtada üç yöntemden biri gizli olacak.",
   "dosya": "0703dfae5e6bdb03.mp3",
   "sure": 4.49
+ },
+ "0712d7a452d61269": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Piyon Oyun Sonları-2 Testi seni bekliyor.",
+  "dosya": "0712d7a452d61269.mp3",
+  "sure": 6.69
  },
  "07266c8231bfdc5e": {
   "k": "antrenor",
@@ -2560,6 +2578,12 @@
   "m": "Şahın önündeki piyonlardan hangilerine rakip bir taş saldırabiliyor?",
   "dosya": "1435277c3526e857.mp3",
   "sure": 4.36
+ },
+ "1449d07be6ac2420": {
+  "k": "antrenor",
+  "m": "Rok, taş çıkarma, mat, hata bulma ve oyun sonu. Her soruda önce tahtaya bak, sonra say.",
+  "dosya": "1449d07be6ac2420.mp3",
+  "sure": 5.98
  },
  "145226baccedf223": {
   "k": "damla",
@@ -4673,6 +4697,12 @@
   "dosya": "2432f8d1b618a65b.mp3",
   "sure": 3.06
  },
+ "245450dd3e9e09b2": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Geçer piyon oyun sonunun yıldızıdır: onu yalnız şah ya da taş durdurabilir.",
+  "dosya": "245450dd3e9e09b2.mp3",
+  "sure": 6.71
+ },
  "24545403c5340bae": {
   "k": "antrenor",
   "m": "Tahtaya bakarken iki soru sor, {ad}: Bu taş neye saldırıyor? Bana kim saldırıyor?",
@@ -5939,6 +5969,12 @@
   "dosya": "2e8f3f50f8ac4607.mp3",
   "sure": 6.16
  },
+ "2e93d22994a92275": {
+  "k": "antrenor",
+  "m": "Piyon Oyun Sonları-2 Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "2e93d22994a92275.mp3",
+  "sure": 10.63
+ },
  "2ea2710929460813": {
   "k": "antrenor",
   "m": "Çaprazda her adımda bir kare yana, bir kare yukarı gidersin.",
@@ -6220,6 +6256,12 @@
   "m": "Korumak ne demek?",
   "dosya": "30200cb711376ff3.mp3",
   "sure": 1.25
+ },
+ "3026d599a5e96698": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Oyun sonunda şah güçlü bir taştır! Şahını piyonuna eşlik ettir ve rakip şahı sıkıştırıp mat yap.",
+  "dosya": "3026d599a5e96698.mp3",
+  "sure": 7.94
  },
  "302b71c96cc76c39": {
   "k": "antrenor",
@@ -9442,6 +9484,12 @@
   "m": "Açmazı yapan taş fil, kale ya da vezirdir; hattı karşı taşın üzerinden geçer.",
   "dosya": "4719c0e85c58a7db.mp3",
   "sure": 5.93
+ },
+ "471a4962f7572ba3": {
+  "k": "antrenor",
+  "m": "{ad}, kale oyun sonlarında üç önemli ilke var. Biri kalenin aktif olması.",
+  "dosya": "471a4962f7572ba3.mp3",
+  "sure": 5.51
  },
  "471abe91f3de7120": {
   "k": "pars",
@@ -13997,6 +14045,12 @@
   "dosya": "68b0872e5c23ca91.mp3",
   "sure": 5.88
  },
+ "68c6e67a534deb96": {
+  "k": "pars",
+  "m": "Her oyun sonu kazanılır mı?",
+  "dosya": "68c6e67a534deb96.mp3",
+  "sure": 1.99
+ },
  "68f242b4d4120368": {
   "k": "antrenor",
   "m": "Doğru gözlem. Fark şah tehdidinde: mat olan şah saldırı altındadır, pat olan değildir.",
@@ -16264,6 +16318,12 @@
   "m": "Biliyor muydun? Korumalı taşı almadan önce say: kaç saldırgan, kaç koruyucu var? Alırken hep en az puanlı taşınla başla.",
   "dosya": "7993950a8ccc102e.mp3",
   "sure": 8.49
+ },
+ "799a3fa417c99c4a": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Piyon Oyun Sonları-1 Testi seni bekliyor.",
+  "dosya": "799a3fa417c99c4a.mp3",
+  "sure": 6.71
  },
  "799bb7e391605fec": {
   "k": "antrenor",
@@ -21581,6 +21641,12 @@
   "dosya": "a176796755405571.mp3",
   "sure": 4.6
  },
+ "a180457cd7ccfe5d": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Oyun sonunda önce konumu tanı: vezirle mi, kaleyle mi? Sonra planını seç: mat, pat tuzağı, 3. sıra ya da Philidor!",
+  "dosya": "a180457cd7ccfe5d.mp3",
+  "sure": 9.85
+ },
  "a18938fc6cc4f20e": {
   "k": "antrenor",
   "m": "Piyon bir kare ileri gider; sonra matı veren taşı seç.",
@@ -22535,6 +22601,12 @@
   "dosya": "a86365d1b45ad617.mp3",
   "sure": 3.11
  },
+ "a868d0789e0b9283": {
+  "k": "antrenor",
+  "m": "Bravo {ad}! Ünitenin bütün bölümlerini bitirdin. Şimdi Vezir ve Kale Oyun Sonları Testi seni bekliyor.",
+  "dosya": "a868d0789e0b9283.mp3",
+  "sure": 7.05
+ },
  "a86aa2a3a6885f69": {
   "k": "antrenor",
   "m": "Piyon korumalı; bedavaya alınmaz.",
@@ -23122,6 +23194,12 @@
   "m": "Dördüncü savunma yolu en ilginci, {ad}: araya girmek.",
   "dosya": "ac956e8e27afac34.mp3",
   "sure": 4.41
+ },
+ "ac98243a5199679b": {
+  "k": "antrenor",
+  "m": "Evet! Oyun sonunda şah savaşa katılır. Piyonu vezire taşırken şahınla piyonun önüne ya da yanına geç.",
+  "dosya": "ac98243a5199679b.mp3",
+  "sure": 8.25
  },
  "aca6ee25b682d851": {
   "k": "antrenor",
@@ -24088,6 +24166,12 @@
   "m": "Sayıya bakınca bu doğru değil. Saldıranlar: d2'deki at, d3'teki fil ve f3'teki piyon (3 taş). Savunanlar: d5'teki piyon ve f5'teki fil (2 taş).",
   "dosya": "b34ae3683ca60fb2.mp3",
   "sure": 12.36
+ },
+ "b3505123e7580b74": {
+  "k": "antrenor",
+  "m": "{ad}, bugün oyun sonunun en özel piyonunu tanıyoruz: geçer piyon.",
+  "dosya": "b3505123e7580b74.mp3",
+  "sure": 5.46
  },
  "b35a55a54e443a13": {
   "k": "antrenor",
@@ -25390,6 +25474,12 @@
   "m": "Bir taşın şahın yakınında olması şah çektiği anlamına gelmez; hattı olmalı.",
   "dosya": "bd596ead28e54712.mp3",
   "sure": 5.25
+ },
+ "bd5f851e423bad41": {
+  "k": "antrenor",
+  "m": "{ad}, şimdi opozisyonu piyonlu oyun sonunda kullanalım. Tahtada senin şahın, piyonun ve siyah şah var.",
+  "dosya": "bd5f851e423bad41.mp3",
+  "sure": 7.97
  },
  "bd605d5326892174": {
   "k": "antrenor",
@@ -26746,6 +26836,12 @@
   "m": "Yalnızca tek taşın tuttuğu kareyi işaretleme; iki taş birden tutmalı.",
   "dosya": "c70e9573cac15a19.mp3",
   "sure": 5.09
+ },
+ "c72e1ca3cb2a1b47": {
+  "k": "antrenor",
+  "m": "Vezir ve Kale Oyun Sonları Testi başlıyor, {ad}! 10 soru var. En az 8 tanesini ilk denemede bilirsen bir sonraki ünitenin kapısı açılır.",
+  "dosya": "c72e1ca3cb2a1b47.mp3",
+  "sure": 10.34
  },
  "c739a787a19c1b17": {
   "k": "antrenor",
@@ -30065,6 +30161,12 @@
   "dosya": "df7fd6111b160c6e.mp3",
   "sure": 4.0
  },
+ "dfe06a4214f9eaf8": {
+  "k": "antrenor",
+  "m": "{ad}, oyun sonunda en temel iş şu: elinde vezir var, rakipte yalnız şah. Mat nasıl yapılır?",
+  "dosya": "dfe06a4214f9eaf8.mp3",
+  "sure": 8.12
+ },
  "dfe7775e2f4ae014": {
   "k": "antrenor",
   "m": "Evet {ad}. Vezir, kale, fil ya da at seçebilirsin.",
@@ -32615,6 +32717,12 @@
   "dosya": "f2a736c22806a45f.mp3",
   "sure": 7.71
  },
+ "f2c2a3f673e125f9": {
+  "k": "antrenor",
+  "m": "Biliyor muydun? Piyon oyun sonunda kazanmanın sırrı: say, karşılaştır, şahını yardıma getir.",
+  "dosya": "f2c2a3f673e125f9.mp3",
+  "sure": 6.92
+ },
  "f2c7f8724a436fab": {
   "k": "antrenor",
   "m": "f3'e. Orada hem merkeze bakar hem de e5'teki siyah piyona saldırır.",
@@ -33964,6 +34072,12 @@
   "m": "Kaliteyi kaybetmek: kale verip 3 puanlık bir taş almaktır.",
   "dosya": "fd5366cd050992fc.mp3",
   "sure": 4.6
+ },
+ "fd5858bcf9a1d49e": {
+  "k": "antrenor",
+  "m": "{ad}, piyonlu oyun sonunda şahının nereye gitmesi gerektiğini gösteren özel kareler var: anahtar kareler.",
+  "dosya": "fd5858bcf9a1d49e.mp3",
+  "sure": 8.8
  },
  "fd5ea54ed87f4916": {
   "k": "antrenor",
