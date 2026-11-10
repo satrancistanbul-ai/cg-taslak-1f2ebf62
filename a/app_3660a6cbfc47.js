@@ -9,7 +9,7 @@ let CU=1,DATA,NL,UNIT;
 const clean=t=>String(t||'').replace(/\s*\((Antrenör onayı|Mert'in)[^)]*\)/g,'');
 const PEER={damla:['Damla','k'],pars:['Pars','e']};
 const SHORTS={1:['Satranç ve tahta','Kare isimleri','Taşlar ve dizilişi','Kale','Fil','Vezir','At','Piyon','Şah','Mini oyun'],2:['Taş almak','Saldırı nedir?','Kim neyi tehdit ediyor?','Korumasız taş','Korumalı taş','Savunma: kaç','Savunma: al','Savunma: koru','Savunma: araya gir','Dört savunma'],3:['Şah çekme nedir?','Şah kim çeker?','Şahtan kaç','Şahtan al','Araya gir','Yasak kareler','Kurallara uygun hamle','Şah tekrarı'],4:['Mat nedir?','Şah mı, mat mı?','Matı tanı','Pat nedir?','Mat mı, pat mı?','Sonuçlar','Pat tuzağı','Mat-pat tekrarı']};
-function cvQ(x){const o={q:x.soru,h:x.ipucu,y:x.yanlis_ipucu,w:x.aciklamalar,e:clean(x.aciklama),pr:x.terfi};
+function cvQ(x){const o={q:x.soru,h:x.ipucu,y:x.yanlis_ipucu,w:x.aciklamalar,e:clean(x.aciklama),pr:x.terfi,dv:x.devam};
   if(x.tahta){o.pos={...x.tahta.taslar};o.hl=x.tahta.vurgu||[]}
   if(x.tip==='mc')return{...o,t:'mc',o:x.secenekler,a:x.dogru};
   if(x.tip==='isaretle')return{...o,t:'mark',a:x.dogru};
@@ -267,7 +267,18 @@ function scQuiz(d){
   c.innerHTML=`<p class="qtext">${esc(q.q)}</p><div class="hint">${q.t==='mark'?'Karelere dokunarak işaretle, sonra kontrol et.':'Önce taşına, sonra gideceği kareye dokun.'}</div>
     ${q.t==='mark'?'<button class="btn small" id="ck" style="margin-top:12px">Kontrol et</button>':''}<div class="feedback"></div>`;
   d.appendChild(c);d.insertAdjacentHTML('beforeend',nb);
-  const B=makeBoard(wrap.querySelector('#bd'),{...q.pos},{onTap:(s)=>{if(solved)return;B.flags=hl();
+  // Çok hamleli sorular (q.dv): doğru ilk hamleden sonra rakip cevap verir, çocuk devam eder; son hamlede her mat kabul (Atakan 10 Kas)
+  let DV=null;const rakip=()=>{DV.bekle=true;setTimeout(()=>{if(solved)return;const r=DV.l[DV.i][0];uciUygula(B.pos,r);B.flags={[r.slice(0,2)]:'goalsq',[r.slice(2,4)]:'goalsq'};B.draw();DV.bekle=false;
+    fb().className='feedback';fb().innerHTML='Güzel! Rakip oynadı. Şimdi sıra sende, devam et.'},480)};
+  const B=makeBoard(wrap.querySelector('#bd'),{...q.pos},{onTap:(s)=>{if(solved)return;
+    if(DV){if(DV.bekle)return;const p=B.pos[s];
+      if(B.sel===null){if(p&&p===p.toUpperCase()){B.sel=s;B.draw()}return}
+      if(s===B.sel||(p&&p===p.toUpperCase())){B.sel=s===B.sel?null:s;B.draw();return}
+      const f=B.sel,u=f+s,kabul=DV.l[DV.i][1],k=kabul.find(x=>x.slice(0,4)===u);B.sel=null;
+      if(k){uciUygula(B.pos,k);B.flags={[f]:'goalsq',[s]:'good'};B.draw();DV.i++;if(DV.i>=DV.l.length)win(B.sq(s));else rakip()}
+      else{B.flags={[s]:'wrong'};B.draw();lose(wrap,'Bu hamle matı getirmiyor. Rakibin son hamlesine bak; en güçlü devamı ara.');setTimeout(()=>{B.flags={};B.draw()},600)}
+      return}
+    B.flags=hl();
     if(q.t==='mark'){B.marks.has(s)?B.marks.delete(s):B.marks.add(s);B.draw();return}
     const p=B.pos[s];
     if(B.sel===null){if(p&&p===p.toUpperCase()){B.sel=s;B.draw()}else lose(null,'kendi_tas');return}
@@ -278,6 +289,7 @@ function scQuiz(d){
         [['Q','Vezir'],['R','Kale'],['B','Fil'],['N','At']].forEach(([k,n])=>{const bt=document.createElement('button');bt.className='btn small';bt.textContent=n;
           bt.onclick=()=>{if(solved)return;row.remove();if(k===q.pr){B.pos[s]=k;B.draw();win(B.sq(s))}else{B.pos=snap;B.flags=hl();B.draw();lose(wrap,'terfi')}};row.appendChild(bt)});
         c.insertBefore(row,c.querySelector('.feedback'));fb().className='feedback';fb().innerHTML='Piyon 8. yataya vardı! Hangi taşa terfi edecek?';return}
+      const dvl=q.dv&&q.dv[B.sel+s];if(dvl){applyMove(B,B.sel,s,q);B.sel=null;B.flags={[s]:'good'};B.draw();DV={l:dvl,i:0};rakip();return}
       applyMove(B,B.sel,s,q);B.sel=null;B.flags[s]='good';B.draw();win(B.sq(s))}
     else{const f=B.sel;B.sel=null;B.flags={...hl(),[s]:'wrong'};B.draw();lose(wrap,hamleNeden(B.pos,f,s));setTimeout(()=>{B.flags=hl();B.draw()},600)}}});
   B.flags=hl();B.draw();
@@ -5192,7 +5204,7 @@ function pzNext(){const q0=LS.qs[0];if(q0&&q0.pid){const t=pzTopics().find(x=>x.
 function pzStart(id){const t=pzTopics().find(x=>x.id===id),k=pzSayac(t);LS={mode:'puzzle',tid:id,topic:t.ad,q:0,qs:[],son:[],streak:0,ilk:0,bitti:k.n&&k.c===k.n?1:0};LS.qs=[pzPick(id)];go(scQuiz);
   if(LS.bitti)setTimeout(()=>toast(`Bu konudaki ${k.n} bulmacanın hepsini çözdün. Tekrar edebilirsin ama altın vermez.`),300)}
 function scPuzzles(d){
-  const cards=pzTopics().map(t=>{const r=S.pz[t.id]||{solved:0,best:0},k=pzSayac(t);
+  const cards=YR_KART.map(([k,ad,alt,col,ic])=>`<button class="pzc" data-yr="${k}"><span class="ic" style="background:${col}">${ico(ic,32)}</span><b>${ad}</b><small>${alt} · rekor ${YR().rek[k]}</small></button>`).join('')+pzTopics().map(t=>{const r=S.pz[t.id]||{solved:0,best:0},k=pzSayac(t);
     return `<button class="pzc" data-id="${t.id}"><span class="ic" style="background:${t.col}">${t.ic}</span><b>${esc(t.ad)}</b><small>${k.c?(k.c===k.n?`${k.n}/${k.n} hepsi çözüldü`:`${k.c}/${k.n} çözüldü`)+(r.best?` · en iyi seri ${r.best}`:''):t.gen?'Sınırsız bulmaca':`${k.n} bulmaca · henüz çözmedin`}</small></button>`}).join('')+
     `<button class="pzc" id="hunt"><span class="ic" style="background:#7BC0E8">${ico('grid',32)}</span><b>Kare avı</b><small>Rekor: ${S.rekor}</small></button>`;
   const have=Object.keys(DATAS).length,lock=UNITS.slice(have,have+4).map((u,i)=>`<div class="pzc lk"><span class="ic" style="background:#dcd6c6">${ico('lock',28)}</span><b>${esc(u.ad)}</b><small>${have+i+1}. ünite · yakında</small></div>`).join('');
@@ -5204,8 +5216,112 @@ function scPuzzles(d){
      <div style="display:flex;flex-wrap:wrap;gap:12px">${cards}</div>
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin:14px 0 6px;font-weight:800">Yeni konular geliyor</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${lock}</div></div>`;
-  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>pzStart(b.dataset.id));d.querySelector('#hunt').onclick=()=>go(scHunt);kaydirmaEkle(d,d.querySelector('#pzliste'));
+  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>pzStart(b.dataset.id));d.querySelectorAll('.pzc[data-yr]').forEach(b=>b.onclick=()=>go(YR_KART.find(x=>x[0]===b.dataset.yr)[5]));d.querySelector('#hunt').onclick=()=>go(scHunt);kaydirmaEkle(d,d.querySelector('#pzliste'));
 }
+
+/* ===== Bulmaca Serisi / Fırtınası / Yarışı (Atakan 10 Kas; Lichess Puzzle Streak / Storm / Racer uyarlaması) =====
+   Bulmacalar Lichess (CC0) merdiveninden: 400–2800 puan, her 50 puanlık basamaktan 60 bulmaca (tools/lichess_merdiven.py).
+   Çok hamleli: çocuk oynar, rakibin cevabı kendiliğinden gelir. Son hamlede başka bir mat da doğru sayılır (q.a).
+   Seri: ilk hatada biter, bir kez pas hakkı. Fırtına: 3 dakika, yanlışta -10 sn, art arda doğrulara ek süre.
+   Yarış: 2 dakika, öğrenci + 9 bot (puan aralıkları Atakan'ın verdiği gibi; CM Atakan Eken hep 100+, Antrenör 90–100). */
+const MERD=((window.__MERDIVEN||{}).b||[]).slice().sort((a,b)=>a.r-b.r);
+const YR_ALTIN_GUN=60,YR_ADIM={seri:40,firtina:50,yaris:50};
+const YR_BOT=[['yumak',1,5],['tombi',3,10],['findik',6,15],['aras',8,20],['defne',8,20],['marti',20,40],['sihirbaz',20,40],['antrenor',90,100],['atakan',100,115]];
+function YR(){const y=S.yaris&&typeof S.yaris==='object'?S.yaris:(S.yaris={});y.rek=y.rek||{seri:0,firtina:0,yaris:0};return y}
+const yrRast=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+function yrSec(hedef,kul){const L=MERD.filter(q=>!kul.has(q.i));if(!L.length)return MERD[yrRast(0,MERD.length-1)];
+  let en=Infinity;L.forEach(q=>{const f=Math.abs(q.r-hedef);if(f<en)en=f});const A=L.filter(q=>Math.abs(q.r-hedef)<=en+25);return A[yrRast(0,A.length-1)]}
+function fenPos(f){const pos={};f.split('/').forEach((satir,i)=>{let c=0;for(const ch of satir){if(/\d/.test(ch))c+=+ch;else{pos['abcdefgh'[c]+(8-i)]=ch;c++}}});return pos}
+function uciUygula(pos,u){const f=u.slice(0,2),t=u.slice(2,4),p=pos[f];if(!p)return;
+  if(p.toUpperCase()==='P'&&f[0]!==t[0]&&!pos[t])delete pos[t[0]+f[1]];
+  pos[t]=u.length>4?(p===p.toUpperCase()?u[4].toUpperCase():u[4]):p;delete pos[f]}
+function yrAltin(n){const y=YR(),t=todayStr();if(!y.altin||y.altin.d!==t)y.altin={d:t,n:0};const k=Math.max(0,Math.min(n,20,YR_ALTIN_GUN-y.altin.n));y.altin.n+=k;S.gold+=k;save();return k}
+
+/* Tek bulmacayı oynatır. cb(true) çözüldü, cb(false) yanlış hamle. Dönen nesnenin bitir() ile tıklamalar kapanır. */
+function yrOynat(el,q,cb){window._yrQ=q;const B=makeBoard(el,fenPos(q.f),{onTap});let i=0,kapali=false,son=null;
+  const isaret=()=>{B.flags=son?{[son[0]]:'goalsq',[son[1]]:'goalsq'}:{}};
+  function onTap(s){if(kapali)return;const p=B.pos[s];
+    if(B.sel===null){if(p&&p===p.toUpperCase()){B.sel=s;B.draw()}return}
+    if(s===B.sel||(p&&p===p.toUpperCase())){B.sel=s===B.sel?null:s;B.draw();return}
+    if(!reach(B.pos,B.sel).includes(s)){B.sel=null;B.draw();return}  // taşın gidemeyeceği kare deneme sayılmaz
+    const f=B.sel,beklenen=q.m[i],u=f+s+(B.pos[f]==='P'&&s[1]==='8'?'q':'');B.sel=null;
+    const sonHamle=i===q.m.length-1,dogru=u===beklenen||(sonHamle&&(q.a||[]).includes(u));
+    if(!dogru){kapali=true;B.flags={[s]:'wrong'};B.draw();sesCal&&0;setTimeout(()=>cb(false,beklenen),350);return}
+    uciUygula(B.pos,u);son=[f,s];isaret();B.flags[s]='good';B.draw();i++;
+    if(i>=q.m.length){kapali=true;setTimeout(()=>cb(true),250);return}
+    kapali=true;setTimeout(()=>{const r=q.m[i];uciUygula(B.pos,r);son=[r.slice(0,2),r.slice(2,4)];isaret();B.draw();i++;kapali=false},420)}
+  isaret();B.draw();return{bitir(){kapali=true}}}
+
+function yrKabuk(d,baslik,ust){d.innerHTML=vbg(.4)+`<button class="iconbtn back" id="yrg">‹ Bulmacalar</button>
+  <div class="qtop"><div style="display:flex;align-items:center;gap:12px"><span class="title">${baslik}</span>${ust}</div>${goldbox()}</div>
+  <div style="position:absolute;left:40px;top:72px"><div class="bframe"><div id="bd"></div></div></div>`;
+  d.querySelector('#yrg').onclick=()=>{if(LS.yrDur)LS.yrDur();go(scPuzzles)}}
+function yrSonuc(d,{baslik,satirlar,mod,puan}){const y=YR(),eski=y.rek[mod],rek=puan>eski;if(rek)y.rek[mod]=puan;const k=yrAltin(puan);save();
+  const o=document.createElement('div');o.className='kutla ac';
+  o.innerHTML=`<div class="kk" style="padding:20px 24px;width:540px;text-align:center"><div style="font-weight:800;font-size:28px">${baslik}</div>
+    <div style="font-weight:700;font-size:19px;line-height:1.5;margin:8px 0">${satirlar.join('<br>')}</div>
+    <div style="font-weight:800;font-size:18px;color:${rek?'#2f7d1a':'var(--ink)'}">${rek?'Yeni rekor!':'Rekorun: '+y.rek[mod]}${k?` · +${k} altın`:''}</div>
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:14px"><button class="btn alt" id="yrb">Bulmacalar</button><button class="btn go" id="yrt">Tekrar oyna</button></div></div>`;
+  d.appendChild(o);o.querySelector('#yrb').onclick=()=>go(scPuzzles);o.querySelector('#yrt').onclick=()=>go(LS.yrEkran)}
+const yrSag=(d,html)=>{let p=d.querySelector('#yrsag');if(!p){p=document.createElement('div');p.id='yrsag';p.className='parch';p.style.cssText='position:absolute;left:470px;right:30px;top:84px;bottom:24px;padding:14px 18px;overflow:hidden';d.appendChild(p)}p.innerHTML=html};
+
+/* ---- Seri ---- */
+function scSeri(d){LS={mode:'yaris',yrEkran:scSeri};const kul=new Set();let n=0,hedef=400,pas=1,q=null,oy=null;
+  yrKabuk(d,'Bulmaca Serisi',`<span class="title" style="background:#FFE9B0">Seri: <b id="ys">0</b></span>`);
+  function ciz(){yrSag(d,`<p class="qtext">Beyaz oynar. En iyi hamleyi bul!</p><div class="hint">Bulmacalar giderek zorlaşır. İlk hatada seri biter.</div>
+    <div style="font-weight:800;font-size:20px;margin-top:10px">Bulmaca puanı: ${q.r}</div>
+    <button class="btn small alt" id="ypas" style="margin-top:12px" ${pas?'':'disabled'}>Pas geç (${pas} hak)</button>
+    <div class="hint" style="margin-top:14px">Rekorun: ${YR().rek.seri}</div>`);
+    const b=d.querySelector('#ypas');if(b)b.onclick=()=>{if(!pas)return;pas--;oy&&oy.bitir();yeni()}}
+  function yeni(){q=yrSec(hedef,kul);kul.add(q.i);ciz();oy=yrOynat(d.querySelector('#bd'),q,ok=>{
+    if(ok){n++;gorev('bulmaca');d.querySelector('#ys').textContent=n;hedef=Math.min(2775,hedef+YR_ADIM.seri);yeni()}
+    else yrSonuc(d,{baslik:'Seri bitti!',mod:'seri',puan:n,satirlar:[`${n} bulmaca üst üste çözdün.`,`Son bulmacanın puanı: ${q.r}`]})})}
+  yeni()}
+
+/* ---- Fırtına ---- */
+function scFirtina(d){LS={mode:'yaris',yrEkran:scFirtina};const kul=new Set();let n=0,hedef=400,kombo=0,enKombo=0,kalan=180,q=null,oy=null,bitti=false;
+  yrKabuk(d,'Bulmaca Fırtınası',`<span class="title" style="background:#FFE9B0">Süre: <b id="yz">3:00</b></span><span class="title" style="background:#DDF1FB">Çözülen: <b id="yn">0</b></span>`);
+  const BONUS={5:3,12:5,20:7,30:10};
+  const saat=setInterval(()=>{if(bitti)return;kalan--;yaz();if(kalan<=0)son()},1000);LS.yrDur=()=>clearInterval(saat);
+  function yaz(){const z=d.querySelector('#yz');if(z)z.textContent=`${Math.floor(Math.max(0,kalan)/60)}:${String(Math.max(0,kalan)%60).padStart(2,'0')}`;const k=d.querySelector('#yk');if(k)k.textContent=kombo}
+  function son(){bitti=true;clearInterval(saat);oy&&oy.bitir();yrSonuc(d,{baslik:'Süre doldu!',mod:'firtina',puan:n,satirlar:[`${n} bulmaca çözdün.`,`En uzun doğru serin: ${enKombo}`]})}
+  function yeni(){if(bitti)return;q=yrSec(hedef,kul);kul.add(q.i);
+    yrSag(d,`<p class="qtext">Beyaz oynar. Hızlı ol!</p><div class="hint">Yanlışta 10 saniye gider. Art arda doğrular ek süre kazandırır.</div>
+      <div style="font-weight:800;font-size:20px;margin-top:10px">Art arda doğru: <b id="yk">${kombo}</b></div><div class="hint" style="margin-top:8px">Bulmaca puanı: ${q.r} · Rekorun: ${YR().rek.firtina}</div>`);
+    oy=yrOynat(d.querySelector('#bd'),q,ok=>{if(bitti)return;
+      if(ok){n++;kombo++;enKombo=Math.max(enKombo,kombo);gorev('bulmaca');if(BONUS[kombo]){kalan+=BONUS[kombo];toast(`Art arda ${kombo}! +${BONUS[kombo]} saniye`)}d.querySelector('#yn').textContent=n;hedef=Math.min(2775,hedef+YR_ADIM.firtina)}
+      else{kombo=0;kalan-=10;if(kalan<=0)return son()}
+      yaz();yeni()})}
+  yeni()}
+
+/* ---- Yarış ---- */
+function scYaris(d){LS={mode:'yaris',yrEkran:scYaris};const T=120,kul=new Set();let n=0,hedef=400,q=null,oy=null,bitti=false,t0=0;
+  const botlar=YR_BOT.filter(([id])=>BOT_BY[id]).map(([id,a,b])=>({id,ad:BOT_BY[id].ad,b:BOT_BY[id],son:yrRast(a,b),us:id==='atakan'?.9:id==='antrenor'?1:.85+Math.random()*.3,puan:0}));  // Atakan yarış boyunca da önde: daha büyük son puan + daha hızlı başlangıç eğrisi
+  const ben={id:'ben',ad:S.nick||'Sen',puan:0,ben:true};
+  yrKabuk(d,'Bulmaca Yarışı',`<span class="title" style="background:#FFE9B0">Süre: <b id="yz">2:00</b></span>`);
+  const ust=Math.max(...botlar.map(x=>x.son),20);
+  function seritler(){const L=[...botlar,ben].sort((a,b)=>b.puan-a.puan);
+    return L.map((x,k)=>`<div style="display:flex;align-items:center;gap:8px;height:34px;${x.ben?'background:#FFE9B0;border-radius:10px;':''}padding:0 6px">
+      <b style="width:22px;text-align:right">${k+1}.</b><span style="width:30px;height:30px;flex:none">${x.ben?headAv(S.av,{...S.eq},30):botAv(x.b,30)}</span>
+      <span style="width:205px;font-weight:800;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(x.ad)}</span>
+      <span style="flex:1;height:12px;border-radius:6px;background:rgba(0,0,0,.08);overflow:hidden"><i style="display:block;height:100%;width:${Math.min(100,x.puan/ust*100)}%;background:${x.ben?'var(--orange)':'#4F86D9'}"></i></span>
+      <b style="width:34px;text-align:right">${x.puan}</b></div>`).join('')}
+  yrSag(d,`<div id="ysr">${seritler()}</div>`);
+  const tik=setInterval(()=>{if(bitti||!t0)return;const g=(performance.now()-t0)/1000;
+    botlar.forEach(x=>{const h=Math.floor(x.son*Math.min(1,Math.pow(Math.min(1,g/T),x.us)));if(h>x.puan)x.puan=h});
+    const z=d.querySelector('#yz'),k=Math.max(0,Math.ceil(T-g));if(z)z.textContent=`${Math.floor(k/60)}:${String(k%60).padStart(2,'0')}`;
+    const s=d.querySelector('#ysr');if(s)s.innerHTML=seritler();if(g>=T)son()},400);LS.yrDur=()=>clearInterval(tik);
+  function son(){if(bitti)return;bitti=true;clearInterval(tik);oy&&oy.bitir();botlar.forEach(x=>x.puan=x.son);
+    const L=[...botlar,ben].sort((a,b)=>b.puan-a.puan),sira=L.indexOf(ben)+1;d.querySelector('#ysr').innerHTML=seritler();
+    yrSonuc(d,{baslik:`Yarış bitti! ${sira}. oldun`,mod:'yaris',puan:n,satirlar:[`${n} bulmaca çözdün.`,`Birinci: ${esc(L[0].ad)} (${L[0].puan})`]})}
+  function yeni(){if(bitti)return;q=yrSec(hedef,kul);kul.add(q.i);
+    oy=yrOynat(d.querySelector('#bd'),q,ok=>{if(bitti)return;if(ok){n++;ben.puan=n;gorev('bulmaca')}hedef=Math.min(2775,hedef+YR_ADIM.yaris);yeni()})}
+  // 3-2-1 başlangıç
+  const o=document.createElement('div');o.className='kutla ac';o.innerHTML='<div class="kk" style="padding:24px;width:300px;text-align:center;font-weight:800;font-size:64px" id="ysay">3</div>';d.appendChild(o);
+  let s=3;const geri=setInterval(()=>{s--;if(s>0){o.querySelector('#ysay').textContent=s}else{clearInterval(geri);o.remove();t0=performance.now();yeni()}},800);
+  LS.yrDur=()=>{clearInterval(tik);clearInterval(geri)}}
+
+const YR_KART=[['seri','Bulmaca Serisi','İlk hataya kadar, gittikçe zor','#FF8FB1','flame',scSeri],['firtina','Bulmaca Fırtınası','3 dakikada en çok bulmaca','#7BC0E8','star',scFirtina],['yaris','Bulmaca Yarışı','Botlarla 2 dakikalık yarış','#9BD07A','trophy',scYaris]];
 
 /* ===== Müzik: Web Audio ile üretilir, harici dosya yok. Varsayılan KAPALI; ayar S.muzik ===== */
 const MZ={ctx:null,master:null,tg:null,gen:0,timer:null,vol:1,key:'ana',calan:null,bekle:null};
