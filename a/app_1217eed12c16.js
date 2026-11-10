@@ -5178,17 +5178,20 @@ const PZ_COL=['#7BC0E8','#9BD07A','#FFB84D','#FF8FB1','#B06AD9','#FCC73C'];
 const glyphIc=g=>`<span style="font-size:32px">${g}${G}</span>`;
 const PZ_ICO={1:['grid','search','book',0,0,0,0,0,0,'star'],2:['target','target','search','shield','shield','shield','shield','shield','shield','star'],3:['target','search','shield','shield','shield','grid','book','star'],4:['flame','shield','search','lock','target','trophy','shield','star']};
 // Lichess (CC0) ek mat havuzu: yalnız Bulmaca Odası'nda; ders, test ve kitapta kullanılmaz. Puan 400–1000 (tools/lichess_aktar.py)
-const EK_KONU=[{ek:'mat1',ad:'Ekstra: 1 hamlede mat'},{ek:'mat2',ad:'Ekstra: 2 hamlede mat'}];
+const EK_KONU=[];
+// Mat konuları (Atakan 10 Kas): Lichess mateIn1..5, çok hamleli ekranda (51_yaris.js scMat)
+const MAT_KONU=[['m1','1 hamlede mat'],['m2','2 hamlede mat'],['m3','3 hamlede mat'],['m4','4 hamlede mat'],['m5','5+ hamlede mat']];
 const pzUnits=()=>Object.keys(DATAS).map(Number).sort((a,b)=>a-b).filter(u=>u<=S.villages);
 const pzTopics=()=>[...pzUnits().flatMap(u=>DATAS[u].bolumler.map((_,i)=>{const gi=i-3,gp=u===1&&gi>=0&&gi<6?GEN_P[gi]:null;
   return{id:`u${u}-${i}`,ad:(SHORTS[u]||DATAS[u].kisa_adlar||[])[i]||DATAS[u].bolumler[i].baslik,unit:u,bank:i,gen:gp,col:PZ_COL[i%6],ic:gp?glyphIc(GLY[gp]):ico((PZ_ICO[u]||DATAS[u].ikonlar||[])[i]||'star',32)}})),
-  ...EK_KONU.filter(e=>(window.__EK||{})[e.ek]).map(e=>({...e,id:'ek-'+e.ek,col:'#F16524',ic:ico('target',32)})),
+  ...MAT_KONU.filter(([k])=>((window.__MAT||{})[k]||[]).length).map(([k,ad])=>({id:'mt-'+k,mat:k,ad,col:'#F16524',ic:`<span style="font-size:24px;font-weight:900;color:#fff">${k==='m5'?'5+':k[1]}</span>`})),
   {id:'mix',ad:'Karışık',mix:true,col:'#FFD166',ic:ico('puzzle',32)}];
 const pzBank=(u,i)=>DATAS[u].bolumler[i].soru_bankasi.map((x,j)=>({...cvQ(x),u,pid:`${u}.${i}.${j}`}));
 // Altın yalnız bir bulmacanın İLK doğru çözümünde (Atakan 6 Kas): çözülenler S.pzCoz[pid]; havuz bitene kadar çözülmemişler önce gelir
 const PZC=()=>S.pzCoz&&typeof S.pzCoz==='object'?S.pzCoz:(S.pzCoz={});
 const ekBank=k=>((window.__EK||{})[k]||[]).map((x,j)=>({...cvQ(x),u:k==='mat1'?7:17,pid:`ek.${k}.${j}`}));
-const pzHavuz=t=>t.ek?ekBank(t.ek):t.mix?pzTopics().filter(x=>!x.mix&&!x.ek).flatMap(x=>pzBank(x.unit,x.bank)):pzBank(t.unit,t.bank);
+const matHavuz=k=>((window.__MAT||{})[k]||[]).map(q=>({...q,pid:'mt.'+k+'.'+q.i}));
+const pzHavuz=t=>t.mat?matHavuz(t.mat):t.ek?ekBank(t.ek):t.mix?pzTopics().filter(x=>!x.mix&&!x.ek&&!x.mat).flatMap(x=>pzBank(x.unit,x.bank)):pzBank(t.unit,t.bank);
 const pzSayac=t=>{const h=pzHavuz(t);return{n:h.length,c:h.filter(q=>PZC()[q.pid]).length}};
 function pzPick(tid){const t=pzTopics().find(x=>x.id===tid);
   if(t.gen&&rint(2))return {...genQ(t.gen),u:t.unit,gen:1};
@@ -5216,7 +5219,7 @@ function scPuzzles(d){
      <div style="display:flex;flex-wrap:wrap;gap:12px">${cards}</div>
      <div class="hint" style="color:#fff;text-shadow:0 2px 0 var(--ink);font-size:18px;margin:14px 0 6px;font-weight:800">Yeni konular geliyor</div>
      <div style="display:flex;flex-wrap:wrap;gap:12px">${lock}</div></div>`;
-  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>pzStart(b.dataset.id));d.querySelectorAll('.pzc[data-yr]').forEach(b=>b.onclick=()=>go(YR_KART.find(x=>x[0]===b.dataset.yr)[5]));d.querySelector('#hunt').onclick=()=>go(scHunt);kaydirmaEkle(d,d.querySelector('#pzliste'));
+  d.querySelectorAll('.pzc[data-id]').forEach(b=>b.onclick=()=>{const t=pzTopics().find(x=>x.id===b.dataset.id);if(t&&t.mat){LS={matK:t.mat,matAd:t.ad};go(scMat)}else pzStart(b.dataset.id)});d.querySelectorAll('.pzc[data-yr]').forEach(b=>b.onclick=()=>go(YR_KART.find(x=>x[0]===b.dataset.yr)[5]));d.querySelector('#hunt').onclick=()=>go(scHunt);kaydirmaEkle(d,d.querySelector('#pzliste'));
 }
 
 /* ===== Bulmaca Serisi / Fırtınası / Yarışı (Atakan 10 Kas; Lichess Puzzle Streak / Storm / Racer uyarlaması) =====
@@ -5322,6 +5325,32 @@ function scYaris(d){LS={mode:'yaris',yrEkran:scYaris};const T=120,kul=new Set();
   LS.yrDur=()=>{clearInterval(tik);clearInterval(geri)}}
 
 const YR_KART=[['seri','Bulmaca Serisi','İlk hataya kadar, gittikçe zor','#FF8FB1','flame',scSeri],['firtina','Bulmaca Fırtınası','3 dakikada en çok bulmaca','#7BC0E8','star',scFirtina],['yaris','Bulmaca Yarışı','Botlarla 2 dakikalık yarış','#9BD07A','trophy',scYaris]];
+
+/* ---- Mat konuları: 1, 2, 3, 4, 5+ hamlede mat (Lichess mateIn1..5). Zorluk çocuğa uyar: ilk denemede doğru +50, yanlış -50 puan.
+   Önce çözülmemiş bulmacalar; altın yalnız ilk çözümde (pzEarn, S.pzCoz), günlük bulmaca altını sınırı ortak. ---- */
+function scMat(d){const k=LS.matK,ad=LS.matAd,H=matHavuz(k),y=YR();y.matSev=y.matSev||{};
+  if(!y.matSev[k])y.matSev[k]=H.length?H[0].r:400;let q=null,oy=null,deneme=0,son=[];
+  LS={mode:'yaris',matK:k,matAd:ad,yrEkran:scMat};
+  yrKabuk(d,esc(ad),`<span class="title" style="background:#FFE9B0">Seviye: <b id="ysv">${y.matSev[k]}</b></span>`);
+  const n=k==='m5'?'5 ya da daha çok':k[1];
+  function sec(){const hedef=y.matSev[k],taze=H.filter(x=>!son.includes(x.pid)),coz=taze.filter(x=>!PZC()[x.pid]),L=coz.length?coz:taze.length?taze:H;
+    let en=Infinity;L.forEach(x=>{en=Math.min(en,Math.abs(x.r-hedef))});const A=L.filter(x=>Math.abs(x.r-hedef)<=en+60);return A[yrRast(0,A.length-1)]}
+  function panel(msg,dugmeler){yrSag(d,`<p class="qtext">Beyaz oynar. ${n} hamlede mat yap.</p><div class="hint">Rakibin cevabı kendiliğinden gelir; sen matı tamamla.</div>
+    <div style="font-weight:800;font-size:18px;margin-top:10px">Bulmaca puanı: ${q.r}</div><div class="feedback" id="yfb">${msg||''}</div>
+    <div style="display:flex;gap:10px;margin-top:10px">${dugmeler||''}</div><div class="hint" style="margin-top:12px">${pzSayac({mat:k}).c}/${H.length} çözüldü</div>`)}
+  function baslat(){deneme=0;oyna()}
+  function oyna(){panel();oy=yrOynat(d.querySelector('#bd'),q,ok=>{
+    if(ok){let earn=0;if(deneme===0){earn=pzEarn(q);y.matSev[k]=Math.min(2600,y.matSev[k]+50);gorev('bulmaca')}save();
+      panel(`<span style="color:#2f7d1a">Mat! ${earn?`+${earn} altın`:''}</span>${LS.pzNot&&deneme===0?`<div class="hint">${esc(LS.pzNot)}</div>`:''}`,'<button class="btn go small" id="ysn">Sonraki bulmaca</button>');
+      if(earn)flyCoin(d.querySelector('#yfb'),earn);d.querySelector('#ysv').textContent=y.matSev[k];d.querySelector('#ysn').onclick=yeni}
+    else{if(deneme===0){y.matSev[k]=Math.max(H.length?H[0].r:400,y.matSev[k]-50);save();d.querySelector('#ysv').textContent=y.matSev[k]}deneme++;
+      panel('<span style="color:var(--red)">Olmadı. Rakibin en iyi savunmasını düşün.</span>','<button class="btn small" id="ytk">Tekrar dene</button><button class="btn alt small" id="ycg">Çözümü göster</button><button class="btn alt small" id="ysn">Sonraki</button>');
+      d.querySelector('#ytk').onclick=oyna;d.querySelector('#ysn').onclick=yeni;d.querySelector('#ycg').onclick=goster}})}
+  function goster(){const B=makeBoard(d.querySelector('#bd'),fenPos(q.f),{});let i=0;B.draw();
+    const t=setInterval(()=>{if(i>=q.m.length||!document.body.contains(d.querySelector('#bd'))){clearInterval(t);return}const u=q.m[i++];uciUygula(B.pos,u);B.flags={[u.slice(0,2)]:'goalsq',[u.slice(2,4)]:'goalsq'};B.draw()},900);
+    panel('Çözüm oynatılıyor…','<button class="btn go small" id="ysn">Sonraki bulmaca</button>');d.querySelector('#ysn').onclick=()=>{clearInterval(t);yeni()}}
+  function yeni(){q=sec();son=[q.pid,...son].slice(0,30);baslat()}
+  yeni()}
 
 /* ===== Müzik: Web Audio ile üretilir, harici dosya yok. Varsayılan KAPALI; ayar S.muzik ===== */
 const MZ={ctx:null,master:null,tg:null,gen:0,timer:null,vol:1,key:'ana',calan:null,bekle:null};
