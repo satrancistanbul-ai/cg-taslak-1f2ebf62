@@ -4246,7 +4246,8 @@ const gbtn=(col,ic,label,fn,ek='')=>`<button class="gbtn${label.includes(' ')?' 
 const rbtn=(right,col,icon,label,fn)=>`<button class="rbtn" style="right:${right}px" onclick="${fn}" aria-label="${label}"><span class="c" style="background:${col}">${icon}</span><small>${label}</small></button>`;
 function scHome(d){
   touchDay();
-  const ri=rankIdx(),pct=DATAS[S.villages]?fdone()/DATAS[S.villages].bolumler.length*100:0,gold=goldbox().replace('class="goldbox"','class="goldbox big" style="position:absolute;right:146px;top:12px"');
+  const ri=rankIdx(),pct=S.villages>36?100:Math.min(100,((Math.max(1,S.villages)-1)+(DATAS[S.villages]?fdone()/DATAS[S.villages].bolumler.length:0))/36*100),  // 36 seviyenin toplamı (Atakan 10 Kas)
+    gold=goldbox().replace('class="goldbox"','class="goldbox big" style="position:absolute;right:146px;top:12px"');
   d.innerHTML=vbg()+birds()+`
   <button class="rbtn" style="left:12px" onclick="openPanel()" aria-label="Menü"><span class="c" style="background:#F1DDB0">${ico('menu',30)}</span></button>
   <button class="hudp" onclick="go(scPlayer,myDoc(),true)" aria-label="Profilim">
@@ -4259,7 +4260,7 @@ function scHome(d){
   <div class="platform"><div class="disc"></div><div class="disc2"></div><button class="btn go" onclick="continueGame()">${fdone()||S.villages>1?'Devam et':'Oyuna başla'}</button></div>
   <div style="position:absolute;left:calc(50% - 85px);top:140px;width:170px;height:280px"><div class="zemgolge"></div><div class="float" style="position:absolute;inset:0">${me()}</div></div>
   <div class="yanpanel">
-    <div class="lvl"><span class="star">${ico('star',46)}</span><b>${level(S.villages)}</b><span>Seviye</span><div class="bar"><i style="width:${pct}%"></i></div></div>
+    <div class="lvl" title="36 seviyenin ${level(S.villages)}. seviyesi"><span class="star">${ico('star',46)}</span><b>${level(S.villages)}</b><span>Seviye</span><div class="bar"><i style="width:${pct}%"></i></div></div>
     <div class="stat" role="button" tabindex="0" title="Diplomalarım" style="padding:4px 6px;cursor:pointer" onclick="go(scDiploma)"><span>Rütbe: ${RANKS[ri][1]}</span>${rankChips()}</div></div>
   <div class="dock">
     ${gorevTile()}
