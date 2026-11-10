@@ -3997,6 +3997,13 @@ const ico=(n,sz=30,c)=>`<svg viewBox="0 0 32 32" width="${sz}" height="${sz}" fi
 .yanpanel{position:absolute;right:12px;bottom:118px;width:182px;padding:10px 10px 12px;border-radius:22px;display:flex;flex-direction:column;gap:9px;
   background:linear-gradient(#8A5A2E,#5E3A1C);border:3px solid var(--ink);box-shadow:inset 0 2px 0 rgba(255,220,160,.45),0 6px 0 rgba(40,22,10,.6),0 10px 18px rgba(0,0,0,.25)}
 .yanpanel .lvl,.yanpanel .stat{min-width:0;border-radius:14px;border-width:2.5px;background:linear-gradient(#FFFBF0,#F5E6C4);box-shadow:inset 0 2px 0 #fff,inset 0 -3px 0 rgba(122,74,36,.18),0 3px 0 rgba(30,15,5,.55)}
+/* Seviye kartı: yıldız rakamın solunda, ikisi ortalı (Atakan 10 Kas: yıldız sola taşmış görünüyordu) */
+.yanpanel .lvl .star{position:static;display:inline-block;vertical-align:middle;width:34px;height:34px;margin:0 4px 0 -6px}
+.yanpanel .lvl .star svg{width:34px;height:34px;display:block}
+.yanpanel .lvl b{display:inline-block;vertical-align:middle;margin-left:0}
+.yanpanel .lvl>span:not(.star){margin-left:0}
+/* İki kelimelik dock etiketi ("Oyuncu ara") düğmenin içine sığsın */
+.gbtn.iki{font-size:11.5px;letter-spacing:-.2px;white-space:nowrap}
 .yanpanel .lvl .bar{height:12px;border-radius:7px;border:2px solid var(--ink);background:#E7D3A8;overflow:hidden;box-shadow:inset 0 2px 2px rgba(0,0,0,.18)}
 .yanpanel .lvl .bar i{display:block;height:100%;background:linear-gradient(#9BE15D,#4FB33A);box-shadow:inset 0 2px 0 rgba(255,255,255,.5)}
 .platform .disc{background:radial-gradient(ellipse at 50% 35%,#B5824C,#7A4A24 60%,#5E3A1C);box-shadow:inset 0 3px 0 rgba(255,220,160,.35),0 10px 0 var(--wood-d),0 18px 24px rgba(0,0,0,.28)}
@@ -4235,7 +4242,7 @@ const KALDIRILAN={migfer:1500,bere:180,sihirbaz:1100,tacVezir:3200,tacSah:6500,a
 /* ===== Ana ekran (HUD) ve dükkân ===== */
 const RCOL=['#9AA3AD','#4F86D9','#6DAA3F','#C0392B','#A15FD6','#E0A82E'];
 const rankChips=()=>`<div class="rank sm">${RANKS.map((r,i)=>`<i class="${i===rankIdx()?'on':''}" title="${r[1]}">${r[0]}${G}</i>`).join('')}</div>`;
-const gbtn=(col,ic,label,fn,ek='')=>`<button class="gbtn" style="--b:${col}" onclick="${fn}"${ek}><span class="ic">${ico(ic,28)}</span>${label}</button>`;
+const gbtn=(col,ic,label,fn,ek='')=>`<button class="gbtn${label.includes(' ')?' iki':''}" style="--b:${col}" onclick="${fn}"${ek}><span class="ic">${ico(ic,28)}</span>${label}</button>`;
 const rbtn=(right,col,icon,label,fn)=>`<button class="rbtn" style="right:${right}px" onclick="${fn}" aria-label="${label}"><span class="c" style="background:${col}">${icon}</span><small>${label}</small></button>`;
 function scHome(d){
   touchDay();
