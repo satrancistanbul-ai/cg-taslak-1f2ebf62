@@ -99,6 +99,13 @@ label.l{font-weight:700;font-size:17px}
 .stat{background:var(--parch);border:3px solid var(--ink);border-radius:16px;padding:4px 14px;text-align:center;min-width:140px;box-shadow:0 4px 0 rgba(59,35,20,.5)}
 .stat b{display:block;font-size:30px;line-height:1.1}
 .stat span{font-size:15px;font-weight:700;color:var(--wood)}
+.pst4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 10px}
+.pst{background:var(--parch);border:3px solid var(--ink);border-radius:14px;padding:4px 6px;text-align:center;box-shadow:0 3px 0 rgba(59,35,20,.5)}
+.pst b{display:block;font-size:26px;line-height:1.1}.pst b i{font-style:normal;font-size:15px;color:var(--wood)}
+.pst span{font-size:13px;font-weight:700;color:var(--wood);white-space:nowrap}
+.prek{display:flex;align-items:center;gap:6px;margin-bottom:10px;flex-wrap:wrap}.prt{font-weight:800;font-size:16px;margin-right:2px}
+.prc{display:inline-flex;align-items:center;gap:5px;border:2.5px solid var(--ink);border-radius:999px;padding:2px 10px 2px 6px;font-weight:800}
+.prc small{font-size:13px;font-weight:700}.prc b{font-size:17px}
 .rank{display:flex;gap:4px;justify-content:center;margin-top:2px}
 .rank i{font-style:normal;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:17px;background:#e2d3b3;color:#9a8266;
   font-family:"Segoe UI Symbol","Noto Sans Symbols 2","DejaVu Sans",serif}
@@ -230,7 +237,7 @@ label.l{font-weight:700;font-size:17px}
 /* Yükleyici: ana sayfa küçük açılır, uygulama kodu + ünite verisi + ilk ekran resimleri gerçek ilerlemeyle iner, sonra sırayla çalıştırılır.
    Dosya adları içerik özetli (a/<özet>), bu yüzden tarayıcı ve service worker kalıcı saklar; ikinci açılış anında olur. */
 (function(){
-  var DOSYA = [{"u": "a/veri_c6083febd0b3.js", "n": 4880888}, {"u": "a/app_d8805f587391.js", "n": 3145450}], RESIM = [{"u": "a/210c11ef665e.jpg", "n": 295404}, {"u": "a/cb48c2c39e53.webp", "n": 24240}, {"u": "a/44de650a0602.webp", "n": 38048}, {"u": "a/5453106987c3.webp", "n": 39644}], resimTamam = 0, resimBekleyen = null;
+  var DOSYA = [{"u": "a/veri_c6083febd0b3.js", "n": 4880888}, {"u": "a/app_8dad6e237569.js", "n": 3146790}], RESIM = [{"u": "a/210c11ef665e.jpg", "n": 295404}, {"u": "a/cb48c2c39e53.webp", "n": 24240}, {"u": "a/44de650a0602.webp", "n": 38048}, {"u": "a/5453106987c3.webp", "n": 39644}], resimTamam = 0, resimBekleyen = null;
   var IPUCU = ["At, L harfi çizerek gider ve taşların üzerinden atlayabilir.",
     "Vezir hem düz hem çapraz gider. En değerli taştır: 9 puan!",
     "Rok yaparken şah iki kare kayar, kale de onun yanına geçer.",
